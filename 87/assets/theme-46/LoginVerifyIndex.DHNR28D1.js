@@ -1,0 +1,2 @@
+import{f as t,g as e,q as i}from"../vendors/vendor-stable.D97H_3ma.js";const c=t("loginVerify",()=>{const o=e({username:void 0,verify:void 0,verifys:[],loading:!1}),n=e({});return{state:o,options:n,setLoading:()=>{o.loading=!0},delLoading:()=>{i(()=>o.loading=!1)}}}),s="_verify_15kod_17",a="_line_15kod_21",r="_button_15kod_25",g={verify:s,line:a,button:r};export{g as s,c as u};
+//# sourceMappingURL=LoginVerifyIndex.DHNR28D1.js.map

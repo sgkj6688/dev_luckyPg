@@ -1,0 +1,57 @@
+{
+    "TOF": {
+        "Title": "Tree of Fortune"
+    },
+    "TOFGeneral": {
+        "ClickToStart": "Toque no botão para começar"
+    },
+    "TOFInfoboardMessages": {
+        "TipsTextOne": "Os pacotes vermelhos estão abrir",
+        "TipsTextTwo": "Funcionalidade Bónus atribuída com 3 símbolos de bónus",
+        "TipsTextThree": "Boa Sorte!",
+        "TipsTextFour": "Pacotes vermelhos na árvore atribuem Rodadas grátis",
+        "TipsTextFive": "Vamos abanar a árvore da sorte!"
+    },
+    "PopOutSymbolDesc": {
+        "WildDesc": "O símbolo Wild substitui todos os símbolos, exceto símbolos Shake.",
+        "ScatterDesc": "3 símbolos Shake em qualquer posição dos cilindros 2, 3 e 4 ativam a Funcionalidade Bónus."
+    },
+    "InfoboardMessage": {
+        "Win": "Ganhos",
+        "TotalWin": "Total de Ganhos"
+    },
+    "SettingMenu": {
+        "WalletLoading": "A carregar",
+        "SettingSliderNumNone": "Nenhum",
+        "BalanceWord": "Saldo",
+        "WalletRetry": "Repetir",
+        "SettingCloseWord": "Fechar",
+        "SettingHistoryWord": "Histórico",
+        "SettingPayoutWord": "Tabela de pagamentos",
+        "SettingRulesWord": "Regras",
+        "SettingSoundWord": "Som",
+        "SettingQuitWord": "Sair",
+        "WinPrizeWord": "Ganho",
+        "TurboSpinEnable": "Rodada Turbo Ativada",
+        "TurboSpinDisable": "Rodada Turbo Desativada",
+        "BiggestBet": "Aposta Máxima",
+        "SmallestBet": "Aposta Mínima",
+        "Bet": "Aposta",
+        "Max": "Máx.",
+        "FreeGame": "Jogos grátis",
+        "RollOver": "Renovação"
+    },
+    "SettingMenuHelper": {
+        "QuitGameTitle": "Sair do jogo",
+        "QuitGameMessage": "Tem a certeza de que pretende sair?",
+        "Cancel": "Cancelar",
+        "Quit": "Sair",
+        "ReevaluateBet": "As opções de aposta foram atualizadas. Selecione uma nova opção de aposta.",
+        "Select": "Opções de aposta"
+    },
+    "WalletHelper": {
+        "Balance": "Saldo",
+        "FreeGameCounter": "Jogos grátis: %{count}",
+        "RollOver": "Renovação: %{amount}"
+    }
+}

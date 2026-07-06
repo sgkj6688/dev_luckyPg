@@ -1,0 +1,2 @@
+const t="_type_2n5l6_32",e="_arrow_2n5l6_36",_="_text_2n5l6_40",n="_bet_2n5l6_17",o="_center_2n5l6_55",r="_price_2n5l6_59",l={"bet-footer":"_bet-footer_2n5l6_17","footer-title":"_footer-title_2n5l6_25",type:t,arrow:e,text:_,bet:n,"footer-main":"_footer-main_2n5l6_48","main-item":"_main-item_2n5l6_52",center:o,price:r,"footer-btns":"_footer-btns_2n5l6_63"};export{l as s};
+//# sourceMappingURL=SportParlayIndex.rUR7tOko.js.map

@@ -1,0 +1,14 @@
+{
+    "WinWinWonHistory": {
+        "HistoryDetailItemPrefabFreeSpin": "Vòng quay miễn phí:",
+        "HistoryDetailItemPrefabNormalSpin": "Vòng quay bình thường",
+        "HistoryDetailItemPrefabRespin": "Vòng quay lại:",
+        "HistoryDetailItemPrefabCoinSize": "Kích cỡ cược",
+        "HistoryDetailItemPrefabBetMultiply": "Cược Ingot",
+        "HistoryDetailItemWinnerSituation": "Trả thưởng",
+        "HistoryDetailItemPrefabNoWinning": "Không có kết hợp chiến thắng",
+        "HistoryBarItemPrefabFreeSpin": "Vòng quay miễn phí",
+        "HistoryBarItemPrefabRespin": "Vòng quay lại",
+        "HistoryWinLineItemMultiplier": "Guồng Số Nhân mở x%{value}"
+    }
+}

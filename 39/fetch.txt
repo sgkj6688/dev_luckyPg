@@ -1,0 +1,3375 @@
+fetch("https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "upgrade-insecure-requests": "1"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.googletagmanager.com/gtm.js?id=GTM-MDDV6Q2", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/index.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/b526e03cc3.89a5b.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/135ef949ac.51261.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/d3004b23af.663ff.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/acfd07652d.b5849.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/57ff443a8f.4c97e.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/eaaf2601c2.94554.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/074cc32418.46eb7.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/11511dbf01.b9623.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f16414f5c9.e4a43.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3c4695a542/shell-res/ad/ad_adv_dfp_test.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/f72f5b9e6e/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/37fadb0591/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/d56091e6dc/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8e5f11ad96/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8217bb8ac8/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/ba588d9dad/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/99212c6ec4/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3d9bb7755c/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/6d5cafebdb/index.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/dedee2c334.b58f3.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/0b29b50f82.3bd40.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/6d5cafebdb/dc1d4d64e1.c2335.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://m.pgsoft-games.com/favicon/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://m.pgsoft-games.com/39/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&nodbg=1",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/ba588d9dad/efb67423d1.66896.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/99212c6ec4/187a36578c.6c65d.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3d9bb7755c/32d1d0500b.5a9d2.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/448a622256.c03db.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8217bb8ac8/d937f741e4.741c2.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8e5f11ad96/03fc0777ec.31fd2.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/d56091e6dc/61c832e874.587f6.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/37fadb0591/5210d1d645.3863f.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/f72f5b9e6e/a5fd187d23.1e0aa.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/f72f5b9e6e/97d7026f99.0a6ae.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/37fadb0591/52400723aa.68a3e.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/d56091e6dc/470375a6e0.adca0.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8e5f11ad96/7db5fc3e33.2f1ba.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/901c96cfb3.a3f8a.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/3d9bb7755c/ca8276b83c.115c5.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/d56091e6dc/eea1d83b88.cb956.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/24f90510bb.5818d.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/builtins/internal/config.11dec.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/builtins/internal/index.4055b.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/main/config.3263e.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/main/index.56327.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/config.093a5.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/index.b994a.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/builtins/internal/import/0b/0b6c4470e.ffd10.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/builtins/internal/native/02/0275e94c-56a7-410f-bd1a-fc7483f7d14a.eda5a.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/0bc343f586/builtins/internal/native/60/600301aa-3357-4a10-b086-84f011fa32ba.4caf9.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/main/import/05/05d775236.7e4ad.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/08/087fa7f65.84016.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/a8/a83465b4-233e-459a-862d-a76c1610c770.87390.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/da/dad7348e-184d-453b-aaf6-d5e2fee4f36a.e8247.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0e/0ef9dd470.d7fe3.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/a2/a23235d1-15db-4b95-8439-a2e005bfff91.7523e.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/75/75e507a6-3bc5-4aa1-89ff-8fc31c86ef0c.a2596.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/main/import/05/05d775236.7e4ad.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pgsoft-games.com/web-api/auth/session/v2/verifySession?traceId=XJYSJJ17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "btt=2&vc=2&pf=1&l=zh&gi=39&tk=null&otk=ca7094186b309ee149c55c8822e7ecf2",
+  "method": "POST"
+}); ;
+fetch("https://api.pg-demo.com/web-api/game-proxy/v2/GameName/Get?traceId=PMZYTW17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "lang=zh&btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05&pf=1&gid=39",
+  "method": "POST"
+}); ;
+fetch("https://api.pg-demo.com/game-api/piggy-gold/v2/GameInfo/Get?traceId=OSBZJV17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05&pf=1",
+  "method": "POST"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0d/0d3eb54bc.72396.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0e/0e0919934.6d0bd.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/07/0705facaf.67258.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0d/0d81f16fb.bf127.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0f/0ffce9baa.bd446.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/62/62d59817-17f7-4f4e-a553-b8d74f18ecb3.4b050.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/e3/e34d45b1-1d86-4a56-9b3c-87775bbdc247.33513.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/7d/7db7af2b-2e34-4efc-987e-35b825b992b4.87664.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/3c/3c7dcead-cfba-4b78-90b1-ab7fe85e1ea4.c63be.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/37/37d83839-f61a-4ec1-b6af-ae5769ed4bbf.b9276.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/04/04ac440a2.9d2a7.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/7e/7e719309-7141-45d1-be6c-a03428b9b652.422e4.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/6c/6c7d3d7c-6683-426c-a20e-c032de9396ce.53a6d.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/5e/5ef52f65-9f38-4abe-94a8-b5af68c7503f.399ba.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/2b/2b7d5901-4927-4b50-840a-536ed909b3b6.4c784.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/b1/b1b26a42-de32-4959-8988-a2d67cd5a94b.3a610.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/51/51bf2e8b-3c1d-40d0-a3a3-ec0cecc3a7be.03f0c.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0b/0ba6a7812.53e04.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/47/47d2185c-f74c-4011-8db0-90f587b57286.e4fb5.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0c/0c78af256.e29d2.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/02/02673be5-7b0c-408b-8593-afef2e2f601d.12832.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/8a/8a0446be-e4c4-4a26-8650-be96da08934f.7a6fe.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/2a/2ab336d2-45e6-4f7b-a544-76d7a221c7a0.f9b5c.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/88/88f1024b-7cf1-4d0d-b1b7-aa29267d7fae.0aec0.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/cd/cd040346-10ef-40c6-9a64-8eca947bfd3a.1c357.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/6e/6e5f5bc7-3f3d-4fa6-be78-e4645d6c66b1.c0d57.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/ab/ab9484bd-3f85-499f-8d09-dac553c5a5b7.87330.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/1a/1ae0bb35-5f5f-4ce3-bedc-6796690d54c9.3bc87.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/f3/f3742893-7960-4de2-ab08-5a928a25a890.72878.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/9f/9ff759f3-ea68-40ce-b3c2-36947226646d.496f8.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/aa/aaf6e940-72c3-42a2-9b4b-e6c141b783b4.30526.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/09/098c04ef0.0f5a9.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/e2/e21ce4fd-34eb-4bdb-bbf6-9b0c348c4402.4def2.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/08/0878fd42-eeac-4073-adbc-a73f8a204062.b84d6.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/00/0009d30e-667a-4dc0-b0d4-8320eb4ad283.34de3.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/92/92b3ea45-3439-4f1b-8542-f381f40ff704.58c2c.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/6a/6acc4ed8-fbc4-4e21-8efc-8020f947b313.118c9.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/bc/bc7395f2-8636-47ac-9e75-33baf8f6a057.14ddf.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/fc/fc81afa5-13ad-43da-af0b-caf214aac7ba.39cb9.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/f2/f245581b-5ddc-4791-87d2-b65e3997bba0.2a787.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/df/dfce8cf6-ecd2-4f2b-a746-d86c5f78d472.05056.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/8d/8d433ee0-90f3-4d69-a858-67c252ea0ba9.88b58.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/8d/8d433ee0-90f3-4d69-a858-67c252ea0ba9.746e4.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/08/081232f7e.4713b.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/1d/1d0efd79-4abd-4397-9e72-42e23db739ac.a9aa4.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/78/78f743b9-c3fc-4bfa-8f53-b439af23d75d.ad21e.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/e2/e23c64f0-2440-451a-890e-a8b5a733a435.002f5.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/05/055d39b42.1030e.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/36/367376dd-0441-48a5-b6a2-9a40ea1961de.bef6f.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/06/06a2efcb5.d39db.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/16/16c697e2-9a40-418a-9d67-b8990aae1b64.f0fe7.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/81/815535ab-79f4-463f-b7b8-89c8c9c3eaa9.11f4a.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/60/603736e6-0e16-4f0b-9985-adee9239b6c9.51c10.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/1b/1b27127b-8f04-483e-a8ad-40e88eb2ad9f.786cb.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/1b/1b27127b-8f04-483e-a8ad-40e88eb2ad9f.44ba8.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/60/603736e6-0e16-4f0b-9985-adee9239b6c9.770df.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/81/815535ab-79f4-463f-b7b8-89c8c9c3eaa9.6b0b9.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/16/16c697e2-9a40-418a-9d67-b8990aae1b64.a982b.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/a0/a07a61f2-3da5-40eb-bb33-a484c712c63b.987d7.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/36/367376dd-0441-48a5-b6a2-9a40ea1961de.0b2df.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/d0/d04d9257-b946-4cbb-b3bf-5039354cb377.8d0aa.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/03/03a376fb-7828-4cab-b28e-a1c753f24dc6.916bd.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/ec/ecf0ef4c-6789-4381-8331-3e016cb33aa4.4a995.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/a6/a67da4c8-f70d-4568-9809-cc3cea3302f6.a9c5a.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/d2/d2a7609c-5a0a-4309-939e-11ec70687634.2ca28.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/ae/ae309ab4-7f65-4414-8947-8fa4067b7687.d27bd.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/ae/ae309ab4-7f65-4414-8947-8fa4067b7687.99193.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/d2/d2a7609c-5a0a-4309-939e-11ec70687634.85139.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/a6/a67da4c8-f70d-4568-9809-cc3cea3302f6.14f3f.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/ec/ecf0ef4c-6789-4381-8331-3e016cb33aa4.87b48.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/03/03a376fb-7828-4cab-b28e-a1c753f24dc6.eed95.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/d0/d04d9257-b946-4cbb-b3bf-5039354cb377.fd4bf.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/a0/a03e8a93-ea9d-4b03-8b7f-253dc6f68ce9.b0df8.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/a0/a03e8a93-ea9d-4b03-8b7f-253dc6f68ce9.d598d.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/52/52013160-ecbf-4058-ac4d-7c772c28defe.1b453.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/31/31ebf907-daff-405d-b992-410f517f2099.8b865.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/25/25092d60-9b94-4a52-b817-fca7b87f5dac.7c758.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/d3/d3ed6f14-ad7d-4c68-83c0-87fd8219b45e.6348e.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/d3/d3ed6f14-ad7d-4c68-83c0-87fd8219b45e.05c13.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/25/25092d60-9b94-4a52-b817-fca7b87f5dac.94870.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/31/31ebf907-daff-405d-b992-410f517f2099.889a3.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/52/52013160-ecbf-4058-ac4d-7c772c28defe.fb7b0.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/90/90531047-9b2a-44a3-9d96-06063284a2bc.a10af.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/07/07962a20-598d-4b96-82cc-6c0975c50393.baa0c.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/07/07962a20-598d-4b96-82cc-6c0975c50393.540b0.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/90/90531047-9b2a-44a3-9d96-06063284a2bc.e5304.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/87/87309c7e-5e49-4210-8f19-5da1b48a7951.95d58.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/45/45165f44-26bc-441c-a2c5-1c2cde080b49.5f571.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/c5/c598c9f5-5308-4d18-9295-9f7448282c15.ab281.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/29/29b28dbc-c5f0-48d0-8d57-814369d5e891.cea7f.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/29/29b28dbc-c5f0-48d0-8d57-814369d5e891.fe232.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/c5/c598c9f5-5308-4d18-9295-9f7448282c15.dbaf0.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/45/45165f44-26bc-441c-a2c5-1c2cde080b49.e99d7.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/87/87309c7e-5e49-4210-8f19-5da1b48a7951.4d0c6.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/16/16f00369-420c-49d6-9a19-d3af0af77304.0856c.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0f/0fe2b4e2-37fb-41c2-8258-6f175f425d80.c3bad.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/0f/0fe2b4e2-37fb-41c2-8258-6f175f425d80.f7548.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/16/16f00369-420c-49d6-9a19-d3af0af77304.6f307.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/1c/1cdc2f4f-b651-4fd2-a98a-71c6b0cb455c.d276a.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/5d/5d0abdcb-a65d-42d9-8ffe-d7c63e1d3c1e.4b3e5.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/bc/bc0745f5-87cc-4133-b9c2-50385abd8128.70c86.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/c5/c584d680-6c50-4a34-80c8-54517dcf4801.52973.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/c5/c584d680-6c50-4a34-80c8-54517dcf4801.19de6.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/bc/bc0745f5-87cc-4133-b9c2-50385abd8128.b4800.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/5d/5d0abdcb-a65d-42d9-8ffe-d7c63e1d3c1e.bbf69.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/1c/1cdc2f4f-b651-4fd2-a98a-71c6b0cb455c.e617c.mp3", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0d/0d5974bec.2bdff.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/07/0772d9b2-fbbe-46f5-98c1-1a995f790ee6.8d378.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/95/9557e42e-f87e-4a51-b39b-1b85a69b88b6.6750a.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/21/217d9ea5-3c0d-436f-bcaf-67343da3560d.ac357.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/03/034834032.d228d.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/01/01dc206d7.ea201.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/05/052467164.b757f.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/05/05b1bf780.07b85.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/9f/9f57a3bf-e545-44d5-b464-48e252db9fd7.1e8a2.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/3d/3d7dc7f0-1794-488c-82e7-c52c8156a5e0.1a173.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/09/09210a41-2b9d-430e-9fe1-68d726a5a6eb.7158b.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/f3/f3cffa88-f598-4e8e-a476-957d077f1865.0b5c0.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/27/2762f915-58c4-47d3-a54e-1371c74b615f.0943e.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/81/81753e74-c686-4a6f-ad44-ad59d9a0f0a6.fe77a.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/01/01992b07-fa0a-4c8e-b2c0-8188386d98fd.10579.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/09/097d045f1.9f5cf.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/09/095507617.df454.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/02/02b4646b0.3ba13.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0e/0e8c26c70.58a1d.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/50/5071aa8b-27f3-4d96-8dcd-f7da5d11dfef.ea4ea.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/6c/6c87745a-3c98-42a1-bb92-e5830d9560f7.cbb03.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/4c/4c38f199-3e35-4326-906e-1d7f5f02deca.a3108.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/13/1327ef18-ce86-4b34-9012-f98ea9f5fd7e.f0e98.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0f/0f96c055f.b7e3a.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/82/8231bbc8-d6d2-4517-9e11-597b44729ae7.8c727.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/d4/d452251f-da63-4a92-ba28-d2a0bf955fb5.72a82.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/b5/b5f4c0c5-202a-4268-9e7d-0f31b982e322.ca757.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/5e/5ecdafcd-e250-4f52-9608-e69b4def05ed.efabd.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/02/02b13bac6.4bd22.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/import/0c/0cc3d1743.53722.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/f1/f174df5c-ac9e-4366-a4b4-70c732f8178b.676a6.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/a2/a2630065-ff64-456f-b5f0-53b56e5eca7c.ea266.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/fb/fbce6d96-f637-405f-8a2f-96749775a922.d921d.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/d0/d06f8b26-f50d-4100-b3c6-190b2dea415e.0f6bb.jpg", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/assets/resources/native/3f/3fc29aa6-5d6c-4164-b926-9cb0c72d4715.05ec6.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pg-demo.com/web-api/game-proxy/v2/Resources/GetByResourcesTypeIds?traceId=QHIARS17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "du=https%3A%2F%2Fm.pgsoft-games.com&rtids=14&otk=ca7094186b309ee149c55c8822e7ecf2&btt=2&wk=0_C&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05&pf=1&gid=39",
+  "method": "POST"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/37fadb0591/7ba2009235.6d381.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/37fadb0591/7ba2009235.6d381.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/d56091e6dc/3a8f838a13.18db1.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/d56091e6dc/3a8f838a13.18db1.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f72e0c78db.f4f8d.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f72e0c78db.f4f8d.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pg-demo.com/game-api/piggy-gold/v2/Spin?traceId=PONKGR17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "cs=0.3&ml=2&pf=1&id=0&wk=0_C&btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05",
+  "method": "POST"
+}); ;
+fetch("https://static.pgsoft-games.com/39/edd76567c6.1e26c.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/edd76567c6.1e26c.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/af45f73649.e03aa.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/af45f73649.e03aa.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/0ea02307f9.a9b91.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/0ea02307f9.a9b91.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/0ea02307f9.a9b91.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/a66b96d73e.9158f.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/d3678f9c8b.6f109.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/a66b96d73e.9158f.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/d3678f9c8b.6f109.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pg-demo.com/web-api/game-proxy/v2/GameRule/Get?traceId=MODQCO17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "btt=2&gid=39&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05&pf=1",
+  "method": "POST"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/d0fb67c669.eb59b.css", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/d0fb67c669.eb59b.css", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/ecf116e4a4.1fce4.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/ecf116e4a4.1fce4.png", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/ecf116e4a4.1fce4.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f406f02727.f6615.css", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/a727428b9b.2b787.css", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f406f02727.f6615.css", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/a727428b9b.2b787.css", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/0752ff184f.210ba.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/0752ff184f.210ba.png", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/ec3ce50c12.c4d8f.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/ec3ce50c12.c4d8f.png", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/df0fd05271.8c1a4.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/9b867a8eac.473b8.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/df0fd05271.8c1a4.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/b4f8165174/9b867a8eac.473b8.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/4526c67150.ec5f1.css", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/4526c67150.ec5f1.css", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/c4ba84348b.7ba47.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/c4ba84348b.7ba47.png", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("data:image/png;base64,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", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pg-demo.com/web-api/game-proxy/v2/BetSummary/Get?traceId=IPMBSP17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "gid=39&dtf=1742140800000&dtt=1742227199999&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05&pf=1&wk=0_C&btt=2",
+  "method": "POST"
+}); ;
+fetch("https://api.pg-demo.com/web-api/game-proxy/v2/BetHistory/Get?traceId=FZWORQ17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "gid=39&dtf=1742140800000&dtt=1742227199999&bn=1&rc=15&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05&pf=1&wk=0_C&btt=2",
+  "method": "POST"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8e5f11ad96/4ce12ac73a.a48e7.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8e5f11ad96/f8c362da21.8349b.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/shared/8e5f11ad96/7318dcfd48.5d084.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("data:image/png;base64,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", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("data:image/png;base64,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", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/history/index.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/history/index.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/0c25c041cf.d792b.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/0c25c041cf.d792b.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f7076b0a8a.e0020.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/325cad310b.aa82c.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/67c67ac06e.2c126.json", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/f7076b0a8a.e0020.png", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/325cad310b.aa82c.png", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.pgsoft-games.com/39/67c67ac06e.2c126.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pg-demo.com/game-api/piggy-gold/v2/Spin?traceId=QZXVEM17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "cs=0.3&ml=2&pf=1&id=1901536937291742720&wk=0_C&btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05",
+  "method": "POST"
+}); ;
+fetch("data:image/png;base64,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", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://api.pg-demo.com/game-api/piggy-gold/v2/Spin?traceId=JMXEEZ17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "cs=0.3&ml=2&pf=1&id=1901537090685828608&wk=0_C&btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05",
+  "method": "POST"
+}); ;
+fetch("https://api.pg-demo.com/game-api/piggy-gold/v2/Spin?traceId=MNMCKW17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "cs=0.3&ml=2&pf=1&id=1901537125993479680&wk=0_C&btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05",
+  "method": "POST"
+}); ;
+fetch("https://api.pg-demo.com/game-api/piggy-gold/v2/Spin?traceId=RBLHGV17", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://m.pgsoft-games.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "cs=0.3&ml=2&pf=1&id=1901537134864432640&wk=0_C&btt=2&atk=8F2E0D7E-2367-4212-B8FC-E0D05D85FB05",
+  "method": "POST"
+});

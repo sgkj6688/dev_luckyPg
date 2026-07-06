@@ -1,0 +1,14 @@
+{
+    "WinWinWonHistory": {
+        "HistoryDetailItemPrefabFreeSpin": "Rodada grátis:",
+        "HistoryDetailItemPrefabNormalSpin": "Rodada normal",
+        "HistoryDetailItemPrefabRespin": "Nova rodada:",
+        "HistoryDetailItemPrefabCoinSize": "Valor de aposta ",
+        "HistoryDetailItemPrefabBetMultiply": "Aposta Lingote",
+        "HistoryDetailItemWinnerSituation": "Pagamento",
+        "HistoryDetailItemPrefabNoWinning": "Sem combinação vencedora",
+        "HistoryBarItemPrefabFreeSpin": "Rodada grátis",
+        "HistoryBarItemPrefabRespin": "Nova rodada",
+        "HistoryWinLineItemMultiplier": "Cilindro multiplicador revela x%{value}"
+    }
+}
