@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <link rel="icon" sizes="48x48" href="/favicon/favicon-48.png" />
+        <link rel="icon" sizes="96x96" href="/favicon/favicon-96.png" />
+        <link rel="icon" sizes="192x192" href="/favicon/favicon-192.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicon/favicon-120.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/favicon-180.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no,email=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="renderer" content="webkit" />
+        <meta name="force-rendering" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="full-screen" content="yes" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="screen-orientation" content="portrait" />
+        <meta name="x5-orientation" content="portrait" />
+        <meta name="browsermode" content="application" />
+        <meta name="x5-page-mode" content="app" />
+        <title>Speed Winner</title>
+        <style id="initial-style">
+            body {
+                height: 100vh;
+                margin: 0;
+                width: 100vw;
+            }
+            #game-shell {
+                display: flex;
+                height: 100%;
+                position: fixed;
+                width: 100%;
+            }
+            #game-overlay {
+                height: 0;
+                position: absolute;
+                width: 0;
+            }
+            #background-img {
+                background-size: cover;
+                bottom: -10%;
+                height: 110%;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+            #block-page,
+            #scroll-area {
+                height: 100%;
+                position: absolute;
+                width: 100%;
+            }
+            #block-page {
+                left: 0;
+                margin: auto;
+                top: 0;
+            }
+        </style>
+        <style id="loader-style">
+            #initial-loader {
+                background-color: #000;
+                height: 100%;
+                margin: auto;
+                position: fixed;
+                width: 100%;
+            }
+            #initial-loader,
+            .svg-loading {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .circle-loading {
+                align-items: center;
+                display: flex;
+                height: 10px;
+                justify-content: space-between;
+                width: 40px;
+            }
+            .hide-loading {
+                animation-duration: 0.35s;
+                animation-fill-mode: forwards;
+                animation-name: fade-out;
+                animation-timing-function: ease-in;
+            }
+            .loader-circle {
+                animation-direction: alternate;
+                animation-duration: 0.25s;
+                animation-iteration-count: infinite;
+                animation-name: loader-circle-bounce;
+                animation-timing-function: ease-out;
+                background-color: #30a2d0;
+                border-radius: 50%;
+                height: 10px;
+                position: relative;
+                width: 10px;
+            }
+            .loader-circle:first-of-type {
+                animation-delay: 0s;
+            }
+            .loader-circle:nth-of-type(2) {
+                animation-delay: -75ms;
+            }
+            .loader-circle:nth-of-type(3) {
+                animation-delay: -0.15s;
+            }
+            @keyframes loader-circle-bounce {
+                0% {
+                    bottom: 0;
+                }
+                90%,
+                to {
+                    bottom: 15px;
+                }
+            }
+            @keyframes fade-out {
+                to {
+                    opacity: 0;
+                }
+            }
+            @keyframes fade-in {
+                to {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="game-shell">
+            <div id="background-img"></div>
+            <canvas id="GameCanvas" tabindex="0"></canvas>
+            <div id="game-overlay"></div>
+        </div>
+        <div id="initial-loader">
+            <div class="circle-loading">
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+            </div>
+            <div class="svg-loading"></div>
+        </div>
+        <script id="main-script" data-rev="d72b7">
+            (function () {
+                "use strict";
+
+                var t = window;
+                var fN = {
+                    platform: "web-mobile",
+                    groupList: ["default"],
+                    collisionMatrix: [[true]],
+                    hasResourcesBundle: true,
+                    hasStartSceneBundle: false,
+                    remoteBundles: [],
+                    subpackages: [],
+                    launchScene: "db://assets/default/scene/main.fire",
+                    orientation: "",
+                    jsList: [],
+                    bundleVers: {
+                        resources: {
+                            index: "b994a",
+                            config: "c3484",
+                        },
+                        main: {
+                            index: "7a954",
+                            config: "c595b",
+                        },
+                    },
+                };
+                t.DEBUG = false;
+                t.PREVIEW = false;
+                t.EDITOR = false;
+                t.GtmId = "GTM-MDDV6Q2";
+                t._CCSettings = fN;
+                var n = "71cfa3888e.1e54d.json";
+                var e = "11.0.0-rc.1";
+                var i = "/shared/";
+                var r = n;
+                var o = "984721902a/";
+                var a = "e02b9bf0d2,a346494745,589a728c8d,2fd142260e,2c6e37b73c,b85c56d865,c03a2652ad";
+                var h =
+                    "minMemory=1024&minDiskSpace=1024&whiteList=chrome-59%2Cchrome%20webview-59%2Cfirefox-58%2Csafari-11%2Cedge-79&minOSVersion=iOS-11%2CAndroid-5%2CMacOS-10.10%2CWindows-7";
+                var l = "SW.Title";
+                var v =
+                    "ar,az,bg,bn,cs,el,et,hi,hu,hy,lo,lt,mn,sh,si,sk,sq,uz,fa,ur,da,de,en,en-stkus,es,fi,fr,id,it,ja,ko,my,nl,no,pl,pt,pt-br,ro,ru,sv,th,tr,uk,vi,zh";
+                var u = "#8600E0";
+                var f = false;
+                var s = 2;
+                var c = "";
+                var m = 1;
+                var d = "Speed Winner";
+                var Z = "2.20.0.0/6.14.0-rc.1/5.2.0-0";
+                var g = 127;
+                var p = "com.pgsoft.slot.multiplerblocksymbolultrawin";
+                var _ = 218103809;
+                var y = {
+                    e02b9bf0d2: ">=11.0.0-rc.1",
+                    a346494745: ">=10.0.0-rc.1",
+                    "589a728c8d": ">=7.0.0-rc.1",
+                    "2fd142260e": ">=9.0.0-rc.1",
+                    "2c6e37b73c": ">=6.0.0-rc.1",
+                    b85c56d865: ">=5.0.0-rc.1",
+                    c03a2652ad: ">=7.0.0-rc.1",
+                };
+                console.log("Game/Boot/Engine", Z);
+                var M = navigator.userAgent;
+                var k = 0;
+                function H(j4) {
+                    var j6 = j4 + "";
+                    var j7 = (j4.stack || "") + "";
+                    var j8 = j6;
+                    if (j7) {
+                        if (j7.indexOf(j6) === 0) {
+                            j8 = j7;
+                        } else {
+                            j8 += "\n" + j7;
+                        }
+                    }
+                    var j9 = this.onFormat || t.onGAReceiveError;
+                    if (j9) {
+                        try {
+                            j8 = j9(j8);
+                        } catch (jj) {
+                            b(jj + "");
+                        }
+                    }
+                    return j8.replace(/https?:\/\/[^/]+([0-9A-Za-z/._-]+)\S*(:[0-9]+:[0-9]+)/g, "$1$2").replace(/https?:\/\/[^/]+/g, "");
+                }
+                function b(j5, j6) {
+                    var j8 = {
+                        description: j5,
+                        fatal: !!j6,
+                    };
+                    gtag("event", "exception", j8);
+                }
+                if (M.indexOf(" Chrome/") > 0) {
+                    k = 2;
+                } else if (M.indexOf(" AppleWebKit/") > 0) {
+                    k = 1;
+                } else if (M.indexOf(" Gecko/") > 0) {
+                    k = 3;
+                } else if (M.indexOf(" Trident/") > 0) {
+                    k = 4;
+                } else if (M.indexOf(" Presto/") > 0) {
+                    k = 5;
+                }
+                var w;
+                var x;
+                var E;
+                var S;
+                w = b;
+                x = 0;
+                E = "";
+                S = 0;
+                function V(j4) {
+                    var j6 = Date.now();
+                    if (E !== j4 || j6 - S > 1000) {
+                        S = j6;
+                        E = j4;
+                        x = 0;
+                    } else {
+                        x++;
+                    }
+                    if (x === 0) {
+                        w(j4);
+                    } else if (x === 5) {
+                        w(j4, 1);
+                        var j7 = this.onFrequent || t.onGAFrequentError;
+                        try {
+                            if (j7) {
+                                j7();
+                            }
+                        } catch (j8) {
+                            w(j8 + "");
+                        }
+                    } else if (x > 5) {
+                        S = j6;
+                    }
+                }
+                var A = "Uncaught ";
+                function D(j5, j6, j7, j8, j9) {
+                    if (k > 3) {
+                        return false;
+                    }
+                    if (!j7 || !j8 || !j9) {
+                        return false;
+                    }
+                    var jS = A + H.call(D, j9);
+                    V.call(D, jS);
+                    return false;
+                }
+                D.report = function (j4, j5) {
+                    b(A + H.call(this, j4), j5);
+                };
+                var $;
+                var N;
+                var I = "Unhandled ";
+                function R(j4) {
+                    if (!(k > 3)) {
+                        var j6 = j4.reason;
+                        if (j6 != null) {
+                            var j7 = I + H.call(R, j6);
+                            V.call(R, j7);
+                        }
+                    }
+                }
+                R.report = function (j4, j5) {
+                    b(I + H.call(this, j4), j5);
+                };
+                t.dataLayer = [];
+                t.gtag = function () {
+                    dataLayer.push(arguments);
+                };
+                dataLayer.push({
+                    event: "gtm.js",
+                    "gtm.start": Date.now(),
+                    app_name: d,
+                    app_version: Z,
+                });
+                $ = `https://www.googletagmanager.com/gtm.js?id=${GtmId}`;
+                (N = document.createElement("script")).async = true;
+                N.src = $;
+                document.head.appendChild(N);
+                t.onerror = D;
+                t.onunhandledrejection = R;
+                var T = location.search;
+                if (T.length > 0) {
+                    T = T.substring(1);
+                }
+                for (var C = {}, L = T.split("&"), F = 0; F < L.length; ++F) {
+                    var B = L[F];
+                    if (B) {
+                        var P = B.indexOf("=");
+                        if (P === -1) {
+                            C[B] = "";
+                        } else {
+                            var j = B.substring(0, P);
+                            var K = B.substring(P + 1);
+                            C[j] = decodeURIComponent(K);
+                        }
+                    }
+                }
+                var G = 60000;
+                var U = 5;
+                function z() {
+                    var j5 =
+                        typeof arguments[0] == "string"
+                            ? (function (j6) {
+                                  var j7 = j6[2];
+                                  var j8 = j6[3];
+                                  var j9 = {
+                                      S: j6[0],
+                                      A: j6[1],
+                                      $: jj,
+                                      N: jj,
+                                  };
+                                  return j9;
+                                  function jj() {
+                                      if (this.I != null) {
+                                          j7(this.I);
+                                      } else if (j8 === undefined) {
+                                          j7(undefined, this.R);
+                                      } else {
+                                          j8(this.R);
+                                      }
+                                  }
+                              })(arguments)
+                            : arguments[0];
+                    if (j5.A === 2 && j5.T === undefined) {
+                        (function (j6) {
+                            var j7 = {
+                                OoPQh: "onerror",
+                                rMQCK: function (j9, jj) {
+                                    return j9(jj);
+                                },
+                                DHwfv: function (j9, jj) {
+                                    return j9 === jj;
+                                },
+                                BBxcp: "HBsPc",
+                                WPhvt: "eJSxJ",
+                                NQDrt: function (j9, jj) {
+                                    return j9(jj);
+                                },
+                                wUdUC: "resize",
+                                eVHzz: function (j9, jj) {
+                                    return j9 !== jj;
+                                },
+                                Hszjq: "cmPjU",
+                                hXQUM: function (j9, jj) {
+                                    return j9 === jj;
+                                },
+                                NWcXU: "ORYRc",
+                                GYSee: "error",
+                            };
+                            j6.C = false;
+                            var j8 = {
+                                S: j6.S,
+                                A: 2,
+                                $: function () {
+                                    if (j7.DHwfv(j7.BBxcp, j7.WPhvt)) {
+                                        j7.I = j7.OoPQh;
+                                        j7.rMQCK(j8, j9);
+                                    } else {
+                                        j6.I = this.I;
+                                        if (j6.$) {
+                                            j6.$();
+                                        }
+                                    }
+                                },
+                                N: function () {
+                                    var j9 = {
+                                        oCyDz: function (jP, jp) {
+                                            return jP(jp);
+                                        },
+                                    };
+                                    var jj = this.R;
+                                    var jf = URL.createObjectURL(jj);
+                                    function jP(jp) {
+                                        var jZ = {
+                                            rTjFW: j7.wUdUC,
+                                        };
+                                        var jK = jZ;
+                                        if (j7.eVHzz(j7.Hszjq, j7.Hszjq)) {
+                                            j6.removeEventListener(jK.rTjFW, j7);
+                                        } else if (j7.hXQUM(jp.filename, jf)) {
+                                            j6.I = jp.error;
+                                            delete q[jf];
+                                        }
+                                    }
+                                    t.addEventListener("error", jP);
+                                    q[jf] = j6.S;
+                                    var jS = document.createElement("script");
+                                    jS.src = jf;
+                                    jS.defer = true;
+                                    jS.onload = function () {
+                                        if (j7.hXQUM(j7.NWcXU, j7.NWcXU)) {
+                                            t.removeEventListener(j7.GYSee, jP);
+                                            document.head.removeChild(jS);
+                                            URL.revokeObjectURL(jf);
+                                            j7.NQDrt(W, j6);
+                                        } else {
+                                            var jp = j7[j8[j9]];
+                                            try {
+                                                j9.oCyDz(Function, jp);
+                                            } catch (jZ) {
+                                                return false;
+                                            }
+                                        }
+                                    };
+                                    document.head.appendChild(jS);
+                                },
+                                T: j6,
+                            };
+                            z(j8);
+                        })(j5);
+                    } else {
+                        (function (j6) {
+                            var j8 = new XMLHttpRequest();
+                            j8.open("GET", j6.S, true);
+                            try {
+                                if ("timeout" in j8) {
+                                    j8.timeout = G;
+                                }
+                            } catch (j9) {}
+                            switch (j6.A) {
+                                case 1:
+                                    j8.responseType = "json";
+                                    break;
+                                case 3:
+                                case 2:
+                                    j8.responseType = "blob";
+                            }
+                            j8.onload = function () {
+                                var jj = {
+                                    GuBZW: function (jf, jS, jP) {
+                                        return jf(jS, jP);
+                                    },
+                                    LGudq: function (jf, jS) {
+                                        return jf !== jS;
+                                    },
+                                    pWbwn: function (jf, jS) {
+                                        return jf && jS;
+                                    },
+                                    UCaAr: function (jf, jS) {
+                                        return jf || jS;
+                                    },
+                                    WNEOY: function (jf, jS, jP) {
+                                        return jf(jS, jP);
+                                    },
+                                    YCUZE: function (jf, jS) {
+                                        return jf === jS;
+                                    },
+                                    hsSeo: function (jf, jS) {
+                                        return jf(jS);
+                                    },
+                                    RALeY: function (jf, jS) {
+                                        return jf / jS;
+                                    },
+                                    trkUe: function (jf, jS) {
+                                        return jf - jS;
+                                    },
+                                    USfQM: function (jf, jS) {
+                                        return jf(jS);
+                                    },
+                                    oQQPZ: function (jf, jS) {
+                                        return jf + jS;
+                                    },
+                                    SmBsn: function (jf, jS) {
+                                        return jf * jS;
+                                    },
+                                    LrFHy: function (jf, jS) {
+                                        return jf <= jS;
+                                    },
+                                    rqdUI: function (jf, jS) {
+                                        return jf + jS;
+                                    },
+                                    suUNt: function (jf, jS) {
+                                        return jf - jS;
+                                    },
+                                    hVexy: function (jf, jS) {
+                                        return jf * jS;
+                                    },
+                                    jzNJe: function (jf, jS) {
+                                        return jf - jS;
+                                    },
+                                    zzORu: function (jf, jS) {
+                                        return jf === jS;
+                                    },
+                                    lavgk: "error",
+                                    XQGBt: function (jf, jS) {
+                                        return jf(jS);
+                                    },
+                                    spNCT: "VvRgu",
+                                    nQZJy: function (jf, jS) {
+                                        return jf == jS;
+                                    },
+                                    oeBNj: "string",
+                                    Gkvfz: "AkAon",
+                                    FLmfs: function (jf, jS) {
+                                        return jf !== jS;
+                                    },
+                                    VJfbn: "XXoXt",
+                                    JuGvz: function (jf, jS) {
+                                        return jf == jS;
+                                    },
+                                    qbmQr: function (jf, jS) {
+                                        return jf == jS;
+                                    },
+                                    hLNWc: "invaliddata",
+                                };
+                                if ((j8.status >= 200 && j8.status < 300) || (j8.status === 0 && j8.response)) {
+                                    (function (jf, jS) {
+                                        var jP = {
+                                            JedNs: jj.lavgk,
+                                            KnRBw: function (jp, jZ) {
+                                                return jj.XQGBt(jp, jZ);
+                                            },
+                                        };
+                                        if (jj.YCUZE(jj.spNCT, jj.spNCT)) {
+                                            if (jj.zzORu(1, jf.A) && jj.nQZJy(jj.oeBNj, typeof jS)) {
+                                                try {
+                                                    if (jj.YCUZE(jj.Gkvfz, jj.Gkvfz)) {
+                                                        jS = JSON.parse(jS);
+                                                    } else {
+                                                        var jo = j8.split("-");
+                                                        var jO = j9.split("-");
+                                                        var jn = jj.GuBZW(jj, jo[0], jO[0]);
+                                                        if (jj.LGudq(0, jn)) {
+                                                            return jn;
+                                                        }
+                                                        var jC = jo[1];
+                                                        var js = jO[1];
+                                                        if (jj.pWbwn(jC, !js)) {
+                                                            return -1;
+                                                        } else if (jj.pWbwn(!jC, js)) {
+                                                            return 1;
+                                                        } else if (jj.UCaAr(jC, js)) {
+                                                            return jj.WNEOY(jf, jC, js);
+                                                        } else {
+                                                            return 0;
+                                                        }
+                                                    }
+                                                } catch (jp) {
+                                                    if (jj.FLmfs(jj.VJfbn, jj.VJfbn)) {
+                                                        jS.removeEventListener(jP.JedNs, jP);
+                                                        jp.head.removeChild(jZ);
+                                                        jK.revokeObjectURL(jo);
+                                                        jP.KnRBw(jO, jn);
+                                                    } else {
+                                                        jf.I = jp;
+                                                        jS = undefined;
+                                                    }
+                                                }
+                                            }
+                                            if (jj.JuGvz(null, jf.I) && jj.qbmQr(null, jS)) {
+                                                jf.I = jj.hLNWc;
+                                            } else {
+                                                jf.R = jS;
+                                            }
+                                        } else if (!jh) {
+                                            if (jj.YCUZE(undefined, jD)) {
+                                                jL = jR;
+                                                jj.hsSeo(ji, ja);
+                                            }
+                                            var jZ;
+                                            var jK = jj.RALeY(jH.min(jI.max(jj.trkUe(jj.trkUe(jY, jl), jv), 0), jt), jz);
+                                            jj.USfQM(
+                                                f0,
+                                                (f1 = jj.oQQPZ(
+                                                    jj.SmBsn(
+                                                        jj.LrFHy((jZ = jK), 0.3)
+                                                            ? jj.SmBsn(jZ, jZ)
+                                                            : jj.rqdUI(
+                                                                  jj.rqdUI(1, jj.SmBsn(1.25, f2.pow(jj.suUNt(jZ, 1), 3))),
+                                                                  jj.hVexy(0.25, f3.pow(jj.jzNJe(jZ, 1), 2))
+                                                              ),
+                                                        jj.trkUe(f4, f5)
+                                                    ),
+                                                    f6
+                                                ))
+                                            );
+                                            if (jj.zzORu(1, jK)) {
+                                                f7 = true;
+                                                jj.hsSeo(f8, f9);
+                                            }
+                                        }
+                                    })(j6, j8.response);
+                                } else {
+                                    j6.I = `${j8.status}: ${j8.statusText}`;
+                                }
+                                W(j6);
+                            };
+                            j8.onerror = function () {
+                                j6.I = "onerror";
+                                W(j6);
+                            };
+                            j8.ontimeout = function () {
+                                j6.I = "ontimeout";
+                                W(j6);
+                            };
+                            j8.send();
+                        })(j5);
+                    }
+                }
+                var O;
+                var q = Object.create(null);
+                function W(j4) {
+                    if (j4.I != null) {
+                        var j6 = j4.C === undefined ? 0 : j4.C;
+                        (function (j7, j8, j9, jj) {
+                            if (j9 instanceof Error) {
+                                j9 = j9.message;
+                            }
+                            var jf = j7.split("?")[0];
+                            var jS = `load resource fail|G1002|src: ${jf}|reason: ${j9}`;
+                            if (jj) {
+                                jS += `|retryCount: ${jj}`;
+                            }
+                            gtag("event", "error", {
+                                event_category: "game_shell",
+                                event_label: jS,
+                            });
+                        })(j4.S, 0, j4.I, j6);
+                        if (j6 !== false && (j4.I === "onerror" || j4.I === "ontimeout") && j6 < U) {
+                            j4.C = ++j6;
+                            j4.I = undefined;
+                            // TOLOOK
+                            setTimeout(z, (1 << j6) * 1000, j4);
+                        } else if (j4.$) {
+                            j4.$();
+                        }
+                    } else if (j4.N) {
+                        j4.N();
+                    }
+                }
+                (O = {})[0] = "const a=10;let b=10;";
+                O[1] = "var c=()=>{};";
+                O[2] = "function d(a=2){};";
+                O[3] = "+function e(...c){}(...[2,3]);";
+                O[4] = "var f=1,g=`c${f}d`;";
+                O[5] = "var h=0b111,q=0o767;";
+                O[6] = "var i='/\\u{20BB7}/u';";
+                O[7] = "var j=/s*/y;";
+                O[8] = "var k=1,l={k,['x'+k]:2,c(){}};";
+                O[9] = "var [z,y=3]=[1];var {e,f=5}={a:1,f:5};";
+                O[10] = "class test{}; class test2 extends test{};";
+                O[11] = "var o=Symbol('a');";
+                O[12] = "for(var t of [1]){};";
+                O[13] = "function*p(){ yield;}";
+                var X = O;
+                var J = [
+                    [t, "Map", "WeakMap", "Set", "WeakSet", "Promise", "Proxy", "Reflect"],
+                    [Object, "assign"],
+                    [Array.prototype, "findIndex", "find"],
+                    [String.prototype, "repeat", "startsWith", "endsWith", "includes"],
+                    [Number, "isFinite", "isNaN", "isSafeInteger", "isInteger"],
+                    [Math, "trunc", "sign", "cbrt", "log2", "log10"],
+                ];
+                function Q() {
+                    return (
+                        (function (j5) {
+                            for (var j7 = Object.keys(j5), j8 = 0; j8 < j7.length; j8++) {
+                                var j9 = j5[j7[j8]];
+                                try {
+                                    Function(j9);
+                                } catch (jj) {
+                                    return false;
+                                }
+                            }
+                            return true;
+                        })(X) &&
+                        (function (j5) {
+                            for (var j7 = true, j8 = 0; j8 < j5.length; j8++) {
+                                var j9 = j5[j8];
+                                var jj = j9[0];
+                                if (jj === undefined) {
+                                    j7 = false;
+                                    break;
+                                }
+                                for (var jf = 1; jf < j9.length; jf++) {
+                                    if (jj[j9[jf]] === undefined) {
+                                        j7 = false;
+                                        break;
+                                    }
+                                }
+                                if (!j7) {
+                                    break;
+                                }
+                            }
+                            return j7;
+                        })(J)
+                    );
+                }
+                var Y = {
+                    0: {
+                        en: "Unable to load game. Press [OK] to refresh or [Cancel] to ignore.",
+                        zh: '未能加载游戏，点击"确定"进行重试或者"取消"。',
+                        th: "ไม่สามารถดาวน์โหลดเกมได้ ให้คลิกที่ ”ยืนยัน” เพื่อลองใหม่ หรือที่ “ยกเลิก” เพื่อออก",
+                        id: "Permainan tidak bisa diunduh. Klik ‘Konfirmasi’ untuk coba lagi atau ‘Batalkan’ untuk keluar.",
+                        vi: "Không thể tải về trò chơi. Nhấp vào ‘Xác nhận’ để thử lại hoặc ‘Hủy’ để thoát.",
+                        ja: "ゲームをダウンロードできません。[確認] をクリックしてもう一度試すか、[キャンセル] をクリックして終了してください。",
+                        ko: "게임을 다운로드할 수 없습니다. ‘확인’을 클릭하여 다시 시도하거나 ‘취소’를 클릭하여 종료하세요.",
+                        sv: "Spelet kan inte laddas ner. Klicka på Bekräfta för att försöka igen, eller på Avbryt för att lämna.",
+                    },
+                    1: {
+                        en: "Sorry, this game cannot be loaded as the existing resources are out of date. Please try again later.",
+                        zh: "对不起，由于当前资源不是最新版本，因此游戏无法加载，请稍后再试。",
+                        th: "ขออภัย ไม่สามารถโหลดเกมนี้ได้เนื่องจากข้อมูลปัจจุบันไม่ใช่ข้อมูลล่าสุด กรุณาลองใหม่อีกครั้งในภายหลัง",
+                        id: "Maaf, permainan ini tidak bisa dimuat karena sumber daya yang ada sudah kedaluwarsa. Silakan coba lagi nanti.",
+                        vi: "Rất tiếc, không thể tải trò chơi này vì các tài nguyên hiện tại đã quá cũ. Vui lòng thử lại sau.",
+                        ja: "申し訳ありません。現在のリソースが古いため、このゲームを読み込むことはできません。後でもう一度お試しください。",
+                        ko: "죄송합니다.이 게임은 기존 리소스가 구식이므로로드 할 수 없습니다. 나중에 다시 시도 해주십시오.",
+                        sv: "Det här spelet kan inte laddas eftersom de nuvarande resurserna är inaktuella. Försök igen senare.",
+                    },
+                    2: {
+                        en: "DIFFERENCE MAKES THE DIFFERENCE",
+                        zh: "不  凡   成   就   非   凡",
+                        de: "DER UNTERSCHIED MACHT DEN UNTERSCHIED",
+                        es: "LA DIFERENCIA QUE MARCA LA DIFERENCIA",
+                        th: "ความแตกต่าง ที่เป็นตัวตัดสิน",
+                        id: "PERBEDAAN YANG MEMBUAT PERBEDAAN",
+                        vi: "SỰ KHÁC BIỆT TẠO NÊN SỰ KHÁC BIỆT",
+                        ja: "違 い が   違 い を 生 み だ す",
+                        ko: "차 이 를   만 드 는   차 이",
+                        ru: "ИНДИВИДУАЛЬНОСТЬ ИМЕЕТ ЗНАЧЕНИЕ",
+                        sv: "SKILLNADEN SOM GÖR SKILLNAD",
+                    },
+                };
+                var tt = C.language || C.lang || C.l || navigator.language;
+                var nt = tt.indexOf("-");
+                function et(j4) {
+                    var j5 = Y[j4];
+                    if (j5) {
+                        return j5[tt] || j5.en;
+                    } else {
+                        return `${j4}`;
+                    }
+                }
+                if (nt !== -1) {
+                    tt = tt.substring(0, nt);
+                }
+                var it;
+                var rt = "__sv";
+                var ot = C[rt] !== undefined && C[rt] !== "";
+                var at = false;
+                var ht = [];
+                function lt() {
+                    for (
+                        var j5 = function () {
+                            var j7;
+                            var j8;
+                            var j9 = ht.pop();
+                            if (it === null) {
+                                z.apply(undefined, j9);
+                            } else {
+                                j7 = j9[0];
+                                j8 = function (jj) {
+                                    if (jj) {
+                                        j9[0] = jj;
+                                    }
+                                    z.apply(undefined, j9);
+                                };
+                                it.getSignedUrl(j7).then(j8, function () {
+                                    return j8("");
+                                });
+                            }
+                        };
+                        ht.length;
+
+                    ) {
+                        j5();
+                    }
+                }
+                var vt = ot
+                    ? function () {
+                          ht.push(arguments);
+                          if (it === undefined) {
+                              (function () {
+                                  if (!at) {
+                                      at = true;
+                                      var j6 = C[rt].substring(2, 4) + ".js";
+                                      z(location.origin + "/loader/" + j6, 2, function (j7) {
+                                          if (j7) {
+                                              it = null;
+                                          }
+                                          if (!((it = sign || null) == null)) {
+                                              it.setQuery(C[rt]);
+                                          }
+                                          lt();
+                                      });
+                                  }
+                              })();
+                          } else {
+                              // TOLOOK
+                              setTimeout(lt, 0);
+                          }
+                      }
+                    : z;
+                function ut(j4) {
+                    var j6 = parseInt(j4);
+                    if (isNaN(j6)) {
+                        return j4;
+                    } else {
+                        return j6;
+                    }
+                }
+                function ft(j4, j5) {
+                    var j6 = {
+                        WeGFv: function (jP, jp) {
+                            return jP(jp);
+                        },
+                        Pomlb: function (jP, jp) {
+                            return jP + jp;
+                        },
+                        JsSig: function (jP, jp) {
+                            return jP < jp;
+                        },
+                        CbTGZ: function (jP, jp) {
+                            return jP === jp;
+                        },
+                        ZEadn: "HHaue",
+                        HAMPX: function (jP, jp) {
+                            return jP(jp);
+                        },
+                        Otwcg: function (jP, jp) {
+                            return jP > jp;
+                        },
+                    };
+                    for (var j7 = j4.split("."), j8 = j5.split("."), j9 = Math.max(j7.length, j8.length), jj = 0; j6.JsSig(jj, j9); jj++) {
+                        if (j6.CbTGZ(j6.ZEadn, j6.ZEadn)) {
+                            var jf = j6.WeGFv(ut, j7[jj] || 0);
+                            var jS = j6.HAMPX(ut, j8[jj] || 0);
+                            if (j6.JsSig(jf, jS)) {
+                                return -1;
+                            }
+                            if (j6.Otwcg(jf, jS)) {
+                                return 1;
+                            }
+                        } else {
+                            j6.WeGFv(j6, j6.Pomlb(j7, ""));
+                        }
+                    }
+                    return 0;
+                }
+                function st(j5, j6) {
+                    var j9 = document.createElementNS("http://www.w3.org/2000/svg", j6);
+                    j5.appendChild(j9);
+                    return j9;
+                }
+                function ct() {
+                    for (var j7 = arguments, j8 = j7[0], j9 = 1; j9 < j7.length; j9 += 2) {
+                        j8.style[j7[j9]] = j7[j9 + 1];
+                    }
+                    return j8;
+                }
+                function mt() {
+                    for (var j7 = arguments, j8 = j7[0], j9 = 1; j9 < j7.length; j9 += 2) {
+                        j8.setAttribute(j7[j9], j7[j9 + 1]);
+                    }
+                    return j8;
+                }
+                function dt(j5, j6) {
+                    if (j5 / j6 > 0.5625) {
+                        return 1920 / j6;
+                    } else {
+                        return 1080 / j5;
+                    }
+                }
+                function Zt(j4, j5, j6, j7, j8) {
+                    var jj;
+                    var jf =
+                        j8 === 0
+                            ? '<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112"><path d="M90.6 9.8h9.8V0h-9.8Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#ff6e00;fill-opacity:1"/><path d="M0 21.1h9.8v-9.8H0Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#6414e6;fill-opacity:1"/><path d="M11.3 111.6h9.8v-9.8h-9.8Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#19bee6;fill-opacity:1"/><path d="M68 89h9.7v-9.8H68Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#e619dc;fill-opacity:1"/><path d="M79.2 9.8H89V0h-9.8ZM68 9.8h9.8V0H68Zm-11.3 0h9.8V0h-9.8Zm-11.3 0H55V0h-9.8ZM34 9.8h9.8V0H34Zm-11.4 0h9.8V0h-9.8Zm-11.3 0h9.8V0h-9.8Zm79.3 11.3h9.8v-9.8h-9.8Zm-11.4 0H89v-9.8h-9.8Zm-11.3 0h9.8v-9.8H68Zm-11.3 0h9.8v-9.8h-9.8Zm-11.3 0H55v-9.8h-9.8Zm-11.3 0h9.8v-9.8H34Zm-11.4 0h9.8v-9.8h-9.8Zm-11.3 0h9.8v-9.8h-9.8ZM102 32.4h9.8v-9.8h-9.8Zm-11.3 0h9.8v-9.8h-9.8Zm-11.4 0H89v-9.8h-9.8Zm-67.9 0h9.8v-9.8h-9.8ZM0 32.4h9.8v-9.8H0Zm101.9 11.3h9.8V34h-9.8Zm-11.3 0h9.8V34h-9.8Zm-79.3 0h9.8V34h-9.8ZM0 43.7h9.8V34H0Zm101.9 11.4h9.8v-9.9h-9.8Zm-11.3 0h9.8v-9.9h-9.8Zm-79.3 0h9.8v-9.9h-9.8ZM0 55h9.8v-9.8H0Zm101.9 11.3h9.8v-9.8h-9.8Zm-11.3 0h9.8v-9.8h-9.8Zm-11.4 0H89v-9.8h-9.8Zm-67.9 0h9.8v-9.8h-9.8ZM0 66.4h9.8v-9.8H0Zm90.6 11.3h9.8v-9.8h-9.8Zm-11.4 0H89v-9.8h-9.8Zm-11.3 0h9.8v-9.8H68Zm-11.3 0h9.8v-9.8h-9.8Zm-11.3 0H55v-9.8h-9.8Zm-11.3 0h9.8v-9.8H34Zm-11.4 0h9.8v-9.8h-9.8Zm-11.3 0h9.8v-9.8h-9.8ZM0 77.7h9.8v-9.8H0ZM56.6 89h9.8v-9.8h-9.8Zm-11.3 0H55v-9.8h-9.8ZM34 89h9.8v-9.8H34Zm-11.4 0h9.8v-9.8h-9.8Zm-11.3 0h9.8v-9.8h-9.8ZM0 89h9.8v-9.8H0Zm11.3 11.3h9.8v-9.8h-9.8Zm-11.3 0h9.8v-9.8H0Zm0 11.3h9.8v-9.8H0Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#fff;fill-opacity:1"/></svg>'
+                            : '<svg xmlns="http://www.w3.org/2000/svg" width="113" height="112"><path d="M.3 32.4h9.8v-9.8H.3Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#e61973;fill-opacity:1"/><path d="M22.8 9.8h9.7V0h-9.7Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#ffb919;fill-opacity:1"/><path d="M11.6 100.3h9.7v-9.8h-9.7Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#1987e6;fill-opacity:1"/><path d="M79 111.6h9.7v-9.8h-9.8Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#ff4b00;fill-opacity:1"/><path d="M101.4 55h9.7v-9.7h-9.7Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#14e691;fill-opacity:1"/><path d="M101.4 89h9.7v-9.8h-9.7Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#ff1928;fill-opacity:1"/><path d="M67.7 9.8h9.7V0h-9.7Zm-11.2 0h9.7V0h-9.7Zm-11.3 0H55V0h-9.8ZM34 9.8h9.8V0H34Zm33.7 11.3h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm-11.3 0H55v-9.8h-9.8Zm-11.2 0h9.8v-9.8H34Zm56.2 0h9.7v-9.8h-9.7Zm-11.3 0h9.8v-9.8h-9.8Zm-56.1 0h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm78.6 11.3h9.7v-9.8h-9.7Zm-11.3 0h9.8v-9.8h-9.8Zm-56.1 0h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm0 11.3h9.7V34h-9.7Zm-11.3 0h9.8V34H.3Zm11.3 11.4h9.7v-9.9h-9.7Zm78.6 0h9.7v-9.9h-9.7Zm-11.3 0h9.8v-9.9h-9.8Zm-11.2 0h9.7v-9.9h-9.7Zm-11.2 0h9.7v-9.9h-9.7ZM.3 55h9.8v-9.9H.3ZM79 66.4h9.8v-9.8h-9.8Zm-11.2 0h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm-45 0h9.8v-9.8h-9.7Zm89.9 0h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm-89.9 0h9.8v-9.8H.3Zm101 11.3h9.8v-9.8h-9.7Zm-89.7 0h9.7v-9.8h-9.7Zm78.6 0h9.7v-9.8h-9.7Zm-89.9 0h9.8v-9.8H.3ZM90.2 89h9.7v-9.8h-9.7ZM.3 89h9.8v-9.8H.3ZM79 89h9.8v-9.8h-9.8Zm-56.1 0h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm78.6 11.3h9.7v-9.8h-9.7Zm-11.3 0h9.8v-9.8h-9.8Zm-11.2 0h9.7v-9.8h-9.7Zm-11.2 0h9.7v-9.8h-9.7Zm-11.3 0H55v-9.8h-9.8Zm-11.2 0h9.8v-9.8H34Zm-11.2 0h9.7v-9.8h-9.7Zm45 11.3h9.6v-9.8h-9.7Zm-11.3 0h9.7v-9.8h-9.7Zm-11.3 0H55v-9.8h-9.8Zm-11.2 0h9.8v-9.8H34Zm-11.2 0h9.7v-9.8h-9.7Zm0 0" style="stroke:none;fill-rule:evenodd;fill:#fff;fill-opacity:1"/></svg>';
+                    var jS = st(j4, "g");
+                    mt(jS, "id", "digit-" + j7);
+                    ct(jS, "filter", "url(#motionFilter-" + j7 + ")");
+                    for (var jP = 0; jP < 5; jP++) {
+                        var jp = st(jS, "g");
+                        ct(jp, "transform", "translate(0px, " + -jP * (j5 + j6 * 2) + "px)");
+                        jj = jf;
+                        jp.innerHTML = jj;
+                    }
+                    return jS;
+                }
+                function gt(j4, j5) {
+                    var j7 = st(j4, "filter");
+                    mt(j7, "id", "motionFilter-" + j5, "width", "300%", "x", "-100%");
+                    var j8 = st(j7, "feGaussianBlur");
+                    mt(j7, "class", "blurValues", "in", "SourceGraphic", "stdDeviation", "0 0");
+                    return j8;
+                }
+                function pt(j4) {
+                    var j5 = {
+                        mDjdo: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        WCYKp: "SBQJt",
+                        NlpAE: "JarEZ",
+                        ViCEE: function (jA, jN, jG) {
+                            return jA(jN, jG);
+                        },
+                        lNWgK: function (jA, jN, jG, je) {
+                            return jA(jN, jG, je);
+                        },
+                        vQJCq: "transform",
+                        TzMOX: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        xLYRj: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        IIkBd: "scale(",
+                        RiBQE: function (jA, jN) {
+                            return jA / jN;
+                        },
+                        bLZco: "KLhvQ",
+                        MFYBz: "bjICe",
+                        njFIh: "resize",
+                        xGsaq: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        vqbAC: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        ccbUb: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        IFnxp: "yopVF",
+                        AUqSU: "chfbm",
+                        jJbxo: function (jA, jN) {
+                            return jA < jN;
+                        },
+                        jqVPP: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        HjpAY: "PvReZ",
+                        vRdzC: "FVRjU",
+                        BVpKL: "stop",
+                        sDGaz: function (jA, jN, jG, je, jW, jr, jJ, jx) {
+                            return jA(jN, jG, je, jW, jr, jJ, jx);
+                        },
+                        wmHXw: "offset",
+                        NrUnP: "stop-color",
+                        bIYxF: "white",
+                        wcfBr: "stop-opacity",
+                        tgZne: function (jA, jN) {
+                            return jA == jN;
+                        },
+                        khkEd: function (jA, jN) {
+                            return jA || jN;
+                        },
+                        vJFsu: function (jA) {
+                            return jA();
+                        },
+                        MhNpC: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        wtKic: "vomdW",
+                        FHnvF: "WfbIF",
+                        RPYKH: "linearGradient",
+                        KbWVp: function (jA, jN, jG, je, jW, jr, jJ, jx, jb, jB, jq, jM) {
+                            return jA(jN, jG, je, jW, jr, jJ, jx, jb, jB, jq, jM);
+                        },
+                        tORMq: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        FxWHk: "gradient-",
+                        jutnv: "100%",
+                        qdDtk: "0|3|4|1|2",
+                        gpggP: "initial-loader",
+                        Gpkjd: "black",
+                        Eujec: ".circle-loading",
+                        mpPhe: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        YcwWF: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        tQCKW: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        iZbtQ: "EdDyV",
+                        ZXfLD: "cjQTo",
+                        OSdtF: "mask",
+                        Xjinr: function (jA, jN, jG, je) {
+                            return jA(jN, jG, je);
+                        },
+                        yOQBg: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        ranAG: "mask-",
+                        Nfbqu: function (jA, jN, jG) {
+                            return jA(jN, jG);
+                        },
+                        owgwr: "rect",
+                        qgMSk: "width",
+                        njyEO: "height",
+                        UIdIH: "fill",
+                        rbACx: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        Bmcqd: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        EphEd: "url(#gradient-",
+                        YusaF: "XKanC",
+                        tMVuB: "nbxto",
+                        SgsWd: "pre",
+                        HqGMM: "font",
+                        fJaPV: "20px Roboto, sans-serif",
+                        SptQg: "color",
+                        HQUTM: "#ccc",
+                        nFANi: "opacity",
+                        xHaHt: "text-align",
+                        smGNq: "center",
+                        YVIab: "animation",
+                        lwiTT: "1.2s ease-in-out forwards fade-in",
+                        Jrkxg: function (jA, jN) {
+                            return jA instanceof jN;
+                        },
+                        mMXWk: "load resource fail|G1002|src: ",
+                        mDlgV: "|reason: ",
+                        nIeOQ: "|retryCount: ",
+                        VVKYT: "event",
+                        ivEzz: "error",
+                        FAcPG: "game_shell",
+                        hfGDK: function (jA, jN) {
+                            return jA != jN;
+                        },
+                        zenwR: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        elmWZ: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        WspHT: "onerror",
+                        tAHht: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        dYNsc: "ontimeout",
+                        kLpzN: function (jA, jN) {
+                            return jA < jN;
+                        },
+                        iFlNJ: function (jA, jN) {
+                            return jA * jN;
+                        },
+                        pdEGM: function (jA, jN) {
+                            return jA << jN;
+                        },
+                        maeaI: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        CnWGw: "lDgdW",
+                        sajLT: "TGIhC",
+                        gWQSW: function (jA, jN, jG, je, jW, jr) {
+                            return jA(jN, jG, je, jW, jr);
+                        },
+                        GvPeU: function (jA, jN) {
+                            return jA * jN;
+                        },
+                        MYttC: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        ZbGYN: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        TBScX: function (jA, jN) {
+                            return jA == jN;
+                        },
+                        pVAOI: "string",
+                        FzFRW: "invaliddata",
+                        HEozb: function (jA, jN) {
+                            return jA >= jN;
+                        },
+                        hxUqj: function (jA, jN) {
+                            return jA < jN;
+                        },
+                        vGEkB: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        FWzHh: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        qCYsA: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        VDQjf: "TRCIM",
+                        iiDnC: function (jA, jN, jG, je) {
+                            return jA(jN, jG, je);
+                        },
+                        TohDi: "viewBox",
+                        QYgfe: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        meIDS: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        dWuwB: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        ZHxLS: "0 0 ",
+                        obSlK: "overflow",
+                        GSAtX: "hidden",
+                        xIUFj: function (jA, jN) {
+                            return jA < jN;
+                        },
+                        eItaK: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        Mrzcx: "mFvhF",
+                        AklcW: "MgVNn",
+                        cuMSE: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        oQAuY: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        ghMJS: "translate(",
+                        CZCxy: "http://www.w3.org/2000/svg",
+                        NYIHD: "RzHgb",
+                        pofdy: "VkEbu",
+                        UvtnY: "gMXOk",
+                        atxBk: function (jA, jN) {
+                            return jA / jN;
+                        },
+                        UUwYa: function (jA, jN) {
+                            return jA - jN;
+                        },
+                        xYRxN: function (jA, jN) {
+                            return jA - jN;
+                        },
+                        KhpWK: function (jA, jN) {
+                            return jA <= jN;
+                        },
+                        mIATp: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        oljAI: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        rTSaN: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        UPLkG: "LFBcQ",
+                        NXocK: "VVkjA",
+                        krrGm: "1|3|2|4|0",
+                        pwQsY: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        QCWJr: function (jA, jN) {
+                            return jA == jN;
+                        },
+                        dLPip: "0x2",
+                        rNtWT: "[a-zA-Z=]",
+                        RCzcf: "0x61",
+                        QYlhT: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        bWdRZ: "0x41",
+                        ifSiB: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        ZidpF: function (jA, jN) {
+                            return jA % jN;
+                        },
+                        sCuja: "0x1a",
+                        MGavX: "object",
+                        fsHab: function (jA, jN) {
+                            return jA == jN;
+                        },
+                        zpkBx: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        dSodP: "0x0",
+                        ltklj: "0xa",
+                        IAlyL: function (jA, jN, jG) {
+                            return jA(jN, jG);
+                        },
+                        OgLpV: function (jA, jN) {
+                            return jA && jN;
+                        },
+                        qSWHB: function (jA, jN) {
+                            return jA || jN;
+                        },
+                        kGfLZ: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        mfEyK: "BHTwY",
+                        cOQwq: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        dyTWC: function (jA, jN) {
+                            return jA - jN;
+                        },
+                        AebAA: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        dIxjY: "nyNod",
+                        QeKVs: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        wWWIq: function (jA, jN, jG, je) {
+                            return jA(jN, jG, je);
+                        },
+                        vSUIj: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        Vqpef: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        qSazP: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        EJuYG: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        JftxO: function (jA, jN) {
+                            return jA / jN;
+                        },
+                        TgBuD: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        LHTCC: function (jA, jN) {
+                            return jA - jN;
+                        },
+                        kQpyC: "stdDeviation",
+                        wdnGc: "kdiQX",
+                        HFtwx: "WFjCn",
+                        pxgEk: function (jA, jN) {
+                            return jA === jN;
+                        },
+                        YVRwV: function (jA) {
+                            return jA();
+                        },
+                        WEeGD: function (jA) {
+                            return jA();
+                        },
+                        afrLH: function (jA, jN) {
+                            return jA != jN;
+                        },
+                        uRhbN: function (jA, jN) {
+                            return jA == jN;
+                        },
+                        YtoZF: "snKtS",
+                        qZBRN: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        EuAaD: function (jA, jN, jG) {
+                            return jA(jN, jG);
+                        },
+                        HRums: function (jA, jN, jG, je, jW, jr, jJ, jx) {
+                            return jA(jN, jG, je, jW, jr, jJ, jx);
+                        },
+                        aPtmc: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        LuAnN: "fftni",
+                        sbPwD: "uMBer",
+                        SozLt: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        eYzeg: "UnGUh",
+                        oZLTs: "(((.+)+)+)+$",
+                        MwScS: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        aHMxO: "GYCJW",
+                        kTJQD: "zlajC",
+                        EktVg: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        WNzeB: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        RlTVo: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        LiEqR: function (jA, jN) {
+                            return jA % jN;
+                        },
+                        FRMzA: function (jA, jN) {
+                            return jA - jN;
+                        },
+                        ryXMx: function (jA, jN) {
+                            return jA(jN);
+                        },
+                        JSctp: function (jA, jN) {
+                            return jA !== jN;
+                        },
+                        tOjJB: "vkviE",
+                        lYHGH: "MzmoL",
+                        OKXzD: function (jA, jN, jG) {
+                            return jA(jN, jG);
+                        },
+                        xlNrc: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        HaitZ: function (jA, jN) {
+                            return jA * jN;
+                        },
+                        XDPuV: "svg",
+                        MKmSe: function (jA, jN, jG, je) {
+                            return jA(jN, jG, je);
+                        },
+                        OdxdX: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        CkSLP: function (jA, jN) {
+                            return jA + jN;
+                        },
+                        GbWrE: "url(#mask-",
+                        fDYkq: function (jA, jN, jG) {
+                            return jA(jN, jG);
+                        },
+                        QVnDp: "defs",
+                        UwEbU: function (jA, jN) {
+                            return jA * jN;
+                        },
+                        Tfwng: function (jA, jN) {
+                            return jA + jN;
+                        },
+                    };
+                    var j6;
+                    var j7;
+                    var j8;
+                    var j9 = j4.h;
+                    var jj = j4.t;
+                    var jf = j4.v;
+                    var jS = j4.i;
+                    var jP = j4.o;
+                    var jp = j4.l;
+                    var jZ = j4.m;
+                    var jK = document.querySelector(jp);
+                    j6 = jK;
+                    j7 = j5.OKXzD(dt, 1440, 1024);
+                    j8 = function () {
+                        if (j5.mDjdo(j5.WCYKp, j5.NlpAE)) {
+                            var jA = j5.ViCEE(dt, window.innerWidth, window.innerHeight);
+                            j5.lNWgK(ct, j6, j5.vQJCq, j5.TzMOX(j5.xLYRj(j5.IIkBd, j5.RiBQE(j7, jA).toFixed(4)), ")"));
+                        } else {
+                            j7.I = this.I;
+                            if (j8.$) {
+                                j9.$();
+                            }
+                        }
+                    };
+                    window.addEventListener(j5.njFIh, j8);
+                    j5.YVRwV(j8);
+                    function jo() {
+                        if (j5.mDjdo(j5.bLZco, j5.MFYBz)) {
+                            window.removeEventListener(j5.njFIh, j8);
+                        } else {
+                            j7.I = j8;
+                            j9 = undefined;
+                        }
+                    }
+                    var jO = 112;
+                    var jn = j9;
+                    var jC = j5.xlNrc(jO, j5.HaitZ(2, j9));
+                    var js = Date.now();
+                    var jm = j5.EuAaD(st, jK, j5.XDPuV);
+                    var ju = j5.ViCEE(st, jm, j5.XDPuV);
+                    j5.MKmSe(mt, ju, j5.OSdtF, j5.OdxdX(j5.CkSLP(j5.GbWrE, js), ")"));
+                    var jV = j5.fDYkq(st, jm, j5.QVnDp);
+                    (function (jA, jN) {
+                        var jG = {
+                            LlfEN: function (jW, jr) {
+                                return j5.tgZne(jW, jr);
+                            },
+                            eRHrj: function (jW, jr) {
+                                return j5.khkEd(jW, jr);
+                            },
+                            aVidp: function (jW) {
+                                return j5.vJFsu(jW);
+                            },
+                        };
+                        if (j5.MhNpC(j5.wtKic, j5.FHnvF)) {
+                            if (jS) {
+                                jP = null;
+                            }
+                            if (!jG.LlfEN(null, (jp = jG.eRHrj(jZ, null)))) {
+                                jK.setQuery(jo[jO]);
+                            }
+                            jG.aVidp(jn);
+                        } else {
+                            var je = j5.ViCEE(st, jA, j5.RPYKH);
+                            j5.KbWVp(mt, je, "id", j5.tORMq(j5.FxWHk, jN), "x1", "0%", "y1", "0%", "x2", "0%", "y2", j5.jutnv);
+                            (function () {
+                                var jW = {
+                                    NJPfJ: function (jB, jq) {
+                                        return j5.xGsaq(jB, jq);
+                                    },
+                                    cBoZt: function (jB, jq) {
+                                        return j5.vqbAC(jB, jq);
+                                    },
+                                };
+                                if (j5.ccbUb(j5.IFnxp, j5.AUqSU)) {
+                                    for (var jr = arguments, jJ = 0; j5.jJbxo(jJ, jr.length); jJ++) {
+                                        if (j5.jqVPP(j5.HjpAY, j5.vRdzC)) {
+                                            j7 = jW.NJPfJ(j8, j9);
+                                        } else {
+                                            var jx = j5.ViCEE(st, je, j5.BVpKL);
+                                            var jb = jr[jJ];
+                                            j5.sDGaz(mt, jx, j5.wmHXw, jb[0], j5.NrUnP, j5.bIYxF, j5.wcfBr, jb[1]);
+                                        }
+                                    }
+                                } else {
+                                    var jB = {
+                                        SkNJv: function (jy, jc) {
+                                            return jW.NJPfJ(jy, jc);
+                                        },
+                                    };
+                                    var jq;
+                                    var jM;
+                                    var jQ = j9.pop();
+                                    if (jW.cBoZt(null, jj)) {
+                                        jf.apply(undefined, jQ);
+                                    } else {
+                                        jq = jQ[0];
+                                        jM = function (jy) {
+                                            if (jy) {
+                                                jQ[0] = jy;
+                                            }
+                                            jq.apply(undefined, jQ);
+                                        };
+                                        jP.getSignedUrl(jq).then(jM, function () {
+                                            return jB.SkNJv(jM, "");
+                                        });
+                                    }
+                                }
+                            })([0, 0], [0.2, 1], [0.8, 1], [1, 0]);
+                        }
+                    })(jV, js);
+                    (function (jA, jN) {
+                        var jG = {
+                            aSRJy: j5.qdDtk,
+                            aiCrN: function (jW, jr) {
+                                return j5.xGsaq(jW, jr);
+                            },
+                            MRZYQ: j5.gpggP,
+                            UfcgW: j5.Gpkjd,
+                            kPCXg: j5.Eujec,
+                            haGIK: function (jW, jr) {
+                                return j5.mpPhe(jW, jr);
+                            },
+                            svpIQ: function (jW, jr) {
+                                return j5.tgZne(jW, jr);
+                            },
+                            EdGBY: function (jW, jr) {
+                                return j5.YcwWF(jW, jr);
+                            },
+                        };
+                        if (j5.tQCKW(j5.iZbtQ, j5.ZXfLD)) {
+                            var je = j5.ViCEE(st, jA, j5.OSdtF);
+                            j5.Xjinr(mt, je, "id", j5.yOQBg(j5.ranAG, jN));
+                            j5.KbWVp(
+                                mt,
+                                j5.Nfbqu(st, je, j5.owgwr),
+                                "x",
+                                0,
+                                "y",
+                                0,
+                                j5.qgMSk,
+                                j5.jutnv,
+                                j5.njyEO,
+                                j5.jutnv,
+                                j5.UIdIH,
+                                j5.rbACx(j5.Bmcqd(j5.EphEd, jN), ")")
+                            );
+                        } else {
+                            var jW = jG.aSRJy.split("|");
+                            var jr = 0;
+                            while (true) {
+                                switch (jW[jr++]) {
+                                    case "0":
+                                        var jJ = {
+                                            qkbOc: function (jB, jq) {
+                                                return jG.aiCrN(jB, jq);
+                                            },
+                                        };
+                                        continue;
+                                    case "1":
+                                        var jx = jo.getElementById(jG.MRZYQ);
+                                        continue;
+                                    case "2":
+                                        if (jx) {
+                                            jx.style.backgroundColor = jG.UfcgW;
+                                        }
+                                        (function (jB) {
+                                            jb.m = jB;
+                                            jJ.qkbOc(jx, jV);
+                                        })(jG.aiCrN(js, 2));
+                                        continue;
+                                    case "3":
+                                        var jb = jP.querySelector(jG.kPCXg);
+                                        continue;
+                                    case "4":
+                                        if (!(jG.haGIK(null, (jp = jG.svpIQ(null, jb) ? undefined : jb.parentElement)) || jG.EdGBY(undefined, jZ))) {
+                                            jK.removeChild(jb);
+                                        }
+                                        continue;
+                                }
+                                break;
+                            }
+                        }
+                    })(jV, js);
+                    (function (jA, jN) {
+                        if (j5.mDjdo(j5.YusaF, j5.tMVuB)) {
+                            var jG;
+                            var je;
+                            var jW;
+                            j5.KbWVp(
+                                ct,
+                                ((jG = jA), (je = jN), (jW = document.createElement(j5.SgsWd)), jG.appendChild(jW), (jW.textContent = je), jW),
+                                j5.HqGMM,
+                                j5.fJaPV,
+                                j5.SptQg,
+                                j5.HQUTM,
+                                j5.nFANi,
+                                "0",
+                                j5.xHaHt,
+                                j5.smGNq,
+                                j5.YVIab,
+                                j5.lwiTT
+                            );
+                        } else {
+                            j5.push(arguments);
+                        }
+                    })(jK, jZ);
+                    var jF = ["1", "1"].map(function (jA, jN) {
+                        if (j5.maeaI(j5.CnWGw, j5.sajLT)) {
+                            var je = {
+                                ioxmD: function (jr, jJ) {
+                                    return j5.Jrkxg(jr, jJ);
+                                },
+                                YyKLH: j5.mMXWk,
+                                FDSPl: j5.mDlgV,
+                                RqJJu: j5.nIeOQ,
+                                XYFjI: function (jr, jJ, jx, jb) {
+                                    return j5.lNWgK(jr, jJ, jx, jb);
+                                },
+                                RvlWu: j5.VVKYT,
+                                TkLdc: j5.ivEzz,
+                                HgZqv: j5.FAcPG,
+                            };
+                            if (j5.hfGDK(null, ju.I)) {
+                                var jW = j5.zenwR(undefined, jQ.C) ? 0 : jy.C;
+                                (function (f4, f5, f6, f7) {
+                                    if (je.ioxmD(f6, jW)) {
+                                        f6 = f6.message;
+                                    }
+                                    var f8 = f4.split("?")[0];
+                                    var f9 = je.YyKLH.concat(f8, je.FDSPl).concat(f6);
+                                    if (f7) {
+                                        f9 += je.RqJJu.concat(f7);
+                                    }
+                                    je.XYFjI(jv, je.RvlWu, je.TkLdc, {
+                                        event_category: je.HgZqv,
+                                        event_label: f9,
+                                    });
+                                })(jg.S, 0, jU.I, jW);
+                                if (j5.elmWZ(false, jW) && (j5.vqbAC(j5.WspHT, jX.I) || j5.tAHht(j5.dYNsc, jw.I)) && j5.kLpzN(jW, jD)) {
+                                    jL.C = ++jW;
+                                    jR.I = undefined;
+                                    j5.Xjinr(ji, ja, j5.iFlNJ(1000, j5.pdEGM(1, jW)), jH);
+                                } else if (jI.$) {
+                                    jY.$();
+                                }
+                            } else if (jq.N) {
+                                jM.N();
+                            }
+                        } else {
+                            var jG = j5.Bmcqd(j5.tORMq(jN, "-"), js);
+                            return {
+                                Z: j5.gWQSW(Zt, ju, jO, j9, jG, jN),
+                                u: j5.ViCEE(gt, jV, jG),
+                                H: +jA,
+                                p: 0,
+                                M: {
+                                    x: j5.yOQBg(j5.GvPeU(jN, j5.MYttC(jO, jj)), j5.RiBQE(jj, 2)),
+                                    y: jn,
+                                },
+                            };
+                        }
+                    });
+                    (function (jA, jN, jG) {
+                        var je = {
+                            eJPdm: function (jW, jr) {
+                                return j5.ZbGYN(jW, jr);
+                            },
+                            JQgVi: function (jW, jr) {
+                                return j5.TBScX(jW, jr);
+                            },
+                            ZhOse: j5.pVAOI,
+                            TAYJd: function (jW, jr) {
+                                return j5.TBScX(jW, jr);
+                            },
+                            zDocU: function (jW, jr) {
+                                return j5.TBScX(jW, jr);
+                            },
+                            xSRLM: j5.FzFRW,
+                            FGmaH: function (jW, jr) {
+                                return j5.HEozb(jW, jr);
+                            },
+                            Xrbvn: function (jW, jr) {
+                                return j5.hxUqj(jW, jr);
+                            },
+                            ZDjCh: function (jW, jr) {
+                                return j5.vGEkB(jW, jr);
+                            },
+                            vBwnZ: function (jW, jr) {
+                                return j5.FWzHh(jW, jr);
+                            },
+                        };
+                        if (j5.qCYsA(j5.VDQjf, j5.VDQjf)) {
+                            if ((je.FGmaH(jK.status, 200) && je.Xrbvn(jo.status, 300)) || (je.ZDjCh(0, jO.status) && jn.response)) {
+                                (function (jW, jr) {
+                                    if (je.eJPdm(1, jW.A) && je.JQgVi(je.ZhOse, typeof jr)) {
+                                        try {
+                                            jr = jE.parse(jr);
+                                        } catch (jJ) {
+                                            jW.I = jJ;
+                                            jr = undefined;
+                                        }
+                                    }
+                                    if (je.TAYJd(null, jW.I) && je.zDocU(null, jr)) {
+                                        jW.I = je.xSRLM;
+                                    } else {
+                                        jW.R = jr;
+                                    }
+                                })(js, jm.response);
+                            } else {
+                                ju.I = `${jV.status}: ${jF.statusText}`;
+                            }
+                            je.vBwnZ(jT, jh);
+                        } else {
+                            j5.iiDnC(mt, jA, j5.TohDi, j5.QYgfe(j5.meIDS(j5.dWuwB(j5.ZHxLS, jN), " "), jG));
+                            j5.gWQSW(ct, jA, j5.obSlK, j5.GSAtX, j5.njyEO, jG);
+                        }
+                    })(jm, j5.UwEbU(jF.length, j5.Tfwng(jO, jj)), jC);
+                    jF.forEach(function (jA) {
+                        var jN = {
+                            owQKK: function (jG, je) {
+                                return j5.xIUFj(jG, je);
+                            },
+                            PPFaA: function (jG, je) {
+                                return j5.eItaK(jG, je);
+                            },
+                        };
+                        if (j5.zenwR(j5.Mrzcx, j5.AklcW)) {
+                            for (var jG = arguments, je = jG[0], jW = 1; jN.owQKK(jW, jG.length); jW += 2) {
+                                je.style[jG[jW]] = jG[jN.PPFaA(jW, 1)];
+                            }
+                            return je;
+                        } else {
+                            j5.iiDnC(mt, jA.Z, j5.vQJCq, j5.cuMSE(j5.xLYRj(j5.tORMq(j5.oQAuY(j5.ghMJS, jA.M.x), ", "), jA.M.y), ")"));
+                        }
+                    });
+                    var jT = [];
+                    (function jA() {
+                        var jN = {
+                            rOzdJ: function (jG, je) {
+                                return j5.zpkBx(jG, je);
+                            },
+                            PrxDJ: function (jG, je) {
+                                return j5.AebAA(jG, je);
+                            },
+                            ZCpfO: j5.dIxjY,
+                            sxJCv: function (jG, je) {
+                                return j5.QeKVs(jG, je);
+                            },
+                            jUKVe: function (jG, je) {
+                                return j5.ZidpF(jG, je);
+                            },
+                            qrhCj: function (jG, je) {
+                                return j5.iFlNJ(jG, je);
+                            },
+                            ihflN: function (jG, je, jW, jr) {
+                                return j5.wWWIq(jG, je, jW, jr);
+                            },
+                            BAWlo: j5.vQJCq,
+                            syWWF: function (jG, je) {
+                                return j5.vSUIj(jG, je);
+                            },
+                            bqZNG: function (jG, je) {
+                                return j5.Vqpef(jG, je);
+                            },
+                            VaJfO: function (jG, je) {
+                                return j5.qSazP(jG, je);
+                            },
+                            FdEuq: function (jG, je) {
+                                return j5.EJuYG(jG, je);
+                            },
+                            quYLk: j5.ghMJS,
+                            NPXdy: function (jG, je) {
+                                return j5.JftxO(jG, je);
+                            },
+                            Fkfqn: function (jG, je) {
+                                return j5.TgBuD(jG, je);
+                            },
+                            tPlBK: function (jG, je) {
+                                return j5.JftxO(jG, je);
+                            },
+                            AehEP: function (jG, je) {
+                                return j5.UUwYa(jG, je);
+                            },
+                            XSJiE: function (jG, je) {
+                                return j5.LHTCC(jG, je);
+                            },
+                            beXsC: j5.kQpyC,
+                            CJXTK: function (jG, je) {
+                                return j5.rTSaN(jG, je);
+                            },
+                            bNCkQ: j5.wdnGc,
+                            EQQml: j5.HFtwx,
+                            gLPPO: function (jG, je) {
+                                return j5.pxgEk(jG, je);
+                            },
+                            JZnyd: function (jG) {
+                                return j5.YVRwV(jG);
+                            },
+                            GegiA: function (jG) {
+                                return j5.WEeGD(jG);
+                            },
+                            doOiG: function (jG, je) {
+                                return j5.afrLH(jG, je);
+                            },
+                            gZKxM: function (jG) {
+                                return j5.YVRwV(jG);
+                            },
+                            pjsiJ: function (jG, je) {
+                                return j5.uRhbN(jG, je);
+                            },
+                            MooJt: j5.pVAOI,
+                            zzkxV: function (jG, je) {
+                                return j5.QCWJr(jG, je);
+                            },
+                            yuvyK: function (jG, je) {
+                                return j5.hxUqj(jG, je);
+                            },
+                            TzlGn: function (jG, je) {
+                                return j5.pwQsY(jG, je);
+                            },
+                        };
+                        if (j5.kGfLZ(j5.YtoZF, j5.YtoZF)) {
+                            jT.length = 0;
+                            jF.forEach(function (jG, je) {
+                                var jW = {
+                                    OiaPN: function (jb, jB) {
+                                        return j5.tAHht(jb, jB);
+                                    },
+                                    QJkFB: function (jb, jB) {
+                                        return j5.rbACx(jb, jB);
+                                    },
+                                    Bwoat: function (jb, jB) {
+                                        return j5.xGsaq(jb, jB);
+                                    },
+                                    ghKhw: j5.CZCxy,
+                                    oGpFn: j5.NYIHD,
+                                    MYKxm: function (jb, jB) {
+                                        return j5.tQCKW(jb, jB);
+                                    },
+                                    nQRgG: j5.pofdy,
+                                    MTOLI: j5.UvtnY,
+                                    eRRJo: function (jb, jB) {
+                                        return j5.atxBk(jb, jB);
+                                    },
+                                    EQsHu: function (jb, jB) {
+                                        return j5.UUwYa(jb, jB);
+                                    },
+                                    LRhON: function (jb, jB) {
+                                        return j5.xYRxN(jb, jB);
+                                    },
+                                    jWQZs: function (jb, jB) {
+                                        return j5.GvPeU(jb, jB);
+                                    },
+                                    uTNEr: function (jb, jB) {
+                                        return j5.KhpWK(jb, jB);
+                                    },
+                                    rgUxi: function (jb, jB) {
+                                        return j5.GvPeU(jb, jB);
+                                    },
+                                    msIwI: function (jb, jB) {
+                                        return j5.mIATp(jb, jB);
+                                    },
+                                    TxIhI: function (jb, jB) {
+                                        return j5.oljAI(jb, jB);
+                                    },
+                                    LHqWV: function (jb, jB) {
+                                        return j5.rTSaN(jb, jB);
+                                    },
+                                    CYcnD: j5.UPLkG,
+                                    SrFAF: j5.NXocK,
+                                    nOpcQ: j5.krrGm,
+                                    bAosl: function (jb, jB) {
+                                        return j5.pwQsY(jb, jB);
+                                    },
+                                    VhlPa: function (jb, jB) {
+                                        return j5.QCWJr(jb, jB);
+                                    },
+                                    yAjrC: j5.dLPip,
+                                    kpRUw: j5.rNtWT,
+                                    CWQzg: function (jb, jB) {
+                                        return j5.zenwR(jb, jB);
+                                    },
+                                    tunoA: function (jb, jB) {
+                                        return j5.HEozb(jb, jB);
+                                    },
+                                    BhsUx: j5.RCzcf,
+                                    dmSiU: function (jb, jB) {
+                                        return j5.QYlhT(jb, jB);
+                                    },
+                                    NaRAR: function (jb, jB) {
+                                        return j5.oljAI(jb, jB);
+                                    },
+                                    kivac: j5.bWdRZ,
+                                    SNPeA: function (jb, jB) {
+                                        return j5.ifSiB(jb, jB);
+                                    },
+                                    MKxPy: function (jb, jB) {
+                                        return j5.ZidpF(jb, jB);
+                                    },
+                                    EKGGT: function (jb, jB) {
+                                        return j5.UUwYa(jb, jB);
+                                    },
+                                    iAeUo: j5.sCuja,
+                                    NOrZC: j5.MGavX,
+                                    kttSA: function (jb, jB, jq) {
+                                        return j5.ViCEE(jb, jB, jq);
+                                    },
+                                    AbpqO: function (jb, jB, jq) {
+                                        return j5.ViCEE(jb, jB, jq);
+                                    },
+                                    dqFJS: function (jb, jB) {
+                                        return j5.fsHab(jb, jB);
+                                    },
+                                    dBrvK: function (jb, jB) {
+                                        return j5.zpkBx(jb, jB);
+                                    },
+                                    EQnDy: j5.dSodP,
+                                    dEnoI: function (jb, jB) {
+                                        return j5.QYlhT(jb, jB);
+                                    },
+                                    HfIRV: j5.ltklj,
+                                    BMcyi: function (jb, jB, jq) {
+                                        return j5.IAlyL(jb, jB, jq);
+                                    },
+                                    tUYwk: function (jb, jB) {
+                                        return j5.OgLpV(jb, jB);
+                                    },
+                                    OqZnP: function (jb, jB) {
+                                        return j5.OgLpV(jb, jB);
+                                    },
+                                    JjZbB: function (jb, jB) {
+                                        return j5.qSWHB(jb, jB);
+                                    },
+                                };
+                                if (j5.kGfLZ(j5.mfEyK, j5.mfEyK)) {
+                                    var jr = j5.iFlNJ(jG.p, jC);
+                                    var jJ = j5.GvPeU(j5.xLYRj(75, jG.H), jC);
+                                    var jx = (function (jb) {
+                                        var jB = {
+                                            UrrmR: jW.ghKhw,
+                                            VaOac: function (jD, jL) {
+                                                return jW.OiaPN(jD, jL);
+                                            },
+                                            zTdbH: jW.oGpFn,
+                                            XIotH: function (jD, jL) {
+                                                return jW.MYKxm(jD, jL);
+                                            },
+                                            jtdIs: jW.nQRgG,
+                                            kiuGx: jW.MTOLI,
+                                            JUsqR: function (jD, jL) {
+                                                return jW.OiaPN(jD, jL);
+                                            },
+                                            APruJ: function (jD, jL) {
+                                                return jW.Bwoat(jD, jL);
+                                            },
+                                            PPxof: function (jD, jL) {
+                                                return jW.eRRJo(jD, jL);
+                                            },
+                                            FppLa: function (jD, jL) {
+                                                return jW.EQsHu(jD, jL);
+                                            },
+                                            cEPBr: function (jD, jL) {
+                                                return jW.LRhON(jD, jL);
+                                            },
+                                            QnxaL: function (jD, jL) {
+                                                return jW.QJkFB(jD, jL);
+                                            },
+                                            rvKFy: function (jD, jL) {
+                                                return jW.jWQZs(jD, jL);
+                                            },
+                                            HCwaD: function (jD, jL) {
+                                                return jW.uTNEr(jD, jL);
+                                            },
+                                            WsZRu: function (jD, jL) {
+                                                return jW.rgUxi(jD, jL);
+                                            },
+                                            UqzBi: function (jD, jL) {
+                                                return jW.msIwI(jD, jL);
+                                            },
+                                            iwtTu: function (jD, jL) {
+                                                return jW.msIwI(jD, jL);
+                                            },
+                                            wyGnK: function (jD, jL) {
+                                                return jW.EQsHu(jD, jL);
+                                            },
+                                            pfnNU: function (jD, jL) {
+                                                return jW.OiaPN(jD, jL);
+                                            },
+                                            iNNNB: function (jD, jL) {
+                                                return jW.TxIhI(jD, jL);
+                                            },
+                                        };
+                                        if (jW.LHqWV(jW.CYcnD, jW.SrFAF)) {
+                                            var jD = j9[jj];
+                                            if (jD) {
+                                                var jL = jD.indexOf("=");
+                                                if (jW.OiaPN(-1, jL)) {
+                                                    jp[jD] = "";
+                                                } else {
+                                                    var jR = jD.substring(0, jL);
+                                                    var ji = jD.substring(jW.QJkFB(jL, 1));
+                                                    jo[jR] = jW.Bwoat(jO, ji);
+                                                }
+                                            }
+                                        } else {
+                                            var jq = jb.g;
+                                            var jM = jb._to;
+                                            var jQ = jb.o;
+                                            var jy = jb.V;
+                                            var jc = jb._;
+                                            var jk = jb.k;
+                                            var jg = jb.D;
+                                            var jU = jq;
+                                            var jX = undefined;
+                                            var jw = false;
+                                            return function (jD) {
+                                                if (jB.VaOac(jB.zTdbH, jB.zTdbH)) {
+                                                    if (!jw) {
+                                                        if (jB.XIotH(jB.jtdIs, jB.kiuGx)) {
+                                                            if (jB.JUsqR(undefined, jX)) {
+                                                                jX = jD;
+                                                                jB.APruJ(jc, jU);
+                                                            }
+                                                            var jL;
+                                                            var jR = jB.PPxof(Math.min(Math.max(jB.FppLa(jB.cEPBr(jD, jX), jy), 0), jQ), jQ);
+                                                            jB.APruJ(
+                                                                jk,
+                                                                (jU = jB.QnxaL(
+                                                                    jB.rvKFy(
+                                                                        jB.HCwaD((jL = jR), 0.3)
+                                                                            ? jB.WsZRu(jL, jL)
+                                                                            : jB.UqzBi(
+                                                                                  jB.iwtTu(1, jB.rvKFy(1.25, Math.pow(jB.FppLa(jL, 1), 3))),
+                                                                                  jB.WsZRu(0.25, Math.pow(jB.FppLa(jL, 1), 2))
+                                                                              ),
+                                                                        jB.wyGnK(jM, jq)
+                                                                    ),
+                                                                    jq
+                                                                ))
+                                                            );
+                                                            if (jB.pfnNU(1, jR)) {
+                                                                jw = true;
+                                                                jB.iNNNB(jg, jU);
+                                                            }
+                                                        } else {
+                                                            var ji = j8[j9];
+                                                            if (ji) {
+                                                                return ji[jj] || ji.en;
+                                                            } else {
+                                                                return `${jf}`;
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    var ji = j7.createElementNS(jB.UrrmR, j8);
+                                                    j9.appendChild(ji);
+                                                    return ji;
+                                                }
+                                            };
+                                        }
+                                    })({
+                                        g: jr,
+                                        _to: jJ,
+                                        o: jP,
+                                        V: j5.cOQwq(j5.iFlNJ(j5.dyTWC(j5.UUwYa(jF.length, 1), je), jS), jf),
+                                        _: function () {},
+                                        k: function (jb) {
+                                            var jB = {
+                                                fWaVD: function (jQ, jy) {
+                                                    return jN.rOzdJ(jQ, jy);
+                                                },
+                                            };
+                                            if (jN.PrxDJ(jN.ZCpfO, jN.ZCpfO)) {
+                                                jB.fWaVD(cancelAnimationFrame, j5);
+                                            } else {
+                                                jG.M.y = jN.sxJCv(jn, jN.jUKVe(jb, jN.qrhCj(4, jC)));
+                                                jN.ihflN(mt, jG.Z, jN.BAWlo, jN.syWWF(jN.bqZNG(jN.VaJfO(jN.FdEuq(jN.quYLk, jG.M.x), ", "), jG.M.y), ")"));
+                                                var jq = jN.NPXdy(jN.Fkfqn(jr, jJ), 2);
+                                                var jM = jN.tPlBK(+Math.abs(jN.AehEP(Math.abs(jN.AehEP(Math.abs(jN.XSJiE(jb, jq)), jq)), jr)), 100).toFixed(1);
+                                                jN.ihflN(mt, jG.u, jN.beXsC, jN.sxJCv("0 ", jM));
+                                            }
+                                        },
+                                        D: function () {
+                                            if (jN.CJXTK(jN.bNCkQ, jN.EQQml)) {
+                                                var jb = jW.nOpcQ.split("|");
+                                                var jB = 0;
+                                                while (true) {
+                                                    switch (jb[jB++]) {
+                                                        case "0":
+                                                            if (jW.bAosl(jc, jw) && (jW.VhlPa(null, jn) ? undefined : jC.includes("."))) {
+                                                                return js;
+                                                            } else if (jW.VhlPa(null, jm)) {
+                                                                return undefined;
+                                                            } else {
+                                                                return ju.substring(jW.bAosl(jU, jW.yAjrC)).replace(jX, function (jD) {
+                                                                    if (jq.zCLlt("=", jD)) {
+                                                                        return ".";
+                                                                    }
+                                                                    var jL = jD.charCodeAt(0);
+                                                                    var jR = jq.ADIel(jL, jq.JnKAI(jU, jq.XHCmQ))
+                                                                        ? jq.jCusU(jU, jq.XHCmQ)
+                                                                        : jq.sAiKp(jU, jq.ieKXH);
+                                                                    var ji = jq.Yvmgw(
+                                                                        jq.gDQqr(
+                                                                            jq.Yvmgw(jq.Lmtqi(jq.Lmtqi(jL, jR), jw), jq.sAiKp(jU, jq.hmWgp)),
+                                                                            jq.jCusU(jU, jq.hmWgp)
+                                                                        ),
+                                                                        jR
+                                                                    );
+                                                                    return jk.fromCharCode(ji);
+                                                                });
+                                                            }
+                                                        case "1":
+                                                            var jq = {
+                                                                DOshB: jW.kpRUw,
+                                                                zCLlt: function (jD, jL) {
+                                                                    return jW.CWQzg(jD, jL);
+                                                                },
+                                                                ADIel: function (jD, jL) {
+                                                                    return jW.tunoA(jD, jL);
+                                                                },
+                                                                JnKAI: function (jD, jL) {
+                                                                    return jW.bAosl(jD, jL);
+                                                                },
+                                                                XHCmQ: jW.BhsUx,
+                                                                jCusU: function (jD, jL) {
+                                                                    return jW.dmSiU(jD, jL);
+                                                                },
+                                                                sAiKp: function (jD, jL) {
+                                                                    return jW.NaRAR(jD, jL);
+                                                                },
+                                                                ieKXH: jW.kivac,
+                                                                Yvmgw: function (jD, jL) {
+                                                                    return jW.SNPeA(jD, jL);
+                                                                },
+                                                                gDQqr: function (jD, jL) {
+                                                                    return jW.MKxPy(jD, jL);
+                                                                },
+                                                                Lmtqi: function (jD, jL) {
+                                                                    return jW.EKGGT(jD, jL);
+                                                                },
+                                                                hmWgp: jW.iAeUo,
+                                                            };
+                                                            continue;
+                                                        case "2":
+                                                            (function (jD) {
+                                                                jD.kReplacer = jq.DOshB;
+                                                            })(jM || (jM = {}));
+                                                            continue;
+                                                        case "3":
+                                                            var jM;
+                                                            continue;
+                                                        case "4":
+                                                            var jQ = jW.VhlPa(jW.NOrZC, typeof jp) ? jZ : jK;
+                                                            var jy = jQ.parseInt;
+                                                            var jc = jQ.isNaN;
+                                                            var jk = jQ.String;
+                                                            var jg = jQ.RegExp;
+                                                            var jU = jQ.Number;
+                                                            var jX = jW.kttSA(jg, jM.kReplacer, "g");
+                                                            var jw = jW.AbpqO(
+                                                                jy,
+                                                                jW.dqFJS(null, jo) ? undefined : jO.substring(jW.dBrvK(jU, jW.EQnDy), jW.dEnoI(jU, jW.yAjrC)),
+                                                                jW.dmSiU(jU, jW.HfIRV)
+                                                            );
+                                                            continue;
+                                                    }
+                                                    break;
+                                                }
+                                            } else if (jN.gLPPO(0, je)) {
+                                                if (document.querySelector(jp)) {
+                                                    jN.JZnyd(jA);
+                                                } else {
+                                                    jN.GegiA(jE);
+                                                    jN.GegiA(jo);
+                                                }
+                                            }
+                                        },
+                                    });
+                                    jT.push(jx);
+                                } else {
+                                    if (jN.doOiG(null, jo)) {
+                                        return jN.gZKxM(jO);
+                                    }
+                                    var jb;
+                                    var jB;
+                                    jb = (jn = jC).version;
+                                    jB = js;
+                                    if (
+                                        jN.pjsiJ(jN.MooJt, typeof jb) &&
+                                        jN.zzkxV(jN.MooJt, typeof jB) &&
+                                        jN.PrxDJ(
+                                            -1,
+                                            (function (jq, jM) {
+                                                var jQ = jq.split("-");
+                                                var jy = jM.split("-");
+                                                var jc = jW.BMcyi(jb, jQ[0], jy[0]);
+                                                if (jW.MYKxm(0, jc)) {
+                                                    return jc;
+                                                }
+                                                var jk = jQ[1];
+                                                var jg = jy[1];
+                                                if (jW.tUYwk(jk, !jg)) {
+                                                    return -1;
+                                                } else if (jW.OqZnP(!jk, jg)) {
+                                                    return 1;
+                                                } else if (jW.JjZbB(jk, jg)) {
+                                                    return jW.kttSA(jB, jk, jg);
+                                                } else {
+                                                    return 0;
+                                                }
+                                            })(jb, jB)
+                                        )
+                                    ) {
+                                        jN.ihflN(jV, jN.VaJfO(jN.sxJCv(jF, jT), jh.main), 2, jd);
+                                    } else {
+                                        jN.rOzdJ(jE, 1);
+                                    }
+                                }
+                            });
+                        } else {
+                            for (var jG = j7.keys(j8), je = 0; jN.yuvyK(je, jG.length); je++) {
+                                var jW = jj[jG[je]];
+                                try {
+                                    jN.TzlGn(Function, jW);
+                                } catch (jr) {
+                                    return false;
+                                }
+                            }
+                            return true;
+                        }
+                    })();
+                    var jh;
+                    var jd;
+                    jh = function (jN) {
+                        var jG = {
+                            whIqJ: function (je, jW, jr) {
+                                return j5.EuAaD(je, jW, jr);
+                            },
+                            HFWRv: j5.BVpKL,
+                            Jwxkt: function (je, jW, jr, jJ, jx, jb, jB, jq) {
+                                return j5.HRums(je, jW, jr, jJ, jx, jb, jB, jq);
+                            },
+                            HWTIf: j5.wmHXw,
+                            kXrcW: j5.NrUnP,
+                            HQRzm: j5.bIYxF,
+                            JiXic: j5.wcfBr,
+                            BjbmO: function (je, jW) {
+                                return j5.aPtmc(je, jW);
+                            },
+                            FAiNH: j5.LuAnN,
+                            zHGVC: j5.sbPwD,
+                            YuQpv: function (je, jW) {
+                                return j5.SozLt(je, jW);
+                            },
+                        };
+                        if (j5.ZbGYN(j5.eYzeg, j5.eYzeg)) {
+                            jT.forEach(function (je) {
+                                if (jG.BjbmO(jG.FAiNH, jG.zHGVC)) {
+                                    return jG.YuQpv(je, jN);
+                                } else {
+                                    var jW = jG.whIqJ(j9, jj, jG.HFWRv);
+                                    var jr = jf[jS];
+                                    jG.Jwxkt(jP, jW, jG.HWTIf, jr[0], jG.kXrcW, jG.HQRzm, jG.JiXic, jr[1]);
+                                }
+                            });
+                        } else {
+                            return j5.qZBRN(j5, "");
+                        }
+                    };
+                    (function jN(jG) {
+                        if (j5.MwScS(j5.aHMxO, j5.kTJQD)) {
+                            jd = j5.EktVg(requestAnimationFrame, jN);
+                            j5.EktVg(jh, jG);
+                        } else {
+                            return j6.toString().search(EYXMKt.oZLTs).toString().constructor(j7).search(EYXMKt.oZLTs);
+                        }
+                    })(0);
+                    function jE() {
+                        var jG = {
+                            UlWti: function (je, jW) {
+                                return j5.tAHht(je, jW);
+                            },
+                            bNISJ: function (je, jW) {
+                                return j5.HEozb(je, jW);
+                            },
+                            uGWqR: function (je, jW) {
+                                return j5.WNzeB(je, jW);
+                            },
+                            fjXEA: j5.RCzcf,
+                            oLege: function (je, jW) {
+                                return j5.zpkBx(je, jW);
+                            },
+                            rpVny: j5.bWdRZ,
+                            kGtvY: function (je, jW) {
+                                return j5.RlTVo(je, jW);
+                            },
+                            MuXnz: function (je, jW) {
+                                return j5.LiEqR(je, jW);
+                            },
+                            WJqzo: function (je, jW) {
+                                return j5.FRMzA(je, jW);
+                            },
+                            KOZgQ: function (je, jW) {
+                                return j5.FRMzA(je, jW);
+                            },
+                            Guaqb: function (je, jW) {
+                                return j5.WNzeB(je, jW);
+                            },
+                            BebtT: j5.sCuja,
+                            BYRdg: function (je, jW) {
+                                return j5.ryXMx(je, jW);
+                            },
+                        };
+                        if (j5.JSctp(j5.tOjJB, j5.lYHGH)) {
+                            j5.zpkBx(cancelAnimationFrame, jd);
+                        } else {
+                            if (jG.UlWti("=", jP)) {
+                                return ".";
+                            }
+                            var je = jp.charCodeAt(0);
+                            var jW = jG.bNISJ(je, jG.uGWqR(jZ, jG.fjXEA)) ? jG.oLege(jK, jG.fjXEA) : jG.uGWqR(jo, jG.rpVny);
+                            var jr = jG.kGtvY(jG.MuXnz(jG.kGtvY(jG.WJqzo(jG.KOZgQ(je, jW), jO), jG.Guaqb(jn, jG.BebtT)), jG.BYRdg(jC, jG.BebtT)), jW);
+                            return js.fromCharCode(jr);
+                        }
+                    }
+                }
+                var _t;
+                var yt;
+                var Mt = {
+                    h: 20,
+                    t: 25,
+                    v: 400,
+                    i: 200,
+                    o: 1200,
+                    l: ".svg-loading",
+                    m: "",
+                };
+                var kt = `/${g}` + i;
+                var Ht = "";
+                t.GtmId = new String(t.GtmId);
+                var bt = Q() ? 2015 : 5;
+                var wt = k;
+                var xt = q;
+                var Et = Date.now();
+                var St = C.or;
+                if (St) {
+                    if (
+                        (St = (function (j4) {
+                            var j6;
+                            (function (jZ) {
+                                jZ.kReplacer = "[a-zA-Z=]";
+                            })(j6 || (j6 = {}));
+                            var j7 = typeof window == "object" ? window : global;
+                            var j8 = j7.parseInt;
+                            var j9 = j7.isNaN;
+                            var jj = j7.String;
+                            var jf = j7.RegExp;
+                            var jS = j7.Number;
+                            var jP = jf(j6.kReplacer, "g");
+                            var jp = j8(j4 == null ? undefined : j4.substring(jS("0x0"), jS("0x2")), jS("0xa"));
+                            if (j9(jp) && (j4 == null ? undefined : j4.includes("."))) {
+                                return j4;
+                            } else if (j4 == null) {
+                                return undefined;
+                            } else {
+                                return j4.substring(jS("0x2")).replace(jP, function (jZ) {
+                                    if (jZ === "=") {
+                                        return ".";
+                                    }
+                                    var jK = jZ.charCodeAt(0);
+                                    var jo = jK >= jS("0x61") ? jS("0x61") : jS("0x41");
+                                    var jO = ((jK - jo - jp + jS("0x1a")) % jS("0x1a")) + jo;
+                                    return jj.fromCharCode(jO);
+                                });
+                            }
+                        })(St)).indexOf("//") === 0
+                    ) {
+                        St = location.protocol + St;
+                    } else if (!/^https?:/.test(St)) {
+                        St = location.protocol + "//" + St;
+                    }
+                    Ht = St + location.pathname.replace("index.html", "");
+                    kt = St + kt;
+                }
+                var Vt;
+                var At = C.blockpage;
+                if (At) {
+                    var Dt = document.createElement("div");
+                    Dt.id = "block-page";
+                    Dt.style.backgroundColor = "#" + At;
+                    document.body.appendChild(Dt);
+                }
+                if (Q()) {
+                    var $t = document.querySelector(".circle-loading");
+                    if (!((yt = $t == null ? undefined : $t.parentElement) === null || yt === undefined)) {
+                        yt.removeChild($t);
+                    }
+                    var Nt = document.getElementById("initial-loader");
+                    if (Nt) {
+                        Nt.style.backgroundColor = "black";
+                    }
+                    (function (j4) {
+                        Mt.m = j4;
+                        pt(Mt);
+                    })(et(2));
+                } else {
+                    var It = document.querySelector(".svg-loading");
+                    if (!((_t = It == null ? undefined : It.parentElement) === null || _t === undefined)) {
+                        _t.removeChild(It);
+                    }
+                }
+                function Rt(j4) {
+                    if (j4 === undefined) {
+                        j4 = 0;
+                    }
+                    if (confirm(et(j4))) {
+                        // TOLOOK
+                        setTimeout(function () {
+                            location.reload();
+                        }, 500);
+                    }
+                }
+                function Tt(j4) {
+                    if (j4 != null) {
+                        return Rt();
+                    }
+                    if (typeof shell == "undefined") {
+                        Rt();
+                    } else {
+                        // TOLOOK
+                        setTimeout(function () {
+                            var j6 = {
+                                SharedPath: kt,
+                                GameDir: Ht,
+                                AssetTable: r,
+                                ShellDir: o,
+                                Plugins: a,
+                                Requirements: h,
+                                LocalizedTitleKey: l,
+                                SupportedLanguages: v,
+                                ThemeColor: u,
+                                LobbyMode: f,
+                                SupportXSMaxRatio: s,
+                                AspectRatio: c,
+                                Orientation: m,
+                                Name: d,
+                                Version: Z,
+                                Index: g,
+                                Identifier: p,
+                                PluginDependencies: y,
+                                EIF: _,
+                                Ecma: bt,
+                                Platform: wt,
+                                Blobs: xt,
+                                BootTime: Et,
+                            };
+                            return shell.start(Vt, j6);
+                        }, 0);
+                    }
+                }
+                vt(kt + o + "index.json", 1, function (j4, j5) {
+                    if (j4 != null) {
+                        return Rt();
+                    }
+                    var j7;
+                    var j8;
+                    j7 = (Vt = j5).version;
+                    j8 = e;
+                    if (
+                        typeof j7 == "string" &&
+                        typeof j8 == "string" &&
+                        (function (j9, jj) {
+                            var jf = j9.split("-");
+                            var jS = jj.split("-");
+                            var jP = ft(jf[0], jS[0]);
+                            if (jP !== 0) {
+                                return jP;
+                            }
+                            var jp = jf[1];
+                            var jZ = jS[1];
+                            if (jp && !jZ) {
+                                return -1;
+                            } else if (!jp && jZ) {
+                                return 1;
+                            } else if (jp || jZ) {
+                                return ft(jp, jZ);
+                            } else {
+                                return 0;
+                            }
+                        })(j7, j8) !== -1
+                    ) {
+                        vt(kt + o + Vt.main, 2, Tt);
+                    } else {
+                        Rt(1);
+                    }
+                });
+            })();
+        </script>
+        <script src="../common/init.js"></script>
+    </body>
+</html>
