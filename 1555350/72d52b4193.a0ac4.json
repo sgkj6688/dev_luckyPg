@@ -1,0 +1,12 @@
+{
+    "ForgeOfWealthHistory": {
+        "HistoryDetailItemPrefabFreeSpin": "Giro Grátis",
+        "HistoryFreeSpinCount": "%{count} Giro(s) Grátis",
+        "HistoryMultiplierDescription": "Multiplicador de Ganhos x%{count}",
+        "HistoryMaxLimitReachedDescription": "Limite Máximo Atingido",
+        "HistoryFeatureBuy": "Comprar Recurso",
+        "HistoryPayoutItemTotalWin": "Total de Ganhos",
+        "HistoryMultiplierActivated": "ativado",
+        "HistoryMultiplierCollected": "coletado"
+    }
+}

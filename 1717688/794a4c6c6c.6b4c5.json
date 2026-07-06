@@ -1,0 +1,10 @@
+{
+    "MysticPotionHistory": {
+        "HistoryDetailItemPrefabFreeSpin": "Giro Grátis",
+        "HistoryPayoutItemWinMultiplier": "Multiplicador de Ganho x%{multiplier}",
+        "HistoryPayoutItemFreeSpins": "%{freeSpin} Giros Grátis",
+        "HistoryPayoutItemTotalWin": "Total de ganhos",
+        "HistoryFeatureBuy": "Comprar Recurso",
+        "HistoryMaxLimitReachedDescription": "Limite Máximo Atingido"
+    }
+}

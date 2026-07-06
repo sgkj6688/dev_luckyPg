@@ -1,0 +1,12 @@
+{
+    "ForgeOfWealthHistory": {
+        "HistoryDetailItemPrefabFreeSpin": "Vòng quay miễn phí",
+        "HistoryFreeSpinCount": "%{count} Vòng Quay Miễn Phí",
+        "HistoryMultiplierDescription": "Số nhân chiến thắng x%{count}",
+        "HistoryMaxLimitReachedDescription": "Đã đạt đến hạn mức tối đa",
+        "HistoryFeatureBuy": "Tính năng Mua",
+        "HistoryPayoutItemTotalWin": "Tổng Thắng",
+        "HistoryMultiplierActivated": "đã kích hoạt",
+        "HistoryMultiplierCollected": "đã thu thập"
+    }
+}
