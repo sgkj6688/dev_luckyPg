@@ -17769,7 +17769,7 @@ function _0xfb95() {
 }
 (function () {
     function _0x17f0e6() {
-        //var _0x4f9fb3 = _0x59eb;
+        var _0x4f9fb3 = _0x59eb;
         //window[_0x4f9fb3(0x136)] = "http://192.168.8.26:8000";
     }
     function _0x1ca330(_0x40f229) {
