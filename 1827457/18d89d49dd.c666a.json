@@ -1,13 +1,1 @@
-<html>
-<head><title>404 Not Found</title></head>
-<body bgcolor="white">
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx</center>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a06561c3987108d9',t:'MTc4MDU1OTc5NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
-<!-- a padding to disable MSIE and Chrome friendly error page -->
+{"G":{"Title":"Doomsday Rampage"},"InfoboardMessage":{"Win":"Win","TotalWin":"Total Win"},"SettingMenu":{"WalletLoading":"Loading","SettingSliderNumNone":"None","BalanceWord":"Balance","WinPrizeWord":"Win","WalletRetry":"Retry","SettingCloseWord":"Close","SettingHistoryWord":"History","SettingPayoutWord":"Paytable","SettingRulesWord":"Rules","SettingSoundWord":"Sound","TurboSpinEnable":"Turbo Spin Enabled","TurboSpinDisable":"Turbo Spin Disabled","BiggestBet":"Maximum Bet","SmallestBet":"Minimum Bet","SettingQuitWord":"Quit","Bet":"Bet","Max":"Max","FreeGame":"Free Game","RollOver":"Roll-over"},"SettingMenuHelper":{"QuitGameTitle":"Quit Game","QuitGameMessage":"Are you sure you want to quit?","Cancel":"Cancel","Quit":"Quit","ReevaluateBet":"Bet Options have been updated. Please select a new betting option.","Select":"Bet Options"}}
