@@ -4660,7 +4660,7 @@
   };
   var Ue;
   var We;
-  var Qe = `/${1738001}` + "/shared/";
+  var Qe = (window.__PG_MAIN_SELECTION=[{"base":null,"from":"91052","config":"f879c","to":"62f58883"}],"/shared/compat/977fc62d2013/");
   var Xe = '';
   window.GtmId = new String(window.GtmId);
   var et = O() ? 2015 : 5;
@@ -6721,7 +6721,7 @@
           BootTime: rt,
           uiControllers: aa
         };
-        shell.start(dt, aN);
+        shell.start(dt, (function(c){c.SharedPath=new URL(c.SharedPath,location.href).href;var m=window._CCSettings.bundleVers.main;if(m.config==="f879c"&&m.index==="91052")m.index="62f58883";return c;})(aN));
         st.removeEventListener("touchend", Oe, NV);
         st.removeEventListener("dblclick", Ke, NV);
         ["gesturestart", "gesturechange", "gestureend"].forEach(function (ay) {

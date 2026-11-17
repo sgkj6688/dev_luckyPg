@@ -1,0 +1,54 @@
+{
+  "scope": "117 local default-entry games; P2 only",
+  "status": "applied locally; not committed, pushed or deployed",
+  "verification": {
+    "games": 117,
+    "outputFingerprints": 2547,
+    "originalFingerprints": 1567,
+    "manifests": 1215,
+    "unrelatedGameChanges": false
+  },
+  "regressions": {
+    "nodeTest": {
+      "existing": 133,
+      "outsideP2": 127,
+      "failures": 0
+    },
+    "main": {
+      "games": 117,
+      "checks": 1578,
+      "expectedOriginalUnhandledRejections": 120
+    },
+    "variantUtilities": 3,
+    "variantHistoryCases": 8,
+    "defaultMainPath": {
+      "shellVariants": 9,
+      "cases": 36
+    }
+  },
+  "pending": [],
+  "preserved": {
+    "parallelFiles": true,
+    "originalAssets": true,
+    "htmlEntries": true,
+    "originalElevenTargets": true,
+    "p3PwdAlert": true
+  },
+  "limits": [
+    "未执行浏览器、真机或Native验收",
+    "未执行真实下注、支付或结算",
+    "带origin参数的远端main保留原版本；需单独发布与验收"
+  ],
+  "commands": [
+    "node --test test/1778752-*.test.mjs test/pg-compat-*.test.mjs",
+    "node --test test/pg-outside-*.test.mjs",
+    "node test/pg-outside-main-p2.mjs",
+    "node test/pg-outside-history-p2.mjs",
+    "node test/pg-outside-utility-p2.mjs",
+    "node test/pg-outside-utility-column-p2.mjs",
+    "node test/pg-outside-main-path-p2.mjs",
+    "node test/pg-outside-applied-p2.mjs",
+    "node tools/pg-compat/apply-outside-p2.mjs",
+    "git diff --check"
+  ]
+}

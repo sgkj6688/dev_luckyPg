@@ -1,0 +1,8 @@
+#game-list-view-contents-container{height: 100% !important;}
+#scroll-view{height:calc(100% - 148px)!important;};
+#game-detail-spring-wrapper{height: 100% !important;}
+#game-details-page-container{height: 100% !important;}
+#game-details-page-container #game-pages-window .game-list-page{height: 100% !important;}
+#game-details-page-container #game-pages-window .game-list-page .history.regular{height: calc(100vh - 142px) !important;}
+.game-list-footer-container-vertical{position: fixed !important;}
+/* div:has(> div > .gh-btn-opacity-effect){display:none !important;} */

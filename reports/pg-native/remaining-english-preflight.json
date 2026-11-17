@@ -1,0 +1,635 @@
+{
+  "date": "2026-11-15",
+  "migrationIdentity": "cee409eeafdb74fce67a3e359474f6b87aeb88b23dd4790d5b6249790fed1822",
+  "rows": [
+    {
+      "game": "100",
+      "sharedPath": "/shared/compat/cfba3bdcfee8/",
+      "bootSha256": "fe8b00116219e7ff59b05c1154fd9d97ba4270e9f2bc7d5e1c3501ad6d2f8a29",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "b369916d100c79fad1f2a90287ae694c095ac0a963198a1a46f98b5c64177248",
+          "entry": "996b5422dd.72eb3712.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "a2f95cdf53d0827d7e5873c8fa6a084b08de87dc3592912ac6425830a219ec35",
+          "entry": "./51353bae0e.c6c46712.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "9b2c2d04cdf45383b30abd59d1def26437a140550ede49dbf9700962fa4ae899",
+          "entry": "./a6325fb8fc.c3695be1.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "826533b886c66b9b919ccb38d79d96ce53255bef9039da8a4e7527e1689ea06a",
+          "entry": "./c867f19ae2.4bb59be9.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "daf4c10fbd022ff2be3df90eb63288aa9a3087cca84f8bc28a45b0815f04b8cd",
+          "entry": "./509fdc8981.313d385f.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "acf5052dfb49e2db4a6f9db0b74fb72a6216a50d46b8553be2eeb8ca4eac7d19",
+          "entry": "./f49fdc38eb.2199c.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "d72edc3410733c21b6318d91dff668c9f7ab71640ee2cbdadb484ba6a17da00c",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "15c8ee743a9a3c56ed4067951bc4492a24bc26daa6ab3ba8dea279b5d0d3a614",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "8c14c3f1403752983e74459445147df921eeb61494f337f6f28fbcd3c09c5141",
+          "entry": "./2533a7053a.77f085c5.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "6100befe403e2ba4bff84013a6d787d62dd6cf238741bc77ec785ce2dc509249",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "1763da8e4c6a787ce1239f21a367b115cf8b3121caf6722dae04bb0110253457",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "101",
+      "sharedPath": "/shared/compat/7119215b02b6/",
+      "bootSha256": "ceef57a224d6cd47498bab11711cf566cd7f685259ea9e6375af4902e33f7c3b",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "a1bce762111e9483d656a1d594bb35404265d2092881ec2a624d983133281f61",
+          "entry": "996b5422dd.72eb3712.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "f50d99e19f9215e300e2352d54dd7a2454f01660866a1defd493fff66137e800",
+          "entry": "./51353bae0e.b544e15c.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "9b2c2d04cdf45383b30abd59d1def26437a140550ede49dbf9700962fa4ae899",
+          "entry": "./a6325fb8fc.c3695be1.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "826533b886c66b9b919ccb38d79d96ce53255bef9039da8a4e7527e1689ea06a",
+          "entry": "./c867f19ae2.4bb59be9.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "daf4c10fbd022ff2be3df90eb63288aa9a3087cca84f8bc28a45b0815f04b8cd",
+          "entry": "./509fdc8981.313d385f.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "acf5052dfb49e2db4a6f9db0b74fb72a6216a50d46b8553be2eeb8ca4eac7d19",
+          "entry": "./f49fdc38eb.2199c.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "d72edc3410733c21b6318d91dff668c9f7ab71640ee2cbdadb484ba6a17da00c",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "15c8ee743a9a3c56ed4067951bc4492a24bc26daa6ab3ba8dea279b5d0d3a614",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "8cc602ed5bf1c9932132b21293ff3ddc9b3186e21db16d6c7aae6992d906d46a",
+          "entry": "./2533a7053a.a20ef794.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "6100befe403e2ba4bff84013a6d787d62dd6cf238741bc77ec785ce2dc509249",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "1763da8e4c6a787ce1239f21a367b115cf8b3121caf6722dae04bb0110253457",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "107",
+      "sharedPath": "/shared/compat/b5e253b1e3a8/",
+      "bootSha256": "ef4e6199b866c09b519584efba140a04e35ca7e174b284d454c86fc65f32a0ae",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "a1bce762111e9483d656a1d594bb35404265d2092881ec2a624d983133281f61",
+          "entry": "996b5422dd.72eb3712.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "f50d99e19f9215e300e2352d54dd7a2454f01660866a1defd493fff66137e800",
+          "entry": "./51353bae0e.b544e15c.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "b89b16113775300f3b5c61e369aefc028bae34ab1f331e2d288bb31d42a57050",
+          "entry": "./a6325fb8fc.faca5d25.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "826533b886c66b9b919ccb38d79d96ce53255bef9039da8a4e7527e1689ea06a",
+          "entry": "./c867f19ae2.4bb59be9.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "daf4c10fbd022ff2be3df90eb63288aa9a3087cca84f8bc28a45b0815f04b8cd",
+          "entry": "./509fdc8981.313d385f.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "acf5052dfb49e2db4a6f9db0b74fb72a6216a50d46b8553be2eeb8ca4eac7d19",
+          "entry": "./f49fdc38eb.2199c.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "d72edc3410733c21b6318d91dff668c9f7ab71640ee2cbdadb484ba6a17da00c",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "15c8ee743a9a3c56ed4067951bc4492a24bc26daa6ab3ba8dea279b5d0d3a614",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "8cc602ed5bf1c9932132b21293ff3ddc9b3186e21db16d6c7aae6992d906d46a",
+          "entry": "./2533a7053a.a20ef794.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "6100befe403e2ba4bff84013a6d787d62dd6cf238741bc77ec785ce2dc509249",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "1763da8e4c6a787ce1239f21a367b115cf8b3121caf6722dae04bb0110253457",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "119",
+      "sharedPath": "/shared/compat/747c1c1faaf4/",
+      "bootSha256": "7d6d488fba65732046c1452b5cc1138530db93e8892f97eec304e39a9262fa72",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "b369916d100c79fad1f2a90287ae694c095ac0a963198a1a46f98b5c64177248",
+          "entry": "996b5422dd.72eb3712.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "f50d99e19f9215e300e2352d54dd7a2454f01660866a1defd493fff66137e800",
+          "entry": "./51353bae0e.b544e15c.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "9b2c2d04cdf45383b30abd59d1def26437a140550ede49dbf9700962fa4ae899",
+          "entry": "./a6325fb8fc.c3695be1.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "826533b886c66b9b919ccb38d79d96ce53255bef9039da8a4e7527e1689ea06a",
+          "entry": "./c867f19ae2.4bb59be9.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "daf4c10fbd022ff2be3df90eb63288aa9a3087cca84f8bc28a45b0815f04b8cd",
+          "entry": "./509fdc8981.313d385f.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "acf5052dfb49e2db4a6f9db0b74fb72a6216a50d46b8553be2eeb8ca4eac7d19",
+          "entry": "./f49fdc38eb.2199c.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "d72edc3410733c21b6318d91dff668c9f7ab71640ee2cbdadb484ba6a17da00c",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "15c8ee743a9a3c56ed4067951bc4492a24bc26daa6ab3ba8dea279b5d0d3a614",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "8cc602ed5bf1c9932132b21293ff3ddc9b3186e21db16d6c7aae6992d906d46a",
+          "entry": "./2533a7053a.a20ef794.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "6100befe403e2ba4bff84013a6d787d62dd6cf238741bc77ec785ce2dc509249",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "1763da8e4c6a787ce1239f21a367b115cf8b3121caf6722dae04bb0110253457",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "1312883",
+      "sharedPath": "/shared/compat/c7dcabe6fbd3/",
+      "bootSha256": "4aa2448b68c6e42008d14abe325d563c1a65435e928615b2fd5c2b223181689d",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "369d712381a4d71cfacbfe94e7999ad4da37bbdb1711785f2303416032bcae4b",
+          "entry": "996b5422dd.c6526d5c.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "b8209fdb278f07651331719553785c70ad137b2c49408241cc04c4226dbc802e",
+          "entry": "./51353bae0e.f09bc3b3.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf",
+          "entry": "./a6325fb8fc.d68ce7be.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "ef01dfd2d7e798ecc430348b5cdc7f2e911f33b7077ddff87dd8236281713593",
+          "entry": "./c867f19ae2.5836655b.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "14ca2c828da45963ec450e393de078b41b654a1e90d6dbed37435773ce5b5f6e",
+          "entry": "./509fdc8981.d7504676.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "99ef6c178e19e41aef67414d35d609c6023e6baf501d3429272c76706930b7d7",
+          "entry": "./f49fdc38eb.443db.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "011951b903989ca96fcd71f4f9d916c9194b7441058c983e2744afcf159dfda1",
+          "entry": "./2533a7053a.f28a8c54.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "e26f5c593f3777ff229f9925a37f02ebf42a14658d3b03096d70883b929e681e",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "1368367",
+      "sharedPath": "/shared/compat/43f3e06db602/",
+      "bootSha256": "ba46006c30759eab121c644a2e5c666748c8275932f24e5dac9f4339d0263b2b",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "b369916d100c79fad1f2a90287ae694c095ac0a963198a1a46f98b5c64177248",
+          "entry": "996b5422dd.72eb3712.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "a2f95cdf53d0827d7e5873c8fa6a084b08de87dc3592912ac6425830a219ec35",
+          "entry": "./51353bae0e.c6c46712.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "9b2c2d04cdf45383b30abd59d1def26437a140550ede49dbf9700962fa4ae899",
+          "entry": "./a6325fb8fc.c3695be1.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "826533b886c66b9b919ccb38d79d96ce53255bef9039da8a4e7527e1689ea06a",
+          "entry": "./c867f19ae2.4bb59be9.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "daf4c10fbd022ff2be3df90eb63288aa9a3087cca84f8bc28a45b0815f04b8cd",
+          "entry": "./509fdc8981.313d385f.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "acf5052dfb49e2db4a6f9db0b74fb72a6216a50d46b8553be2eeb8ca4eac7d19",
+          "entry": "./f49fdc38eb.2199c.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "d72edc3410733c21b6318d91dff668c9f7ab71640ee2cbdadb484ba6a17da00c",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "15c8ee743a9a3c56ed4067951bc4492a24bc26daa6ab3ba8dea279b5d0d3a614",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "8c14c3f1403752983e74459445147df921eeb61494f337f6f28fbcd3c09c5141",
+          "entry": "./2533a7053a.77f085c5.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "6100befe403e2ba4bff84013a6d787d62dd6cf238741bc77ec785ce2dc509249",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "1763da8e4c6a787ce1239f21a367b115cf8b3121caf6722dae04bb0110253457",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "1738001",
+      "sharedPath": "/shared/compat/5855063506b1/",
+      "bootSha256": "bdc763f299d383ea2de475c22884db1c1468d08de4fa0071be56eb388190e0da",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "7322d24cbf0186a2df3d7fb9d8ebc60bd769355b4721e0eb10f56cf2cd5e701d",
+          "entry": "996b5422dd.0ea9c.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "6258dfd2641b678e8238003cc429243d669fffb3512eb130ac407259618f7336",
+          "entry": "./f5fe73e9f2.eb2aa.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "caf8a86d95f2798303a20eb36c3540ed52657d99b68bccaef447c3a102de70c7",
+          "entry": "./51353bae0e.e9dd7.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "e156d07c0543b29b5a32799a7f4c7df6b47d14476a2317c8eeeeb5de0fb656a8",
+          "entry": "./509fdc8981.61934.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "d28873d7ea8d7063ab45e06a982e3b8799d836430bf4ea926439a23c13ead0c2",
+          "entry": "./f49fdc38eb.a0ea7.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "89b2dcb9df0ced24d314168093435075abf3e30ef849a310cbe4e9a904590605",
+          "entry": "./3a0dd812c3.fb9c3.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "83f159713cc4912877a0118a7bdccf5b52ed14e69e3a279bcde271bec8eb0ecb",
+          "entry": "./64d36df427.d5ef2.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "5dcad820ade5f168840eb2d8f0d517a76e39c99ec881201d5cfdc620948d2fa8",
+          "entry": "./2533a7053a.2af41.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "77e58893df3dd691c853e67da266c2585e20f76a3f90b0dac74823add184f2ca",
+          "entry": "./f79a0382e2.1ab94.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "54b20760092db85bf7acfac24d4a0fd53723e5fd7e839fbf97cc5399c77a163b",
+          "entry": "./1130298730.c6a77.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "1865521",
+      "sharedPath": "/shared/compat/c3ba4f47ffc9/",
+      "bootSha256": "0720da1eff7a36b28bbca6ef1cb39ae5b56279bd956282709ece39450c3ecb96",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "369d712381a4d71cfacbfe94e7999ad4da37bbdb1711785f2303416032bcae4b",
+          "entry": "996b5422dd.c6526d5c.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "b8209fdb278f07651331719553785c70ad137b2c49408241cc04c4226dbc802e",
+          "entry": "./51353bae0e.f09bc3b3.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf",
+          "entry": "./a6325fb8fc.d68ce7be.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "ef01dfd2d7e798ecc430348b5cdc7f2e911f33b7077ddff87dd8236281713593",
+          "entry": "./c867f19ae2.5836655b.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "14ca2c828da45963ec450e393de078b41b654a1e90d6dbed37435773ce5b5f6e",
+          "entry": "./509fdc8981.d7504676.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "99ef6c178e19e41aef67414d35d609c6023e6baf501d3429272c76706930b7d7",
+          "entry": "./f49fdc38eb.443db.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3",
+          "entry": "./3a0dd812c3.c22fb2fe.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "16db058bbabeb957348e789b8facbf05bf212a182cf5613b9ac7154baf26a0b3",
+          "entry": "./f5fe73e9f2.cf3f1b05a54aacac.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44",
+          "entry": "./64d36df427.3bb29107.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "011951b903989ca96fcd71f4f9d916c9194b7441058c983e2744afcf159dfda1",
+          "entry": "./2533a7053a.f28a8c54.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef",
+          "entry": "./f79a0382e2.2f5253d9.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "e26f5c593f3777ff229f9925a37f02ebf42a14658d3b03096d70883b929e681e",
+          "entry": "./1130298730.a91cf.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    },
+    {
+      "game": "1903012",
+      "sharedPath": "/shared/compat/11eef0af9abd/",
+      "bootSha256": "8c0e22cc8b0b9e9ed8608000e25ed6b8b5563052f744bce7d87d77804be958dd",
+      "declaredGameReferences": 5,
+      "modules": [
+        {
+          "module": "984721902a",
+          "manifestSha256": "ae624e19d82c9d7616001ab885407b52be2210d2d26de7075453fc96ba3f1767",
+          "entry": "996b5422dd.ff942.js"
+        },
+        {
+          "module": "e02b9bf0d2",
+          "manifestSha256": "52e9db86b77e38ff5be15ffe2ba5e2a55c000fd8cbfe4788e685fef8ad00c523",
+          "entry": "./51353bae0e.a46b0.js"
+        },
+        {
+          "module": "a346494745",
+          "manifestSha256": "33c0d99190d644dc1a21559cd64000fda2157b304214cd673697cd619ab70784",
+          "entry": "./a6325fb8fc.1c7d9.js"
+        },
+        {
+          "module": "589a728c8d",
+          "manifestSha256": "06c63c664113d5b0cf774034d0dfccdd12777071f772ee8ca5e27e0d9ae65d05",
+          "entry": "./c867f19ae2.53a31.js"
+        },
+        {
+          "module": "2fd142260e",
+          "manifestSha256": "bae287e6420e3ac0fde2eecf388f47a64ebf26fb6d2aa56b3acd3c99002fa8e6",
+          "entry": "./509fdc8981.4e41e.js"
+        },
+        {
+          "module": "2c6e37b73c",
+          "manifestSha256": "b12bba60ec48fcb7a8a3e39acd3ac300b7f7f448890083ac78ba5af4127e10a5",
+          "entry": "./f49fdc38eb.c4f2b.js"
+        },
+        {
+          "module": "b85c56d865",
+          "manifestSha256": "89b2dcb9df0ced24d314168093435075abf3e30ef849a310cbe4e9a904590605",
+          "entry": "./3a0dd812c3.fb9c3.js"
+        },
+        {
+          "module": "c03a2652ad",
+          "manifestSha256": "6258dfd2641b678e8238003cc429243d669fffb3512eb130ac407259618f7336",
+          "entry": "./f5fe73e9f2.eb2aa.js"
+        },
+        {
+          "module": "8583df6da7",
+          "manifestSha256": "83f159713cc4912877a0118a7bdccf5b52ed14e69e3a279bcde271bec8eb0ecb",
+          "entry": "./64d36df427.d5ef2.js"
+        },
+        {
+          "module": "705f29d781",
+          "manifestSha256": "bc95aec968436ecc7fce2f15dd605c948e02fc9752ed3a7f4245270d3ff1d5d5",
+          "entry": "./2533a7053a.83f43.js"
+        },
+        {
+          "module": "d1ad8305ef",
+          "manifestSha256": "9edc0afe8023722d67a74bb68e4fa2f12c52c4754ead1ca51513cbdc2c34422c",
+          "entry": "./f79a0382e2.1ab94.js"
+        },
+        {
+          "module": "65d1a9fde7",
+          "manifestSha256": "54b20760092db85bf7acfac24d4a0fd53723e5fd7e839fbf97cc5399c77a163b",
+          "entry": "./1130298730.c6a77.js"
+        }
+      ],
+      "alternativeInSameGroupAndFamily": [],
+      "browserStatus": "blocked-no-per-game-token-entry",
+      "verifiedScope": "native bootstrap and module file presence only; no runtime or API acceptance"
+    }
+  ]
+}

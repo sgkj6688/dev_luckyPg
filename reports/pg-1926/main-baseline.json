@@ -1,0 +1,29 @@
+{
+  "games": [
+    {
+      "id": "80",
+      "path": "80/assets/main/index.7ca88.js",
+      "sha256": "a6a88bb6f84aee0b09f26deab9586483dcf1ea101499031150147ca9c6ed3080"
+    },
+    {
+      "id": "85",
+      "path": "85/assets/main/index.e9fc3.js",
+      "sha256": "60e533c5dd15d4102dd1cc13dad1e2a9f845340e199eef12268c6b6784e03812"
+    },
+    {
+      "id": "61",
+      "path": "61/assets/main/index.a1752.js",
+      "sha256": "73c2df304513b78bbac24003583c12164df37a56cf614ec6ca32fc0d5b874321"
+    },
+    {
+      "id": "34",
+      "path": "34/assets/main/index.071c3.js",
+      "sha256": "a012a02b1eb3f2b7f08a44ffc43f945e303398fb59248b40567d690ef9d466bf"
+    },
+    {
+      "id": "1513328",
+      "path": "1513328/assets/main/index.090e4.js",
+      "sha256": "ebbcdad61f2678db61362e57f39ad4b8a2914ba1d8c82c024e4234e30093fb4c"
+    }
+  ]
+}

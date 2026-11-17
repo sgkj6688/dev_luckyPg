@@ -1,0 +1,92 @@
+{
+  "games": [
+    {
+      "id": "1778752",
+      "path": "/1778752/assets/main/index.736c6.js",
+      "status": 200,
+      "bytes": 2253354,
+      "sha256": "f2b10ab2d7823451662929eab1241967a3c9727acdbb544166a1040c2cec115f",
+      "localMatches": true
+    },
+    {
+      "id": "94",
+      "path": "/94/assets/main/index.261a4.js",
+      "status": 200,
+      "bytes": 2271152,
+      "sha256": "f11a51533b08fae12fdc143541a207cdd3b9e8236f54cf9e877ad29aff2f0c80",
+      "localMatches": true
+    },
+    {
+      "id": "29",
+      "path": "/29/assets/main/index.dc7ea.js",
+      "status": 200,
+      "bytes": 2328802,
+      "sha256": "dc1d2ae7d116996afea9c726bc519cf3248179773d79e2059745b464f6baed79",
+      "localMatches": true
+    },
+    {
+      "id": "110",
+      "path": "/110/assets/main/index.5d929.js",
+      "status": 200,
+      "bytes": 2413738,
+      "sha256": "1d700000f29f39f5b7f05c51afb2a1dfe993d50f820c9500a53ebed8399819a2",
+      "localMatches": true
+    },
+    {
+      "id": "35",
+      "path": "/35/assets/main/index.f441f.js",
+      "status": 200,
+      "bytes": 2527924,
+      "sha256": "ddb41ae785c37b05149bca444321547bc30883e4a5f058899c87b3de5020e0ff",
+      "localMatches": true
+    },
+    {
+      "id": "97",
+      "path": "/97/assets/main/index.b6280.js",
+      "status": 200,
+      "bytes": 2455861,
+      "sha256": "1bc93ae52cda7b3ff1531b2ff7553ea086e00eee0d1f8b9b36613d622ace8745",
+      "localMatches": true
+    },
+    {
+      "id": "80",
+      "path": "/80/assets/main/index.7ca88.js",
+      "status": 200,
+      "bytes": 2329914,
+      "sha256": "a6a88bb6f84aee0b09f26deab9586483dcf1ea101499031150147ca9c6ed3080",
+      "localMatches": true
+    },
+    {
+      "id": "85",
+      "path": "/85/assets/main/index.e9fc3.js",
+      "status": 200,
+      "bytes": 2184425,
+      "sha256": "60e533c5dd15d4102dd1cc13dad1e2a9f845340e199eef12268c6b6784e03812",
+      "localMatches": true
+    },
+    {
+      "id": "61",
+      "path": "/61/assets/main/index.a1752.js",
+      "status": 200,
+      "bytes": 2408020,
+      "sha256": "73c2df304513b78bbac24003583c12164df37a56cf614ec6ca32fc0d5b874321",
+      "localMatches": true
+    },
+    {
+      "id": "34",
+      "path": "/34/assets/main/index.071c3.js",
+      "status": 200,
+      "bytes": 1768109,
+      "sha256": "a012a02b1eb3f2b7f08a44ffc43f945e303398fb59248b40567d690ef9d466bf",
+      "localMatches": true
+    },
+    {
+      "id": "1513328",
+      "path": "/1513328/assets/main/index.090e4.js",
+      "status": 200,
+      "bytes": 2555692,
+      "sha256": "ebbcdad61f2678db61362e57f39ad4b8a2914ba1d8c82c024e4234e30093fb4c",
+      "localMatches": true
+    }
+  ]
+}

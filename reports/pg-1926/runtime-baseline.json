@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-13T05:33:24.890218+00:00",
+  "method": "Edge actual loaded URL plus server body SHA-256; no early System.get",
+  "games": [
+    {
+      "id": "1778752",
+      "entryPath": "/1778752/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/1778752/shared/984721902a/996b5422dd.2536964e.js",
+          "sha256": "2536964e84372380894879caa16344222c76b1cd37c0fbfa590d04833351906a"
+        },
+        "engine": {
+          "path": "/1778752/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        "utility": {
+          "path": "/1778752/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        }
+      },
+      "mainPath": "/1778752/assets/main/index.736c6.js"
+    },
+    {
+      "id": "94",
+      "entryPath": "/94/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/94/shared/3c4695a542/b526e03cc3.89a5b.js",
+          "sha256": "5df8687108778cf22351edd47a376f2e2056f8e7c8b352dc43d62861c8e1832e"
+        },
+        "engine": {
+          "path": "/94/shared/0bc343f586/dedee2c334.b58f3.js",
+          "sha256": "987256ff5caa463250587ed32c1b7a926e8b3d1307aad2226bb2b9d437c57c9b"
+        },
+        "utility": {
+          "path": "/94/shared/99212c6ec4/187a36578c.6c65d.js",
+          "sha256": "abeb5dba8ece44530ba1d84ab2c52cb6276e192169c655f0a3965d2616cb9ba8"
+        }
+      },
+      "mainPath": "/94/assets/main/index.261a4.js"
+    },
+    {
+      "id": "29",
+      "entryPath": "/29/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/29/shared/3c4695a542/b526e03cc3.89a5b.js",
+          "sha256": "5df8687108778cf22351edd47a376f2e2056f8e7c8b352dc43d62861c8e1832e"
+        },
+        "engine": {
+          "path": "/29/shared/0bc343f586/dedee2c334.b58f3.js",
+          "sha256": "987256ff5caa463250587ed32c1b7a926e8b3d1307aad2226bb2b9d437c57c9b"
+        },
+        "utility": {
+          "path": "/29/shared/99212c6ec4/187a36578c.6c65d.js",
+          "sha256": "abeb5dba8ece44530ba1d84ab2c52cb6276e192169c655f0a3965d2616cb9ba8"
+        }
+      },
+      "mainPath": "/29/assets/main/index.dc7ea.js"
+    },
+    {
+      "id": "110",
+      "entryPath": "/110/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/110/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "path": "/110/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/110/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/110/assets/main/index.5d929.js"
+    },
+    {
+      "id": "35",
+      "entryPath": "/35/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/35/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "path": "/35/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/35/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/35/assets/main/index.f441f.js"
+    },
+    {
+      "id": "97",
+      "entryPath": "/97/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/97/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "path": "/97/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/97/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/97/assets/main/index.b6280.js"
+    },
+    {
+      "id": "80",
+      "entryPath": "/80/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/80/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "path": "/80/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/80/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/80/assets/main/index.7ca88.js"
+    },
+    {
+      "id": "85",
+      "entryPath": "/85/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/85/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "path": "/85/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/85/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/85/assets/main/index.e9fc3.js"
+    },
+    {
+      "id": "61",
+      "entryPath": "/61/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/61/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "path": "/61/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/61/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/61/assets/main/index.a1752.js"
+    },
+    {
+      "id": "34",
+      "entryPath": "/34/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/34/shared/3c4695a542/b526e03cc3.89a5b.js",
+          "sha256": "41213e827901d64aa5d1b721603c16139c711f7231b6cbff49f5c949f5b4ed53"
+        },
+        "engine": {
+          "path": "/34/shared/0bc343f586/dedee2c334.b58f3.js",
+          "sha256": "987256ff5caa463250587ed32c1b7a926e8b3d1307aad2226bb2b9d437c57c9b"
+        },
+        "utility": {
+          "path": "/34/shared/99212c6ec4/187a36578c.6c65d.js",
+          "sha256": "abeb5dba8ece44530ba1d84ab2c52cb6276e192169c655f0a3965d2616cb9ba8"
+        }
+      },
+      "mainPath": "/34/assets/main/index.071c3.js"
+    },
+    {
+      "id": "1513328",
+      "entryPath": "/1513328/index.html",
+      "assetOrigin": "http://13.215.75.171:8019",
+      "language": "pt",
+      "components": {
+        "shell": {
+          "path": "/1513328/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "path": "/1513328/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "path": "/1513328/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      },
+      "mainPath": "/1513328/assets/main/index.090e4.js"
+    }
+  ]
+}

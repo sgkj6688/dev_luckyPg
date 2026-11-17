@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-15",
+  "source": "tools/pg-native/iframe-return-source.mjs:15",
+  "moduleRegisteredAtMs": 31000,
+  "lastProbeAtMs": 29800,
+  "timersRemaining": 0,
+  "parentCloseMessages": 0,
+  "quitResult": "original-navigation",
+  "scope": "isolated VM executing actual current adapter; no browser or network",
+  "status": "reproduced-unfixed"
+}

@@ -1,0 +1,3206 @@
+{
+ "schemaVersion": 1,
+ "note": "原生兼容组的客户端保护修复配方。d5a963edde1f：shell 复用 tools/pg-compat/protection-recipes.json 的现代家族 5 个回调，插件范围由运行时注册点反推包装器并枚举全部调用点，目标说明未逐项解码。0aaefadd8d29/11eef0af9abd/5855063506b1/79352db72ace：shell 为新混淆版（mode:ranges），与插件同样等长替换；范围由包装器结构签名（事件总线 [111,…] 拼出 on、shell 事件版含数字类正则）静态识别并枚举全部调用点，render 替换函数与 >=500 延时表达式按结构定位，均已用 1926/outside-p2/d5 已知配方校准；目标说明为隔离 vm 执行文件自带解码器得到的字符串，8583/b85c 与 1926 同指纹的版本沿用 1926 逐项解码；新增 2c6e37b73c 的 2 个 Transaction intercept 监听与 1 个 render 替换。root（根公共组 shared/，原位新增哈希插件并改写无哈希 index.js）与 1838492da73b（d5 修复后补充）：只含 2c6e37b73c 的 2 个 Transaction intercept 监听与 1 个 render 替换，生成方法同上。其余 18 个兼容组（443db 版 13 组与根组配方范围逐项一致；2199c 版 5 组）同为只含 2c6e37b73c 3 项的补充配方。e6c475e24204/66d0f8faba8d/ae7a9fbedbef/e97c3d2d71f8：新混淆 shell 的 ShellLoad 状态名判定补充配方，按版本把判定结果固定为 1（Q_8 版改结果赋值右值，O0s/L6_ 版改状态名切片，位置按运行时实测避开解码采样窗口；与旧 shell 已有的 -0x2 固定值同义），保留判定调用。",
+ "groups": {
+  "d5a963edde1f": {
+   "shell": {
+    "path": "984721902a/996b5422dd.33062.js",
+    "sha256": "95eeb505914a345096343ece1888de88b20a8defa6f50a3075351251ac2a1f84",
+    "fixedSha256": "f4665aed23e01feb3ce6209c24d98af1fe7d4f65cb8abfff80f3467cc5850d8a"
+   },
+   "plugins": [
+    {
+     "path": "8583df6da7/64d36df427.22875.js",
+     "sha256": "ffb9ff429412889e0d68b0d6eba2a040eb3a25a250a5263e451d686195ac7ae2",
+     "wrappers": {
+      "primary": "E$",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 146203,
+       "end": 146795,
+       "mode": "callback",
+       "target": "E$ 包装回调 #1（事件 disable；未逐项解码）",
+       "sha256": "a9baebcaf567b8f8d8a552689e23a8c47432eb4a23ecc0d98f3986c090b43d71"
+      },
+      {
+       "start": 146815,
+       "end": 147255,
+       "mode": "callback",
+       "target": "E$ 包装回调 #2（事件 stop；未逐项解码）",
+       "sha256": "688b96d69045562b03d6b1873278b8f6649b194d8e332a7197fe47fd17d3b185"
+      },
+      {
+       "start": 147275,
+       "end": 147627,
+       "mode": "callback",
+       "target": "E$ 包装回调 #3（事件 enable；未逐项解码）",
+       "sha256": "71f3c77531f227f7d87b6f055927c042aae8309ed539c7303e4dd631f7ae341f"
+      },
+      {
+       "start": 147647,
+       "end": 147879,
+       "mode": "callback",
+       "target": "E$ 包装回调 #4（事件 disable；未逐项解码）",
+       "sha256": "974f08d2626795c2b5db4f7feb8a6c122cafbb868d81098c7c93f7a5fc64a5de"
+      },
+      {
+       "start": 147899,
+       "end": 148937,
+       "mode": "callback",
+       "target": "E$ 包装回调 #5（事件 enable；未逐项解码）",
+       "sha256": "de68d7eb0c6333c99a1742008261d04b532f48bb2edfcfc3cc1b2a5e13c7300f"
+      }
+     ]
+    },
+    {
+     "path": "d1ad8305ef/f79a0382e2.451cc.js",
+     "sha256": "e20c6d2e6a5e55fb6c76fb2eae6ff66235d1ba7d3a6a287388420a378eb38d48",
+     "wrappers": {
+      "primary": "y0",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 97108,
+       "end": 97701,
+       "mode": "callback",
+       "target": "y0 包装回调 #1（事件 disable；未逐项解码）",
+       "sha256": "2488afb11823fa03932bed9a177662590e889c85a0e0802b65ad0caeefafd130"
+      },
+      {
+       "start": 97721,
+       "end": 98877,
+       "mode": "callback",
+       "target": "y0 包装回调 #2（事件 stop；未逐项解码）",
+       "sha256": "47dc27e5d24b3b03cfa404c165b8732ffe5ffdcf81285127d9c2ba4b7cd21bb4"
+      },
+      {
+       "start": 98897,
+       "end": 99647,
+       "mode": "callback",
+       "target": "y0 包装回调 #3（事件 enable；未逐项解码）",
+       "sha256": "5a567a7bcbab2906eb7020722ac361f0466d3576ee87d20b5c94b722c182bedc"
+      },
+      {
+       "start": 99666,
+       "end": 99908,
+       "mode": "callback",
+       "target": "y0 包装回调 #4（事件 disable；未逐项解码）",
+       "sha256": "1132e8cc2ed47b2ed18671bfa05f66cca9efeaf2f58296a00098cfae9da99a66"
+      },
+      {
+       "start": 99928,
+       "end": 100531,
+       "mode": "callback",
+       "target": "y0 包装回调 #5（事件 enable；未逐项解码）",
+       "sha256": "b807e879f8aa5925f3862d69573a117d449d5ac96f32bb550a9057b91c1e352e"
+      }
+     ]
+    },
+    {
+     "path": "b85c56d865/3a0dd812c3.d652e.js",
+     "sha256": "920a206a41d87d31875f9815aba573e1cbd76be7721169cc7b4f7193e24c69de",
+     "wrappers": {
+      "primary": "u3",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 38574,
+       "end": 39386,
+       "mode": "callback",
+       "target": "u3 包装回调 #1（事件 start；未逐项解码）",
+       "sha256": "680020b0613ee514b3dbd492720acc2e4f89b352a954dd3e71777af9e58ee913"
+      },
+      {
+       "start": 39403,
+       "end": 39729,
+       "mode": "callback",
+       "target": "u3 包装回调 #2（事件 pause；未逐项解码）",
+       "sha256": "2abb577f2215391eb86a3973c92c3174db1a687ee66302a9d14b278ec01eea10"
+      },
+      {
+       "start": 39746,
+       "end": 40072,
+       "mode": "callback",
+       "target": "u3 包装回调 #3（事件 stop；未逐项解码）",
+       "sha256": "9622a9e029766d58349a0ad088879fb7b7b535605fbb1a86f409edb6088034b5"
+      },
+      {
+       "start": 40089,
+       "end": 40964,
+       "mode": "callback",
+       "target": "u3 包装回调 #4（事件 enable；未逐项解码）",
+       "sha256": "c7825073567f8eaf213a3ae45a1a6a195563561790b94e48e9f8b9831ae7c5f3"
+      },
+      {
+       "start": 40981,
+       "end": 41627,
+       "mode": "callback",
+       "target": "u3 包装回调 #5（事件 stop；未逐项解码）",
+       "sha256": "c03e79ee7032408fc3c4e62671377c18e01a3d97a060b1dff10734a53e8a65a1"
+      }
+     ]
+    },
+    {
+     "path": "e02b9bf0d2/51353bae0e.6fb2e.js",
+     "sha256": "f02cb2e32751f3b31ce185cb3d4eab025b96d5a34a62d263d03c30002485d816",
+     "wrappers": {
+      "primary": "r7",
+      "secondary": "P64"
+     },
+     "callbacks": [
+      {
+       "start": 477303,
+       "end": 477688,
+       "mode": "callback",
+       "target": "P64(P_F[617]) 二级包装回调 #1（界面警告类；未逐项解码）",
+       "sha256": "5cb6fd813dadae73936f06396aaa50ac714a7d10aca7c4e07e649c96fed4a3ce"
+      },
+      {
+       "start": 477735,
+       "end": 478092,
+       "mode": "callback",
+       "target": "P64(P_F[498]) 二级包装回调 #2（界面警告类；未逐项解码）",
+       "sha256": "b9c5b35ef619429a8d7622884305f0b677e7b29459d6b71c79e9311abb1ed1dd"
+      },
+      {
+       "start": 501040,
+       "end": 501868,
+       "mode": "callback",
+       "target": "r7 包装回调 #1（事件 pause；未逐项解码）",
+       "sha256": "07a50d0526e2db90ade8a7b1392d0e9cdbce2ddba61b3b6743088cd9f86aa42b"
+      },
+      {
+       "start": 501889,
+       "end": 502545,
+       "mode": "callback",
+       "target": "r7 包装回调 #2（事件 start；未逐项解码）",
+       "sha256": "330ef61e35b31467ab7f17e39dc93e04c13e09498c8bbf73c390d23cf9e9a8f9"
+      },
+      {
+       "start": 502566,
+       "end": 503141,
+       "mode": "callback",
+       "target": "r7 包装回调 #3（事件 pause；未逐项解码）",
+       "sha256": "0bbc967c3c5dcd7c5fa24f4e6190af96b602f2ff06349dda851232235ff00043"
+      },
+      {
+       "start": 503162,
+       "end": 503499,
+       "mode": "callback",
+       "target": "r7 包装回调 #4（事件 stop；未逐项解码）",
+       "sha256": "d853dc28ce4246e27dda9275c5e44f7860058f64941fbe01375f3d71123505f4"
+      },
+      {
+       "start": 503519,
+       "end": 503911,
+       "mode": "callback",
+       "target": "r7 包装回调 #5（事件 enable；未逐项解码）",
+       "sha256": "b84fa49463c33a86b9826544b0d8abe7a3da3a220d2ce7de7624244ffe068a3e"
+      }
+     ]
+    },
+    {
+     "path": "589a728c8d/c867f19ae2.6fed5.js",
+     "sha256": "e689327dfdb87bf8f51a814f21143633027acbb8688c0a40e3e73c9f76729032",
+     "wrappers": {
+      "primary": "E7",
+      "secondary": "E$"
+     },
+     "callbacks": [
+      {
+       "start": 56294,
+       "end": 56532,
+       "mode": "callback",
+       "target": "E7 包装回调 #1（事件 enable；未逐项解码）",
+       "sha256": "88275cf7342e92b530050faab17ebb8c29262e7aeb0279f3c377d2cbf4c64187"
+      },
+      {
+       "start": 56553,
+       "end": 57670,
+       "mode": "callback",
+       "target": "E7 包装回调 #2（事件 enable；未逐项解码）",
+       "sha256": "e981a19612c67e46e5bc490474dfa3a33f9a336b95798ae14ddbe51ba8b9c303"
+      },
+      {
+       "start": 57691,
+       "end": 58039,
+       "mode": "callback",
+       "target": "E7 包装回调 #3（事件 disable；未逐项解码）",
+       "sha256": "38e0de16b2b0ec394760ad39d851267ce4e725ad4c903f9078b58267d8dcf554"
+      },
+      {
+       "start": 58059,
+       "end": 58821,
+       "mode": "callback",
+       "target": "E7 包装回调 #4（事件 start；未逐项解码）",
+       "sha256": "a45dab11f8bf8b674c485d0efdfc430796247552fbbe728b7188884ed794ed7b"
+      },
+      {
+       "start": 58842,
+       "end": 59079,
+       "mode": "callback",
+       "target": "E7 包装回调 #5（事件 disable；未逐项解码）",
+       "sha256": "6bbcb746032192031f83740c2bc2565e2ecc356cbddf24996f6c839897d5b94a"
+      },
+      {
+       "start": 261468,
+       "end": 261857,
+       "mode": "callback",
+       "target": "k7：随机延时后把 renderer.render 替换为返回常量的函数（对应旧版 e6/G3Z）",
+       "sha256": "2771c9f2184d8e90c5a196a17119becd8103f67d32637894b8ff88a558e470aa"
+      },
+      {
+       "start": 427080,
+       "end": 427453,
+       "mode": "callback",
+       "target": "E$(X3m[927]) 二级包装回调 #1（界面警告类；未逐项解码）",
+       "sha256": "d1651231a5d1b163e53192bb0b19e6ad3b32581833cc6768bbcbf536e175ce49"
+      },
+      {
+       "start": 427498,
+       "end": 427722,
+       "mode": "callback",
+       "target": "E$(X3m[738]) 二级包装回调 #2（界面警告类；未逐项解码）",
+       "sha256": "b1ca81633eff993a7a8293f6da4e0c3ca016527f48d168bc2e53563db510820e"
+      },
+      {
+       "start": 427767,
+       "end": 428118,
+       "mode": "callback",
+       "target": "E$(X3m[193]) 二级包装回调 #3（界面警告类；未逐项解码）",
+       "sha256": "86a47cf1eb55473261a3e597865a50ac7502c1c4fff709942aa873d119fa4772"
+      }
+     ]
+    },
+    {
+     "path": "a346494745/a6325fb8fc.55baf.js",
+     "sha256": "0274fbbe14c0e250139c2ec1735f88d79a8cb5ee0afe5147c1cf533cac4e8487",
+     "wrappers": {
+      "primary": "Q$",
+      "secondary": "e0"
+     },
+     "callbacks": [
+      {
+       "start": 369869,
+       "end": 370651,
+       "mode": "callback",
+       "target": "Q$ 包装回调 #1（事件 pause；未逐项解码）",
+       "sha256": "9d2ca02969ad9077381689430b5087ad97d5d120643b07c3ef6d0510d852912b"
+      },
+      {
+       "start": 370672,
+       "end": 371332,
+       "mode": "callback",
+       "target": "Q$ 包装回调 #2（事件 start；未逐项解码）",
+       "sha256": "2a47d6fb1d76572b22962de4a8adb5cf805d233b649f295a37d9c56a55b964ed"
+      },
+      {
+       "start": 371352,
+       "end": 372518,
+       "mode": "callback",
+       "target": "Q$ 包装回调 #3（事件 pause；未逐项解码）",
+       "sha256": "5ad329f0058670c6eac70b4648b0e623eb3f8a6a23a34cb97998d6f2054828fa"
+      },
+      {
+       "start": 372539,
+       "end": 372890,
+       "mode": "callback",
+       "target": "Q$ 包装回调 #4（事件 stop；未逐项解码）",
+       "sha256": "e5504f5985a29587d857ec699d6aebdffce20dcfc07c07e387bc30a4e3ccb9f8"
+      },
+      {
+       "start": 372910,
+       "end": 373317,
+       "mode": "callback",
+       "target": "Q$ 包装回调 #5（事件 enable；未逐项解码）",
+       "sha256": "c7be6714c081f2483ad8379ea8aab0a8c8da0eb00b7cc7d4b0bc2b6f4d48a145"
+      },
+      {
+       "start": 373518,
+       "end": 373762,
+       "mode": "callback",
+       "target": "e0(p52[365]) 二级包装回调 #1（界面警告类；未逐项解码）",
+       "sha256": "8af16a6d02b2b648a6b100ddaee82311e69047eac248232994596cb631b0c212"
+      }
+     ]
+    },
+    {
+     "path": "2fd142260e/509fdc8981.fd36d.js",
+     "sha256": "88512951abf05da2b43a927f06bf6e014e6251fb59b72ab6ee027abc3d237fc9",
+     "wrappers": {
+      "primary": "l$",
+      "secondary": "A0"
+     },
+     "callbacks": [
+      {
+       "start": 478294,
+       "end": 478351,
+       "mode": "expression",
+       "replacement": "void 0;",
+       "target": ">=500 分支内无条件死循环调用（对应旧版 B7/c0G）",
+       "sha256": "6a36b9b09e9c19bc15c9e97c2686c1965a8fd41cd11e0ed421b11d915fa9db92"
+      },
+      {
+       "start": 505873,
+       "end": 505897,
+       "mode": "expression",
+       "replacement": "y3i(216,7,-219);return;",
+       "target": "T26 仅跳过 Shell.EnableUIBlock 载荷，保留列号解码调用后返回（对应旧版 Y0N）",
+       "sha256": "610e06c1f06254dd99f884b9ba7dd2880ccd346339af8400e94089c079aeaa40"
+      },
+      {
+       "start": 779523,
+       "end": 780120,
+       "mode": "callback",
+       "target": "l$ 包装回调 #1（事件 disable；未逐项解码）",
+       "sha256": "1168a70b3a13df8ec0db632593b263bd26a9d008090c052b6b2004d1a2cd37e5"
+      },
+      {
+       "start": 780140,
+       "end": 780599,
+       "mode": "callback",
+       "target": "l$ 包装回调 #2（事件 stop；未逐项解码）",
+       "sha256": "f70ddf60bd1d5ce6ad1e934d1960060c7f2c79aaa791b73f23c12d779d761162"
+      },
+      {
+       "start": 780619,
+       "end": 780981,
+       "mode": "callback",
+       "target": "l$ 包装回调 #3（事件 enable；未逐项解码）",
+       "sha256": "5df0e8d72a220b9baf05ae89a6b82dfef02232fec5371d613248f095ea26af18"
+      },
+      {
+       "start": 781001,
+       "end": 781236,
+       "mode": "callback",
+       "target": "l$ 包装回调 #4（事件 disable；未逐项解码）",
+       "sha256": "ccc07085c933f124d7170fd204b4b0d797952a49e9b1a19cc65034625280dfe4"
+      },
+      {
+       "start": 781256,
+       "end": 781870,
+       "mode": "callback",
+       "target": "l$ 包装回调 #5（事件 enable；未逐项解码）",
+       "sha256": "9e228c07f5f9d767ab550a218c2390fed699c8c8f2f9d720f650641c9ffa7996"
+      },
+      {
+       "start": 781896,
+       "end": 782823,
+       "mode": "callback",
+       "target": "A0(X56[179]) 二级包装回调 #1（界面警告类；未逐项解码）",
+       "sha256": "37049b968f7d7c59400577be8b4bf2fe901d56482a3dde708b95467b3c6808c7"
+      }
+     ]
+    }
+   ]
+  },
+  "0aaefadd8d29": {
+   "plugins": [
+    {
+     "path": "8583df6da7/64d36df427.6ee39.js",
+     "sha256": "f2b36a8c311aef29e27b452bc29a099f01fa55474d9711b98940dba4a5d5742c",
+     "wrappers": {
+      "primary": "k2",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 116079,
+       "end": 116658,
+       "mode": "callback",
+       "target": "Camera.main.enabled=false（沿用 1926 解码）",
+       "sha256": "bd53a058f8e9fa7a5c4f0dfb7be6290bec2bffd666eac291202c6aae0beba8db"
+      },
+      {
+       "start": 116678,
+       "end": 117136,
+       "mode": "callback",
+       "target": "Component.prototype.destroy=Function(cc.director.reset())（沿用 1926 解码）",
+       "sha256": "ccb95e43705d6386bc14b0987dffac442f75a721f67c6b1fb9f59abf1849ac8c"
+      },
+      {
+       "start": 117156,
+       "end": 117510,
+       "mode": "callback",
+       "target": "Animation.prototype.play=Function(this.play())（沿用 1926 解码）",
+       "sha256": "ca48ce741682c97f7a3ba6bfeda048de697f5743f61946311b0d0f5e44623c7d"
+      },
+      {
+       "start": 117530,
+       "end": 117767,
+       "mode": "callback",
+       "target": "director.getActionManager=Function(return this._manager)（沿用 1926 解码）",
+       "sha256": "d7a917ddac92ebbf1d28980badfac818f5145b810ef90ff201576cbbb3b3aa0b"
+      },
+      {
+       "start": 117787,
+       "end": 118396,
+       "mode": "callback",
+       "target": "director._compScheduler.updatePhase=Number（沿用 1926 解码）",
+       "sha256": "9fad0777f5267da1c1a291519d9958f029a028f401d876a68ebfe412485868a8"
+      }
+     ],
+     "fixedSha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+    },
+    {
+     "path": "d1ad8305ef/f79a0382e2.5303b.js",
+     "sha256": "f6b270c39311e3741aa2c1de501e2a86f2a53dd596bf4f51138f100579fe26b0",
+     "wrappers": {
+      "primary": "v3",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 93370,
+       "end": 93952,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "235af0cfd6dda5585ab1a0e755f18deb7b32c1bea1990b4810c2ccfdda9d3d7f"
+      },
+      {
+       "start": 93972,
+       "end": 94416,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "69c8a6e278c9cd94352ebb28a225922d0dbf42d931ee1faecf382003c38cef91"
+      },
+      {
+       "start": 94436,
+       "end": 94779,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "1f7a0fa9e79a882f8332d7f375a849bcb11a32cdf59835d20a77b7243af66e2a"
+      },
+      {
+       "start": 94799,
+       "end": 95032,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "6bcd55c14ce0451ddc8a7f815278e217f524d01b5f303ae148c9048aeb9820c3"
+      },
+      {
+       "start": 95052,
+       "end": 95982,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "ad267453e10eacc9f204d3de92632949c2b5f201e5cb874acc6b8f86fd351a90"
+      }
+     ],
+     "fixedSha256": "6298e81ed3f79e20e71305c8ebb211301fe6682534c5d1ae14d607504abfb0d4"
+    },
+    {
+     "path": "b85c56d865/3a0dd812c3.fb9c3.js",
+     "sha256": "ab0c1c04b37e99a4fbd9318ffb7543c1d8c5f5f9d7db357fa46c374f74917b83",
+     "wrappers": {
+      "primary": "N6",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 37553,
+       "end": 37842,
+       "mode": "callback",
+       "target": "ActionInterval.prototype.startWithTarget=undefined（沿用 1926 解码）",
+       "sha256": "4b8c886d38a1cbf10bdd9c00b44a6fa77a8477296f75eb2ace5d22d1cd8776ba"
+      },
+      {
+       "start": 37867,
+       "end": 38535,
+       "mode": "callback",
+       "target": "ParticleSystem.prototype.lateUpdate=Function(cc.director._invalid=true)（沿用 1926 解码）",
+       "sha256": "5a05d3acc573bb91d14ab10df56132318a63e5c53f7dfbc3b223b3fa296986ca"
+      },
+      {
+       "start": 38552,
+       "end": 39239,
+       "mode": "callback",
+       "target": "Director.prototype.calculateDeltaTime=Function(this._deltaTime=NaN)（沿用 1926 解码）",
+       "sha256": "21bbd3fc2160d55648695250fcd4f06b7bd83491db9552157ea7fb9d5ab5c258"
+      },
+      {
+       "start": 39256,
+       "end": 40537,
+       "mode": "callback",
+       "target": "director._compScheduler.updatePhase=Number（沿用 1926 解码）",
+       "sha256": "3cdfdafca08917ac40bcc55f74b7be822d9a0cef55ae7bbac9a744619551631d"
+      },
+      {
+       "start": 40554,
+       "end": 41196,
+       "mode": "callback",
+       "target": "Node.prototype.dispatchEvent=function return false（沿用 1926 解码）",
+       "sha256": "10ace7f62838ede35a6065dc406c12f347366bdbe3c48a66c4e28bd3ede3ff4a"
+      }
+     ],
+     "fixedSha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+    },
+    {
+     "path": "e02b9bf0d2/51353bae0e.a8c99.js",
+     "sha256": "80df13a3d1c77948e27976f976fa9eb6dd3aa7fcc594ba4c4c160ff31e56e541",
+     "wrappers": {
+      "primary": "s_",
+      "secondary": "W95"
+     },
+     "callbacks": [
+      {
+       "start": 416581,
+       "end": 416969,
+       "mode": "callback",
+       "target": "W95 shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "a82cda2194b4686847f4685cbcbdecad73b84da4f46ea0b1b6f566416fe58614"
+      },
+      {
+       "start": 417015,
+       "end": 417360,
+       "mode": "callback",
+       "target": "W95 shell 事件包装回调 #2（解码：Node / prototype / dispatchEvent）",
+       "sha256": "7af6142dd37bc19f953327a02fe75c5eb32c61b29da9378ecb2ef61eef201235"
+      },
+      {
+       "start": 444163,
+       "end": 445005,
+       "mode": "callback",
+       "target": "s_ 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "10b9f6c0cf4bf3daac769da04314f044cdadee1ef94fc63092a3a3ff0d997eab"
+      },
+      {
+       "start": 445026,
+       "end": 445678,
+       "mode": "callback",
+       "target": "s_ 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "5696cf0a0db1c32c57ea99e7f67c394e57dbb3902b4e6a18c94365eac4f98751"
+      },
+      {
+       "start": 445699,
+       "end": 446276,
+       "mode": "callback",
+       "target": "s_ 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "7d8f8adc35b328f209448aa2f3412f9e6797911f33d940f8db2e16cc727d7d1f"
+      },
+      {
+       "start": 446297,
+       "end": 446641,
+       "mode": "callback",
+       "target": "s_ 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "5c9f8ef68ce80a2999faed0bd10cf85d90078925442fa55f0012b376063344bf"
+      },
+      {
+       "start": 446660,
+       "end": 447052,
+       "mode": "callback",
+       "target": "s_ 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "b50decf23c6c16ce8fac3a8614c712ce9eb2bf4ce3d58cdcfed2b35f0ec77cc8"
+      }
+     ],
+     "fixedSha256": "128ea79d36634380447acec3e4894ea12bacc5ddbfb5219cecb397491c6ef0a7"
+    },
+    {
+     "path": "589a728c8d/c867f19ae2.30c8a.js",
+     "sha256": "e8043cd84c7880455110ef94f32bfd4c231f7fa152cb1041b4310b69e5951ef4",
+     "wrappers": {
+      "primary": "F$",
+      "secondary": "r_"
+     },
+     "callbacks": [
+      {
+       "start": 90477,
+       "end": 90710,
+       "mode": "callback",
+       "target": "F$ 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+       "sha256": "3844e42a3746ab6aed3b4dd0d4ad0a4864c2b474812588fc382db78616634902"
+      },
+      {
+       "start": 90730,
+       "end": 91329,
+       "mode": "callback",
+       "target": "F$ 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+       "sha256": "9bc4200d57881825e0c35d5af989172443eed4f6a6e27c0be913779e98a98394"
+      },
+      {
+       "start": 91349,
+       "end": 91711,
+       "mode": "callback",
+       "target": "F$ 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+       "sha256": "493f266aeb6c574d7b78f3b89e93199d8a0d990ee87bbedcfa5ffe8e9cccb8a2"
+      },
+      {
+       "start": 91730,
+       "end": 92494,
+       "mode": "callback",
+       "target": "F$ 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+       "sha256": "7d19c81ef6e659c104d0181ef5f75df92c4afb65fbaa3f05793679af7da5cc0a"
+      },
+      {
+       "start": 92513,
+       "end": 92759,
+       "mode": "callback",
+       "target": "F$ 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+       "sha256": "f8cde02604eab5f036d6f93330d285a607cad78f0439a1e480d8d54176198b69"
+      },
+      {
+       "start": 442386,
+       "end": 442773,
+       "mode": "callback",
+       "target": "r_ shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "929ad262c0c26d44775ed448c264304fe9acaf22e93346c7fbb7d2824215ffa1"
+      },
+      {
+       "start": 442817,
+       "end": 443041,
+       "mode": "callback",
+       "target": "r_ shell 事件包装回调 #2（解码：renderer / render）",
+       "sha256": "876198d99451620712a1eeeb40a0213912eceb42bb11a0a8f6899dfc54f494a0"
+      },
+      {
+       "start": 443087,
+       "end": 443440,
+       "mode": "callback",
+       "target": "r_ shell 事件包装回调 #3（解码：Node / prototype / dispatchEvent）",
+       "sha256": "dcf90a0510c12f39f6e61e81de7d3e82dcf6330012d6aaf92a64ad8e3b5f79f4"
+      },
+      {
+       "start": 474811,
+       "end": 475142,
+       "mode": "callback",
+       "target": "T6：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "aa1358cdd9bac7f31e9d6688e9ec1d0c253b3ca7ad5666574ba5ef4fa53b742e"
+      }
+     ],
+     "fixedSha256": "e3cf4c7ce01f5525ca3ca94333a6d00db0a6438c9c6e2db3e37b047cde5d4b8c"
+    },
+    {
+     "path": "a346494745/a6325fb8fc.6f361.js",
+     "sha256": "c4b1fae9622be45ab58a04dacf12b6f0d54ae148ba2135e38ff8773ba33b1e9a",
+     "wrappers": {
+      "primary": "w$",
+      "secondary": "V1"
+     },
+     "callbacks": [
+      {
+       "start": 330189,
+       "end": 331416,
+       "mode": "callback",
+       "target": "w$ 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "1790836b0f2ac972aa80a1904d7cfbec0708dcaef2c639085f8c8617484ef729"
+      },
+      {
+       "start": 331437,
+       "end": 332088,
+       "mode": "callback",
+       "target": "w$ 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "a3221835b1860601a26fa2deda8297f57b8f68d0293be15897a51f0852ca371c"
+      },
+      {
+       "start": 332108,
+       "end": 332702,
+       "mode": "callback",
+       "target": "w$ 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "9cf109e7e8d2533aeb107a6484fe5db1ddba38148aefc59bea59442de99fdd65"
+      },
+      {
+       "start": 332723,
+       "end": 333080,
+       "mode": "callback",
+       "target": "w$ 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "ebb740ad581e3bee4f9712fd010c9c1e95cc105e00d78765ddd9a51a3bdb67f9"
+      },
+      {
+       "start": 333100,
+       "end": 333494,
+       "mode": "callback",
+       "target": "w$ 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "98afe78562256e547da97d4d34dc15c175f180bafa10e6a6bbf7c3da8dac8180"
+      },
+      {
+       "start": 337339,
+       "end": 337591,
+       "mode": "callback",
+       "target": "V1 shell 事件包装回调 #1（解码：eval / \"cc\" / renderer / render）",
+       "sha256": "d676d6c22fc99637b585c13c0169a91c900d5c048e43f82b2e112e4dcec1e961"
+      }
+     ],
+     "fixedSha256": "200fb51d336a9759de93983261365ac8c5d40467b6547bede50f2f29c8e623b4"
+    },
+    {
+     "path": "2fd142260e/509fdc8981.e6aed.js",
+     "sha256": "5353dd60f9eedeb3408bbbb53be51fcffdb09c56191ef656887e664cf7aeea69",
+     "wrappers": {
+      "primary": "f1",
+      "secondary": "m5"
+     },
+     "callbacks": [
+      {
+       "start": 375295,
+       "end": 375315,
+       "mode": "expression",
+       "replacement": "return;",
+       "target": ">=500 延时分支仅跳过 Shell.EnableUIBlock 载荷，保留列号解码调用后返回（对应 T26/Y0N）",
+       "sha256": "af7827354dbe3ef692d8c90c62ce856a34bc710f01afe0b2e20fc5bc6243c3dd"
+      },
+      {
+       "start": 402487,
+       "end": 402534,
+       "mode": "expression",
+       "replacement": "T8B[T8B.K5F(m7.e5(m7.q7()[89](),89,400725))]  ;",
+       "target": ">=500 延时分支内无条件死循环调用（对应 B7/c0G）；只去掉调用括号，保留解码与属性读取",
+       "sha256": "279ce574f3ea3e32b5df8ce4d3b0c1b7eceea08ea42ca15fc55343953d412395"
+      },
+      {
+       "start": 793070,
+       "end": 793677,
+       "mode": "callback",
+       "target": "f1 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "ce20eb1c515bf72bf20b2536ebd9b8c217acf3ff0829ed1602c419c3af8fb3bb"
+      },
+      {
+       "start": 793698,
+       "end": 794151,
+       "mode": "callback",
+       "target": "f1 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "75e63e7301230f3d0181d2151f33c36e98ae604ab244846bb9d3f934ada21834"
+      },
+      {
+       "start": 794172,
+       "end": 794540,
+       "mode": "callback",
+       "target": "f1 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "83d2968f1142025d44be4da576e32dd2b9e8223a1e4ff70edf0c341e92241380"
+      },
+      {
+       "start": 794561,
+       "end": 794805,
+       "mode": "callback",
+       "target": "f1 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "652fcfc142c3c0784b26c6ccd34351c9861f3c04e41ea0cff51364ff6f5075ed"
+      },
+      {
+       "start": 794826,
+       "end": 795434,
+       "mode": "callback",
+       "target": "f1 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "f112bbec0eefd28031d3dde11537c72c95aed3abce4670129ff05d8787c8d5ba"
+      },
+      {
+       "start": 795461,
+       "end": 796393,
+       "mode": "callback",
+       "target": "m5 shell 事件包装回调 #1（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "3f8861d86e950721b40fea2fe49cdf92a6d1bbfb52b0d8231068cde61991f03b"
+      }
+     ],
+     "fixedSha256": "b8048096ceb95eb77214ed5f6082e4027c3d181b3302e87ccff21e0a0c2c3122"
+    },
+    {
+     "path": "2c6e37b73c/f49fdc38eb.98197.js",
+     "sha256": "802a78814fe93e4fe96defc649fbce051b57d588e1b9c61141da33f24ce80dce",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n1"
+     },
+     "callbacks": [
+      {
+       "start": 91994,
+       "end": 92891,
+       "mode": "callback",
+       "target": "n1 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "5f49309fc2baa3c4916c430fdbadf03100fa5594d61fd13065cb84f58229a500"
+      },
+      {
+       "start": 92934,
+       "end": 93846,
+       "mode": "callback",
+       "target": "n1 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "1fef874ca06938ced36acc2b81be0219096ee95ab2d1cda3a849b04574364cc3"
+      },
+      {
+       "start": 101878,
+       "end": 102293,
+       "mode": "callback",
+       "target": "F1：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "801072ad0a97086b58b660d404df63f490a10db56ff35ca9da2651bb134dbcfc"
+      }
+     ],
+     "fixedSha256": "7f1449904c124247f5cbe6892e4adc492117e706457d956e0aee7ccbb1dbc5aa"
+    }
+   ],
+   "shell": {
+    "path": "984721902a/996b5422dd.c259f.js",
+    "sha256": "b9086add6695a8e575ef39a946cc1564ecb335d606d58b5f40aa1c074541877d",
+    "wrappers": {
+     "primary": "Y_",
+     "secondary": "H8"
+    },
+    "callbacks": [
+     {
+      "start": 418957,
+      "end": 419370,
+      "mode": "callback",
+      "target": "H8 shell 事件包装回调 #1（解码：eval / \"cc\" / Node / prototype / setScale / destroy）",
+      "sha256": "0ba85c1bd990b9d9019d75ccae5828d977827a64f4b8ced33951c7ef1162410a"
+     },
+     {
+      "start": 419415,
+      "end": 420297,
+      "mode": "callback",
+      "target": "H8 shell 事件包装回调 #2（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+      "sha256": "da1cd6e382c90abfb3b72f894390480e04686b65d9100f881197a73bd2f8cc38"
+     },
+     {
+      "start": 420342,
+      "end": 421269,
+      "mode": "callback",
+      "target": "H8 shell 事件包装回调 #3（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+      "sha256": "d6ccd64048673b38a780b225133e2bb678ae13f654522b29b2d79f8cbd083cf8"
+     },
+     {
+      "start": 493080,
+      "end": 493883,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+      "sha256": "f3c6f05acc7186c86706e90f932ec04c4b53f54433339a746638a5a15da1361c"
+     },
+     {
+      "start": 493903,
+      "end": 494504,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+      "sha256": "3add6959bb49ad12d5d6c488a5ea72afb5ea19ed40e5f9f43b0b6da515c7d621"
+     },
+     {
+      "start": 494524,
+      "end": 494885,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+      "sha256": "927090bd9089cc07da917fd789625b0c161d9121a39f8451d5346c1aa92de94b"
+     },
+     {
+      "start": 494906,
+      "end": 495653,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+      "sha256": "438fdd8a0fd743420fea06953d6715614d1f1db7c1857e3f2ec3e4fbc4409f9d"
+     },
+     {
+      "start": 495673,
+      "end": 495923,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+      "sha256": "4d98503ddecdf90fad2dd5de809230d27d0521c5ee908c438c13f54602ddc2ae"
+     }
+    ],
+    "fixedSha256": "673b224c660537dbee57e226a438c48144b28004b2c3850eb12a37dbcdd21efb",
+    "mode": "ranges"
+   }
+  },
+  "11eef0af9abd": {
+   "plugins": [
+    {
+     "path": "8583df6da7/64d36df427.d5ef2.js",
+     "sha256": "b4bf7d12723b54e77366b5cc6d1517d0ea9df173d30a4a391fd0f9a4e8f1c3c8",
+     "wrappers": {
+      "primary": "k2",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 116097,
+       "end": 116676,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "bd53a058f8e9fa7a5c4f0dfb7be6290bec2bffd666eac291202c6aae0beba8db"
+      },
+      {
+       "start": 116696,
+       "end": 117154,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "ccb95e43705d6386bc14b0987dffac442f75a721f67c6b1fb9f59abf1849ac8c"
+      },
+      {
+       "start": 117174,
+       "end": 117528,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "ca48ce741682c97f7a3ba6bfeda048de697f5743f61946311b0d0f5e44623c7d"
+      },
+      {
+       "start": 117548,
+       "end": 117785,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "d7a917ddac92ebbf1d28980badfac818f5145b810ef90ff201576cbbb3b3aa0b"
+      },
+      {
+       "start": 117805,
+       "end": 118414,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "9fad0777f5267da1c1a291519d9958f029a028f401d876a68ebfe412485868a8"
+      }
+     ],
+     "fixedSha256": "968451be110d327c6ab8ee04983a49cfecb0d8c52144fa9c604d5230f836b976"
+    },
+    {
+     "path": "d1ad8305ef/f79a0382e2.1ab94.js",
+     "sha256": "50c1dcef702859da1127878dd02ecc60a90046c8850b08fb189a244ce6350d32",
+     "wrappers": {
+      "primary": "v3",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 93377,
+       "end": 93959,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "235af0cfd6dda5585ab1a0e755f18deb7b32c1bea1990b4810c2ccfdda9d3d7f"
+      },
+      {
+       "start": 93979,
+       "end": 94423,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "69c8a6e278c9cd94352ebb28a225922d0dbf42d931ee1faecf382003c38cef91"
+      },
+      {
+       "start": 94443,
+       "end": 94786,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "1f7a0fa9e79a882f8332d7f375a849bcb11a32cdf59835d20a77b7243af66e2a"
+      },
+      {
+       "start": 94806,
+       "end": 95039,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "6bcd55c14ce0451ddc8a7f815278e217f524d01b5f303ae148c9048aeb9820c3"
+      },
+      {
+       "start": 95059,
+       "end": 95989,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "ad267453e10eacc9f204d3de92632949c2b5f201e5cb874acc6b8f86fd351a90"
+      }
+     ],
+     "fixedSha256": "57aec216ab88473d70ba284771dc0df18c887a115abf3f40c28a87a3bb3e0ce0"
+    },
+    {
+     "path": "b85c56d865/3a0dd812c3.fb9c3.js",
+     "sha256": "ab0c1c04b37e99a4fbd9318ffb7543c1d8c5f5f9d7db357fa46c374f74917b83",
+     "wrappers": {
+      "primary": "N6",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 37553,
+       "end": 37842,
+       "mode": "callback",
+       "target": "ActionInterval.prototype.startWithTarget=undefined（沿用 1926 解码）",
+       "sha256": "4b8c886d38a1cbf10bdd9c00b44a6fa77a8477296f75eb2ace5d22d1cd8776ba"
+      },
+      {
+       "start": 37867,
+       "end": 38535,
+       "mode": "callback",
+       "target": "ParticleSystem.prototype.lateUpdate=Function(cc.director._invalid=true)（沿用 1926 解码）",
+       "sha256": "5a05d3acc573bb91d14ab10df56132318a63e5c53f7dfbc3b223b3fa296986ca"
+      },
+      {
+       "start": 38552,
+       "end": 39239,
+       "mode": "callback",
+       "target": "Director.prototype.calculateDeltaTime=Function(this._deltaTime=NaN)（沿用 1926 解码）",
+       "sha256": "21bbd3fc2160d55648695250fcd4f06b7bd83491db9552157ea7fb9d5ab5c258"
+      },
+      {
+       "start": 39256,
+       "end": 40537,
+       "mode": "callback",
+       "target": "director._compScheduler.updatePhase=Number（沿用 1926 解码）",
+       "sha256": "3cdfdafca08917ac40bcc55f74b7be822d9a0cef55ae7bbac9a744619551631d"
+      },
+      {
+       "start": 40554,
+       "end": 41196,
+       "mode": "callback",
+       "target": "Node.prototype.dispatchEvent=function return false（沿用 1926 解码）",
+       "sha256": "10ace7f62838ede35a6065dc406c12f347366bdbe3c48a66c4e28bd3ede3ff4a"
+      }
+     ],
+     "fixedSha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+    },
+    {
+     "path": "e02b9bf0d2/51353bae0e.a46b0.js",
+     "sha256": "be7710cb760356c5775f3f670aeacec41bb14cbeb41132d96c50e81fda1d6595",
+     "wrappers": {
+      "primary": "v9",
+      "secondary": "t$N"
+     },
+     "callbacks": [
+      {
+       "start": 452397,
+       "end": 452785,
+       "mode": "callback",
+       "target": "t$N shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "a00f6dea39d5d9cfc6adab8ba67ff455ef8840bb04c25a3d9d5a21daf5404288"
+      },
+      {
+       "start": 452831,
+       "end": 453171,
+       "mode": "callback",
+       "target": "t$N shell 事件包装回调 #2（解码：Node / prototype / dispatchEvent）",
+       "sha256": "4da13890d17e4c80e0627c82be2903094d479e3510c1bd1e996ef85e416b524e"
+      },
+      {
+       "start": 490364,
+       "end": 491168,
+       "mode": "callback",
+       "target": "v9 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "2b3ac67c1975f46f45cde2be9e98bdb7f7cb47aa157b75a3fa04b35f75a47912"
+      },
+      {
+       "start": 491188,
+       "end": 491846,
+       "mode": "callback",
+       "target": "v9 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "b8be3dee47957957206cdee9ea3f8d44b20cc8ac20358d867fc99382a3eeef07"
+      },
+      {
+       "start": 491867,
+       "end": 492460,
+       "mode": "callback",
+       "target": "v9 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "25487474ce27bfa00fcbecf9ea1dedaccb81ac1f9966860073825090646b2100"
+      },
+      {
+       "start": 492480,
+       "end": 492829,
+       "mode": "callback",
+       "target": "v9 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "708517d3f41d9af991505f4d473b3ac2530bf3a2ea8b319fba5bdb5308d238b3"
+      },
+      {
+       "start": 492849,
+       "end": 493251,
+       "mode": "callback",
+       "target": "v9 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "82c8eda31d29dbff247546f285a8506e9d0bd2d4afe944acc96af91885438862"
+      }
+     ],
+     "fixedSha256": "e4230b7414a1e8af3d5a26b9f99c0ea4e74f3a56dd4655ac9dddaea8167256a8"
+    },
+    {
+     "path": "589a728c8d/c867f19ae2.53a31.js",
+     "sha256": "db8b83ebb1b5db0c7626c28c6725ac8f8952455f6d38e5f28847a8736e8cdd49",
+     "wrappers": {
+      "primary": "C9",
+      "secondary": "p2"
+     },
+     "callbacks": [
+      {
+       "start": 92140,
+       "end": 92376,
+       "mode": "callback",
+       "target": "C9 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+       "sha256": "124967020cb6029a38036544aa04a8aea6a45fda07f89821accd773b4be88aa5"
+      },
+      {
+       "start": 92396,
+       "end": 92993,
+       "mode": "callback",
+       "target": "C9 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+       "sha256": "e5f396b47cf8f9c1d137add04386bb5e9e60818c149123fe9e707f6c4c19e4e7"
+      },
+      {
+       "start": 93013,
+       "end": 93373,
+       "mode": "callback",
+       "target": "C9 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+       "sha256": "0deb652a902938df89581f3d6e47b7a19e8921b04d15fc970e59658e5ede5faa"
+      },
+      {
+       "start": 93394,
+       "end": 94164,
+       "mode": "callback",
+       "target": "C9 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+       "sha256": "d231070d7a87a5c6c9e326cc56c00b1bb1427a0e9688836a6152c380a9cc341d"
+      },
+      {
+       "start": 94184,
+       "end": 94432,
+       "mode": "callback",
+       "target": "C9 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+       "sha256": "4220405d5b6b78e5b233286b64b05d2257b22543fb1172144fead58b3628d71a"
+      },
+      {
+       "start": 466728,
+       "end": 467113,
+       "mode": "callback",
+       "target": "p2 shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "b10d10e250b7c21de6e2aa29c8f18ee38f04c6736d8748ca4184b583be5d23a8"
+      },
+      {
+       "start": 467158,
+       "end": 467373,
+       "mode": "callback",
+       "target": "p2 shell 事件包装回调 #2（解码：renderer / render）",
+       "sha256": "613f8eb2e2695c21552a7ab9b276600b670b0c3cd30f01d901c0a6684fab134d"
+      },
+      {
+       "start": 467417,
+       "end": 467758,
+       "mode": "callback",
+       "target": "p2 shell 事件包装回调 #3（解码：Node / prototype / dispatchEvent）",
+       "sha256": "bb2bb12702d9f5321c27b160ef98f6dd6839f846fa45ee955a3c9fc2b7e0b810"
+      },
+      {
+       "start": 469499,
+       "end": 469846,
+       "mode": "callback",
+       "target": "J4：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "d4b1d191196b5ab4b7d7eb08ec9c5782e97fe69a7972115c370d7603a06e04a9"
+      }
+     ],
+     "fixedSha256": "0c65d9079e2c5cd1553cb4f4bdba0d44227a315db261374fab706a09dc55d8ab"
+    },
+    {
+     "path": "a346494745/a6325fb8fc.1c7d9.js",
+     "sha256": "4af252b487d76bda09b3816d32f8525e49b559e187fe2ef690c2d08999b48b9a",
+     "wrappers": {
+      "primary": "c2",
+      "secondary": "e0"
+     },
+     "callbacks": [
+      {
+       "start": 325629,
+       "end": 326408,
+       "mode": "callback",
+       "target": "c2 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "2095c3c4ad5c56b9c4894d09ae175bf2b0483749f49bccf8ed1b7d594324e391"
+      },
+      {
+       "start": 326428,
+       "end": 327079,
+       "mode": "callback",
+       "target": "c2 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "167744c31329643220b008e453b64a79b172535ad688b8018a7d1304f5aba4f7"
+      },
+      {
+       "start": 327099,
+       "end": 327692,
+       "mode": "callback",
+       "target": "c2 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "b6bee689d79b1dc14f9316c87341afb009d0049458665522ac2b74839247127d"
+      },
+      {
+       "start": 327712,
+       "end": 328058,
+       "mode": "callback",
+       "target": "c2 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "3b00d37b0aeba0e685c6dec9bd0d520739dd27071e705c850748ba97338f1ce1"
+      },
+      {
+       "start": 328079,
+       "end": 328462,
+       "mode": "callback",
+       "target": "c2 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "5e93b59171bfc2eec3b2aed118b2eb4a5d553b4eb27dc28b19b84a1755a72444"
+      },
+      {
+       "start": 328488,
+       "end": 328740,
+       "mode": "callback",
+       "target": "e0 shell 事件包装回调 #1（解码：eval / \"cc\" / renderer / render）",
+       "sha256": "3765a6cdfeaafca76a5e84f2c9236861178c346c143efc31d3cf73a977d81b98"
+      }
+     ],
+     "fixedSha256": "65ba9e5ba1deafd8b06873deb586b0e1080d6b302618202fb8af7351944a3b49"
+    },
+    {
+     "path": "2fd142260e/509fdc8981.4e41e.js",
+     "sha256": "a2a84cd8465731be1b6fbea3791a9a19857ffdb548121f1f5a330f22f0b95367",
+     "wrappers": {
+      "primary": "e7",
+      "secondary": "F2"
+     },
+     "callbacks": [
+      {
+       "start": 532292,
+       "end": 532318,
+       "mode": "expression",
+       "replacement": "H7W(113,\"C\",-111);return;",
+       "target": ">=500 延时分支仅跳过 Shell.EnableUIBlock 载荷，保留列号解码调用后返回（对应 T26/Y0N）",
+       "sha256": "cb54cb8bad2d366d1a95879bf0cc0cb9ce2222022c14bdc84e1ad82b70680f02"
+      },
+      {
+       "start": 541893,
+       "end": 541940,
+       "mode": "expression",
+       "replacement": "O5k[O5k.R6w(Y6.X6(Y6.L4()[80](),540673,80))]  ;",
+       "target": ">=500 延时分支内无条件死循环调用（对应 B7/c0G）；只去掉调用括号，保留解码与属性读取",
+       "sha256": "c5c921616c14fd3280dbc4a10b442984208c9f05ff54b6ca1cc5c533503a0d42"
+      },
+      {
+       "start": 796116,
+       "end": 796710,
+       "mode": "callback",
+       "target": "e7 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "d5d5c72f142656cff85360e7375ebd0188ecfddc57f864ea7255de10f31b1351"
+      },
+      {
+       "start": 796730,
+       "end": 797172,
+       "mode": "callback",
+       "target": "e7 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "0115297b5f6dabac01d3b88500330fd3cbb44f03fe29828e1dff1d01253f2c96"
+      },
+      {
+       "start": 797193,
+       "end": 797549,
+       "mode": "callback",
+       "target": "e7 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "a4b1276379bb531abd32a9bd989d175d127d74848ef89a2ab01731eb5cb9df1b"
+      },
+      {
+       "start": 797570,
+       "end": 797806,
+       "mode": "callback",
+       "target": "e7 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "ed2d9b3eb66b3386504eea16f65da89312a4bfbf75d7045679e75ee061c1b977"
+      },
+      {
+       "start": 797826,
+       "end": 798452,
+       "mode": "callback",
+       "target": "e7 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "1f596f57c476cf531b1d5a8ad685ff026c6dec5b282b06a33f9a86e1337a4bed"
+      },
+      {
+       "start": 798671,
+       "end": 799560,
+       "mode": "callback",
+       "target": "F2 shell 事件包装回调 #1（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "6682cbdc1b655feeb4217ffc4286892234b31f6a617dd6e1d43a4103d59b23f4"
+      }
+     ],
+     "fixedSha256": "5a134e8c8d8acf199e15ec0075c4aee45712cc3e3283317a036aad5b6029f896"
+    },
+    {
+     "path": "2c6e37b73c/f49fdc38eb.c4f2b.js",
+     "sha256": "56d9fccb0d549900353e1f56804b9df9ea8eb124f54e6323082f8d8a2b135a03",
+     "wrappers": {
+      "primary": null,
+      "secondary": "s$"
+     },
+     "callbacks": [
+      {
+       "start": 96523,
+       "end": 97384,
+       "mode": "callback",
+       "target": "s$ shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "a1b1010d25abce04535c84b49fe7cd639ca7210a0d24edec4acdf7e4af2b5c5f"
+      },
+      {
+       "start": 97426,
+       "end": 98675,
+       "mode": "callback",
+       "target": "s$ shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "c8a91bb4dfec777b56e1242f2a78d3734b0e1cc50c81669415f35b15e60d2596"
+      },
+      {
+       "start": 295602,
+       "end": 296089,
+       "mode": "callback",
+       "target": "G_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "2c30ac048674a6ecba83f894792ea599e19f9e36750a4bfd813400d8cbe7f193"
+      }
+     ],
+     "fixedSha256": "5d68ea9519e50561b0f97a3ba31938fe141bb70e7954074b1574313e58d3231e"
+    }
+   ],
+   "shell": {
+    "path": "984721902a/996b5422dd.ff942.js",
+    "sha256": "af49583954c9935a00fbad5f095cabbca3690dcff3f2ec53b858b955ed1787ae",
+    "wrappers": {
+     "primary": "b9",
+     "secondary": "S_"
+    },
+    "callbacks": [
+     {
+      "start": 410952,
+      "end": 411366,
+      "mode": "callback",
+      "target": "S_ shell 事件包装回调 #1（解码：eval / \"cc\" / Node / prototype / setScale / destroy）",
+      "sha256": "7639bdadb3e12caf77b1e16620af3c6d81cb6da71e39aebdf37c0fbc954bd95b"
+     },
+     {
+      "start": 411411,
+      "end": 412345,
+      "mode": "callback",
+      "target": "S_ shell 事件包装回调 #2（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+      "sha256": "f8cc30ba7dadc86b3f4e5f4ed90b905f05099f8077ec6538939d69d4b64470c3"
+     },
+     {
+      "start": 412391,
+      "end": 413308,
+      "mode": "callback",
+      "target": "S_ shell 事件包装回调 #3（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+      "sha256": "ea683d98f6aa32750fcf7121b0c7a820c80f223652bb7e6004c57ea430cb0b49"
+     },
+     {
+      "start": 481230,
+      "end": 481464,
+      "mode": "callback",
+      "target": "b9 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+      "sha256": "1ee5c602f6f2a15487004b50c5959b5040da16cd47deed41cda190951792c9a4"
+     },
+     {
+      "start": 481485,
+      "end": 482113,
+      "mode": "callback",
+      "target": "b9 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+      "sha256": "8a9a4a667b6f88ff640e28c9b549a659e538d45ab9deeb22578d7d9503567ca4"
+     },
+     {
+      "start": 482134,
+      "end": 482494,
+      "mode": "callback",
+      "target": "b9 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+      "sha256": "90c2e4c99c836adaf30e9899cd39ca084804832f08b0f3a86e4a2edd482ef1a6"
+     },
+     {
+      "start": 482513,
+      "end": 483261,
+      "mode": "callback",
+      "target": "b9 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+      "sha256": "04b3518ea58c75c26fb738a2a5a0febf2bc3272649a6b522328a1f9bcf29b7ed"
+     },
+     {
+      "start": 483282,
+      "end": 483520,
+      "mode": "callback",
+      "target": "b9 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+      "sha256": "5e82a1a275ca8fe8467e99fd08e887c723bcdaa13cc1059f266f36c5b91a36d2"
+     }
+    ],
+    "fixedSha256": "b5b60dc2df3d2f1ce13766a3668a6c8494d6107c91eb1c6c1967bdd1776a73f4",
+    "mode": "ranges"
+   }
+  },
+  "5855063506b1": {
+   "plugins": [
+    {
+     "path": "8583df6da7/64d36df427.d5ef2.js",
+     "sha256": "b4bf7d12723b54e77366b5cc6d1517d0ea9df173d30a4a391fd0f9a4e8f1c3c8",
+     "wrappers": {
+      "primary": "k2",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 116097,
+       "end": 116676,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "bd53a058f8e9fa7a5c4f0dfb7be6290bec2bffd666eac291202c6aae0beba8db"
+      },
+      {
+       "start": 116696,
+       "end": 117154,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "ccb95e43705d6386bc14b0987dffac442f75a721f67c6b1fb9f59abf1849ac8c"
+      },
+      {
+       "start": 117174,
+       "end": 117528,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "ca48ce741682c97f7a3ba6bfeda048de697f5743f61946311b0d0f5e44623c7d"
+      },
+      {
+       "start": 117548,
+       "end": 117785,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "d7a917ddac92ebbf1d28980badfac818f5145b810ef90ff201576cbbb3b3aa0b"
+      },
+      {
+       "start": 117805,
+       "end": 118414,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "9fad0777f5267da1c1a291519d9958f029a028f401d876a68ebfe412485868a8"
+      }
+     ],
+     "fixedSha256": "968451be110d327c6ab8ee04983a49cfecb0d8c52144fa9c604d5230f836b976"
+    },
+    {
+     "path": "d1ad8305ef/f79a0382e2.1ab94.js",
+     "sha256": "50c1dcef702859da1127878dd02ecc60a90046c8850b08fb189a244ce6350d32",
+     "wrappers": {
+      "primary": "v3",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 93377,
+       "end": 93959,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "235af0cfd6dda5585ab1a0e755f18deb7b32c1bea1990b4810c2ccfdda9d3d7f"
+      },
+      {
+       "start": 93979,
+       "end": 94423,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "69c8a6e278c9cd94352ebb28a225922d0dbf42d931ee1faecf382003c38cef91"
+      },
+      {
+       "start": 94443,
+       "end": 94786,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "1f7a0fa9e79a882f8332d7f375a849bcb11a32cdf59835d20a77b7243af66e2a"
+      },
+      {
+       "start": 94806,
+       "end": 95039,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "6bcd55c14ce0451ddc8a7f815278e217f524d01b5f303ae148c9048aeb9820c3"
+      },
+      {
+       "start": 95059,
+       "end": 95989,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "ad267453e10eacc9f204d3de92632949c2b5f201e5cb874acc6b8f86fd351a90"
+      }
+     ],
+     "fixedSha256": "57aec216ab88473d70ba284771dc0df18c887a115abf3f40c28a87a3bb3e0ce0"
+    },
+    {
+     "path": "b85c56d865/3a0dd812c3.fb9c3.js",
+     "sha256": "ab0c1c04b37e99a4fbd9318ffb7543c1d8c5f5f9d7db357fa46c374f74917b83",
+     "wrappers": {
+      "primary": "N6",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 37553,
+       "end": 37842,
+       "mode": "callback",
+       "target": "ActionInterval.prototype.startWithTarget=undefined（沿用 1926 解码）",
+       "sha256": "4b8c886d38a1cbf10bdd9c00b44a6fa77a8477296f75eb2ace5d22d1cd8776ba"
+      },
+      {
+       "start": 37867,
+       "end": 38535,
+       "mode": "callback",
+       "target": "ParticleSystem.prototype.lateUpdate=Function(cc.director._invalid=true)（沿用 1926 解码）",
+       "sha256": "5a05d3acc573bb91d14ab10df56132318a63e5c53f7dfbc3b223b3fa296986ca"
+      },
+      {
+       "start": 38552,
+       "end": 39239,
+       "mode": "callback",
+       "target": "Director.prototype.calculateDeltaTime=Function(this._deltaTime=NaN)（沿用 1926 解码）",
+       "sha256": "21bbd3fc2160d55648695250fcd4f06b7bd83491db9552157ea7fb9d5ab5c258"
+      },
+      {
+       "start": 39256,
+       "end": 40537,
+       "mode": "callback",
+       "target": "director._compScheduler.updatePhase=Number（沿用 1926 解码）",
+       "sha256": "3cdfdafca08917ac40bcc55f74b7be822d9a0cef55ae7bbac9a744619551631d"
+      },
+      {
+       "start": 40554,
+       "end": 41196,
+       "mode": "callback",
+       "target": "Node.prototype.dispatchEvent=function return false（沿用 1926 解码）",
+       "sha256": "10ace7f62838ede35a6065dc406c12f347366bdbe3c48a66c4e28bd3ede3ff4a"
+      }
+     ],
+     "fixedSha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+    },
+    {
+     "path": "e02b9bf0d2/51353bae0e.e9dd7.js",
+     "sha256": "d3d6550ce33fb7d5362ad451da06ebfd117d315dd7a011fd624f54729a3229a4",
+     "wrappers": {
+      "primary": "n2",
+      "secondary": "m53"
+     },
+     "callbacks": [
+      {
+       "start": 411140,
+       "end": 411525,
+       "mode": "callback",
+       "target": "m53 shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "03e67ad3940bc435ed09d70ab168ac10d8f6704b8691b62cbdc9b1685f1c5e9e"
+      },
+      {
+       "start": 411571,
+       "end": 411908,
+       "mode": "callback",
+       "target": "m53 shell 事件包装回调 #2（解码：Node / prototype / dispatchEvent）",
+       "sha256": "c482e62fe3d26f6865fb017e5bf7516cd568273e5d629f9403d959d807f95607"
+      },
+      {
+       "start": 441723,
+       "end": 442967,
+       "mode": "callback",
+       "target": "n2 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "420c785b1214529a2c4ce0649ab9ce34f59a2324d2a7edbe7ecd866b6b6792e0"
+      },
+      {
+       "start": 442987,
+       "end": 443641,
+       "mode": "callback",
+       "target": "n2 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "0d60569fcb69259fd8792a53ffb93c1370d37c5d533eac3063623ae82d8317d5"
+      },
+      {
+       "start": 443660,
+       "end": 444258,
+       "mode": "callback",
+       "target": "n2 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "a96e362a5a273777084ed71a5ec7c0d5841098bdb5543d50c68abd7141846176"
+      },
+      {
+       "start": 444278,
+       "end": 444613,
+       "mode": "callback",
+       "target": "n2 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "757b28dae301398578e5d59464182e2a0b11ff15b6690087767e7366fd415264"
+      },
+      {
+       "start": 444634,
+       "end": 445032,
+       "mode": "callback",
+       "target": "n2 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "2487cd0a230fdaa59bd7fb19f41ab7dd0565331d8911e9695dbce8f8eff58bb8"
+      }
+     ],
+     "fixedSha256": "19374f061f88d837110c62e16fadc317fbc0618fae6a888fa5fefe7bb31b895d"
+    },
+    {
+     "path": "589a728c8d/c867f19ae2.9e54c.js",
+     "sha256": "063b76c2d72972902d57586f526376c11b406b5932a23bde55ed1037c0ea1e63",
+     "wrappers": {
+      "primary": "k0",
+      "secondary": "Z9"
+     },
+     "callbacks": [
+      {
+       "start": 86196,
+       "end": 86545,
+       "mode": "callback",
+       "target": "R7：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "c088d6e0f903ba93bdfe80094e209db8eca70b423bda32d5acce13a49d0f2409"
+      },
+      {
+       "start": 103537,
+       "end": 103765,
+       "mode": "callback",
+       "target": "k0 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+       "sha256": "eabba52de89a9f8bf2be5ebd50055f037053e29c3e64ec2c3292d4fec0800427"
+      },
+      {
+       "start": 103786,
+       "end": 104385,
+       "mode": "callback",
+       "target": "k0 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+       "sha256": "e15734101b3d6c133b99ef9ee6565b80eadfd3c32c29616e70487524e29d1efb"
+      },
+      {
+       "start": 104406,
+       "end": 104758,
+       "mode": "callback",
+       "target": "k0 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+       "sha256": "1fdc9c82f783f2f1c162b66ae8a347a8d3c9c15c80a424564d140bcd629ad678"
+      },
+      {
+       "start": 104779,
+       "end": 106109,
+       "mode": "callback",
+       "target": "k0 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+       "sha256": "f165876bae3c597a4dbc88ce9a8a4f3b55568a3344fc0cbe85fea4c4ab25fe1a"
+      },
+      {
+       "start": 106130,
+       "end": 106374,
+       "mode": "callback",
+       "target": "k0 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+       "sha256": "7d38732da1ed0426e16c395b2d70d812d9b38ef7b3d11aa0bd1edbce7a327237"
+      },
+      {
+       "start": 454550,
+       "end": 455481,
+       "mode": "callback",
+       "target": "Z9 shell 事件包装回调 #1（解码：prototype / Node / setScale / destroy）",
+       "sha256": "d2c7192a075208ee357ebc9e2d51f54550bf27ec5beb0695d992ce5fe184fc57"
+      },
+      {
+       "start": 455526,
+       "end": 455738,
+       "mode": "callback",
+       "target": "Z9 shell 事件包装回调 #2（解码：renderer / render）",
+       "sha256": "a435a52583460b3aa24c0d4c2f794065383232bdb89bfe446c590e71b54dc5d8"
+      },
+      {
+       "start": 455783,
+       "end": 456135,
+       "mode": "callback",
+       "target": "Z9 shell 事件包装回调 #3（解码：Node / prototype / dispatchEvent）",
+       "sha256": "d952da0da93f92867d10ddbe1f0bfea3d8d7098fea0bf4881d8257623cb0ef1b"
+      }
+     ],
+     "fixedSha256": "a04ebefcb7808167422a36ce240df4b9cdb273be3735741adbc1684d93007960"
+    },
+    {
+     "path": "a346494745/a6325fb8fc.e8527.js",
+     "sha256": "35df940797e23d932fe1abf6f6d64b72b61248a77a08133e91c369ceeb017740",
+     "wrappers": {
+      "primary": "z9",
+      "secondary": "J1"
+     },
+     "callbacks": [
+      {
+       "start": 373610,
+       "end": 374376,
+       "mode": "callback",
+       "target": "z9 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "cd78478fe87212422b2d873fdfe258f04d5052658dde4bddf123d21dc3b58486"
+      },
+      {
+       "start": 374396,
+       "end": 375055,
+       "mode": "callback",
+       "target": "z9 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "001d327d49b78da3f037553d4eafec8d865dfd4fbbd955dd8b413abf9a65651e"
+      },
+      {
+       "start": 375075,
+       "end": 375660,
+       "mode": "callback",
+       "target": "z9 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "32c5c3974210d979e39adca7731aebc1c60958f8767e69921021a40a459b507f"
+      },
+      {
+       "start": 375680,
+       "end": 376044,
+       "mode": "callback",
+       "target": "z9 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "554deca268a6c4e35d9811b246860eeb00c35c61075fd7b995865ed828cd3c62"
+      },
+      {
+       "start": 376065,
+       "end": 376464,
+       "mode": "callback",
+       "target": "z9 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "f83eb6f6956712da592c38da04e1956ecda608cc4c2961469db44f848dc204db"
+      },
+      {
+       "start": 378572,
+       "end": 378817,
+       "mode": "callback",
+       "target": "J1 shell 事件包装回调 #1（解码：eval / \"cc\" / renderer / render）",
+       "sha256": "4c374724f90c0430e82bafa44e1ee09647873fda8df322a35c8a3695b30fc225"
+      }
+     ],
+     "fixedSha256": "76ea8ac0ffc7ee6ab803f98847ae4d5313526492e25c868785cd7576f09d025e"
+    },
+    {
+     "path": "2fd142260e/509fdc8981.61934.js",
+     "sha256": "ff01b61b9640a87044f7df7dce8fc7bbb6c626ee150194fcd2ca74c2e8b40a98",
+     "wrappers": {
+      "primary": "C5",
+      "secondary": "b5"
+     },
+     "callbacks": [
+      {
+       "start": 441397,
+       "end": 441420,
+       "mode": "expression",
+       "replacement": "H8K(94,46,\"Q\");return;",
+       "target": ">=500 延时分支仅跳过 Shell.EnableUIBlock 载荷，保留列号解码调用后返回（对应 T26/Y0N）",
+       "sha256": "c0e0818080e8fa840ed362f0a9a4b4b7924748f1c6c8e2d614563a403f57ceaf"
+      },
+      {
+       "start": 682603,
+       "end": 683196,
+       "mode": "callback",
+       "target": "C5 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "e3f7e96c1a52c6ceef1aef509a16eb275f64e347a665bfd8e14573b90ff1baa3"
+      },
+      {
+       "start": 683217,
+       "end": 683669,
+       "mode": "callback",
+       "target": "C5 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "5cd9c7800f3d12eccc324aa0aa5e65b82772a81ad474da6e92f32679272c3b98"
+      },
+      {
+       "start": 683690,
+       "end": 684056,
+       "mode": "callback",
+       "target": "C5 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "435c6141f7ab4572fd0db871ac924f3bdcce360c403d1a077c40474dcad89082"
+      },
+      {
+       "start": 684077,
+       "end": 684323,
+       "mode": "callback",
+       "target": "C5 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "999c14097dd10d9a45bc349f5564f0ec9a038cc8289b9b1f0b547b2b5ad48725"
+      },
+      {
+       "start": 684344,
+       "end": 684942,
+       "mode": "callback",
+       "target": "C5 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "9dde298f80bc8372ee946e006dfb446d56d22aa4002f71168099e91885a68b29"
+      },
+      {
+       "start": 684969,
+       "end": 685882,
+       "mode": "callback",
+       "target": "b5 shell 事件包装回调 #1（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "cacdc2f292268544a14ae61cd08f28cf73533005bad90797e58944798e429614"
+      },
+      {
+       "start": 719537,
+       "end": 719558,
+       "mode": "expression",
+       "replacement": "y8h[y8h.n$n(2645)]  ;",
+       "target": ">=500 延时分支内无条件死循环调用（对应 B7/c0G）；只去掉调用括号，保留解码与属性读取",
+       "sha256": "997bea953e516939bab26393c86968aca20adaeac9dc1768460bbea006bcae1a"
+      }
+     ],
+     "fixedSha256": "35fe99fcd0f63b452f2cceb46a377bedaed56d8f17c0128622635efff8522ccf"
+    },
+    {
+     "path": "2c6e37b73c/f49fdc38eb.a0ea7.js",
+     "sha256": "15c307c3f9d4c1932638a897e17f56c29a6eb634f492d8b1c6553ff40993006b",
+     "wrappers": {
+      "primary": null,
+      "secondary": "U3"
+     },
+     "callbacks": [
+      {
+       "start": 93187,
+       "end": 94097,
+       "mode": "callback",
+       "target": "U3 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "026abf403917323a8464042f5e229a7da9bef9d251971830870856ba68994007"
+      },
+      {
+       "start": 94140,
+       "end": 95101,
+       "mode": "callback",
+       "target": "U3 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "2b5512783a53286a163fa82cb7917ad932400e927e5be86699c904187d117d9e"
+      },
+      {
+       "start": 420716,
+       "end": 421225,
+       "mode": "callback",
+       "target": "W2：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1701ee2cdaa894cbb6acdba7b78859e0c50e4572a698399637431b961a4d0a46"
+      }
+     ],
+     "fixedSha256": "d22c28b1524a82ff3c21c93c051520e8724352ca3dda14d2728a2bfd9252a8ae"
+    }
+   ],
+   "shell": {
+    "path": "984721902a/996b5422dd.0ea9c.js",
+    "sha256": "69deb116b6e1362aa9d16825a86b7ec16d887df64d6de55960b645ceaf632324",
+    "wrappers": {
+     "primary": "E3",
+     "secondary": "y5"
+    },
+    "callbacks": [
+     {
+      "start": 431976,
+      "end": 432401,
+      "mode": "callback",
+      "target": "y5 shell 事件包装回调 #1（解码：eval / \"cc\" / Node / prototype / setScale / destroy）",
+      "sha256": "7aff11d52ff79fc7bd5eed6f19a1d0da27763cd73fb4414fb52139d17cbe4011"
+     },
+     {
+      "start": 432447,
+      "end": 433331,
+      "mode": "callback",
+      "target": "y5 shell 事件包装回调 #2（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+      "sha256": "62add07faada79dc7e473303400035cfd5a1a9a6e54fee3ecd17d9cd745be8fe"
+     },
+     {
+      "start": 433377,
+      "end": 434296,
+      "mode": "callback",
+      "target": "y5 shell 事件包装回调 #3（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+      "sha256": "d749e49d914167735e3ab83631d9c2e9998aff3d22947f3331e8c37515ed4cf8"
+     },
+     {
+      "start": 494649,
+      "end": 494889,
+      "mode": "callback",
+      "target": "E3 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+      "sha256": "24bf0ff11e76c5f49e44ef4ee8814b224b0daeb6af463d47833feca5b8fcaef7"
+     },
+     {
+      "start": 494910,
+      "end": 495539,
+      "mode": "callback",
+      "target": "E3 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+      "sha256": "11d18d85f64be11ea90078ffd6998aa947317c413e8dfc74ca6825de077a8e19"
+     },
+     {
+      "start": 495560,
+      "end": 495926,
+      "mode": "callback",
+      "target": "E3 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+      "sha256": "04477233b78f2fc56a96f21d10afa0276f964e76a3b5af64ac81027533c0383f"
+     },
+     {
+      "start": 495947,
+      "end": 496721,
+      "mode": "callback",
+      "target": "E3 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+      "sha256": "15d6afb157706cafbf8dee006a02c169ad5260d33ff72ccb4080483c6e7ff831"
+     },
+     {
+      "start": 496741,
+      "end": 496988,
+      "mode": "callback",
+      "target": "E3 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+      "sha256": "5b923d6a19f3e7d71ba6b2220d4795327836063cee00d71a803b383cf5bc9c7d"
+     }
+    ],
+    "fixedSha256": "3a4c5ea4fe2c51a35ee22c747f96958ea2b50d35ecfe3c92745612eb027a28f0",
+    "mode": "ranges"
+   }
+  },
+  "79352db72ace": {
+   "plugins": [
+    {
+     "path": "8583df6da7/64d36df427.d5ef2.js",
+     "sha256": "b4bf7d12723b54e77366b5cc6d1517d0ea9df173d30a4a391fd0f9a4e8f1c3c8",
+     "wrappers": {
+      "primary": "k2",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 116097,
+       "end": 116676,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "bd53a058f8e9fa7a5c4f0dfb7be6290bec2bffd666eac291202c6aae0beba8db"
+      },
+      {
+       "start": 116696,
+       "end": 117154,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "ccb95e43705d6386bc14b0987dffac442f75a721f67c6b1fb9f59abf1849ac8c"
+      },
+      {
+       "start": 117174,
+       "end": 117528,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "ca48ce741682c97f7a3ba6bfeda048de697f5743f61946311b0d0f5e44623c7d"
+      },
+      {
+       "start": 117548,
+       "end": 117785,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "d7a917ddac92ebbf1d28980badfac818f5145b810ef90ff201576cbbb3b3aa0b"
+      },
+      {
+       "start": 117805,
+       "end": 118414,
+       "mode": "callback",
+       "target": "k2 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "9fad0777f5267da1c1a291519d9958f029a028f401d876a68ebfe412485868a8"
+      }
+     ],
+     "fixedSha256": "968451be110d327c6ab8ee04983a49cfecb0d8c52144fa9c604d5230f836b976"
+    },
+    {
+     "path": "d1ad8305ef/f79a0382e2.1ab94.js",
+     "sha256": "50c1dcef702859da1127878dd02ecc60a90046c8850b08fb189a244ce6350d32",
+     "wrappers": {
+      "primary": "v3",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 93377,
+       "end": 93959,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "235af0cfd6dda5585ab1a0e755f18deb7b32c1bea1990b4810c2ccfdda9d3d7f"
+      },
+      {
+       "start": 93979,
+       "end": 94423,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "69c8a6e278c9cd94352ebb28a225922d0dbf42d931ee1faecf382003c38cef91"
+      },
+      {
+       "start": 94443,
+       "end": 94786,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "1f7a0fa9e79a882f8332d7f375a849bcb11a32cdf59835d20a77b7243af66e2a"
+      },
+      {
+       "start": 94806,
+       "end": 95039,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "6bcd55c14ce0451ddc8a7f815278e217f524d01b5f303ae148c9048aeb9820c3"
+      },
+      {
+       "start": 95059,
+       "end": 95989,
+       "mode": "callback",
+       "target": "v3 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "ad267453e10eacc9f204d3de92632949c2b5f201e5cb874acc6b8f86fd351a90"
+      }
+     ],
+     "fixedSha256": "57aec216ab88473d70ba284771dc0df18c887a115abf3f40c28a87a3bb3e0ce0"
+    },
+    {
+     "path": "b85c56d865/3a0dd812c3.fb9c3.js",
+     "sha256": "ab0c1c04b37e99a4fbd9318ffb7543c1d8c5f5f9d7db357fa46c374f74917b83",
+     "wrappers": {
+      "primary": "N6",
+      "secondary": null
+     },
+     "callbacks": [
+      {
+       "start": 37553,
+       "end": 37842,
+       "mode": "callback",
+       "target": "ActionInterval.prototype.startWithTarget=undefined（沿用 1926 解码）",
+       "sha256": "4b8c886d38a1cbf10bdd9c00b44a6fa77a8477296f75eb2ace5d22d1cd8776ba"
+      },
+      {
+       "start": 37867,
+       "end": 38535,
+       "mode": "callback",
+       "target": "ParticleSystem.prototype.lateUpdate=Function(cc.director._invalid=true)（沿用 1926 解码）",
+       "sha256": "5a05d3acc573bb91d14ab10df56132318a63e5c53f7dfbc3b223b3fa296986ca"
+      },
+      {
+       "start": 38552,
+       "end": 39239,
+       "mode": "callback",
+       "target": "Director.prototype.calculateDeltaTime=Function(this._deltaTime=NaN)（沿用 1926 解码）",
+       "sha256": "21bbd3fc2160d55648695250fcd4f06b7bd83491db9552157ea7fb9d5ab5c258"
+      },
+      {
+       "start": 39256,
+       "end": 40537,
+       "mode": "callback",
+       "target": "director._compScheduler.updatePhase=Number（沿用 1926 解码）",
+       "sha256": "3cdfdafca08917ac40bcc55f74b7be822d9a0cef55ae7bbac9a744619551631d"
+      },
+      {
+       "start": 40554,
+       "end": 41196,
+       "mode": "callback",
+       "target": "Node.prototype.dispatchEvent=function return false（沿用 1926 解码）",
+       "sha256": "10ace7f62838ede35a6065dc406c12f347366bdbe3c48a66c4e28bd3ede3ff4a"
+      }
+     ],
+     "fixedSha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+    },
+    {
+     "path": "e02b9bf0d2/51353bae0e.9ae2b.js",
+     "sha256": "722bab1c806328ddfc2a71ff0d39219f39f6a4ee488ebb90c0c1d8839b0d4cda",
+     "wrappers": {
+      "primary": "f$",
+      "secondary": "c8h"
+     },
+     "callbacks": [
+      {
+       "start": 461918,
+       "end": 462313,
+       "mode": "callback",
+       "target": "c8h shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "1ff9630ec59a39279b31c11a07023b892768617ea8dfb4ccfc32524473abdb9f"
+      },
+      {
+       "start": 462360,
+       "end": 462703,
+       "mode": "callback",
+       "target": "c8h shell 事件包装回调 #2（解码：Node / prototype / dispatchEvent）",
+       "sha256": "7938d5760b96fbadfcbfdf9d17fc204165f5cba32bb7f76fba64e9675257494f"
+      },
+      {
+       "start": 492494,
+       "end": 493328,
+       "mode": "callback",
+       "target": "f$ 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "fa3d0c3aaa6845ad7ea4bb84dcf33a7c3ab12ac2af53396c29026dcc229208cd"
+      },
+      {
+       "start": 493348,
+       "end": 494017,
+       "mode": "callback",
+       "target": "f$ 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "64e872c4ea7f2ea77b975916cd8ab146ce8c4cbf1f3776aebf6b6bf3f84a0c43"
+      },
+      {
+       "start": 494037,
+       "end": 494626,
+       "mode": "callback",
+       "target": "f$ 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "5939126b1d745f3492f343e38383895fcf089dff47a77457606c64ac2c685232"
+      },
+      {
+       "start": 494646,
+       "end": 495003,
+       "mode": "callback",
+       "target": "f$ 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "243ce3f58a3beb47e42e6e1b9b31bf5d0d2ef1b772f39d6cb54247a2e734983b"
+      },
+      {
+       "start": 495023,
+       "end": 495429,
+       "mode": "callback",
+       "target": "f$ 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "483c6f498942bd4701b06e5561ae8695e8a5b62422f43910955454bf3c72eb28"
+      }
+     ],
+     "fixedSha256": "de02277d38f89e036c32596edde14e1c7af1ad7bfd6c45842222a584f3bedd8f"
+    },
+    {
+     "path": "589a728c8d/c867f19ae2.dd302.js",
+     "sha256": "3932b3f5d1bf3e6502b638901b799d1977c74d696373a10a73051dd27685e9e3",
+     "wrappers": {
+      "primary": "s6",
+      "secondary": "B_"
+     },
+     "callbacks": [
+      {
+       "start": 93475,
+       "end": 93712,
+       "mode": "callback",
+       "target": "s6 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+       "sha256": "2a61331cd94db8f9f5d9c85fefc226bcd9e51b0fff4bf24893f6451d29885d35"
+      },
+      {
+       "start": 93732,
+       "end": 94371,
+       "mode": "callback",
+       "target": "s6 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+       "sha256": "5f8c5b99c8dc10bfe1f8c27e70137cc001f647f5d23aab512fbe0bc1543afd53"
+      },
+      {
+       "start": 94391,
+       "end": 94751,
+       "mode": "callback",
+       "target": "s6 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+       "sha256": "37753bab99267f59d85948d2b53208c7bd9c5f695939db87238f064cbf70d7c1"
+      },
+      {
+       "start": 94771,
+       "end": 95521,
+       "mode": "callback",
+       "target": "s6 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+       "sha256": "071e0c188356255a61bc22b4e0e0adeaf518c7444d567973364fe017baea3d85"
+      },
+      {
+       "start": 95541,
+       "end": 95773,
+       "mode": "callback",
+       "target": "s6 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+       "sha256": "7d5226e1a009f7744d3f0b7856fa730e77737d3b01374ed7e256d6ee1ad76e75"
+      },
+      {
+       "start": 156301,
+       "end": 156633,
+       "mode": "callback",
+       "target": "P$：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "6f0f3971e0332ae216349f7af0ad5e0437ffa37b783022816f8f025c070de3be"
+      },
+      {
+       "start": 457855,
+       "end": 458226,
+       "mode": "callback",
+       "target": "B_ shell 事件包装回调 #1（解码：Node / prototype / setScale / destroy）",
+       "sha256": "c4dccb339039e581469c62d600b6bee895bf3495d7913b0b8f50e8cd4bdae1b5"
+      },
+      {
+       "start": 458272,
+       "end": 458945,
+       "mode": "callback",
+       "target": "B_ shell 事件包装回调 #2（解码：renderer / render）",
+       "sha256": "6386ada3ffa4b4e63af094af58f740bf07e72d649d328c564622ec4479a798ac"
+      },
+      {
+       "start": 458990,
+       "end": 459341,
+       "mode": "callback",
+       "target": "B_ shell 事件包装回调 #3（解码：Node / prototype / dispatchEvent）",
+       "sha256": "3f96baa80629334ee9e95d6242a3dc019c0582b949e5ab72a40bd0f8f65c2ff6"
+      }
+     ],
+     "fixedSha256": "e835426453825a21651e7693384ba57747866faf62eb6d901f65029d15c66a01"
+    },
+    {
+     "path": "a346494745/a6325fb8fc.193ef.js",
+     "sha256": "ad1923e749a2692537259b6ce33fbbe35e15d95a83e9a0a4990ee58a8477f3c7",
+     "wrappers": {
+      "primary": "I5",
+      "secondary": "T9"
+     },
+     "callbacks": [
+      {
+       "start": 329996,
+       "end": 330777,
+       "mode": "callback",
+       "target": "I5 事件总线(opusAudio)包装回调 #1（解码：_actionOneTwo / Spawn / Sequence / length）",
+       "sha256": "56ce02d13c94c01e990e98b4f3a722bedf3824489dd9ac823994f0e8f3aac556"
+      },
+      {
+       "start": 330798,
+       "end": 331480,
+       "mode": "callback",
+       "target": "I5 事件总线(opusAudio)包装回调 #2（解码：shell / WebAudio / prototype / play / Animation）",
+       "sha256": "d522ae94b988c29aad4d8a56b254f839cb92103f902288d3bcb28c2455be0249"
+      },
+      {
+       "start": 331500,
+       "end": 332105,
+       "mode": "callback",
+       "target": "I5 事件总线(opusAudio)包装回调 #3（解码：shell / uiAppearance / Scheduler / prototype / update）",
+       "sha256": "a917c21ee3aeb9768fdad1adc8e38c014f420cfcf68b9db604b734f4e600c9ce"
+      },
+      {
+       "start": 332126,
+       "end": 332491,
+       "mode": "callback",
+       "target": "I5 事件总线(opusAudio)包装回调 #4（解码：Node / prototype / dispatchEvent）",
+       "sha256": "7f9758e5e6c199d185da2df103196deb171125cd83fea1be9a61693790176931"
+      },
+      {
+       "start": 332511,
+       "end": 332917,
+       "mode": "callback",
+       "target": "I5 事件总线(opusAudio)包装回调 #5（解码：shell / environment / view / setFrameSize）",
+       "sha256": "a72978d0ec573380aa6868cb101edecc41d4a39bda39df987509f82d98c327e8"
+      },
+      {
+       "start": 334746,
+       "end": 335000,
+       "mode": "callback",
+       "target": "T9 shell 事件包装回调 #1（解码：eval / \"cc\" / renderer / render）",
+       "sha256": "b22a806c3bcadec5f1fcea706d40f119656f3f11bf8e321873bfb583b2e3da20"
+      }
+     ],
+     "fixedSha256": "f58d580200011f92ed7d596ac6dbd8d4f55912ee12e0912016827f68aa6c199a"
+    },
+    {
+     "path": "2fd142260e/509fdc8981.30e26.js",
+     "sha256": "abd34da5c619f8e51acc59d998fc2c87875d744bd12af2722c24de6ee6dfe091",
+     "wrappers": {
+      "primary": "w1",
+      "secondary": "d$"
+     },
+     "callbacks": [
+      {
+       "start": 274775,
+       "end": 274822,
+       "mode": "expression",
+       "replacement": "U3c[U3c.C_3(X9.p7(95,X9.z_()[95](),274183))]  ;",
+       "target": ">=500 延时分支内无条件死循环调用（对应 B7/c0G）；只去掉调用括号，保留解码与属性读取",
+       "sha256": "93891d65ec2446c32b10266098964df65c501c92e9b4fc4d25a294e4ceb46403"
+      },
+      {
+       "start": 433213,
+       "end": 433233,
+       "mode": "expression",
+       "replacement": "return;",
+       "target": ">=500 延时分支仅跳过 Shell.EnableUIBlock 载荷，保留列号解码调用后返回（对应 T26/Y0N）",
+       "sha256": "4ff3653ac3dcd8c7d347c8d8ab79b8f09519dcef4f67414efa97bf9ce42f8a81"
+      },
+      {
+       "start": 684032,
+       "end": 684627,
+       "mode": "callback",
+       "target": "w1 事件总线(opusAudio)包装回调 #1（解码：enabled / Camera / main）",
+       "sha256": "93a679656685fab9b5bb090c51dfd610d85b1a6c82eecfb9810d72537b6c0b85"
+      },
+      {
+       "start": 684647,
+       "end": 685090,
+       "mode": "callback",
+       "target": "w1 事件总线(opusAudio)包装回调 #2（解码：Component / prototype / cc.director.reset()）",
+       "sha256": "496321b4746203b097251fe0aa048c0e8639007e9c9bc3d6c5c48ecb1b658689"
+      },
+      {
+       "start": 685111,
+       "end": 685468,
+       "mode": "callback",
+       "target": "w1 事件总线(opusAudio)包装回调 #3（解码：Animation / prototype / play / this.play()）",
+       "sha256": "f1b9cb5fd52366d0fbf3aa7b327f1e4a5c9c3a85cd9ae45512bee5eea8cc9c05"
+      },
+      {
+       "start": 685488,
+       "end": 685737,
+       "mode": "callback",
+       "target": "w1 事件总线(opusAudio)包装回调 #4（解码：director / getActionManager / return this._manager）",
+       "sha256": "6057c13d68bdc9d8c44f8667db9e9c5c5e71c2ce63d73d27e2d4048b9180aef5"
+      },
+      {
+       "start": 685757,
+       "end": 686367,
+       "mode": "callback",
+       "target": "w1 事件总线(opusAudio)包装回调 #5（解码：_compScheduler / director / updatePhase）",
+       "sha256": "2c4d19e42703158d8253e80eb3ea683fd358f70314356a79a36aeecf419dfa45"
+      },
+      {
+       "start": 686393,
+       "end": 687680,
+       "mode": "callback",
+       "target": "d$ shell 事件包装回调 #1（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "20b475d4a16d024eb2109f0c43f35b0981f47625429e9b0c29b58d94c3c5caba"
+      }
+     ],
+     "fixedSha256": "8dd610085fcd443ef1aafa651e70421a214625aee6e94f28224c2ac9f62a9fd1"
+    },
+    {
+     "path": "2c6e37b73c/f49fdc38eb.7ac76.js",
+     "sha256": "59b19896b5fee33d185007ab0f8f26647dbccd7d078e7492e7b45e668b89b889",
+     "wrappers": {
+      "primary": null,
+      "secondary": "o9"
+     },
+     "callbacks": [
+      {
+       "start": 104717,
+       "end": 105626,
+       "mode": "callback",
+       "target": "o9 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "6e5750a0eee0f27f3dfa4e53df4909f86004a4fff0b0d5c978a5021999633b6e"
+      },
+      {
+       "start": 105669,
+       "end": 106583,
+       "mode": "callback",
+       "target": "o9 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "5c197ab1b800de5c8699772ce04cb0f3187ffea757a80fac8beba915bc8224a8"
+      },
+      {
+       "start": 120029,
+       "end": 120450,
+       "mode": "callback",
+       "target": "W_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "cab2d14e88056dd05da724b8d155985c1c19055ecdc5f72aeb70250280761d86"
+      }
+     ],
+     "fixedSha256": "bdad110882b69b717bd2068c80894ec4937361bca33ea36899d31104a07a3b87"
+    }
+   ],
+   "shell": {
+    "path": "984721902a/996b5422dd.3343b.js",
+    "sha256": "b9086add6695a8e575ef39a946cc1564ecb335d606d58b5f40aa1c074541877d",
+    "wrappers": {
+     "primary": "Y_",
+     "secondary": "H8"
+    },
+    "callbacks": [
+     {
+      "start": 418957,
+      "end": 419370,
+      "mode": "callback",
+      "target": "H8 shell 事件包装回调 #1（解码：eval / \"cc\" / Node / prototype / setScale / destroy）",
+      "sha256": "0ba85c1bd990b9d9019d75ccae5828d977827a64f4b8ced33951c7ef1162410a"
+     },
+     {
+      "start": 419415,
+      "end": 420297,
+      "mode": "callback",
+      "target": "H8 shell 事件包装回调 #2（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+      "sha256": "da1cd6e382c90abfb3b72f894390480e04686b65d9100f881197a73bd2f8cc38"
+     },
+     {
+      "start": 420342,
+      "end": 421269,
+      "mode": "callback",
+      "target": "H8 shell 事件包装回调 #3（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+      "sha256": "d6ccd64048673b38a780b225133e2bb678ae13f654522b29b2d79f8cbd083cf8"
+     },
+     {
+      "start": 493080,
+      "end": 493883,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #1（解码：renderer / render）",
+      "sha256": "f3c6f05acc7186c86706e90f932ec04c4b53f54433339a746638a5a15da1361c"
+     },
+     {
+      "start": 493903,
+      "end": 494504,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #2（解码：_compScheduler / director / startInvoker / create）",
+      "sha256": "3add6959bb49ad12d5d6c488a5ea72afb5ea19ed40e5f9f43b0b6da515c7d621"
+     },
+     {
+      "start": 494524,
+      "end": 494885,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #3（解码：internal / eventManager / dispatchEvent）",
+      "sha256": "927090bd9089cc07da917fd789625b0c161d9121a39f8451d5346c1aa92de94b"
+     },
+     {
+      "start": 494906,
+      "end": 495653,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #4（解码：sp / Skeleton / prototype / markForRender / Sprite / e._validateRender=e.disableRender）",
+      "sha256": "438fdd8a0fd743420fea06953d6715614d1f1db7c1857e3f2ec3e4fbc4409f9d"
+     },
+     {
+      "start": 495673,
+      "end": 495923,
+      "mode": "callback",
+      "target": "Y_ 事件总线(opusAudio)包装回调 #5（解码：director / getActionManager / return this._manager）",
+      "sha256": "4d98503ddecdf90fad2dd5de809230d27d0521c5ee908c438c13f54602ddc2ae"
+     }
+    ],
+    "fixedSha256": "673b224c660537dbee57e226a438c48144b28004b2c3850eb12a37dbcdd21efb",
+    "mode": "ranges"
+   }
+  },
+  "root": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "1838492da73b": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.1d9e4.js",
+     "sha256": "c3b821d3cfb65d1a28930422fbd6c64ef57931a0f280fd9fe5c196fad7061b44",
+     "wrappers": {
+      "primary": null,
+      "secondary": "P0"
+     },
+     "callbacks": [
+      {
+       "start": 95100,
+       "end": 95558,
+       "mode": "callback",
+       "target": "H1：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "c88ea91d676b616dfbeaeba5fefbe0bfc01cc370355cc2816eeee442c341492a"
+      },
+      {
+       "start": 108282,
+       "end": 109589,
+       "mode": "callback",
+       "target": "P0 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "9922cb0110302697d4520e4e37f44fa30cc5aac19e7141baf1bc4f246ec840ce"
+      },
+      {
+       "start": 109630,
+       "end": 110499,
+       "mode": "callback",
+       "target": "P0 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "3abdfdd9050b66bdd6cd9e840c4393414cca0029d6be9f3d9cca30c8ce44589e"
+      }
+     ],
+     "fixedSha256": "476d441ef4df6e1ed1efdd1ecb1a897618eec5b68d7bd5a76425d903e6b47838"
+    }
+   ]
+  },
+  "4dfd0ffeeef1": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "534ee41500c4": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "0c54e66c1c61": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "0f2b3168b77f": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "4b9b83811007": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "06cf3ed3bf6e": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "99fa4b2c1838": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "ef97e29679a4": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "cfba3bdcfee8": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.2199c.js",
+     "sha256": "c8ebefb907d16f073e98ff2541c884826226cccf4c7fba36a2b663dbd82be6f5",
+     "wrappers": {
+      "primary": null,
+      "secondary": "N3"
+     },
+     "callbacks": [
+      {
+       "start": 57572,
+       "end": 58447,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "541c1b570471f22707fdf7741a04c94eb2918654f32593841e23ce81bbdf8e48"
+      },
+      {
+       "start": 58489,
+       "end": 59936,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "b9df5ef38541e77d3406c2bb365a7e6d29516a76154c382593010a0b93db7d0c"
+      },
+      {
+       "start": 242089,
+       "end": 242519,
+       "mode": "callback",
+       "target": "E3：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "a9ad8f00f5139ad118c03085edcbef0ac75978f3cbb793c74422ea5b8a2908d7"
+      }
+     ],
+     "fixedSha256": "fcbed25433a4abb80235904ddef19684809768ce9238dd45ba480b6bce54e541"
+    }
+   ]
+  },
+  "7119215b02b6": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.2199c.js",
+     "sha256": "c8ebefb907d16f073e98ff2541c884826226cccf4c7fba36a2b663dbd82be6f5",
+     "wrappers": {
+      "primary": null,
+      "secondary": "N3"
+     },
+     "callbacks": [
+      {
+       "start": 57572,
+       "end": 58447,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "541c1b570471f22707fdf7741a04c94eb2918654f32593841e23ce81bbdf8e48"
+      },
+      {
+       "start": 58489,
+       "end": 59936,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "b9df5ef38541e77d3406c2bb365a7e6d29516a76154c382593010a0b93db7d0c"
+      },
+      {
+       "start": 242089,
+       "end": 242519,
+       "mode": "callback",
+       "target": "E3：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "a9ad8f00f5139ad118c03085edcbef0ac75978f3cbb793c74422ea5b8a2908d7"
+      }
+     ],
+     "fixedSha256": "fcbed25433a4abb80235904ddef19684809768ce9238dd45ba480b6bce54e541"
+    }
+   ]
+  },
+  "b5e253b1e3a8": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.2199c.js",
+     "sha256": "c8ebefb907d16f073e98ff2541c884826226cccf4c7fba36a2b663dbd82be6f5",
+     "wrappers": {
+      "primary": null,
+      "secondary": "N3"
+     },
+     "callbacks": [
+      {
+       "start": 57572,
+       "end": 58447,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "541c1b570471f22707fdf7741a04c94eb2918654f32593841e23ce81bbdf8e48"
+      },
+      {
+       "start": 58489,
+       "end": 59936,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "b9df5ef38541e77d3406c2bb365a7e6d29516a76154c382593010a0b93db7d0c"
+      },
+      {
+       "start": 242089,
+       "end": 242519,
+       "mode": "callback",
+       "target": "E3：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "a9ad8f00f5139ad118c03085edcbef0ac75978f3cbb793c74422ea5b8a2908d7"
+      }
+     ],
+     "fixedSha256": "fcbed25433a4abb80235904ddef19684809768ce9238dd45ba480b6bce54e541"
+    }
+   ]
+  },
+  "747c1c1faaf4": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.2199c.js",
+     "sha256": "c8ebefb907d16f073e98ff2541c884826226cccf4c7fba36a2b663dbd82be6f5",
+     "wrappers": {
+      "primary": null,
+      "secondary": "N3"
+     },
+     "callbacks": [
+      {
+       "start": 57572,
+       "end": 58447,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "541c1b570471f22707fdf7741a04c94eb2918654f32593841e23ce81bbdf8e48"
+      },
+      {
+       "start": 58489,
+       "end": 59936,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "b9df5ef38541e77d3406c2bb365a7e6d29516a76154c382593010a0b93db7d0c"
+      },
+      {
+       "start": 242089,
+       "end": 242519,
+       "mode": "callback",
+       "target": "E3：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "a9ad8f00f5139ad118c03085edcbef0ac75978f3cbb793c74422ea5b8a2908d7"
+      }
+     ],
+     "fixedSha256": "fcbed25433a4abb80235904ddef19684809768ce9238dd45ba480b6bce54e541"
+    }
+   ]
+  },
+  "c7dcabe6fbd3": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "43f3e06db602": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.2199c.js",
+     "sha256": "c8ebefb907d16f073e98ff2541c884826226cccf4c7fba36a2b663dbd82be6f5",
+     "wrappers": {
+      "primary": null,
+      "secondary": "N3"
+     },
+     "callbacks": [
+      {
+       "start": 57572,
+       "end": 58447,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "541c1b570471f22707fdf7741a04c94eb2918654f32593841e23ce81bbdf8e48"
+      },
+      {
+       "start": 58489,
+       "end": 59936,
+       "mode": "callback",
+       "target": "N3 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "b9df5ef38541e77d3406c2bb365a7e6d29516a76154c382593010a0b93db7d0c"
+      },
+      {
+       "start": 242089,
+       "end": 242519,
+       "mode": "callback",
+       "target": "E3：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "a9ad8f00f5139ad118c03085edcbef0ac75978f3cbb793c74422ea5b8a2908d7"
+      }
+     ],
+     "fixedSha256": "fcbed25433a4abb80235904ddef19684809768ce9238dd45ba480b6bce54e541"
+    }
+   ]
+  },
+  "7a29d3fd7888": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "6d1d11325686": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "18949afdc041": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "c3ba4f47ffc9": {
+   "plugins": [
+    {
+     "path": "2c6e37b73c/f49fdc38eb.443db.js",
+     "sha256": "671db39c48e1ed9f0ee0c3047d8bc05dc3ba4b26a66ca52d188b63eb1f4f715e",
+     "wrappers": {
+      "primary": null,
+      "secondary": "n5"
+     },
+     "callbacks": [
+      {
+       "start": 91974,
+       "end": 92335,
+       "mode": "callback",
+       "target": "f_：日期概率判定命中后把 renderer.render 替换为返回常量的函数（对应 G3Z/e6/k7）",
+       "sha256": "1eebc7e13b7d9b3dd64bed60aa801d0d32b4b0c02241324c7252a8cd8c55b371"
+      },
+      {
+       "start": 93014,
+       "end": 94223,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #1（解码：Game.TransactionStateTransition / intercept / shell / context / event / on）",
+       "sha256": "e67c1fcad8e51d5c0896a490c54043c044139fa7082c897c9c8174c9c3e2e403"
+      },
+      {
+       "start": 94266,
+       "end": 95157,
+       "mode": "callback",
+       "target": "n5 shell 事件包装回调 #2（解码：Game.TransactionStateComplete / intercept / shell / context / event / on）",
+       "sha256": "7577fbd3c8d77763985e70221c9673aeb502882716268d0b31d4c6f7ff213658"
+      }
+     ],
+     "fixedSha256": "0877a99dedee1fb25373a05112c27e15b7d6a84a19d7a1b110712bf3e5ceeac8"
+    }
+   ]
+  },
+  "e6c475e24204": {
+   "shell": {
+    "path": "984721902a/996b5422dd.673b224c660537db.js",
+    "sha256": "673b224c660537dbee57e226a438c48144b28004b2c3850eb12a37dbcdd21efb",
+    "mode": "ranges",
+    "wrappers": {
+     "primary": null,
+     "secondary": null
+    },
+    "callbacks": [
+     {
+      "start": 292993,
+      "end": 293002,
+      "mode": "expression",
+      "replacement": "1",
+      "target": "Q_8：shell 加载完成状态名判定（日期与约 5% 概率命中时发出 \"ShellLoad\" 而非 \"ShellLoadComplete\"，启动停在 shell 资源加载后）；结果赋值右值固定为 1，保留判定调用；位置按运行时实测避开解码采样窗口",
+      "sha256": "cc4bc3d9790bdeb039fcffb8626486c545a24057f50af5627ba431b1fa1bb560"
+     }
+    ],
+    "fixedSha256": "80591338d2ac7421e2cc263d95019b547fed2e742038721f115316d59479c591"
+   },
+   "plugins": []
+  },
+  "66d0f8faba8d": {
+   "shell": {
+    "path": "984721902a/996b5422dd.b5b60dc2df3d2f1c.js",
+    "sha256": "b5b60dc2df3d2f1ce13766a3668a6c8494d6107c91eb1c6c1967bdd1776a73f4",
+    "mode": "ranges",
+    "wrappers": {
+     "primary": null,
+     "secondary": null
+    },
+    "callbacks": [
+     {
+      "start": 480973,
+      "end": 480980,
+      "mode": "expression",
+      "replacement": "~1",
+      "target": "O0s：shell 加载完成状态名判定（日期与约 5% 概率命中时发出 \"ShellLoad\" 而非 \"ShellLoadComplete\"，启动停在 shell 资源加载后）；状态名切片中的判定结果固定为 ~1，保留判定调用；位置按运行时实测避开解码采样窗口",
+      "sha256": "3ad34427aedc370cdac455604195a0fc847c768d814763063a035216cf0cc17e"
+     }
+    ],
+    "fixedSha256": "23cbb33c2215c93e357573c5ae36b0e3fc669ef0864d8f0db465723ad7e0cad0"
+   },
+   "plugins": []
+  },
+  "ae7a9fbedbef": {
+   "shell": {
+    "path": "984721902a/996b5422dd.3a4c5ea4fe2c51a3.js",
+    "sha256": "3a4c5ea4fe2c51a35ee22c747f96958ea2b50d35ecfe3c92745612eb027a28f0",
+    "mode": "ranges",
+    "wrappers": {
+     "primary": null,
+     "secondary": null
+    },
+    "callbacks": [
+     {
+      "start": 423967,
+      "end": 423974,
+      "mode": "expression",
+      "replacement": "~1",
+      "target": "L6_：shell 加载完成状态名判定（日期与约 5% 概率命中时发出 \"ShellLoad\" 而非 \"ShellLoadComplete\"，启动停在 shell 资源加载后）；状态名切片中的判定结果固定为 ~1，保留判定调用；位置按运行时实测避开解码采样窗口",
+      "sha256": "cc06ef08ab57a879602c69413cf7ab3fae0c72e223bf8bfb4846d95c5cfc9cdb"
+     }
+    ],
+    "fixedSha256": "14a06262b2121232e2c48baba2fdc8efccfeea08bac54202aad9f5ea549cd2d6"
+   },
+   "plugins": []
+  },
+  "e97c3d2d71f8": {
+   "shell": {
+    "path": "984721902a/996b5422dd.673b224c660537db.js",
+    "sha256": "673b224c660537dbee57e226a438c48144b28004b2c3850eb12a37dbcdd21efb",
+    "mode": "ranges",
+    "wrappers": {
+     "primary": null,
+     "secondary": null
+    },
+    "callbacks": [
+     {
+      "start": 292993,
+      "end": 293002,
+      "mode": "expression",
+      "replacement": "1",
+      "target": "Q_8：shell 加载完成状态名判定（日期与约 5% 概率命中时发出 \"ShellLoad\" 而非 \"ShellLoadComplete\"，启动停在 shell 资源加载后）；结果赋值右值固定为 1，保留判定调用；位置按运行时实测避开解码采样窗口",
+      "sha256": "cc4bc3d9790bdeb039fcffb8626486c545a24057f50af5627ba431b1fa1bb560"
+     }
+    ],
+    "fixedSha256": "80591338d2ac7421e2cc263d95019b547fed2e742038721f115316d59479c591"
+   },
+   "plugins": []
+  }
+ }
+}

@@ -715,7 +715,7 @@
   };
   var _t;
   var yt;
-  var kt = `/${24}` + "/shared/";
+  var kt = (window.__PG_MAIN_SELECTION=[{"base":"assets/main","from":"dd547","config":"9894e","to":"59441582"}],"/shared/compat/efffd9b5ffb7/");
   var Ht = '';
   window.GtmId = new String(window.GtmId);
   var bt = Q() ? 2015 : 5;
@@ -823,7 +823,7 @@
           Blobs: q,
           BootTime: Et
         };
-        return shell.start(Vt, O6);
+        return shell.start(Vt, (function(c){c.SharedPath=new URL(c.SharedPath,location.href).href;var m=window._CCSettings.bundleVers.main;if((!c.GameDir||new URL(c.GameDir,location.href).href===new URL("./",location.href).href)&&typeof URLSearchParams==="function"&&!new URLSearchParams(location.search).has("origin")&&m.config==="9894e"&&m.index==="dd547")m.index="59441582";return c;})(O6));
       }, 0);
     }
   }

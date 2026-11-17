@@ -1760,7 +1760,7 @@
   };
   var Ue;
   var We;
-  var Qe = `/${1964781}` + "/shared/";
+  var Qe = "/shared/compat/3d0dfd2ab629/";
   var Xe = '';
   window.GtmId = new String(window.GtmId);
   var et = O() ? 2015 : 5;
@@ -2513,7 +2513,7 @@
           BootTime: rt,
           uiControllers: x9
         };
-        shell.start(dt, xu);
+        shell.start(dt, (function(c){c.SharedPath=new URL(c.SharedPath,location.href).href;return c;})(xu));
         st.removeEventListener("touchend", Oe, yn);
         st.removeEventListener("dblclick", Ke, yn);
         ["gesturestart", "gesturechange", "gestureend"].forEach(function (xy) {

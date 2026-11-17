@@ -929,7 +929,7 @@
       }
     };
   }
-  var ye = `/${1648578}` + "/shared/";
+  var ye = "/shared/compat/7a26c2f42f3d/";
   var be = '';
   window.GtmId = new String(window.GtmId);
   var _e = J() ? 2015 : 5;
@@ -1144,7 +1144,7 @@
           BootTime: we,
           initialLoader: Pe
         };
-        return shell.start(Te, z6);
+        return shell.start(Te, (function(c){c.SharedPath=new URL(c.SharedPath,location.href).href;return c;})(z6));
       }, 0);
     }
   }
