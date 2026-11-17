@@ -21,16 +21,18 @@ export function planMainProtection(){
     const g=m.games.find(x=>x.id===id),rule=m.mainRules.find(x=>x.id===id);assert(g&&rule,`unknown game ${id}`);
     const target=`${id}/assets/main/index.${recipe.to}.js`;
     if(g.main.index===recipe.to){assert.equal(digest(fs.readFileSync(path.join(root,target))),recipe.fixedSha256,`applied main changed: ${id}`);plans.push({id,alreadyApplied:true});continue;}
-    // 只接受配方登记的当前活动主包；已有其他主包规则时停止，避免覆盖既有修复语义。
+    // 只接受配方登记的当前活动主包；已有主包规则时必须与配方 rule 逐字段一致，避免覆盖未登记的修复语义。
     assert.equal(g.main.index,recipe.from,`unexpected active main: ${id}`);assert.equal(g.main.config,recipe.config,`unexpected main config: ${id}`);
-    assert.equal(rule.applied,null,`existing main rule: ${id}`);
+    if(recipe.rule){assert.deepEqual(rule.applied,recipe.rule,`unexpected main rule: ${id}`);assert.equal(recipe.rule.to,recipe.from);}
+    else assert.equal(rule.applied,null,`existing main rule: ${id}`);
     const source=fs.readFileSync(path.join(root,recipe.path),'utf8');assert.equal(digest(source),recipe.sha256,`unknown main source: ${id}`);
     const fixed=fixedClientPlugin(source,recipe);assert.equal(digest(fixed),recipe.fixedSha256,`main repair output changed: ${id}`);
     assert.equal(recipe.to,recipe.fixedSha256.slice(0,8));assert(!fs.existsSync(path.join(root,target)),`target exists: ${target}`);
     // 入口由检查点原文重新生成；先确认按原规则生成的结果与当前入口逐字节一致，避免覆盖迁移后另行修改的入口。
     const boot=inspectBoot(path.join(m.checkpoint,'tree'),id),current=fs.readFileSync(path.join(root,g.boot),'utf8');
     assert.equal(rewriteBoot(boot,g.sharedPath,rulesOf(rule)).contents,current,`entry changed after migration: ${g.boot}`);
-    const applied={base:null,from:recipe.from,config:recipe.config,to:recipe.to},next=rewriteBoot(boot,g.sharedPath,[applied,...rule.dormant]);
+    // 已有规则（如 outside-p2 主包修复）在其修复版上继续中和：保留原 base/from/config 条件，只把 to 换成新主包。
+    const applied=recipe.rule?{...recipe.rule,to:recipe.to}:{base:null,from:recipe.from,config:recipe.config,to:recipe.to},next=rewriteBoot(boot,g.sharedPath,[applied,...rule.dormant]);
     assert.deepEqual(next.mainRule,applied,`main rule not selected: ${id}`);
     plans.push({id,boot:g.boot,target,source:recipe.path,fixed,entry:next.contents,applied});
   }

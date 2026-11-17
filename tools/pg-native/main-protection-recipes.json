@@ -1,7 +1,99 @@
 {
  "schemaVersion": 1,
- "note": "游戏主包内嵌客户端保护载荷的等长修复配方。包装器为主包内三参数函数、其回调以 W(function(){…},事件名)() 立即执行并注册到保护事件总线；范围按结构扫描且与运行时改写调用栈列号逐项核对。修复后主包以内容 SHA-256 前 8 位命名，经 mainRules 与入口 __PG_MAIN_SELECTION 选择。",
+ "note": "游戏主包内嵌客户端保护载荷的等长修复配方。包装器为主包内三参数函数、其回调以 W(function(){…},事件名)() 立即执行并注册到保护事件总线；范围按结构扫描且与运行时改写调用栈列号逐项核对。修复后主包以内容 SHA-256 前 8 位命名，经 mainRules 与入口 __PG_MAIN_SELECTION 选择。已有主包规则的游戏（如 outside-p2 修复版主包）在其修复版上继续中和，配方 rule 须与当前 mainRules.applied 逐字段一致，只替换 to。",
  "games": {
+  "1717688": {
+   "path": "1717688/assets/main/index.a1c39.js",
+   "sha256": "3d214d9d2f622e44163a54b8e8cf6846fac29afd789bf565729d5553c09615f3",
+   "config": "0642d",
+   "from": "a1c39",
+   "wrapper": "M",
+   "callbacks": [
+    {
+     "start": 2520888,
+     "end": 2521217,
+     "mode": "callback",
+     "target": "M 包装回调 #1：Sequence/Spawn._actionOneTwo 改为返回 null（强制触发后 seq/spawn 变化）",
+     "sha256": "68e2a2e2bfef040ab754d3a925e35f6fe709920118f4d87cef430f8c64bba218"
+    },
+    {
+     "start": 2521237,
+     "end": 2523596,
+     "mode": "callback",
+     "target": "M 包装回调 #2：对应 e02b 同序项 shell.WebAudio.prototype.play 改写（强制触发后 webAudioPlay 变化）",
+     "sha256": "84f1ece03f823ce95d17f038d4e71f4a2f46e83e006a8c0cf6f226f725fb310e"
+    },
+    {
+     "start": 2523616,
+     "end": 2523935,
+     "mode": "callback",
+     "target": "M 包装回调 #3：Scheduler.prototype.update 改写（运行时调用栈确认）",
+     "sha256": "0daa2ddb11f0fc19ff3eb568ea0abe12e81620be3c47f602fdd6c78c139140ad"
+    },
+    {
+     "start": 2523955,
+     "end": 2524178,
+     "mode": "callback",
+     "target": "M 包装回调 #4：Node.prototype.dispatchEvent 改为返回 false，导致无法点击（运行时调用栈确认）",
+     "sha256": "e3f33441b9202618913b1eb8fa54ccba32f4a9035efcd046240050657866c988"
+    },
+    {
+     "start": 2524197,
+     "end": 2524563,
+     "mode": "callback",
+     "target": "M 包装回调 #5：对应 e02b 同序项 view.setFrameSize 改写（强制触发后 frameSize 变化）",
+     "sha256": "d681fcc0c2552b90fcc497a9fb8674eabbc2d85060b687694439ee69a613251b"
+    }
+   ],
+   "fixedSha256": "10cb9b34717ba607954dba6278e58228838652d40b07aa86be87e36edcdab2d6",
+   "to": "10cb9b34"
+  },
+  "1727711": {
+   "path": "1727711/assets/main/index.887c7.js",
+   "sha256": "fd8994de7180d230925550e5b5d93430b19586edcf62afb827e5358f030ef06d",
+   "config": "53207",
+   "from": "887c7",
+   "wrapper": "w",
+   "callbacks": [
+    {
+     "start": 2760530,
+     "end": 2760759,
+     "mode": "callback",
+     "target": "w 包装回调 #1：某引擎属性置为 undefined（未运行时确认目标）",
+     "sha256": "d3b48d13223a0cb8b0b78306b94ee713a9029abb9281ef65ed61fbf393cab651"
+    },
+    {
+     "start": 2760778,
+     "end": 2761064,
+     "mode": "callback",
+     "target": "w 包装回调 #2：某引擎方法改写（未运行时确认目标）",
+     "sha256": "0017e4ec4312940682ab33daf2692338f32216494d895395ed7c3285265a0f9d"
+    },
+    {
+     "start": 2761083,
+     "end": 2761358,
+     "mode": "callback",
+     "target": "w 包装回调 #3：Director.prototype.calculateDeltaTime 改为 Function 构造结果（运行时调用栈确认）",
+     "sha256": "eae6667250c821a9ac7214c5ea166ab43d9bad29bd5562c517f7cac7b78d7069"
+    },
+    {
+     "start": 2761376,
+     "end": 2762026,
+     "mode": "callback",
+     "target": "w 包装回调 #4：director._compScheduler.updatePhase 改写（运行时调用栈确认）",
+     "sha256": "b387e49c90a91472fb5d3b9a67d4a1e25b7bcaf7163b7ef2c4df5debc6873db6"
+    },
+    {
+     "start": 2762048,
+     "end": 2762263,
+     "mode": "callback",
+     "target": "w 包装回调 #5：Node.prototype.dispatchEvent 改为返回 false，导致无法点击（运行时调用栈确认）",
+     "sha256": "534f3939a0327e28ea1bbff16e1028616ba7588632dd3f82d6c2d8101468d112"
+    }
+   ],
+   "fixedSha256": "fbf572a8236d42b602a8dae7cc7519af094eb27c2b3e166fd9d1476b4e99747d",
+   "to": "fbf572a8"
+  },
   "1738001": {
    "path": "1738001/assets/main/index.91052.js",
    "sha256": "425be6f9e3502301ed9f6993fd4f20dbf34f104230fbdb899c130be77148c75a",
@@ -47,6 +139,58 @@
    ],
    "fixedSha256": "62f588837344f681fe081f4a7780c3122000fd093a73fec551d5d6a46e3dde6c",
    "to": "62f58883"
+  },
+  "1935269": {
+   "path": "1935269/assets/main/index.75a17ffd.js",
+   "sha256": "75a17ffd50adf91051552e95544241ffc03f14b39b99041746d223787d37e929",
+   "config": "696d5",
+   "from": "75a17ffd",
+   "wrapper": "x",
+   "callbacks": [
+    {
+     "start": 2744148,
+     "end": 2744477,
+     "mode": "callback",
+     "target": "x 包装回调 #1：Sequence/Spawn._actionOneTwo 改为返回 null（强制触发后 seq/spawn 变化）",
+     "sha256": "de74fc8a8b148fb49ebe1980944bea5b67c7aac7b5f26a794d1acda495d80131"
+    },
+    {
+     "start": 2744497,
+     "end": 2744881,
+     "mode": "callback",
+     "target": "x 包装回调 #2：对应 e02b 同序项 shell.WebAudio.prototype.play 改写（强制触发后 webAudioPlay 变化）",
+     "sha256": "4fd4bcd614de09287c43d5dc500eedc7910477c425cdc3727d08d943320055cf"
+    },
+    {
+     "start": 2744901,
+     "end": 2745220,
+     "mode": "callback",
+     "target": "x 包装回调 #3：Scheduler.prototype.update 改写（运行时调用栈确认）",
+     "sha256": "351783e22ecbe59df0fcf2f03bde51beab3940478713202c6698254c0abd9502"
+    },
+    {
+     "start": 2745240,
+     "end": 2745463,
+     "mode": "callback",
+     "target": "x 包装回调 #4：Node.prototype.dispatchEvent 改为返回 false，导致无法点击（运行时调用栈确认）",
+     "sha256": "51b9526e4279e288ce02cf8e0147ea1214c3de97557d69955d64f03a991acf6a"
+    },
+    {
+     "start": 2745482,
+     "end": 2746515,
+     "mode": "callback",
+     "target": "x 包装回调 #5：对应 e02b 同序项 view.setFrameSize 改写（强制触发后 frameSize 变化）",
+     "sha256": "e822cf0dc1bc835dcee5e4eb885f340b2c9db8cf24b10c34de88909cade4648a"
+    }
+   ],
+   "rule": {
+    "base": "assets/main",
+    "from": "63744",
+    "config": "696d5",
+    "to": "75a17ffd"
+   },
+   "fixedSha256": "620f2004242eea21d4c5f7e421b474206bf1f76a923480d4713d79f12abd1fe5",
+   "to": "620f2004"
   },
   "1971587": {
    "path": "1971587/assets/main/index.4af59.js",

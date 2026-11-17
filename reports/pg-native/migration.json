@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "identity": "20df49333894e0416692e561bc66e7c7ed0fd96dc0dad538c4bb1d69aa8c74dc",
+  "identity": "8301a0d8780841d8a56d032423838d89fabae33b9ed2cb7f0f5c13421d1b384c",
   "checkpoint": "/Users/apple/Archives/LuckyPG-COCOS/native-shared/20261114-171250",
   "sourceHead": "d38b2d6d7d8aa04b38006ca53c3161edbbd60447",
   "games": [
@@ -3609,7 +3609,7 @@
       ],
       "main": {
         "config": "0642d",
-        "index": "a1c39"
+        "index": "10cb9b34"
       },
       "sourceMain": {
         "index": "a1c39",
@@ -3637,7 +3637,7 @@
       ],
       "main": {
         "config": "53207",
-        "index": "887c7"
+        "index": "fbf572a8"
       },
       "sourceMain": {
         "index": "887c7",
@@ -4167,7 +4167,7 @@
       ],
       "main": {
         "config": "696d5",
-        "index": "75a17ffd"
+        "index": "620f2004"
       },
       "sourceMain": {
         "index": "63744",
@@ -179681,12 +179681,22 @@
     },
     {
       "id": "1717688",
-      "applied": null,
+      "applied": {
+        "base": null,
+        "from": "a1c39",
+        "config": "0642d",
+        "to": "10cb9b34"
+      },
       "dormant": []
     },
     {
       "id": "1727711",
-      "applied": null,
+      "applied": {
+        "base": null,
+        "from": "887c7",
+        "config": "53207",
+        "to": "fbf572a8"
+      },
       "dormant": []
     },
     {
@@ -179825,7 +179835,7 @@
         "base": "assets/main",
         "from": "63744",
         "config": "696d5",
-        "to": "75a17ffd"
+        "to": "620f2004"
       },
       "dormant": []
     },
@@ -182136,13 +182146,13 @@
     },
     {
       "path": "1717688/index.html",
-      "sha256": "afa3fa326b62b67cd7cec4802f1bce609dffed56d1a8c2e30f350c1595f85dd2",
+      "sha256": "256426bf650d6fc57d519f79e3596f035449a182862c8af9c6535a303f901e5d",
       "source": "1717688/index.html",
       "transform": "native-SharedPath-and-main"
     },
     {
       "path": "1727711/index.html",
-      "sha256": "3c67bd8fea5c8fcf2ea8273f407a7df2c3071f23fc252eaf2db9985b7f334684",
+      "sha256": "caf49268323ba874e1125ecb3215a3f46a8a5413995bbd80470b7c4e740ef1af",
       "source": "1727711/index.html",
       "transform": "native-SharedPath-and-main"
     },
@@ -182256,7 +182266,7 @@
     },
     {
       "path": "1935269/index.html",
-      "sha256": "b86ba0f4e713cbe9362225b22eb5bfeefac9745ec3e13984a4903697d4d946b6",
+      "sha256": "037ccd4b5ceaa8bb11179cca7e9ca957dba81ebc054a15a3d5bc9dba6e4a3595",
       "source": "1935269/index.html",
       "transform": "native-SharedPath-and-main"
     },
@@ -211479,6 +211489,24 @@
       "sha256": "80591338d2ac7421e2cc263d95019b547fed2e742038721f115316d59479c591",
       "source": "1648578/shared/984721902a/996b5422dd.3343b.js",
       "transform": "protection-e97c3d2d71f8-shell"
+    },
+    {
+      "path": "1717688/assets/main/index.10cb9b34.js",
+      "sha256": "10cb9b34717ba607954dba6278e58228838652d40b07aa86be87e36edcdab2d6",
+      "source": "1717688/assets/main/index.a1c39.js",
+      "transform": "main-protection"
+    },
+    {
+      "path": "1727711/assets/main/index.fbf572a8.js",
+      "sha256": "fbf572a8236d42b602a8dae7cc7519af094eb27c2b3e166fd9d1476b4e99747d",
+      "source": "1727711/assets/main/index.887c7.js",
+      "transform": "main-protection"
+    },
+    {
+      "path": "1935269/assets/main/index.620f2004.js",
+      "sha256": "620f2004242eea21d4c5f7e421b474206bf1f76a923480d4713d79f12abd1fe5",
+      "source": "1935269/assets/main/index.75a17ffd.js",
+      "transform": "main-protection"
     }
   ],
   "privateFiles": [
