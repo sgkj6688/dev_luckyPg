@@ -1,0 +1,1193 @@
+{
+  "baselineHash": "d8a389f820d94fa7da9a1fe30df794ea81a4cfd97508a16c8809b916c223ec01",
+  "games": [
+    {
+      "game": "1778752",
+      "files": [
+        {
+          "path": "1778752/shared/984721902a/996b5422dd.cb8263ef.js",
+          "sha256": "cb8263efd66ad6db9956696a112c9e096359a1212b69673c099f501e452f6f93"
+        },
+        {
+          "path": "1778752/shared/984721902a/index.json",
+          "sha256": "b041206ce416f587bf9d619e58a16df6cdc22fded483ab5072b8764cb66a1192"
+        },
+        {
+          "path": "1778752/shared/984721902a/996b5422dd.5d25f4a7.js",
+          "sha256": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4"
+        },
+        {
+          "path": "1778752/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "1778752/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "1778752/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "1778752/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "1778752/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "1778752/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "1778752/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "1778752/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "1778752/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "1778752/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "1778752/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "1778752/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "1778752/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "1778752/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "1778752/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "1778752/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "1778752/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "80",
+      "files": [
+        {
+          "path": "80/shared/984721902a/996b5422dd.cb8263ef.js",
+          "sha256": "cb8263efd66ad6db9956696a112c9e096359a1212b69673c099f501e452f6f93"
+        },
+        {
+          "path": "80/shared/984721902a/index.json",
+          "sha256": "b041206ce416f587bf9d619e58a16df6cdc22fded483ab5072b8764cb66a1192"
+        },
+        {
+          "path": "80/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "80/shared/c03a2652ad/index.js",
+          "sha256": "cb460a18eddc147c0c3ef546482bc756882903cc268e96a95d55dede02bc2206"
+        },
+        {
+          "path": "80/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "80/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "80/index.html",
+          "sha256": "115d0f69863850b375f3bbad75561a64bec60221a79e16b8f33c5fa04647c49f"
+        },
+        {
+          "path": "80/assets/main/index.c7dafeb8.js",
+          "sha256": "c7dafeb8bc29d0e75ddd73d11e1b3dca805f8f864e5ed9b69069f30cb6161f77"
+        },
+        {
+          "path": "80/shared/c03a2652ad/f5fe73e9f2.e0ba42b9.js",
+          "sha256": "e0ba42b9d7e9c63c133f88134d9fc84539c7540f5e199cc428787fffa79a8c90"
+        },
+        {
+          "path": "80/shared/984721902a/996b5422dd.5d25f4a7.js",
+          "sha256": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4"
+        },
+        {
+          "path": "80/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "80/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "80/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "80/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "80/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "80/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "80/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "80/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "80/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "80/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "80/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "80/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "80/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "80/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "80/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "80/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "80/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "61",
+      "files": [
+        {
+          "path": "61/shared/984721902a/996b5422dd.cb8263ef.js",
+          "sha256": "cb8263efd66ad6db9956696a112c9e096359a1212b69673c099f501e452f6f93"
+        },
+        {
+          "path": "61/shared/984721902a/index.json",
+          "sha256": "b041206ce416f587bf9d619e58a16df6cdc22fded483ab5072b8764cb66a1192"
+        },
+        {
+          "path": "61/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "61/shared/c03a2652ad/index.js",
+          "sha256": "14164be1131c4da8c23623401a0424c9045958559dfd7db68577d5c890a0f1d6"
+        },
+        {
+          "path": "61/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "61/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "61/index.html",
+          "sha256": "6e541cef4a9e3f09b088b402ddfdd7cfe1f3f2868433edcd66ec116f1c54e602"
+        },
+        {
+          "path": "61/assets/main/index.01e0aa8b.js",
+          "sha256": "01e0aa8b1a38b5e426750b2c8f6f97f3783564fd9cb15b931b6b495702f569ef"
+        },
+        {
+          "path": "61/shared/c03a2652ad/f5fe73e9f2.da490e2e.js",
+          "sha256": "da490e2e0abf24b866af9c56400654288d621a5edef10d967f2e6456f515f025"
+        },
+        {
+          "path": "61/shared/984721902a/996b5422dd.5d25f4a7.js",
+          "sha256": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4"
+        },
+        {
+          "path": "61/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "61/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "61/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "61/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "61/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "61/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "61/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "61/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "61/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "61/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "61/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "61/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "61/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "61/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "61/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "61/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "61/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "94",
+      "files": [
+        {
+          "path": "94/shared/3c4695a542/b526e03cc3.f02f295f.js",
+          "sha256": "f02f295fa3733fcab1d58154b848bf66fba546c3f43d5d6f20aa0b3cf6f98f3c"
+        },
+        {
+          "path": "94/shared/3c4695a542/index.json",
+          "sha256": "96314710c4eaf481910120546b82c74a0d45a533e98828a735def42218e14d8e"
+        },
+        {
+          "path": "94/shared/0bc343f586/dedee2c334.faec1319.js",
+          "sha256": "faec1319ca5904c3d542f02ae3d881bd430ef5565fd6e6c8e28dcb2658b75eda"
+        },
+        {
+          "path": "94/shared/0bc343f586/index.js",
+          "sha256": "f177ddde0015ddd97d17907ee09906fcf15e7798e835a3fe57ece858994eb4d5"
+        },
+        {
+          "path": "94/shared/99212c6ec4/187a36578c.d8732238.js",
+          "sha256": "d873223868cb4cae2f981c993e67aa1ddae0234e5babfaaf260808eeb26f1791"
+        },
+        {
+          "path": "94/shared/99212c6ec4/index.js",
+          "sha256": "c50d7b00048425786b34c103de8332a9153aa6aaaf46dd86d3aa6e56668b68dd"
+        },
+        {
+          "path": "94/index.html",
+          "sha256": "9547d2c651ea9011c29e4a2257a44f46cadea84e7d843596264f2baa1c95ce9b"
+        },
+        {
+          "path": "94/shared/3c4695a542/b526e03cc3.5ccd8b2e.js",
+          "sha256": "5ccd8b2e3a02743793c0c44cf4352ed854d4833d683e6fef331149c3159a3d51"
+        },
+        {
+          "path": "94/shared/3d9bb7755c/32d1d0500b.b492ebd4.js",
+          "sha256": "b492ebd47f481ac57b545fe9cd6eb8f5da8e83b5bfe5449887a5b7ef594e2c5a"
+        },
+        {
+          "path": "94/shared/3d9bb7755c/index.js",
+          "sha256": "b466b1b4c6fbb57e430c86e2108ffaaeaa83eecd8e11f66aeb2f477ee1e51c16"
+        },
+        {
+          "path": "94/shared/ba588d9dad/efb67423d1.fc828b5f.js",
+          "sha256": "fc828b5fba455c4d6d829c5e32aaebe51a1a2aa8c201f981c84ece2883150ee5"
+        },
+        {
+          "path": "94/shared/ba588d9dad/index.js",
+          "sha256": "5637839eda912ae9c7ed636110f6a1ba77cb487a24a8977a525bad32254d414c"
+        },
+        {
+          "path": "94/shared/b4f8165174/448a622256.ceba54f0.js",
+          "sha256": "ceba54f0c4d11725703325dbf2f3c9b87410ead891177acda7b1d00ba20cd383"
+        },
+        {
+          "path": "94/shared/b4f8165174/index.js",
+          "sha256": "3b290b0cf4491a3d21df725846de6d0be8a7922402d80fe8806a6596249d7e26"
+        },
+        {
+          "path": "94/shared/8e5f11ad96/03fc0777ec.122d1964.js",
+          "sha256": "122d19640c7a6efb5c62906cb9dbf44053a1db6387d4dbea34e6c5636a52a1f9"
+        },
+        {
+          "path": "94/shared/8e5f11ad96/index.js",
+          "sha256": "25da5fb0a6a7cff478e8c0a95b4fab9ba9743a696542d1a74fd8fdbdbebb1644"
+        },
+        {
+          "path": "94/shared/f72f5b9e6e/a5fd187d23.6e324898.js",
+          "sha256": "6e32489805fa16e33704908c1a4588bbab3f319a5b64aac1c4ce011797a0df52"
+        },
+        {
+          "path": "94/shared/f72f5b9e6e/index.js",
+          "sha256": "3726dc551a7c322285b39a6789094212bdf30b5230afbcaa16b8f6dd99c019df"
+        },
+        {
+          "path": "94/shared/37fadb0591/5210d1d645.15ea103b.js",
+          "sha256": "15ea103bb2c02926775db27130ea554ea0589a66af790df97ce19c4f75708048"
+        },
+        {
+          "path": "94/shared/37fadb0591/index.js",
+          "sha256": "11fae919d956481185fcb02b3160f4fe6b8c41ba8a5b7c7a72bb23f5324453b9"
+        },
+        {
+          "path": "94/shared/d56091e6dc/61c832e874.24798248.js",
+          "sha256": "24798248369740c926cfe4677fa248aa9e70330d47a8dfd3e0363555cce060d1"
+        },
+        {
+          "path": "94/shared/d56091e6dc/index.js",
+          "sha256": "8b225dbf64b34db09509015fbbe11d0f8d2e3187a4cbabf9413983c91737967d"
+        },
+        {
+          "path": "94/shared/8217bb8ac8/d937f741e4.40b942d1.js",
+          "sha256": "40b942d1447ab4a71562426627b881611f5f1891b58de4b4746c0f30f4ac63fb"
+        },
+        {
+          "path": "94/shared/8217bb8ac8/index.js",
+          "sha256": "9398fe690d59ae5f8f76612325878ed9947a910a1a8fdabf1003c58b84f50a52"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "29",
+      "files": [
+        {
+          "path": "29/shared/3c4695a542/b526e03cc3.f02f295f.js",
+          "sha256": "f02f295fa3733fcab1d58154b848bf66fba546c3f43d5d6f20aa0b3cf6f98f3c"
+        },
+        {
+          "path": "29/shared/3c4695a542/index.json",
+          "sha256": "96314710c4eaf481910120546b82c74a0d45a533e98828a735def42218e14d8e"
+        },
+        {
+          "path": "29/shared/0bc343f586/dedee2c334.faec1319.js",
+          "sha256": "faec1319ca5904c3d542f02ae3d881bd430ef5565fd6e6c8e28dcb2658b75eda"
+        },
+        {
+          "path": "29/shared/0bc343f586/index.js",
+          "sha256": "f177ddde0015ddd97d17907ee09906fcf15e7798e835a3fe57ece858994eb4d5"
+        },
+        {
+          "path": "29/shared/99212c6ec4/187a36578c.d8732238.js",
+          "sha256": "d873223868cb4cae2f981c993e67aa1ddae0234e5babfaaf260808eeb26f1791"
+        },
+        {
+          "path": "29/shared/99212c6ec4/index.js",
+          "sha256": "c50d7b00048425786b34c103de8332a9153aa6aaaf46dd86d3aa6e56668b68dd"
+        },
+        {
+          "path": "29/index.html",
+          "sha256": "db598bde708609840f860e20cdd5312cd634480d6f363b40544546e357eb4df9"
+        },
+        {
+          "path": "29/shared/3c4695a542/b526e03cc3.5ccd8b2e.js",
+          "sha256": "5ccd8b2e3a02743793c0c44cf4352ed854d4833d683e6fef331149c3159a3d51"
+        },
+        {
+          "path": "29/shared/3d9bb7755c/32d1d0500b.b492ebd4.js",
+          "sha256": "b492ebd47f481ac57b545fe9cd6eb8f5da8e83b5bfe5449887a5b7ef594e2c5a"
+        },
+        {
+          "path": "29/shared/3d9bb7755c/index.js",
+          "sha256": "b466b1b4c6fbb57e430c86e2108ffaaeaa83eecd8e11f66aeb2f477ee1e51c16"
+        },
+        {
+          "path": "29/shared/ba588d9dad/efb67423d1.fc828b5f.js",
+          "sha256": "fc828b5fba455c4d6d829c5e32aaebe51a1a2aa8c201f981c84ece2883150ee5"
+        },
+        {
+          "path": "29/shared/ba588d9dad/index.js",
+          "sha256": "5637839eda912ae9c7ed636110f6a1ba77cb487a24a8977a525bad32254d414c"
+        },
+        {
+          "path": "29/shared/b4f8165174/448a622256.ceba54f0.js",
+          "sha256": "ceba54f0c4d11725703325dbf2f3c9b87410ead891177acda7b1d00ba20cd383"
+        },
+        {
+          "path": "29/shared/b4f8165174/index.js",
+          "sha256": "3b290b0cf4491a3d21df725846de6d0be8a7922402d80fe8806a6596249d7e26"
+        },
+        {
+          "path": "29/shared/8e5f11ad96/03fc0777ec.122d1964.js",
+          "sha256": "122d19640c7a6efb5c62906cb9dbf44053a1db6387d4dbea34e6c5636a52a1f9"
+        },
+        {
+          "path": "29/shared/8e5f11ad96/index.js",
+          "sha256": "25da5fb0a6a7cff478e8c0a95b4fab9ba9743a696542d1a74fd8fdbdbebb1644"
+        },
+        {
+          "path": "29/shared/f72f5b9e6e/a5fd187d23.6e324898.js",
+          "sha256": "6e32489805fa16e33704908c1a4588bbab3f319a5b64aac1c4ce011797a0df52"
+        },
+        {
+          "path": "29/shared/f72f5b9e6e/index.js",
+          "sha256": "3726dc551a7c322285b39a6789094212bdf30b5230afbcaa16b8f6dd99c019df"
+        },
+        {
+          "path": "29/shared/37fadb0591/5210d1d645.15ea103b.js",
+          "sha256": "15ea103bb2c02926775db27130ea554ea0589a66af790df97ce19c4f75708048"
+        },
+        {
+          "path": "29/shared/37fadb0591/index.js",
+          "sha256": "11fae919d956481185fcb02b3160f4fe6b8c41ba8a5b7c7a72bb23f5324453b9"
+        },
+        {
+          "path": "29/shared/d56091e6dc/61c832e874.24798248.js",
+          "sha256": "24798248369740c926cfe4677fa248aa9e70330d47a8dfd3e0363555cce060d1"
+        },
+        {
+          "path": "29/shared/d56091e6dc/index.js",
+          "sha256": "8b225dbf64b34db09509015fbbe11d0f8d2e3187a4cbabf9413983c91737967d"
+        },
+        {
+          "path": "29/shared/8217bb8ac8/d937f741e4.40b942d1.js",
+          "sha256": "40b942d1447ab4a71562426627b881611f5f1891b58de4b4746c0f30f4ac63fb"
+        },
+        {
+          "path": "29/shared/8217bb8ac8/index.js",
+          "sha256": "9398fe690d59ae5f8f76612325878ed9947a910a1a8fdabf1003c58b84f50a52"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "110",
+      "files": [
+        {
+          "path": "110/shared/984721902a/996b5422dd.525a5553.js",
+          "sha256": "525a5553f503f517f8fe6f56487fd30266d5356ad2aba1fe913c91efed55d162"
+        },
+        {
+          "path": "110/shared/984721902a/index.json",
+          "sha256": "0b7e724dab2ebf6fb577adf8b12074b27e93e55b2d7181397503c119b1a0004a"
+        },
+        {
+          "path": "110/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "110/shared/c03a2652ad/index.js",
+          "sha256": "da9e9f8fef5262fd9fd1e4f8598d2038eec20f667625783033c04c971f57e7e3"
+        },
+        {
+          "path": "110/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "110/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "110/index.html",
+          "sha256": "2d177251abc74a5807ef3b730dc7e54c73488c7cb124660abf6f6c6abab06d47"
+        },
+        {
+          "path": "110/shared/984721902a/996b5422dd.f5211b77.js",
+          "sha256": "f5211b77e538e752aaa3b4e1424c70708e91d9d914c95d6dc9410c340d14fb74"
+        },
+        {
+          "path": "110/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "110/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "110/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "110/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "110/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "110/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "110/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "110/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "110/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "110/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "110/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "110/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "110/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "110/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "110/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "110/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "110/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "35",
+      "files": [
+        {
+          "path": "35/shared/984721902a/996b5422dd.cb8263ef.js",
+          "sha256": "cb8263efd66ad6db9956696a112c9e096359a1212b69673c099f501e452f6f93"
+        },
+        {
+          "path": "35/shared/984721902a/index.json",
+          "sha256": "b041206ce416f587bf9d619e58a16df6cdc22fded483ab5072b8764cb66a1192"
+        },
+        {
+          "path": "35/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "35/shared/c03a2652ad/index.js",
+          "sha256": "da9e9f8fef5262fd9fd1e4f8598d2038eec20f667625783033c04c971f57e7e3"
+        },
+        {
+          "path": "35/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "35/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "35/index.html",
+          "sha256": "baf10bb0fa16fe443a96978e28acdc78744f150241afc5a2fe728fb354178ec6"
+        },
+        {
+          "path": "35/shared/984721902a/996b5422dd.5d25f4a7.js",
+          "sha256": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4"
+        },
+        {
+          "path": "35/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "35/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "35/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "35/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "35/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "35/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "35/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "35/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "35/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "35/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "35/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "35/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "35/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "35/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "35/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "35/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "35/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "97",
+      "files": [
+        {
+          "path": "97/shared/984721902a/996b5422dd.525a5553.js",
+          "sha256": "525a5553f503f517f8fe6f56487fd30266d5356ad2aba1fe913c91efed55d162"
+        },
+        {
+          "path": "97/shared/984721902a/index.json",
+          "sha256": "0b7e724dab2ebf6fb577adf8b12074b27e93e55b2d7181397503c119b1a0004a"
+        },
+        {
+          "path": "97/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "97/shared/c03a2652ad/index.js",
+          "sha256": "da9e9f8fef5262fd9fd1e4f8598d2038eec20f667625783033c04c971f57e7e3"
+        },
+        {
+          "path": "97/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "97/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "97/index.html",
+          "sha256": "7ed6c0910bd2be4d47409c9ef9ea4c6c664c0b88cb05e4850f574bd04a921409"
+        },
+        {
+          "path": "97/shared/984721902a/996b5422dd.f5211b77.js",
+          "sha256": "f5211b77e538e752aaa3b4e1424c70708e91d9d914c95d6dc9410c340d14fb74"
+        },
+        {
+          "path": "97/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "97/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "97/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "97/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "97/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "97/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "97/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "97/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "97/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "97/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "97/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "97/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "97/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "97/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "97/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "97/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "97/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "85",
+      "files": [
+        {
+          "path": "85/shared/984721902a/996b5422dd.525a5553.js",
+          "sha256": "525a5553f503f517f8fe6f56487fd30266d5356ad2aba1fe913c91efed55d162"
+        },
+        {
+          "path": "85/shared/984721902a/index.json",
+          "sha256": "0b7e724dab2ebf6fb577adf8b12074b27e93e55b2d7181397503c119b1a0004a"
+        },
+        {
+          "path": "85/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "85/shared/c03a2652ad/index.js",
+          "sha256": "076553191521d988f3c2d2cadc70543cfa28c8459ed6f4b85bcb3227eb3da2a4"
+        },
+        {
+          "path": "85/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "85/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "85/index.html",
+          "sha256": "728f996a28542371703569f2d071d6c2ca7454c2ff67dfe1c27c73ce75e2112d"
+        },
+        {
+          "path": "85/assets/main/index.65f1c5b4.js",
+          "sha256": "65f1c5b46b462dd8f0f60ebeebd0a610c81e9f9bf50dc497c44a3d751c730218"
+        },
+        {
+          "path": "85/shared/c03a2652ad/f5fe73e9f2.8ba15f42.js",
+          "sha256": "8ba15f42b5e59c4736810b3c41a6c2a3f9a4f8a26a4259b2a4891c1e8741c551"
+        },
+        {
+          "path": "85/shared/984721902a/996b5422dd.f5211b77.js",
+          "sha256": "f5211b77e538e752aaa3b4e1424c70708e91d9d914c95d6dc9410c340d14fb74"
+        },
+        {
+          "path": "85/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "85/shared/8583df6da7/index.js",
+          "sha256": "63ae7e4c06dee37f5a36507ad6b21a3fccf3c2cdde906e13bfca3b96dc823f44"
+        },
+        {
+          "path": "85/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "85/shared/d1ad8305ef/index.js",
+          "sha256": "a459e36b33d5ecc8504e0900ed7edbea8ffd7b0dd238a69518de16b159200aef"
+        },
+        {
+          "path": "85/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "85/shared/2fd142260e/index.js",
+          "sha256": "39f7c896412217e84cb4175e3f58bef4c1840af7bb4a1714685c305d138dd7b7"
+        },
+        {
+          "path": "85/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "85/shared/e02b9bf0d2/index.js",
+          "sha256": "de41ec6a6f1738fba69e1cd8870553b7a07019449e74922b83d91222a52cfc63"
+        },
+        {
+          "path": "85/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "85/shared/a346494745/index.js",
+          "sha256": "f2eee5cb5d0ae5cd4884f45c594531a6d1989ae1958ff1cfaa1bac7d2a984eaf"
+        },
+        {
+          "path": "85/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "85/shared/b85c56d865/index.js",
+          "sha256": "56eb22cb10fce47bf2a5e06f0260abd7822b259f776b1430a6676dbf0122f0f3"
+        },
+        {
+          "path": "85/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "85/shared/589a728c8d/index.js",
+          "sha256": "118dcbc6b8495d5509a6901ec4edbcaa97272dc86f46f407927073f3b50889ed"
+        },
+        {
+          "path": "85/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "85/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "85/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "34",
+      "files": [
+        {
+          "path": "34/shared/3c4695a542/b526e03cc3.47e2abc6.js",
+          "sha256": "47e2abc6978ccdf005521ecf1031fddee99ca27dbac3c9a6229ed09ea15660b8"
+        },
+        {
+          "path": "34/shared/3c4695a542/index.json",
+          "sha256": "cb53005399b02649cb593e3bc234d663bdda8d54615ca063e950edc490091b7a"
+        },
+        {
+          "path": "34/shared/0bc343f586/dedee2c334.faec1319.js",
+          "sha256": "faec1319ca5904c3d542f02ae3d881bd430ef5565fd6e6c8e28dcb2658b75eda"
+        },
+        {
+          "path": "34/shared/0bc343f586/index.js",
+          "sha256": "b22732357b3390fd49c6226e5a975dfdd8df83775f92bafb3123cedfd011117f"
+        },
+        {
+          "path": "34/shared/99212c6ec4/187a36578c.d8732238.js",
+          "sha256": "d873223868cb4cae2f981c993e67aa1ddae0234e5babfaaf260808eeb26f1791"
+        },
+        {
+          "path": "34/shared/99212c6ec4/index.js",
+          "sha256": "c50d7b00048425786b34c103de8332a9153aa6aaaf46dd86d3aa6e56668b68dd"
+        },
+        {
+          "path": "34/index.html",
+          "sha256": "35d5fd93d60da8e2fca71c1ccffe09f86e37ad5a6e82a278e981e62c28114d2c"
+        },
+        {
+          "path": "34/assets/main/index.c19c44fc.js",
+          "sha256": "c19c44fc9ce58b721054ec54451945c4edd71352c602b25fff79a3e9079e8418"
+        },
+        {
+          "path": "34/shared/0bc343f586/dedee2c334.b1b12dbc.js",
+          "sha256": "b1b12dbcaf72bfcaf899929ab9e86396802356bd56f47debba6e535ebb9f1854"
+        },
+        {
+          "path": "34/shared/3c4695a542/b526e03cc3.e6ba4521.js",
+          "sha256": "e6ba45213e1b0b06088b82e43ae07916269be2b30eedd8603c369ca4925bf702"
+        },
+        {
+          "path": "34/shared/3d9bb7755c/32d1d0500b.b492ebd4.js",
+          "sha256": "b492ebd47f481ac57b545fe9cd6eb8f5da8e83b5bfe5449887a5b7ef594e2c5a"
+        },
+        {
+          "path": "34/shared/3d9bb7755c/index.js",
+          "sha256": "b466b1b4c6fbb57e430c86e2108ffaaeaa83eecd8e11f66aeb2f477ee1e51c16"
+        },
+        {
+          "path": "34/shared/ba588d9dad/efb67423d1.fc828b5f.js",
+          "sha256": "fc828b5fba455c4d6d829c5e32aaebe51a1a2aa8c201f981c84ece2883150ee5"
+        },
+        {
+          "path": "34/shared/ba588d9dad/index.js",
+          "sha256": "5637839eda912ae9c7ed636110f6a1ba77cb487a24a8977a525bad32254d414c"
+        },
+        {
+          "path": "34/shared/8e5f11ad96/03fc0777ec.122d1964.js",
+          "sha256": "122d19640c7a6efb5c62906cb9dbf44053a1db6387d4dbea34e6c5636a52a1f9"
+        },
+        {
+          "path": "34/shared/8e5f11ad96/index.js",
+          "sha256": "25da5fb0a6a7cff478e8c0a95b4fab9ba9743a696542d1a74fd8fdbdbebb1644"
+        },
+        {
+          "path": "34/shared/f72f5b9e6e/a5fd187d23.6e324898.js",
+          "sha256": "6e32489805fa16e33704908c1a4588bbab3f319a5b64aac1c4ce011797a0df52"
+        },
+        {
+          "path": "34/shared/f72f5b9e6e/index.js",
+          "sha256": "3726dc551a7c322285b39a6789094212bdf30b5230afbcaa16b8f6dd99c019df"
+        },
+        {
+          "path": "34/shared/8217bb8ac8/d937f741e4.40b942d1.js",
+          "sha256": "40b942d1447ab4a71562426627b881611f5f1891b58de4b4746c0f30f4ac63fb"
+        },
+        {
+          "path": "34/shared/8217bb8ac8/index.js",
+          "sha256": "9398fe690d59ae5f8f76612325878ed9947a910a1a8fdabf1003c58b84f50a52"
+        },
+        {
+          "path": "34/shared/b4f8165174/448a622256.9dd2de5e.js",
+          "sha256": "9dd2de5e6275449193851d36700123e397a0c0be0997654887a1d002384d1a4d"
+        },
+        {
+          "path": "34/shared/b4f8165174/index.js",
+          "sha256": "002877c12da40488b2c41495178ec3e1636804c3a06714d8c251c43d7f10aa9d"
+        },
+        {
+          "path": "34/shared/37fadb0591/5210d1d645.6ee05465.js",
+          "sha256": "6ee05465030f12e87e0ec15f46074436b963947c79b2b6441e73c2207489a49a"
+        },
+        {
+          "path": "34/shared/37fadb0591/index.js",
+          "sha256": "b495ccfdfb9d0c37d182ac1a0b7599d2132c9805617d5673051abf7b0bbbb24b"
+        },
+        {
+          "path": "34/shared/d56091e6dc/61c832e874.efa9c429.js",
+          "sha256": "efa9c42959a31a5eb295738b8f04f2f609da2d1978dff5b371de1ae6c27d732c"
+        },
+        {
+          "path": "34/shared/d56091e6dc/index.js",
+          "sha256": "38bf372055a2fce1a5758da99967509cefd3ad29590e3f6c00450893fee3497b"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    },
+    {
+      "game": "1513328",
+      "files": [
+        {
+          "path": "1513328/shared/984721902a/996b5422dd.cb8263ef.js",
+          "sha256": "cb8263efd66ad6db9956696a112c9e096359a1212b69673c099f501e452f6f93"
+        },
+        {
+          "path": "1513328/shared/984721902a/index.json",
+          "sha256": "b041206ce416f587bf9d619e58a16df6cdc22fded483ab5072b8764cb66a1192"
+        },
+        {
+          "path": "1513328/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        {
+          "path": "1513328/shared/c03a2652ad/index.js",
+          "sha256": "e81cbd4e694c1bcc402252f9668cd30c55451084446bc42efa16d7743e3f3381"
+        },
+        {
+          "path": "1513328/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        },
+        {
+          "path": "1513328/shared/705f29d781/index.js",
+          "sha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598"
+        },
+        {
+          "path": "1513328/index.html",
+          "sha256": "065ad64cd65672a541b7f004bca832db9933e7248a2d4de83dd39a34bb45a6f1"
+        },
+        {
+          "path": "1513328/assets/main/index.5e5884a2.js",
+          "sha256": "5e5884a2b45063b45662b48dc7d81f0c62c0efeb07f86da101f979f4bd595f50"
+        },
+        {
+          "path": "1513328/shared/c03a2652ad/f5fe73e9f2.d8b32ba4.js",
+          "sha256": "d8b32ba4116506af5e82efb043e74c20fcce7d12143e9b4a39be9f0341306455"
+        },
+        {
+          "path": "1513328/shared/984721902a/996b5422dd.5d25f4a7.js",
+          "sha256": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4"
+        },
+        {
+          "path": "1513328/shared/8583df6da7/index.js",
+          "sha256": "8232fc4aeb0b17d2a58a1a5b44ba5c8d20aa02a73a47bcb8e3498dab7a78ad35"
+        },
+        {
+          "path": "1513328/shared/d1ad8305ef/index.js",
+          "sha256": "76ce2ca3d801f46d26c0f6eca5d56e4691217a0b2a3b1c7f968b190f2c3afd7f"
+        },
+        {
+          "path": "1513328/shared/2fd142260e/index.js",
+          "sha256": "eeb0ba2269d65c6a3b83addb7b472ae028625f45c68e74f4d9a3e41f9ba9b452"
+        },
+        {
+          "path": "1513328/shared/e02b9bf0d2/index.js",
+          "sha256": "2c1097276a0bf574e736ec2fc2045214170df5b0cb863ba8110007455b47f43a"
+        },
+        {
+          "path": "1513328/shared/a346494745/index.js",
+          "sha256": "f10465cdb3c56236a010c4dbe344dbe52637a1d8928a0fc2f135ba60417e5655"
+        },
+        {
+          "path": "1513328/shared/b85c56d865/index.js",
+          "sha256": "bc1a0bee6cb4b8b6f916cf4bf1b3a7dc272107f77750fbabac7f1f9b7bba0780"
+        },
+        {
+          "path": "1513328/shared/589a728c8d/index.js",
+          "sha256": "165d590a0d8c52dec84913fd8e3efa1a6f028fe9c22e0d5d75c6a85ba493d958"
+        },
+        {
+          "path": "1513328/shared/8583df6da7/64d36df427.3bb29107.js",
+          "sha256": "3bb29107128b8911b12bc461c8530d3fd89770bb72d0b70aa996e5784724b296"
+        },
+        {
+          "path": "1513328/shared/d1ad8305ef/f79a0382e2.2f5253d9.js",
+          "sha256": "2f5253d9158559b701469c486fe74d4d6e7823803aa88eab23257d60577dc427"
+        },
+        {
+          "path": "1513328/shared/2fd142260e/509fdc8981.47fb5ed5.js",
+          "sha256": "47fb5ed54bef84835da753c7754ab2c3a93aef8690975f06daff27282d81523e"
+        },
+        {
+          "path": "1513328/shared/e02b9bf0d2/51353bae0e.78a1bfe6.js",
+          "sha256": "78a1bfe6e68edd0247d6152bc69fa04c2625c050afdd2183726f51fc521e4aa5"
+        },
+        {
+          "path": "1513328/shared/a346494745/a6325fb8fc.d68ce7be.js",
+          "sha256": "d68ce7be45937495f661c0902f022186a694b8d3626a0c7d69f9ec8dc45aa956"
+        },
+        {
+          "path": "1513328/shared/b85c56d865/3a0dd812c3.c22fb2fe.js",
+          "sha256": "c22fb2fe00a41a9505532ea340fc6c7dda9b41e829dda4d49612479647c6155a"
+        },
+        {
+          "path": "1513328/shared/589a728c8d/c867f19ae2.c7e179b4.js",
+          "sha256": "c7e179b45d0cb5a3cb61db69d83e62f1c582c330ed76c6b85b03c1233ab43091"
+        },
+        {
+          "path": "1513328/shared/2fd142260e/509fdc8981.d7504676.js",
+          "sha256": "d7504676e6522c34e313223dc047a17213036c35b25e55f5d24323c2811f83ee"
+        },
+        {
+          "path": "1513328/shared/e02b9bf0d2/51353bae0e.f09bc3b3.js",
+          "sha256": "f09bc3b38c33ab04b36953c7c51ac045a87674adb665f595bf75ee0c88444586"
+        },
+        {
+          "path": "1513328/shared/589a728c8d/c867f19ae2.5836655b.js",
+          "sha256": "5836655b139a520aba05d5e6422281fb1e9ec7b3d6f5ea41ae6909c808afa528"
+        }
+      ],
+      "engineProtectionFixed": true,
+      "clientProtectionFixed": true
+    }
+  ],
+  "legacyBaselineHash": "0c44951c883993d0177b4a91208856b9be1a64d57baadfce25196033b142c014",
+  "clientProtectionBaselineHash": "e204aa98527741778db26412fe62e21535adea3cf64928ada132c20fdae725c5",
+  "legacyClientProtectionBaselineHash": "facd399e92e9b69cd69b07994f8c6b1c37ed9dc033d112206c2880b96bc7cea8"
+}

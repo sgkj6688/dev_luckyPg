@@ -1,0 +1,53 @@
+{
+  "scope": "45 authorized legacy-plugin games; ViewLoading destructive callback only",
+  "priority": "P2",
+  "status": "applied locally; not committed, pushed or deployed",
+  "sourceVariants": 7,
+  "changes": {
+    "newShells": 45,
+    "shellManifests": 45,
+    "parentReceipt": "45 manifest digests updated; 45 new shells appended; historical resources retained"
+  },
+  "verification": {
+    "selected": 45,
+    "untouched": 72,
+    "shellVariants": 7,
+    "changedGameManifests": 45,
+    "newGameAssets": 45,
+    "stageOutputFingerprints": 90,
+    "aggregateFiles": 2592,
+    "existingFilesPreserved": 2517,
+    "scopePassed": true,
+    "candidateChecks": 203,
+    "appliedChecks": 203,
+    "recipeGateChecks": 21,
+    "receiptGateChecks": 135,
+    "parentReceiptOnlyAuthorizedChanges": true,
+    "byteLengthAndNewlinesPreserved": true,
+    "outsideCallbackBytesPreserved": true,
+    "stageDryRunChanges": 0,
+    "previous117DryRunChanges": 0,
+    "failures": 0
+  },
+  "preserved": [
+    "other 72 games",
+    "HTML, main, engine, utility and plugins",
+    "validation and observer logic",
+    "event subscriptions, delays and normal propagation",
+    "existing parallel changes and original shell resources"
+  ],
+  "commands": [
+    "node test/pg-viewloading-p2.mjs",
+    "node test/pg-viewloading-p2.mjs --applied",
+    "node test/pg-viewloading-applied.mjs",
+    "node tools/pg-compat/apply-viewloading-p2.mjs",
+    "node tools/pg-compat/apply-outside-p2.mjs",
+    "git diff --check"
+  ],
+  "limits": [
+    "isolated VM and static artifact verification; no browser/device/Native acceptance",
+    "no real betting, payment or settlement",
+    "other 72 games intentionally retain their current ViewLoading callback",
+    "existing pages/cached old shell require loading the new resource; no live prototype restoration"
+  ]
+}

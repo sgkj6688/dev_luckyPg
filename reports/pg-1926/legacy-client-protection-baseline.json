@@ -1,0 +1,163 @@
+{
+  "games": [
+    {
+      "id": "94",
+      "files": [
+        {
+          "asset": "94/shared/3d9bb7755c/32d1d0500b.5a9d2.js",
+          "sha256": "79592d5e85b7a9604a0877a22a048e45de689ca1a974b148a6ef92e28f4a1111",
+          "manifest": "94/shared/3d9bb7755c/index.js",
+          "manifestSha256": "ab8dacddb5ebca2372f3bfda25fcac6bed7d012b60df5df7010c246556d9b7d1"
+        },
+        {
+          "asset": "94/shared/ba588d9dad/efb67423d1.66896.js",
+          "sha256": "5a265f9bfc7283c804cb7f2f52b7a7fec3c6b927f37129550f24a25a2e445974",
+          "manifest": "94/shared/ba588d9dad/index.js",
+          "manifestSha256": "6b346ef5492931de90280eba4103289a4cbc7cbad2689298d3f320a62485e27c"
+        },
+        {
+          "asset": "94/shared/b4f8165174/448a622256.c03db.js",
+          "sha256": "bb3c88b98368e646343b8450822c466dc86f4fd1fb868df51a35190d751d729c",
+          "manifest": "94/shared/b4f8165174/index.js",
+          "manifestSha256": "d2838e1dd31b8c3c205fe0e2fc72a1a406f0d814abf1a19ac1620e538fc4777e"
+        },
+        {
+          "asset": "94/shared/8e5f11ad96/03fc0777ec.31fd2.js",
+          "sha256": "c6e8caadc1fba72fd7a460504b0a2c55d0d2c3d5aea1f24a6ff07d5907c1e84a",
+          "manifest": "94/shared/8e5f11ad96/index.js",
+          "manifestSha256": "c9df603520001a7990deafab63b198c50cac1b01351be190cd962f630a76f751"
+        },
+        {
+          "asset": "94/shared/f72f5b9e6e/a5fd187d23.1e0aa.js",
+          "sha256": "4b7c67bb4642830e4688c2c9c15a4fdb9da9be2c9ab65384a126484d6a7bde86",
+          "manifest": "94/shared/f72f5b9e6e/index.js",
+          "manifestSha256": "eefd279afeab293edafaa535c7c8eeee6167c02efde97bb782d6c3c227886c3a"
+        },
+        {
+          "asset": "94/shared/37fadb0591/5210d1d645.3863f.js",
+          "sha256": "4f1760f0ee14ee6c5c9ec537e20058cb1bde9a986e756727199826dda037e64c",
+          "manifest": "94/shared/37fadb0591/index.js",
+          "manifestSha256": "fe40e7e888e0e895d1e050847cfd7acf829a5261a3b85aecad64fbf8f0b80c4b"
+        },
+        {
+          "asset": "94/shared/d56091e6dc/61c832e874.587f6.js",
+          "sha256": "8f272dc91c6fa5890a8189b46aa9b30e35b83225f001b1ef80c1e31ce33e5eee",
+          "manifest": "94/shared/d56091e6dc/index.js",
+          "manifestSha256": "61fc493fbb0c4f4ffb6cee6beb650ece717958df10eea1cb40a553a93087a01c"
+        },
+        {
+          "asset": "94/shared/8217bb8ac8/d937f741e4.741c2.js",
+          "sha256": "b51abdf0b03b48e993e0eb919e6c19344fd9195a0a5d9e8175663ca82249f812",
+          "manifest": "94/shared/8217bb8ac8/index.js",
+          "manifestSha256": "9ecf137c82cfd9a93d9f8835646daed38074d04c22577362d494d071968defe8"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "files": [
+        {
+          "asset": "29/shared/3d9bb7755c/32d1d0500b.5a9d2.js",
+          "sha256": "79592d5e85b7a9604a0877a22a048e45de689ca1a974b148a6ef92e28f4a1111",
+          "manifest": "29/shared/3d9bb7755c/index.js",
+          "manifestSha256": "ab8dacddb5ebca2372f3bfda25fcac6bed7d012b60df5df7010c246556d9b7d1"
+        },
+        {
+          "asset": "29/shared/ba588d9dad/efb67423d1.66896.js",
+          "sha256": "5a265f9bfc7283c804cb7f2f52b7a7fec3c6b927f37129550f24a25a2e445974",
+          "manifest": "29/shared/ba588d9dad/index.js",
+          "manifestSha256": "6b346ef5492931de90280eba4103289a4cbc7cbad2689298d3f320a62485e27c"
+        },
+        {
+          "asset": "29/shared/b4f8165174/448a622256.c03db.js",
+          "sha256": "bb3c88b98368e646343b8450822c466dc86f4fd1fb868df51a35190d751d729c",
+          "manifest": "29/shared/b4f8165174/index.js",
+          "manifestSha256": "d2838e1dd31b8c3c205fe0e2fc72a1a406f0d814abf1a19ac1620e538fc4777e"
+        },
+        {
+          "asset": "29/shared/8e5f11ad96/03fc0777ec.31fd2.js",
+          "sha256": "c6e8caadc1fba72fd7a460504b0a2c55d0d2c3d5aea1f24a6ff07d5907c1e84a",
+          "manifest": "29/shared/8e5f11ad96/index.js",
+          "manifestSha256": "c9df603520001a7990deafab63b198c50cac1b01351be190cd962f630a76f751"
+        },
+        {
+          "asset": "29/shared/f72f5b9e6e/a5fd187d23.1e0aa.js",
+          "sha256": "4b7c67bb4642830e4688c2c9c15a4fdb9da9be2c9ab65384a126484d6a7bde86",
+          "manifest": "29/shared/f72f5b9e6e/index.js",
+          "manifestSha256": "eefd279afeab293edafaa535c7c8eeee6167c02efde97bb782d6c3c227886c3a"
+        },
+        {
+          "asset": "29/shared/37fadb0591/5210d1d645.3863f.js",
+          "sha256": "4f1760f0ee14ee6c5c9ec537e20058cb1bde9a986e756727199826dda037e64c",
+          "manifest": "29/shared/37fadb0591/index.js",
+          "manifestSha256": "fe40e7e888e0e895d1e050847cfd7acf829a5261a3b85aecad64fbf8f0b80c4b"
+        },
+        {
+          "asset": "29/shared/d56091e6dc/61c832e874.587f6.js",
+          "sha256": "8f272dc91c6fa5890a8189b46aa9b30e35b83225f001b1ef80c1e31ce33e5eee",
+          "manifest": "29/shared/d56091e6dc/index.js",
+          "manifestSha256": "61fc493fbb0c4f4ffb6cee6beb650ece717958df10eea1cb40a553a93087a01c"
+        },
+        {
+          "asset": "29/shared/8217bb8ac8/d937f741e4.741c2.js",
+          "sha256": "b51abdf0b03b48e993e0eb919e6c19344fd9195a0a5d9e8175663ca82249f812",
+          "manifest": "29/shared/8217bb8ac8/index.js",
+          "manifestSha256": "9ecf137c82cfd9a93d9f8835646daed38074d04c22577362d494d071968defe8"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "files": [
+        {
+          "asset": "34/shared/3d9bb7755c/32d1d0500b.5a9d2.js",
+          "sha256": "79592d5e85b7a9604a0877a22a048e45de689ca1a974b148a6ef92e28f4a1111",
+          "manifest": "34/shared/3d9bb7755c/index.js",
+          "manifestSha256": "ab8dacddb5ebca2372f3bfda25fcac6bed7d012b60df5df7010c246556d9b7d1"
+        },
+        {
+          "asset": "34/shared/ba588d9dad/efb67423d1.66896.js",
+          "sha256": "5a265f9bfc7283c804cb7f2f52b7a7fec3c6b927f37129550f24a25a2e445974",
+          "manifest": "34/shared/ba588d9dad/index.js",
+          "manifestSha256": "6b346ef5492931de90280eba4103289a4cbc7cbad2689298d3f320a62485e27c"
+        },
+        {
+          "asset": "34/shared/8e5f11ad96/03fc0777ec.31fd2.js",
+          "sha256": "c6e8caadc1fba72fd7a460504b0a2c55d0d2c3d5aea1f24a6ff07d5907c1e84a",
+          "manifest": "34/shared/8e5f11ad96/index.js",
+          "manifestSha256": "c9df603520001a7990deafab63b198c50cac1b01351be190cd962f630a76f751"
+        },
+        {
+          "asset": "34/shared/f72f5b9e6e/a5fd187d23.1e0aa.js",
+          "sha256": "4b7c67bb4642830e4688c2c9c15a4fdb9da9be2c9ab65384a126484d6a7bde86",
+          "manifest": "34/shared/f72f5b9e6e/index.js",
+          "manifestSha256": "eefd279afeab293edafaa535c7c8eeee6167c02efde97bb782d6c3c227886c3a"
+        },
+        {
+          "asset": "34/shared/8217bb8ac8/d937f741e4.741c2.js",
+          "sha256": "b51abdf0b03b48e993e0eb919e6c19344fd9195a0a5d9e8175663ca82249f812",
+          "manifest": "34/shared/8217bb8ac8/index.js",
+          "manifestSha256": "9ecf137c82cfd9a93d9f8835646daed38074d04c22577362d494d071968defe8"
+        },
+        {
+          "asset": "34/shared/b4f8165174/448a622256.c03db.js",
+          "sha256": "83105c8ac5bb988c97cfd26054705e7666fa023545edb5de0950de2d6697fbc0",
+          "manifest": "34/shared/b4f8165174/index.js",
+          "manifestSha256": "d2838e1dd31b8c3c205fe0e2fc72a1a406f0d814abf1a19ac1620e538fc4777e"
+        },
+        {
+          "asset": "34/shared/37fadb0591/5210d1d645.3863f.js",
+          "sha256": "27bdb0e24fff80a56ec9308222fbc23110db23afe3bb3142aeefdc8554871acf",
+          "manifest": "34/shared/37fadb0591/index.js",
+          "manifestSha256": "fe40e7e888e0e895d1e050847cfd7acf829a5261a3b85aecad64fbf8f0b80c4b"
+        },
+        {
+          "asset": "34/shared/d56091e6dc/61c832e874.587f6.js",
+          "sha256": "50b21d0459905035cbffc4b72f109c7572283e88f2ca4bbb485649ec82b6077b",
+          "manifest": "34/shared/d56091e6dc/index.js",
+          "manifestSha256": "61fc493fbb0c4f4ffb6cee6beb650ece717958df10eea1cb40a553a93087a01c"
+        }
+      ]
+    }
+  ]
+}

@@ -1866,7 +1866,7 @@
         }
       };
     }
-    var ye = `/${g}` + i;
+    var ye = "/shared/compat/016e3409e4c0/";
     var be = "";
     e.GtmId = new String(e.GtmId);
     var _e = J() ? 2015 : 5;
@@ -2092,7 +2092,7 @@
             BootTime: we,
             initialLoader: Pe
           };
-          return shell.start(Te, W6);
+          return shell.start(Te, (function(c){c.SharedPath=new URL(c.SharedPath,location.href).href;return c;})(W6));
         }, 0);
       }
     }

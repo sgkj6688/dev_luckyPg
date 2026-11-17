@@ -1,0 +1,983 @@
+{
+  "matrix": {
+    "identity": "cee409eeafdb74fce67a3e359474f6b87aeb88b23dd4790d5b6249790fed1822",
+    "rows": [
+      {
+        "id": "18",
+        "sharedPath": "/shared/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed",
+        "originalRepresentative": "1"
+      },
+      {
+        "id": "3",
+        "sharedPath": "/shared/",
+        "shell": "b526e03cc3.39246896.js",
+        "shellSha": "39246896ee5d1ee814a5bbfaa8e6e2b87b1d430966c1c86e0294f67e1527e4a6",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "20",
+        "sharedPath": "/shared/compat/4dfd0ffeeef1/",
+        "shell": "996b5422dd.a861ed78.js",
+        "shellSha": "a861ed78959c150790932382d3d3f01777e2588588174e04e511b4c118b6beeb",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "60",
+        "sharedPath": "/shared/compat/4dfd0ffeeef1/",
+        "shell": "b526e03cc3.4836e63c.js",
+        "shellSha": "4836e63c7ddae7136289349026f49f8e6babe4bace9fb339ec1e3436526730ce",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "35",
+        "sharedPath": "/shared/compat/534ee41500c4/",
+        "shell": "996b5422dd.5d25f4a7.js",
+        "shellSha": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed",
+        "originalRepresentative": "1778752"
+      },
+      {
+        "id": "29",
+        "sharedPath": "/shared/compat/534ee41500c4/",
+        "shell": "b526e03cc3.5ccd8b2e.js",
+        "shellSha": "5ccd8b2e3a02743793c0c44cf4352ed854d4833d683e6fef331149c3159a3d51",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "37",
+        "sharedPath": "/shared/compat/0c54e66c1c61/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "34",
+        "sharedPath": "/shared/compat/0c54e66c1c61/",
+        "shell": "b526e03cc3.e6ba4521.js",
+        "shellSha": "e6ba45213e1b0b06088b82e43ae07916269be2b30eedd8603c369ca4925bf702",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "67",
+        "sharedPath": "/shared/compat/0f2b3168b77f/",
+        "shell": "996b5422dd.fd531339.js",
+        "shellSha": "fd5313398781a68e15b726080579d5635525866cabcc121bc2e0259435f96264",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "42",
+        "sharedPath": "/shared/compat/0f2b3168b77f/",
+        "shell": "b526e03cc3.0b80e1bc.js",
+        "shellSha": "0b80e1bc8dd6d62c7bd62d27c0f94909dad9d511e013e2e6e5a464c3c1457757",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "69",
+        "sharedPath": "/shared/compat/4b9b83811007/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "63",
+        "sharedPath": "/shared/compat/4b9b83811007/",
+        "shell": "b526e03cc3.6012215a.js",
+        "shellSha": "6012215af230e91d273a6a993d5368e9e3becf8f95590449961b155916ea3a65",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "85",
+        "sharedPath": "/shared/compat/06cf3ed3bf6e/",
+        "shell": "996b5422dd.f5211b77.js",
+        "shellSha": "f5211b77e538e752aaa3b4e1424c70708e91d9d914c95d6dc9410c340d14fb74",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "73",
+        "sharedPath": "/shared/compat/06cf3ed3bf6e/",
+        "shell": "b526e03cc3.bd3f9c16.js",
+        "shellSha": "bd3f9c16961c5dc10c491943588775eec6ea502412535d65ac40965059f1302c",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "88",
+        "sharedPath": "/shared/compat/99fa4b2c1838/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "74",
+        "sharedPath": "/shared/compat/99fa4b2c1838/",
+        "shell": "b526e03cc3.35759880.js",
+        "shellSha": "357598808dc61b17fd0c0cd7dd4ce66844a46dd99dfbe23ecb5f346b2f888a96",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "97",
+        "sharedPath": "/shared/compat/ef97e29679a4/",
+        "shell": "996b5422dd.f5211b77.js",
+        "shellSha": "f5211b77e538e752aaa3b4e1424c70708e91d9d914c95d6dc9410c340d14fb74",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "106",
+        "sharedPath": "/shared/compat/ef97e29679a4/",
+        "shell": "b526e03cc3.f62aac693562c340.js",
+        "shellSha": "f62aac693562c3400ffababac319cbffe47c569b8d55f240ecd19248042cd229",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "100",
+        "sharedPath": "/shared/compat/cfba3bdcfee8/",
+        "shell": "996b5422dd.72eb3712.js",
+        "shellSha": "72eb371268fd1deb1381a3a1b1f11d457e1b7f96d4432793761c7d42be68fe4c",
+        "shellVersion": "11.2.2-rc.1",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "128",
+        "sharedPath": "/shared/compat/cfba3bdcfee8/",
+        "shell": "b526e03cc3.4836e63c.js",
+        "shellSha": "4836e63c7ddae7136289349026f49f8e6babe4bace9fb339ec1e3436526730ce",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "passed-with-local-corrected-response",
+        "missing": "/128/c445ebb91e.13bcd.json",
+        "missingTableRestored": true,
+        "backendDeployment": "not-deployed",
+        "liveBackendAcceptance": "pending"
+      },
+      {
+        "id": "101",
+        "sharedPath": "/shared/compat/7119215b02b6/",
+        "shell": "996b5422dd.72eb3712.js",
+        "shellSha": "72eb371268fd1deb1381a3a1b1f11d457e1b7f96d4432793761c7d42be68fe4c",
+        "shellVersion": "11.2.0-rc.2",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1615454",
+        "sharedPath": "/shared/compat/7119215b02b6/",
+        "shell": "b526e03cc3.bd3f9c16.js",
+        "shellSha": "bd3f9c16961c5dc10c491943588775eec6ea502412535d65ac40965059f1302c",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "107",
+        "sharedPath": "/shared/compat/b5e253b1e3a8/",
+        "shell": "996b5422dd.72eb3712.js",
+        "shellSha": "72eb371268fd1deb1381a3a1b1f11d457e1b7f96d4432793761c7d42be68fe4c",
+        "shellVersion": "11.2.0-rc.2",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1635221",
+        "sharedPath": "/shared/compat/b5e253b1e3a8/",
+        "shell": "b526e03cc3.6253e341.js",
+        "shellSha": "6253e3417c16cb80c1bd401ab63925c880711e0d39771832a37ce85361e47370",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "119",
+        "sharedPath": "/shared/compat/747c1c1faaf4/",
+        "shell": "996b5422dd.72eb3712.js",
+        "shellSha": "72eb371268fd1deb1381a3a1b1f11d457e1b7f96d4432793761c7d42be68fe4c",
+        "shellVersion": "11.2.2-rc.1",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1850016",
+        "sharedPath": "/shared/compat/747c1c1faaf4/",
+        "shell": "b526e03cc3.4836e63c.js",
+        "shellSha": "4836e63c7ddae7136289349026f49f8e6babe4bace9fb339ec1e3436526730ce",
+        "shellVersion": "10.10.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "1312883",
+        "sharedPath": "/shared/compat/c7dcabe6fbd3/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1368367",
+        "sharedPath": "/shared/compat/43f3e06db602/",
+        "shell": "996b5422dd.72eb3712.js",
+        "shellSha": "72eb371268fd1deb1381a3a1b1f11d457e1b7f96d4432793761c7d42be68fe4c",
+        "shellVersion": "11.2.2-rc.1",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1529867",
+        "sharedPath": "/shared/compat/d5a963edde1f/",
+        "shell": "996b5422dd.33062.js",
+        "shellSha": "95eeb505914a345096343ece1888de88b20a8defa6f50a3075351251ac2a1f84",
+        "shellVersion": "11.0.0-rc.7",
+        "status": "passed-en-blocked-pt",
+        "originalRepresentative": "1397455"
+      },
+      {
+        "id": "1420892",
+        "sharedPath": "/shared/compat/7a29d3fd7888/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "1513328",
+        "sharedPath": "/shared/compat/6d1d11325686/",
+        "shell": "996b5422dd.5d25f4a7.js",
+        "shellSha": "5d25f4a7ba95bd2f4223c6b554d4edba4cb23d0cf5a2594c52563fda9e4287c4",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "1648578",
+        "sharedPath": "/shared/compat/79352db72ace/",
+        "shell": "996b5422dd.3343b.js",
+        "shellSha": "b9086add6695a8e575ef39a946cc1564ecb335d606d58b5f40aa1c074541877d",
+        "shellVersion": "11.5.0-rc.1",
+        "status": "startup-retry-iframe-return-passed-en",
+        "portugueseAssets": "pending"
+      },
+      {
+        "id": "1738001",
+        "sharedPath": "/shared/compat/5855063506b1/",
+        "shell": "996b5422dd.0ea9c.js",
+        "shellSha": "69deb116b6e1362aa9d16825a86b7ec16d887df64d6de55960b645ceaf632324",
+        "shellVersion": "11.9.0-rc.5",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1827457",
+        "sharedPath": "/shared/compat/18949afdc041/",
+        "shell": "996b5422dd.a861ed78.js",
+        "shellSha": "a861ed78959c150790932382d3d3f01777e2588588174e04e511b4c118b6beeb",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "startup-retry-iframe-return-passed"
+      },
+      {
+        "id": "1865521",
+        "sharedPath": "/shared/compat/c3ba4f47ffc9/",
+        "shell": "996b5422dd.c6526d5c.js",
+        "shellSha": "c6526d5c9d9ce260cce0f1a8e5ace633a50c153960aa55ef89965c51b8c2819d",
+        "shellVersion": "11.3.0-rc.3",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      },
+      {
+        "id": "1881268",
+        "sharedPath": "/shared/compat/0aaefadd8d29/",
+        "shell": "996b5422dd.c259f.js",
+        "shellSha": "b9086add6695a8e575ef39a946cc1564ecb335d606d58b5f40aa1c074541877d",
+        "shellVersion": "11.4.1-rc.2",
+        "status": "startup-retry-iframe-return-passed-en",
+        "portugueseAssets": "pending"
+      },
+      {
+        "id": "1903012",
+        "sharedPath": "/shared/compat/11eef0af9abd/",
+        "shell": "996b5422dd.ff942.js",
+        "shellSha": "af49583954c9935a00fbad5f095cabbca3690dcff3f2ec53b858b955ed1787ae",
+        "shellVersion": "11.8.0-rc.2",
+        "status": "skipped-by-user",
+        "availability": "not-listed-in-test-lobby",
+        "skipReason": "用户明确暂时忽略，不计入通过"
+      }
+    ],
+    "verificationDate": "2026-11-15",
+    "localePolicy": "缺失葡语资源保留待补；标记en的场景只证明英文链路"
+  },
+  "cases": [
+    {
+      "id": "106-iframe-normal",
+      "game": "106",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true
+    },
+    {
+      "id": "106-iframe-retry",
+      "game": "106",
+      "entered": true,
+      "singleClick": true,
+      "automaticRetryStatus": [
+        503,
+        200
+      ]
+    },
+    {
+      "id": "106-manual-retry",
+      "game": "106",
+      "entered": true,
+      "singleClick": true,
+      "retryKind": "automatic-after-restoring-resource",
+      "statuses": [
+        503,
+        503,
+        503,
+        503,
+        200
+      ]
+    },
+    {
+      "id": "1402846-retry-return",
+      "game": "1402846",
+      "sharedPath": "/shared/compat/ef97e29679a4/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 450,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/ef97e29679a4/37fadb0591/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "35-retry-return",
+      "game": "35",
+      "sharedPath": "/shared/compat/534ee41500c4/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 778,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/534ee41500c4/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "18-retry-return",
+      "game": "18",
+      "sharedPath": "/shared/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 666,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "3-retry-return",
+      "game": "3",
+      "sharedPath": "/shared/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 660,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "20-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "20",
+      "sharedPath": "/shared/compat/4dfd0ffeeef1/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 496,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/4dfd0ffeeef1/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "60-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "60",
+      "sharedPath": "/shared/compat/4dfd0ffeeef1/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 770,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/4dfd0ffeeef1/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "29-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "29",
+      "sharedPath": "/shared/compat/534ee41500c4/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 602,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/534ee41500c4/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "37-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "37",
+      "sharedPath": "/shared/compat/0c54e66c1c61/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 559,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/0c54e66c1c61/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "34-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "34",
+      "sharedPath": "/shared/compat/0c54e66c1c61/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 564,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/0c54e66c1c61/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "67-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "67",
+      "sharedPath": "/shared/compat/0f2b3168b77f/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 500,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/0f2b3168b77f/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "42-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "42",
+      "sharedPath": "/shared/compat/0f2b3168b77f/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 562,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/0f2b3168b77f/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "69-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "69",
+      "sharedPath": "/shared/compat/4b9b83811007/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 583,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/4b9b83811007/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "63-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "63",
+      "sharedPath": "/shared/compat/4b9b83811007/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 455,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/4b9b83811007/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "85-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "85",
+      "sharedPath": "/shared/compat/06cf3ed3bf6e/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 507,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/06cf3ed3bf6e/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "73-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "73",
+      "sharedPath": "/shared/compat/06cf3ed3bf6e/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 533,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/06cf3ed3bf6e/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "88-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "88",
+      "sharedPath": "/shared/compat/99fa4b2c1838/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 602,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/99fa4b2c1838/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "74-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "74",
+      "sharedPath": "/shared/compat/99fa4b2c1838/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 522,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/99fa4b2c1838/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "97-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "97",
+      "sharedPath": "/shared/compat/ef97e29679a4/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 605,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/ef97e29679a4/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1615454-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "1615454",
+      "sharedPath": "/shared/compat/7119215b02b6/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 589,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/7119215b02b6/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1635221-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "1635221",
+      "sharedPath": "/shared/compat/b5e253b1e3a8/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 574,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/b5e253b1e3a8/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1850016-retry-return",
+      "iframeMode": "cross-origin",
+      "game": "1850016",
+      "sharedPath": "/shared/compat/747c1c1faaf4/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 550,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/747c1c1faaf4/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1529867-en-retry-return",
+      "language": "en",
+      "iframeMode": "cross-origin",
+      "game": "1529867",
+      "sharedPath": "/shared/compat/d5a963edde1f/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 642,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/d5a963edde1f/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1420892-retry-return",
+      "language": "portal",
+      "iframeMode": "cross-origin",
+      "game": "1420892",
+      "sharedPath": "/shared/compat/7a29d3fd7888/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 613,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/7a29d3fd7888/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1513328-retry-return",
+      "language": "portal",
+      "iframeMode": "cross-origin",
+      "game": "1513328",
+      "sharedPath": "/shared/compat/6d1d11325686/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 637,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/6d1d11325686/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1827457-en-retry-return",
+      "language": "en",
+      "iframeMode": "cross-origin",
+      "game": "1827457",
+      "sharedPath": "/shared/compat/18949afdc041/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 490,
+      "successfulReturns": 1,
+      "verifiedSessionResponses": 1,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/18949afdc041/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1648578-fixed-en",
+      "language": "en",
+      "iframeMode": "cross-origin",
+      "game": "1648578",
+      "sharedPath": "/shared/compat/79352db72ace/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 50,
+      "successfulReturns": 1,
+      "verifiedSessionResponses": 1,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/79352db72ace/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "1881268-fixed-en",
+      "language": "portal",
+      "iframeMode": "cross-origin",
+      "game": "1881268",
+      "sharedPath": "/shared/compat/0aaefadd8d29/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 48,
+      "successfulReturns": 1,
+      "verifiedSessionResponses": 1,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/0aaefadd8d29/c03a2652ad/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    },
+    {
+      "id": "128-fixed-local-board",
+      "language": "portal",
+      "iframeMode": "cross-origin",
+      "game": "128",
+      "sharedPath": "/shared/compat/cfba3bdcfee8/",
+      "entered": true,
+      "singleClick": true,
+      "iframeReturn": true,
+      "requests": 147,
+      "successfulReturns": 2,
+      "verifiedSessionResponses": 2,
+      "injectedFailures": 1,
+      "recoveredPaths": [
+        "/shared/compat/cfba3bdcfee8/0bc343f586/index.js"
+      ],
+      "oldSharedRequests": 0,
+      "globalSharedPaths": [
+        "/shared/service-worker/sw.js"
+      ]
+    }
+  ],
+  "latestFixes": {
+    "games": [
+      "128",
+      "1648578",
+      "1881268"
+    ],
+    "committed": false,
+    "deployed": false,
+    "game128": "local repaired default fields integrated with unchanged frontend; remote backend unchanged"
+  },
+  "remainingEnglishRecheck": {
+    "date": "2026-11-15",
+    "lobbyGameCount": 105,
+    "missingEntries": [],
+    "sameGroupSameFamilyAlternatives": 0,
+    "newBrowserPasses": 0,
+    "staticPreflight": "remaining-english-preflight.json",
+    "requiredInput": null,
+    "portugueseAssets": "pending",
+    "userSkipped": [
+      "100",
+      "101",
+      "107",
+      "119",
+      "1312883",
+      "1368367",
+      "1738001",
+      "1865521",
+      "1903012"
+    ],
+    "remainingEightSearch": "逐款按英文名称搜索，均无对应入口",
+    "scope": "九个组合已由用户暂缓，不再作为当前验收输入阻塞"
+  },
+  "releaseReview": {
+    "date": "2026-11-15",
+    "runtimeFingerprintEntriesChecked": 55079,
+    "nativeGroups": 24,
+    "matrixCombinations": 37,
+    "realBrowserPassed": 27,
+    "localResponseIntegrated": 1,
+    "userSkipped": 9,
+    "canReleaseAsFullyVerified": false,
+    "confirmedOpenIssue": {
+      "priority": "P2",
+      "file": "tools/pg-native/iframe-return-source.mjs",
+      "line": 15,
+      "trigger": "bvframework.QuitGame注册晚于29.8秒",
+      "effect": "适配停止轮询后不会包装quitGame，iframe退出通知缺失",
+      "reproduced": true
+    },
+    "releaseGates": [
+      "修复超过30秒启动的iframe退出通知并回归慢网/重试",
+      "128真实后端候选版本无历史和已有历史用户端到端验收",
+      "生产候选静态服务旧URL严格404及API路由/缓存切换验证",
+      "处理legendPerseus包级旧测试签名错误或记录可审查的CI验证替代"
+    ],
+    "acceptedDeferrals": {
+      "games": [
+        "100",
+        "101",
+        "107",
+        "119",
+        "1312883",
+        "1368367",
+        "1738001",
+        "1865521",
+        "1903012"
+      ],
+      "portugueseMissingAssets": "待补；不算已修复或已验收"
+    }
+  }
+}

@@ -1,0 +1,613 @@
+[
+  {
+    "family": "modern",
+    "fixtureGame": "1368367",
+    "path": "shared/2fd142260e/509fdc8981.6f2a3.js",
+    "sha256": "79082a827edfcdaa50de4c0e55f7a7be89b5a01a440b8b6e9ef62486554c1b81",
+    "callbacks": [
+      {
+        "start": 789603,
+        "end": 790181,
+        "sha256": "fe8fed5fca47e5e6042e97a4bf0cb02e0807c94f2568ff499b5273b8e08b819d",
+        "target": "cc.Camera.main.enabled"
+      },
+      {
+        "start": 790202,
+        "end": 790643,
+        "sha256": "51bb8eb128d984039666827451429c12d70f69be88ef028e608e4f36c4a363ca",
+        "target": "cc.Component.prototype.destroy"
+      },
+      {
+        "start": 790663,
+        "end": 791028,
+        "sha256": "a2d9ae55d082089f80018bb3c68110b198f89ffb5dd4e3a038cdd94e27f3de8a",
+        "target": "cc.Animation.prototype.play"
+      },
+      {
+        "start": 791049,
+        "end": 791286,
+        "sha256": "f5d0bdd406dc11e98f5b9e98e2e862c070bb428931c0dc178d9f97240fb6a2a0",
+        "target": "cc.director.getActionManager"
+      },
+      {
+        "start": 791307,
+        "end": 791902,
+        "sha256": "fc27ade4e64b7e6dbbdd46e125098617cf8576da229dab586f204919518a826e",
+        "target": "cc.director._compScheduler.updatePhase"
+      },
+      {
+        "start": 791929,
+        "end": 792864,
+        "sha256": "d20ee29302462b6ddfd228448b4ce1a14cf1c45d5f6b332c736fda91480a7b00",
+        "target": "shell.event.on"
+      },
+      {
+        "start": 646954,
+        "end": 647003,
+        "mode": "expression",
+        "sha256": "9b2dfefc0823cd73f383fdd9a013a1f3bab3c1e254256c8feea9ce184413bbe1",
+        "replacement": "void 0;",
+        "target": "实际 L0/c0G 列解码后无条件死循环调用"
+      },
+      {
+        "start": 474764,
+        "end": 474807,
+        "mode": "expression",
+        "sha256": "75ddea0cb826f4d61a4832e909180165accd570964d51ca92dd04908ece5d4fc",
+        "replacement": "v4K(163,44,-110);v4K(1,\"z\",38);return;",
+        "target": "Y0N 仅跳过 Shell.EnableUIBlock 载荷，保留 A$ 继续路径及列号解码调用"
+      }
+    ],
+    "fixedSha256": "313d385f401e57ff32b16a57f06ad4cbc837952a9f778ccfd31c5f5e4bb79d4d"
+  },
+  {
+    "family": "modern",
+    "fixtureGame": "1368367",
+    "path": "shared/e02b9bf0d2/51353bae0e.8ddf2.js",
+    "sha256": "40b07e18556d4cb775d747e10e8fcb5c6106e60d23e55207bca4d2a159f0e7d8",
+    "callbacks": [
+      {
+        "start": 466165,
+        "end": 466560,
+        "sha256": "025124af76caab2b46a52c081b4810e9c5b6fb10cc951e97bf8509ae26d41583",
+        "target": "cc.Node.prototype.setScale"
+      },
+      {
+        "start": 466607,
+        "end": 466950,
+        "sha256": "0cac5f47e8b3189e23d4b8b9a00e0d7690ce90bae1356178f8ce611ecd5d022b",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 492232,
+        "end": 493555,
+        "sha256": "e3edfca210c912b8d78d050beda85ef2b4ed9cdb02fa0a09f2a06aff0fb1a053",
+        "target": "cc.Sequence._actionOneTwo; cc.Spawn._actionOneTwo"
+      },
+      {
+        "start": 493576,
+        "end": 494235,
+        "sha256": "e52c5e5a6eb3215abf6bf61898773af9251e18f93fcd1aeb0140c39b4fdbe8d2",
+        "target": "shell.WebAudio.prototype.play"
+      },
+      {
+        "start": 494255,
+        "end": 494835,
+        "sha256": "94b56d8ce76e58fc34377cf1bc199ae6fe8ec67d184c179accd37c94b3ad8f7b",
+        "target": "cc.Scheduler.prototype.update"
+      },
+      {
+        "start": 494856,
+        "end": 495551,
+        "sha256": "07f2fbdc5faff90223dd053370a8d0fdb4f65385a7142def766f83f60c687b84",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 495572,
+        "end": 495964,
+        "sha256": "a28b50072115ce49ed9de217d0a0b908fb2549176c2e5dbb356031b31ef2351f",
+        "target": "cc.view.setFrameSize"
+      }
+    ],
+    "fixedSha256": "c6c46712667ad77cb10c7d391babb3e5cc0731463144f3cd5c43a46b1f4ee4b1"
+  },
+  {
+    "family": "modern",
+    "fixtureGame": "1368367",
+    "path": "shared/a346494745/a6325fb8fc.1c629.js",
+    "sha256": "cedddd1a67e8445a159738e5ad50e095ace836a2848f91181681b7c24e3d3196",
+    "callbacks": [
+      {
+        "start": 320126,
+        "end": 320898,
+        "sha256": "8f42127b02480bb8dd5a7a200193aa0169a4d90e5830b6f7d18c340b98a00767",
+        "target": "cc.Sequence._actionOneTwo; cc.Spawn._actionOneTwo"
+      },
+      {
+        "start": 320918,
+        "end": 321574,
+        "sha256": "f7a635861c40740cde816159ab89535f4f882e0760687ea67dfe609639598355",
+        "target": "shell.WebAudio.prototype.play"
+      },
+      {
+        "start": 321593,
+        "end": 322173,
+        "sha256": "30c319af90551ee8e0bb275e130b5d9eaa43465ad980082b857a2981a3670e77",
+        "target": "cc.Scheduler.prototype.update"
+      },
+      {
+        "start": 322193,
+        "end": 322553,
+        "sha256": "094901bc0727ec00160cf2fe0e5b65ce701007d68102c8404055af7eb609cb39",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 322574,
+        "end": 322966,
+        "sha256": "94ede420580017545be5e9f76bba9e396ca494dc09046a597a5fbb06f27e6a0e",
+        "target": "cc.view.setFrameSize"
+      },
+      {
+        "start": 323502,
+        "end": 323754,
+        "sha256": "5b4a7aa4fb1f4cc8e2638e48e48101b7f9af8fc57ee3ad6e3f696729788fe109",
+        "target": "cc.renderer.render"
+      }
+    ],
+    "fixedSha256": "c3695be1f741fef366414199fa6c108e29291c7752307ddaab34ced2595243b3"
+  },
+  {
+    "family": "modern",
+    "fixtureGame": "1368367",
+    "path": "shared/589a728c8d/c867f19ae2.53e01.js",
+    "sha256": "77285a019aafc68c7532a79dfc672df148a0c7f37fb1f8822176786dfb5db6ad",
+    "callbacks": [
+      {
+        "start": 56690,
+        "end": 56922,
+        "sha256": "4fc1d32ce7a24af778151f0e60a9a67e42165a5ef160f9580d6b50c03aef9800",
+        "target": "cc.renderer.render"
+      },
+      {
+        "start": 56943,
+        "end": 57577,
+        "sha256": "6d32cca4f3d4d35eb71ee48b21de7839f99edb2ac37ce8dc4e62305d3026603c",
+        "target": "cc.director._compScheduler.startInvoker"
+      },
+      {
+        "start": 57598,
+        "end": 57954,
+        "sha256": "670375071eb5fd9e461065df9a4e5bdc74f3fde3fd160ab382ac64102a2c4696",
+        "target": "cc.internal.eventManager.dispatchEvent"
+      },
+      {
+        "start": 57974,
+        "end": 58700,
+        "sha256": "5315e1fcc234015ccf46321aa1728b629664a0fe4f41ee4ec0104af3594cb4df",
+        "target": "sp.Skeleton.prototype.markForRender"
+      },
+      {
+        "start": 58719,
+        "end": 58957,
+        "sha256": "a1bdbefc6eb8d5d5e75f3525068f6df8074b09eeef116e623dae847efb887e19",
+        "target": "cc.director.getActionManager"
+      },
+      {
+        "start": 416066,
+        "end": 416464,
+        "sha256": "9ac7c022a0c70c1979a9d927dcea3382d12e04b9f8ea3a2c3ea7b07929dff138",
+        "target": "cc.Node.prototype.setScale"
+      },
+      {
+        "start": 416509,
+        "end": 416720,
+        "sha256": "0cd1786853bfc0e32a96f9f479e20c57d4e26f6816579e71097a87d2c780ed69",
+        "target": "cc.renderer.render"
+      },
+      {
+        "start": 416765,
+        "end": 417117,
+        "sha256": "9073fa0c491d590839bc8212f3c0526d5cf5c72baba4496400066b2e276f6b7e",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 448203,
+        "end": 448495,
+        "sha256": "fdd30d77114e6a5911d95551b3f3ed7a296ba94607cf41d696a9f719978f25ce",
+        "target": "cc.renderer.render",
+        "testArgs": "_window.cc.renderer",
+        "preserveColumn": true
+      }
+    ],
+    "fixedSha256": "4bb59be9df9479dbe48dff30f302332974d80ab91d5cfd35c3af7380b9a2e205"
+  },
+  {
+    "family": "modern",
+    "fixtureGame": "119",
+    "path": "shared/e02b9bf0d2/51353bae0e.59dd9.js",
+    "sha256": "1da8e6469c3c569149bd41e036c84fb763bb3c55116f908ab9541749ee0b6dd1",
+    "callbacks": [
+      {
+        "start": 410982,
+        "end": 411367,
+        "sha256": "d11a95e8e1c5b0ee6465bd8e1172f015697eb9cec45ca3470b3099d79bc63757",
+        "target": "cc.Node.prototype.setScale"
+      },
+      {
+        "start": 411413,
+        "end": 411778,
+        "sha256": "dc25a65b994ae738dbcb22b6051cc4c95114ef2c0dc2853d0c58a53b8815149d",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 446264,
+        "end": 447133,
+        "sha256": "5f8d87be88a327a7a5d8b0d6bff8671b25c462edc3a4252baf421932ae845824",
+        "target": "cc.Sequence._actionOneTwo; cc.Spawn._actionOneTwo"
+      },
+      {
+        "start": 447154,
+        "end": 447804,
+        "sha256": "15cdc7b394802167be77e30c507469181de409a13f5f68ed2e16c1bca905369a",
+        "target": "shell.WebAudio.prototype.play"
+      },
+      {
+        "start": 447825,
+        "end": 448414,
+        "sha256": "eac3e1daf0ea076ec9e2f6b8fc0fe217678c33ee9c3e9783d6a58816e66b914c",
+        "target": "cc.Scheduler.prototype.update"
+      },
+      {
+        "start": 448435,
+        "end": 448780,
+        "sha256": "2c52ec8d99f7a898d39af0b10db0c2597bb0a142b365dc635f503a5e1eb8b4fa",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 448801,
+        "end": 449192,
+        "sha256": "99ef64ef96876beb9dea62e3424a72da94f4b3f38930ea93baa14171f9c1162f",
+        "target": "cc.view.setFrameSize"
+      }
+    ],
+    "fixedSha256": "b544e15c8c1843019162dc0928567693c2cdea17e105cf28ba3690f54b89a6cf"
+  },
+  {
+    "family": "modern",
+    "fixtureGame": "107",
+    "path": "shared/a346494745/a6325fb8fc.a4543.js",
+    "sha256": "5f3aeea6d236373da8b2e9115e222b5865cd4b710cf569d54d0c10e332c4c18b",
+    "callbacks": [
+      {
+        "start": 309121,
+        "end": 309891,
+        "sha256": "75eed28b5875f2f1073b6925981ef7db8964a3eb2cc17529d46c9c7aa05361c6",
+        "target": "cc.Sequence._actionOneTwo; cc.Spawn._actionOneTwo"
+      },
+      {
+        "start": 309912,
+        "end": 310578,
+        "sha256": "777f1c43810107e62618b30c9469cd10ba8577cb97e06c6767337f318cc7fd7f",
+        "target": "shell.WebAudio.prototype.play"
+      },
+      {
+        "start": 310599,
+        "end": 311204,
+        "sha256": "3137e293a27f95bde5d8b291aadd59ae5e1c93dfb2e6ba8e1c1ff168d688e4ac",
+        "target": "cc.Scheduler.prototype.update"
+      },
+      {
+        "start": 311225,
+        "end": 311577,
+        "sha256": "94bc5f71cb1248d1b7465fe6864a14777e6a27d8f85ac6b49f0bd4ac467ea66d",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 311597,
+        "end": 312009,
+        "sha256": "86502434bb824565d277c16a2ae08d212bc1a9a73d376f9e9e2f6507d0129434",
+        "target": "cc.view.setFrameSize"
+      },
+      {
+        "start": 319988,
+        "end": 320241,
+        "sha256": "319aadeb55ad7b024f92f1294c9b11354e9524eb0a50a9467df53ddeddd4261c",
+        "target": "cc.renderer.render"
+      }
+    ],
+    "fixedSha256": "faca5d25031cd3dfc29b65be50b15fc4b87c2bd0638009cdf508e1b9a9170a6e"
+  },
+  {
+    "family": "legacy",
+    "path": "shared/b4f8165174/448a622256.c03db.js",
+    "fixtureGame": "6",
+    "sha256": "69c46f82e5fafffc7acc2ff4d4d93154db25804e94bc1d1b81408185c4dfb992",
+    "decoder": "k",
+    "callbacks": [
+      {
+        "start": 45473,
+        "end": 46323,
+        "sha256": "f41cecaecce22546f0dd0ddab7d373b4ba02bbc388be858d3b7e6f11daa5b269",
+        "target": "仅 intercept Game.TransactionStateTransition"
+      },
+      {
+        "start": 46385,
+        "end": 48015,
+        "sha256": "a0411c847fc2cacb1f222b4bd61892b3a3e03882591f097679fac481af70a32c",
+        "target": "仅 intercept Game.TransactionStateComplete"
+      },
+      {
+        "start": 521044,
+        "end": 521301,
+        "sha256": "3c0f7b4f6133303b0aabb84802f7a928d5318ba9c6a74e562c0dedec48a70c0e",
+        "target": "cc.renderer.render"
+      }
+    ],
+    "games": [
+      "6",
+      "60",
+      "63",
+      "118",
+      "128",
+      "1879752"
+    ],
+    "validation": "独立执行本版本解码器及原始回调；33个回调原版破坏/新等长候选不破坏，范围外字节不变；UIBlock正常继续回调及音频/骨骼间接路径另测",
+    "fixedSha256": "3dc642dfcab3556939b64d18ec80285907ceff7d9f3b8d91aea6764e03ef9897"
+  },
+  {
+    "family": "legacy",
+    "path": "shared/8e5f11ad96/03fc0777ec.31fd2.js",
+    "fixtureGame": "6",
+    "sha256": "48b965b2d9b04262ab76d69bff22e6400e55a7eb4939bfbda1742f359a16453a",
+    "decoder": "T",
+    "callbacks": [
+      {
+        "start": 896370,
+        "end": 896760,
+        "sha256": "0ad8c5cdf5cc3359a24f8e1726a6c6c2a64ad2f360ec2befaca25b6988f73da4",
+        "target": "cc.Camera.main.enabled"
+      },
+      {
+        "start": 896791,
+        "end": 897591,
+        "sha256": "d51e1cfe0e6ff0daadb1224cac09a7b4c8d02bc7fa7d69c64cd8c26a6a67335b",
+        "target": "cc.Component.prototype.destroy"
+      },
+      {
+        "start": 897612,
+        "end": 898026,
+        "sha256": "b32cc866cbb21c15f63e345d89ea0cd59be5bd203623cd118011ab0b627e2d7f",
+        "target": "cc.Animation.prototype.play"
+      },
+      {
+        "start": 898053,
+        "end": 898809,
+        "sha256": "4e0675ef2ad1c3697c488b466a0a51f89064e9c8b06f0fac5943c8c5668287f9",
+        "target": "cc.director.getActionManager"
+      },
+      {
+        "start": 898840,
+        "end": 899399,
+        "sha256": "3eb7429ebb99db4144b5d35a29dbd1b18f96d551541a624fc38242f6d12b47e8",
+        "target": "cc.director._compScheduler.updatePhase"
+      },
+      {
+        "start": 900240,
+        "end": 901222,
+        "sha256": "977c31f42d04a017af66d2af95ea979816af8db2f12b022045a1d026ce6576a9",
+        "target": "仅 intercept Game.TransactionStateComplete"
+      },
+      {
+        "start": 1029254,
+        "end": 1029680,
+        "sha256": "a445f015235352a17183741c53d0e3f327c62bd8a979fe6c6ae25cb87a6fa74c",
+        "target": "cc.game.setFrameRate.call"
+      },
+      {
+        "start": 1033351,
+        "end": 1033539,
+        "sha256": "3cce2f4474ad810268d4d2dcf90aacc0a8c2d020a0fde8a56c3e938f06bf300a",
+        "target": "Shell.EnableUIBlock"
+      }
+    ],
+    "games": [
+      "6",
+      "60",
+      "63",
+      "118",
+      "128",
+      "1879752"
+    ],
+    "validation": "独立执行本版本解码器及原始回调；33个回调原版破坏/新等长候选不破坏，范围外字节不变；UIBlock正常继续回调及音频/骨骼间接路径另测",
+    "fixedSha256": "ed077d8c07c06cdabeb244b44bd9de5907a98840d053f16ba67be7863ec2ec31"
+  },
+  {
+    "family": "legacy",
+    "path": "shared/f72f5b9e6e/a5fd187d23.1e0aa.js",
+    "fixtureGame": "6",
+    "sha256": "4b38dd34093e679868f4c7d615a4ecd9fd3c450c9a7eda52a5fc06c6d8c9e2b0",
+    "decoder": "Z",
+    "callbacks": [
+      {
+        "start": 668574,
+        "end": 669021,
+        "sha256": "3798239d09af9cc19e9610136a391b9f4d648d08b27ddc95433c158b1f1acbaa",
+        "target": "cc.Node.prototype.setScale"
+      },
+      {
+        "start": 669083,
+        "end": 669802,
+        "sha256": "1d28681441463acffd0bdc4c367e9c27ffcdb5ba3e02153da4a61f821c77f71a",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 724061,
+        "end": 724923,
+        "sha256": "95e559b52b0ad7fec07b453a32d623b0efd555fdd103bdcae2fbf5cf64c6c400",
+        "target": "cc.Sequence._actionOneTwo; cc.Spawn._actionOneTwo"
+      },
+      {
+        "start": 724945,
+        "end": 726051,
+        "sha256": "cc52188b960939713511251b597f7f0068001a0dbba166ef23ac4b7ad9a79d17",
+        "target": "shell.WebAudio.prototype.play"
+      },
+      {
+        "start": 726073,
+        "end": 729782,
+        "sha256": "c9326af6f2043b18da3c1398e894269321033fe5be1c6776fd56edbb41180f27",
+        "target": "cc.Scheduler.prototype.update"
+      },
+      {
+        "start": 729804,
+        "end": 730330,
+        "sha256": "926e679766f3a5ed11f051b49ce322fd4334fe756ed2bb6b8377dbd59a3e8ff8",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 730351,
+        "end": 731031,
+        "sha256": "91337c42aea3867c21bce5dd879b5e4aa8f35b4ab48e14eca1dabbc3532a11b8",
+        "target": "cc.view.setFrameSize"
+      }
+    ],
+    "games": [
+      "6",
+      "60",
+      "63",
+      "118",
+      "128",
+      "1879752"
+    ],
+    "validation": "独立执行本版本解码器及原始回调；33个回调原版破坏/新等长候选不破坏，范围外字节不变；UIBlock正常继续回调及音频/骨骼间接路径另测",
+    "fixedSha256": "c0be505d462617e3cdbf99163e0da6951fdab7bad005a45ce09e1354ed1b73ad"
+  },
+  {
+    "family": "legacy",
+    "path": "shared/37fadb0591/5210d1d645.3863f.js",
+    "fixtureGame": "6",
+    "sha256": "a57732162ea7c6a659878d7a50f35add1870a681b7b07b3db1d5454d60ec4d37",
+    "decoder": "Y",
+    "callbacks": [
+      {
+        "start": 469867,
+        "end": 470914,
+        "sha256": "dad5b84005e4beff8e23ad4548e1e5a7e459c221c5f9d67e08524c0dea266c30",
+        "target": "cc.Sequence._actionOneTwo; cc.Spawn._actionOneTwo"
+      },
+      {
+        "start": 470936,
+        "end": 472927,
+        "sha256": "e778aaf6fa505ebaf7e6cb331a68666f81609672367910a639c5845f24b6cfe0",
+        "target": "shell.WebAudio.prototype.play"
+      },
+      {
+        "start": 472949,
+        "end": 473866,
+        "sha256": "a1d2fa5133cff48aeba83d48a82b3f5b1dab4327ec31e20c77c37b1c44464ed3",
+        "target": "cc.Scheduler.prototype.update"
+      },
+      {
+        "start": 473888,
+        "end": 475605,
+        "sha256": "b9360cd4cc72671a66d5c3fa30fe937226e4cb7c314b33a45c16b7561a72d0a7",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 475626,
+        "end": 476556,
+        "sha256": "fe9e3deebc066c0d2c69f4b48532db2f26d12413172f12507b56d11023b88896",
+        "target": "cc.view.setFrameSize"
+      },
+      {
+        "start": 476594,
+        "end": 476914,
+        "sha256": "de13647fcbd485417696fad02e19ddaae0ad2bd2ebb7fcc43921eb7eac9580f7",
+        "target": "cc.renderer.render"
+      }
+    ],
+    "games": [
+      "6",
+      "60",
+      "63",
+      "118",
+      "128",
+      "1879752"
+    ],
+    "validation": "独立执行本版本解码器及原始回调；33个回调原版破坏/新等长候选不破坏，范围外字节不变；UIBlock正常继续回调及音频/骨骼间接路径另测",
+    "fixedSha256": "a415abe9aee2293b3b4e4af06195f85c09d4eb84628d822df9ea7c7e7b83e37d"
+  },
+  {
+    "family": "legacy",
+    "path": "shared/d56091e6dc/61c832e874.587f6.js",
+    "fixtureGame": "6",
+    "sha256": "91c516eed116021310454b61102d4f9f1c6f068ed5e433d2e2b703ce3f30b1ad",
+    "decoder": "M",
+    "callbacks": [
+      {
+        "start": 10755,
+        "end": 10908,
+        "sha256": "112ea845f70a2fe5452a88be31a2ab91abefd978ec81de4e88789759c659ada1",
+        "target": "cc.renderer.render"
+      },
+      {
+        "start": 10935,
+        "end": 13176,
+        "sha256": "f96e66213887fcf13723df6e9b33bd8621f3fc1244ad50e6282fde85f1401163",
+        "target": "cc.director._compScheduler.startInvoker"
+      },
+      {
+        "start": 13203,
+        "end": 13571,
+        "sha256": "3f35be91806de11b747090e090ef801d797cd68da6e6a9bb0567f4869fc4affe",
+        "target": "cc.internal.eventManager.dispatchEvent"
+      },
+      {
+        "start": 13602,
+        "end": 14333,
+        "sha256": "2eab2ea36f9e75a34dfe7f3c5df2a7c9d2d521f4a9040bcf98f8a1bfc4a1638b",
+        "target": "sp.Skeleton.prototype.markForRender"
+      },
+      {
+        "start": 14355,
+        "end": 15005,
+        "sha256": "d9af7932ed2a4cba15524971b9c1de376d880b6e81856477cc3b10ef686fe57c",
+        "target": "cc.director.getActionManager"
+      },
+      {
+        "start": 580725,
+        "end": 581534,
+        "sha256": "2e55c7a768be91594113b5e202fe6904fe22a59f92de5f248b95147c9cc284f4",
+        "target": "cc.Node.prototype.setScale"
+      },
+      {
+        "start": 581597,
+        "end": 581860,
+        "sha256": "38cdcc97f65cba911fc2e01e5b5a29a61aee6ab7c8cb5759f95f66d537d53bbd",
+        "target": "cc.renderer.render"
+      },
+      {
+        "start": 581914,
+        "end": 582317,
+        "sha256": "b3e639218571c83ca7902f88965563463814abf0d46d9a6bd24c3054e94377f0",
+        "target": "cc.Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 632891,
+        "end": 634149,
+        "sha256": "8f2337862f37bdfcfb321176ac5fc8c20f5ce84818249efdf30e857b3790fed3",
+        "target": "cc.renderer.render"
+      }
+    ],
+    "games": [
+      "6",
+      "60",
+      "63",
+      "118",
+      "128",
+      "1879752"
+    ],
+    "validation": "独立执行本版本解码器及原始回调；33个回调原版破坏/新等长候选不破坏，范围外字节不变；UIBlock正常继续回调及音频/骨骼间接路径另测",
+    "fixedSha256": "d56298375bdc3d655aaa31fcb7ea572e6fef4aaaefeb1e208783a7fd97f32d29"
+  }
+]

@@ -1,0 +1,873 @@
+[
+  {
+    "path": "shared/8583df6da7/64d36df427.6ee39.js",
+    "sha256": "f2b36a8c311aef29e27b452bc29a099f01fa55474d9711b98940dba4a5d5742c",
+    "wrapper": "k2",
+    "callbacks": [
+      {
+        "start": 116079,
+        "end": 116658,
+        "sha256": "bd53a058f8e9fa7a5c4f0dfb7be6290bec2bffd666eac291202c6aae0beba8db",
+        "target": "Camera.main.enabled=false"
+      },
+      {
+        "start": 116678,
+        "end": 117136,
+        "sha256": "ccb95e43705d6386bc14b0987dffac442f75a721f67c6b1fb9f59abf1849ac8c",
+        "target": "Component.prototype.destroy=Function(cc.director.reset())"
+      },
+      {
+        "start": 117156,
+        "end": 117510,
+        "sha256": "ca48ce741682c97f7a3ba6bfeda048de697f5743f61946311b0d0f5e44623c7d",
+        "target": "Animation.prototype.play=Function(this.play())"
+      },
+      {
+        "start": 117530,
+        "end": 117767,
+        "sha256": "d7a917ddac92ebbf1d28980badfac818f5145b810ef90ff201576cbbb3b3aa0b",
+        "target": "director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 117787,
+        "end": 118396,
+        "sha256": "9fad0777f5267da1c1a291519d9958f029a028f401d876a68ebfe412485868a8",
+        "target": "director._compScheduler.updatePhase=Number"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/d1ad8305ef/f79a0382e2.76341.js",
+    "sha256": "abbfc0989a9b77dba8c4b0e6f35c2a1fe159b9840106af8a4d64880cf4edffee",
+    "wrapper": "F0",
+    "callbacks": [
+      {
+        "start": 93517,
+        "end": 94095,
+        "sha256": "f731e0c61c4415ba88cc35b28c18f8969e17a05862150f682058acf65272448e",
+        "target": "Camera.main.enabled=false"
+      },
+      {
+        "start": 94115,
+        "end": 94551,
+        "sha256": "c4dece60359819021f56b8d2fe7901e1ddb0ab7dd1b4e107ed4b6c4cba1288a6",
+        "target": "Component.prototype.destroy=Function(cc.director.reset())"
+      },
+      {
+        "start": 94571,
+        "end": 94918,
+        "sha256": "ceb22b7bc6fa76cce8dbbf1afdd101456ecc0748924d901f51884b45f3e729f7",
+        "target": "Animation.prototype.play=Function(this.play())"
+      },
+      {
+        "start": 94938,
+        "end": 95170,
+        "sha256": "b48a151b0be35d76e3ca272c32272084beed22628d38cb61e3e27d7c51f91056",
+        "target": "director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 95190,
+        "end": 95800,
+        "sha256": "2e6030480e34cc8c9f1900783ad555a997106203fafd85cc0f4678ae0bd3fa19",
+        "target": "director._compScheduler.updatePhase=Number"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/2fd142260e/509fdc8981.c9c52.js",
+    "sha256": "b49a5dd2b066fbd0ddfe34291be8fdf2573fd284f6ee1771407b8125bf399ee6",
+    "wrapper": "Y1",
+    "callbacks": [
+      {
+        "start": 232289,
+        "end": 232308,
+        "sha256": "30aa551eeb13ccb7d637557f01fbc989296dd6d388f8004a6027ab9f01257593",
+        "mode": "expression",
+        "replacement": "void 0;",
+        "target": "y$s.B7 -> n3[504506].s9vGRP1 unconditional infinite loop",
+        "testEnvelope": {
+          "start": 232167,
+          "end": 232668,
+          "sha256": "98dbf75e704dd38fb2ca33489a29ddaf5d1bf04a6764f565edef21b3fc74a7bf"
+        }
+      },
+      {
+        "start": 780697,
+        "end": 780722,
+        "sha256": "a489a7845a2cba10ea891d5b7577c9ef02ce4aeab3b7bca42b540e5cd0a09ba3",
+        "mode": "expression",
+        "replacement": "j9U(57,-202,103);return;",
+        "target": "\u63d0\u524d\u7ed3\u675f UIBlock \u5185\u5c42\u8f7d\u8377\uff0c\u4fdd\u7559 C5 \u91c7\u6837\u7a97\u53e3\u4e0e\u6b63\u5e38\u7ee7\u7eed\u56de\u8c03"
+      },
+      {
+        "start": 797253,
+        "end": 797860,
+        "sha256": "eb2e0c17c3be7c2586c420d32f722c16d458eade26c4883251f32961d90b9d76",
+        "target": "Camera.main.enabled=false"
+      },
+      {
+        "start": 797881,
+        "end": 798328,
+        "sha256": "a4f7da270fa455384429662219b5f0f3990514a9dd86feaf269bda8adcc45057",
+        "target": "Component.prototype.destroy=Function(cc.director.reset())"
+      },
+      {
+        "start": 798348,
+        "end": 798708,
+        "sha256": "588a0b3c9a1aeacf0dca456bb1108573ce6a0a241259cc12ed20bdc10e4253ae",
+        "target": "Animation.prototype.play=Function(this.play())"
+      },
+      {
+        "start": 798729,
+        "end": 798975,
+        "sha256": "c352380faf0e5495d3d46c7bf8e56168c6e5e3bc9cb0b02f418011f235eb1ecc",
+        "target": "director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 798996,
+        "end": 799625,
+        "sha256": "5eff537da6c425513b81eae689a39382e10708f2a550ddd5f02a8fd5c9382ff1",
+        "target": "director._compScheduler.updatePhase=Number"
+      },
+      {
+        "start": 799652,
+        "end": 800545,
+        "sha256": "d621fc38fc00a5320dbccd585863f4c755be57cfeda728e072dea908f9e60ebe",
+        "target": "Register Game.TransactionStateComplete listener which only calls event.intercept()"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/e02b9bf0d2/51353bae0e.68930.js",
+    "sha256": "c79b316eb76144c685435dca7fc27a1335e093c12163e6ffd1cde0435380a2bc",
+    "wrapper": "R2",
+    "callbacks": [
+      {
+        "start": 444665,
+        "end": 445051,
+        "sha256": "687ca2854854d8de827ae2ac51cc0cebdf40e7846e6848ac05286b6ba3acb59e",
+        "target": "cc.Node.prototype.setScale=function calls this.destroy()"
+      },
+      {
+        "start": 445097,
+        "end": 445435,
+        "sha256": "5b4b158f25d22e3d7dbcaf878eba753555d31800cf2b775fbf47d32a49b39038",
+        "target": "Node.prototype.dispatchEvent"
+      },
+      {
+        "start": 489810,
+        "end": 490641,
+        "sha256": "a75316f671421f6c9e3f06a72a1a20bfd71c289bd70f1b045bba31cedcd7a1d6",
+        "target": "Spawn._actionOneTwo and Sequence._actionOneTwo=function return null"
+      },
+      {
+        "start": 490662,
+        "end": 491329,
+        "sha256": "3ea714c5750da2d57927b2fe237bbec14bf6e6ac4421fbab8b4b833b54ad5167",
+        "target": "shell.WebAudio.prototype.play=function overwrite Animation.prototype.play=null"
+      },
+      {
+        "start": 491350,
+        "end": 491954,
+        "sha256": "c23fc3fdd6d7d196471a67f69bb0328bfededf6a650b20a8092d3d6ddda932e1",
+        "target": "Scheduler.prototype.update=hash helper"
+      },
+      {
+        "start": 491975,
+        "end": 492314,
+        "sha256": "3473df858efc49c1e43f376c004dd6a9c540bbaf27a4244766ca14c8fe3555c3",
+        "target": "Node.prototype.dispatchEvent=function return false"
+      },
+      {
+        "start": 492335,
+        "end": 492728,
+        "sha256": "328a69d9484cb1a07d7b8df21bc869d55f7ccf48f9af6d3f695271fd5fcabc6f",
+        "target": "view.setFrameSize(0,0)"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/a346494745/a6325fb8fc.7c51e.js",
+    "sha256": "e59615257949bd0ab4f69a38dfad160304a1acbc2617d4d5e3e8d118556df1a5",
+    "wrapper": "J_",
+    "callbacks": [
+      {
+        "start": 367480,
+        "end": 368702,
+        "sha256": "d14f951fb2c7a3bb2ffa13c1aae79f74ffd4d55be854951b4866ca29cdb6b8d9",
+        "target": "Spawn._actionOneTwo and Sequence._actionOneTwo=function return null"
+      },
+      {
+        "start": 368722,
+        "end": 369379,
+        "sha256": "118082c0016abc03e24d89b3ffecaf6f674f1faab76ed322790b2f955cd964a2",
+        "target": "shell.WebAudio.prototype.play=function overwrite Animation.prototype.play=null"
+      },
+      {
+        "start": 369399,
+        "end": 369984,
+        "sha256": "be2bed2ce4b52a59c46d3c4fecc3a28a13dca561a5e7b25bf157525c28d3365b",
+        "target": "Scheduler.prototype.update=hash helper"
+      },
+      {
+        "start": 370004,
+        "end": 370701,
+        "sha256": "0558566c0cb5b307b68447e247f8d6b8076d93263b6776ec054ad85e54365a8a",
+        "target": "Node.prototype.dispatchEvent=function return false"
+      },
+      {
+        "start": 370721,
+        "end": 371569,
+        "sha256": "9364879ef863cebb9f17910938aba087d900c62400518172ad49da7cc1d7a757",
+        "target": "view.setFrameSize(0,0)"
+      },
+      {
+        "start": 373948,
+        "end": 374187,
+        "sha256": "6fa5ffe2cf5a3d806a17e473593d367f2bdd38eb6bebec3d8ece01c01442e119",
+        "target": "renderer.render"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/b85c56d865/3a0dd812c3.fb9c3.js",
+    "sha256": "ab0c1c04b37e99a4fbd9318ffb7543c1d8c5f5f9d7db357fa46c374f74917b83",
+    "wrapper": "N6",
+    "callbacks": [
+      {
+        "start": 37553,
+        "end": 37842,
+        "sha256": "4b8c886d38a1cbf10bdd9c00b44a6fa77a8477296f75eb2ace5d22d1cd8776ba",
+        "target": "ActionInterval.prototype.startWithTarget=undefined"
+      },
+      {
+        "start": 37867,
+        "end": 38535,
+        "sha256": "5a05d3acc573bb91d14ab10df56132318a63e5c53f7dfbc3b223b3fa296986ca",
+        "target": "ParticleSystem.prototype.lateUpdate=Function(cc.director._invalid=true)"
+      },
+      {
+        "start": 38552,
+        "end": 39239,
+        "sha256": "21bbd3fc2160d55648695250fcd4f06b7bd83491db9552157ea7fb9d5ab5c258",
+        "target": "Director.prototype.calculateDeltaTime=Function(this._deltaTime=NaN)"
+      },
+      {
+        "start": 39256,
+        "end": 40537,
+        "sha256": "3cdfdafca08917ac40bcc55f74b7be822d9a0cef55ae7bbac9a744619551631d",
+        "target": "director._compScheduler.updatePhase=Number"
+      },
+      {
+        "start": 40554,
+        "end": 41196,
+        "sha256": "10ace7f62838ede35a6065dc406c12f347366bdbe3c48a66c4e28bd3ede3ff4a",
+        "target": "Node.prototype.dispatchEvent=function return false"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/589a728c8d/c867f19ae2.d186f.js",
+    "sha256": "dd9d5391f19abd13b464becef06447828b1ca040850990cab97bd8074dacf3da",
+    "wrapper": "K9",
+    "callbacks": [
+      {
+        "start": 58744,
+        "end": 58986,
+        "sha256": "ef8d609373be978c099427e0d0804c9c45ca4ca3fff96febb0810476f2f653ce",
+        "target": "renderer.render=empty Function"
+      },
+      {
+        "start": 59007,
+        "end": 59610,
+        "sha256": "977258ad568dc7eb28a18f819cc7227ddfc393aabf3360ff0358ac88e7fabea8",
+        "target": "director._compScheduler.startInvoker=Object.create(null)"
+      },
+      {
+        "start": 59631,
+        "end": 59990,
+        "sha256": "3ef5df46af907f7038b4eff0627360d346dbddf4f518b20d569bae14e5b83f41",
+        "target": "internal.eventManager.dispatchEvent=empty Function"
+      },
+      {
+        "start": 60011,
+        "end": 60738,
+        "sha256": "32a977b753a555d2037b2c86981b41c09e53f2aabe3f559ee7188d8f0c4bbb72",
+        "target": "sp.Skeleton.prototype.markForRender / cc.Sprite.prototype._validateRender"
+      },
+      {
+        "start": 60758,
+        "end": 61002,
+        "sha256": "70202c9bb9f813c7bd582f96bc9c744c3de28b3091b7fd2e2193e3173b7e182b",
+        "target": "director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 78582,
+        "end": 78917,
+        "sha256": "a8e7ed2d00ab0a848001f2377f86f7d227ceafbbda6ac4add04f0ca85bc7a1ba",
+        "target": "cc.renderer.render replaced with G3Z returning 1",
+        "testArgs": "_window.cc.renderer"
+      },
+      {
+        "start": 420192,
+        "end": 420586,
+        "sha256": "316fdc98cbd486c7c9d8e445844bd1e3f35f657de880c860b38257f602226ae7",
+        "target": "cc.Node.prototype.setScale=function calls this.destroy()"
+      },
+      {
+        "start": 420631,
+        "end": 420842,
+        "sha256": "e1d29f725761c4a5fbef68ffaac369c81605e8aae8ab0b278ce4466b8f2d36e9",
+        "target": "renderer.render"
+      },
+      {
+        "start": 420887,
+        "end": 421245,
+        "sha256": "d2722fd9a5d02451b49bde85efd68c3a67aea07b1c082e65eafcc2483ad8b681",
+        "target": "Node.prototype.dispatchEvent"
+      }
+    ],
+    "family": "modern",
+    "fixtureGame": "1513328"
+  },
+  {
+    "path": "shared/3d9bb7755c/32d1d0500b.5a9d2.js",
+    "sha256": "79592d5e85b7a9604a0877a22a048e45de689ca1a974b148a6ef92e28f4a1111",
+    "wrapper": "dd",
+    "decoder": "C",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29",
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 85068,
+        "end": 87169,
+        "sha256": "6634e130c1c41dbe6626d4a9b438edbeb55c8e5ce2b66502dafb0f22776f5f63",
+        "target": "cc.Camera.main.enabled=false"
+      },
+      {
+        "start": 87200,
+        "end": 87647,
+        "sha256": "caffb3ebf7410309a34840411896404649c54f8e4e586311c5d70de4a9c9baf8",
+        "target": "cc.Component.prototype.destroy=Function(cc.director.reset())"
+      },
+      {
+        "start": 87668,
+        "end": 88578,
+        "sha256": "9f22ecfa9aa574b6549097bd469702c5c53b67533cb2720463329114ee1a3f7b",
+        "target": "cc.Animation.prototype.play=Function(this.play())"
+      },
+      {
+        "start": 88605,
+        "end": 89083,
+        "sha256": "369ad35b0a1893236872f84d31d2fcc3224bb9735769cfd8c205ead1cf92aea6",
+        "target": "cc.director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 89114,
+        "end": 90192,
+        "sha256": "b5fce4868257a3abf3ac57564f0a0f23aa0c950de3ebcc5687b3cc8d1b411e11",
+        "target": "cc.director._compScheduler.updatePhase=Number"
+      }
+    ]
+  },
+  {
+    "path": "shared/ba588d9dad/efb67423d1.66896.js",
+    "sha256": "5a265f9bfc7283c804cb7f2f52b7a7fec3c6b927f37129550f24a25a2e445974",
+    "wrapper": "LE",
+    "decoder": "Y",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29",
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 39921,
+        "end": 40197,
+        "sha256": "49dd5227f55f47ed670dd3786a473287f6d954375070c38b96441380ba0e7f40",
+        "target": "cc.Camera.main.enabled=false"
+      },
+      {
+        "start": 40228,
+        "end": 40515,
+        "sha256": "a640cce43f04dede998089c6ee825668255f6c005859967b8c19503bc710b22e",
+        "target": "cc.Component.prototype.destroy=Function(cc.director.reset())"
+      },
+      {
+        "start": 40536,
+        "end": 40801,
+        "sha256": "3007f929a4645889b42eeea35e048c08757d759f43ac4d954a2b10b22a687107",
+        "target": "cc.Animation.prototype.play=Function(this.play())"
+      },
+      {
+        "start": 40828,
+        "end": 41085,
+        "sha256": "7e5301dd1a6cc095d88eef868d75f7dbbbddb1c86b0e0c7bc76e934bbb84c549",
+        "target": "cc.director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 41116,
+        "end": 41440,
+        "sha256": "35d2830eeaea7dce86db0f401c48740f7ca1da490086384d3de301a8fb5426ca",
+        "target": "cc.director._compScheduler.updatePhase=Number"
+      }
+    ]
+  },
+  {
+    "path": "shared/b4f8165174/448a622256.c03db.js",
+    "sha256": "bb3c88b98368e646343b8450822c466dc86f4fd1fb868df51a35190d751d729c",
+    "wrapper": null,
+    "decoder": "_0x5f25",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29"
+    ],
+    "callbacks": [
+      {
+        "start": 235459,
+        "end": 235843,
+        "sha256": "8aedeabce23e625825f27a5da1a3b9b78102312ecaf76325ee64bd033462fbdb",
+        "target": "cc.renderer.render = recursive Fibonacci(5) stub"
+      }
+    ]
+  },
+  {
+    "path": "shared/8e5f11ad96/03fc0777ec.31fd2.js",
+    "sha256": "c6e8caadc1fba72fd7a460504b0a2c55d0d2c3d5aea1f24a6ff07d5907c1e84a",
+    "wrapper": "_0x12a91b",
+    "decoder": "_0x5f09",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29",
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 497377,
+        "end": 497778,
+        "sha256": "e990cef90de22f1efdfaf33e1adacdfa2efa46b1d03dfac35050596f5bada30c",
+        "target": "cc.Camera.main.enabled=false"
+      },
+      {
+        "start": 497802,
+        "end": 498125,
+        "sha256": "3dc265f399d59d497f201bc04ed2740c21e5ba4a9a5f9bbaa7fab72864627708",
+        "target": "cc.Component.prototype.destroy=Function(cc.director.reset())"
+      },
+      {
+        "start": 498156,
+        "end": 498471,
+        "sha256": "4b641ca0d52d821a2505a4b8426ad644591f0653ff962bebab5b9827c4dfb7fb",
+        "target": "cc.Animation.prototype.play=Function(this.play())"
+      },
+      {
+        "start": 498494,
+        "end": 498733,
+        "sha256": "9c48cacfa6b38e5eae0af9ce0a588798fa38d43ec1c6bae7f6d19a5ceb48baa5",
+        "target": "cc.director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 498764,
+        "end": 499176,
+        "sha256": "213917077224e0421e7567c44a627a5389f2737842846dbc82a7c566600a8991",
+        "target": "cc.director._compScheduler.updatePhase=Number"
+      },
+      {
+        "start": 500025,
+        "end": 500533,
+        "sha256": "a0dcc43e35a5e8d1be796715a77a3d22eb1617492afe38f03059453d518024c4",
+        "target": "shell.context.event.on(Game.TransactionStateComplete) -> event.intercept()"
+      },
+      {
+        "start": 533171,
+        "end": 533523,
+        "sha256": "4363541b0f96697e514aa734a2538d42bebd7130a90094cdbe54833e6133fb66",
+        "target": "cc.game.setFrameRate(1)"
+      },
+      {
+        "start": 535113,
+        "end": 535296,
+        "sha256": "590c26370f9300051befef92e104f56d8ce9bb8495e203ccb5c3c049a2412574",
+        "target": "shell.context.event.emit(Shell.EnableUIBlock)"
+      }
+    ]
+  },
+  {
+    "path": "shared/f72f5b9e6e/a5fd187d23.1e0aa.js",
+    "sha256": "4b7c67bb4642830e4688c2c9c15a4fdb9da9be2c9ab65384a126484d6a7bde86",
+    "wrapper": "_0xd085c5",
+    "decoder": "_0x4351",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29",
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 747819,
+        "end": 748425,
+        "sha256": "9b6d33bf746629a62f93b4635e119b8c3bed523f5f7971786c1bc40766f01a2f",
+        "target": "cc.Node.prototype.setScale -> this.destroy()"
+      },
+      {
+        "start": 748464,
+        "end": 749258,
+        "sha256": "06e4dc76343267eb5eb76cf1c024dad7e1bf1628476962e0cfe711ec8dbeae0b",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      },
+      {
+        "start": 797300,
+        "end": 798309,
+        "sha256": "6b09feb9768f6aa64cfb83faa15fc3f73f57bbb743268d012fdf63416a5a87c0",
+        "target": "cc.Spawn._actionOneTwo and cc.Sequence._actionOneTwo=empty action"
+      },
+      {
+        "start": 798331,
+        "end": 799598,
+        "sha256": "ed9ad3b7485d6cae252f706852c25e645f2bead764bdb9838c47ccdb28621d27",
+        "target": "shell.WebAudio.prototype.play -> cc.Animation.prototype.play=null"
+      },
+      {
+        "start": 799629,
+        "end": 801374,
+        "sha256": "e014f4fe90fd4f8689f1c8fc30a71ab5958f64c8f33ac0b498486d4160e6d0e9",
+        "target": "cc.Scheduler.prototype.update returns dt+1"
+      },
+      {
+        "start": 801406,
+        "end": 802047,
+        "sha256": "3b83dc9be8b810a0e53dbcf2ea83d15bb7f1326ec5d6e70ccad62c63714c1a50",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      },
+      {
+        "start": 802078,
+        "end": 802975,
+        "sha256": "5126f9b9bd782c7fc04dd49f86cbdebd2a670065fbf7ee3a150c6c555625bc27",
+        "target": "cc.view.setFrameSize(0,0)"
+      }
+    ]
+  },
+  {
+    "path": "shared/37fadb0591/5210d1d645.3863f.js",
+    "sha256": "4f1760f0ee14ee6c5c9ec537e20058cb1bde9a986e756727199826dda037e64c",
+    "wrapper": "_0x442a33",
+    "decoder": "_0xa961",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29"
+    ],
+    "callbacks": [
+      {
+        "start": 184784,
+        "end": 185286,
+        "sha256": "3988ec31beaeb6905e6539837c29df6e2fa0a3bb68c58ea48457da85a875b937",
+        "target": "cc.Spawn._actionOneTwo and cc.Sequence._actionOneTwo=empty action"
+      },
+      {
+        "start": 185316,
+        "end": 185907,
+        "sha256": "a6bc114cad5eb32d929da87a81a70d5a9c5e569bcdab0b50932adce9e908a447",
+        "target": "shell.WebAudio.prototype.play -> cc.Animation.prototype.play=null"
+      },
+      {
+        "start": 185938,
+        "end": 186393,
+        "sha256": "f0a481a46d535dde9fdb640d194214cf38d42cfd3ffceff0c085615aefd99796",
+        "target": "cc.Scheduler.prototype.update returns dt+1"
+      },
+      {
+        "start": 186423,
+        "end": 186736,
+        "sha256": "0b9136b8ae40bb9758c9e71e1cc64d42da00aa0b57879d4a36ded2251dd10dc5",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      },
+      {
+        "start": 186767,
+        "end": 187101,
+        "sha256": "857c0e255e892150df11b4f8acbe73aaa78a1fc1201513fa2a846fd95b9dc544",
+        "target": "cc.view.setFrameSize(0,0)"
+      },
+      {
+        "start": 187146,
+        "end": 187369,
+        "sha256": "a90fa1b6692ce5ac575159a9cfc15278d588256af0c665cba70f8b90d036a520",
+        "target": "cc.renderer.render=empty Function"
+      }
+    ]
+  },
+  {
+    "path": "shared/d56091e6dc/61c832e874.587f6.js",
+    "sha256": "8f272dc91c6fa5890a8189b46aa9b30e35b83225f001b1ef80c1e31ce33e5eee",
+    "wrapper": "_0x4008c3",
+    "decoder": "_0x4baf",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29"
+    ],
+    "callbacks": [
+      {
+        "start": 28245,
+        "end": 28455,
+        "sha256": "dff283f254a6e3f302ba766d2750d5daef0814d0bc222d9b97cabb44a40a6f70",
+        "target": "cc.renderer.render=empty Function"
+      },
+      {
+        "start": 28478,
+        "end": 28894,
+        "sha256": "ba3c5b6104e1d0fd363962c4aa80e5002755be2673c0c4de758e2e6505b9c2c6",
+        "target": "cc.director._compScheduler.startInvoker=Object.create(null)"
+      },
+      {
+        "start": 28925,
+        "end": 29228,
+        "sha256": "4d36a8ca0d65365b00ad6850e9a81c765b01c3d291f09d3d0d2e6e30d4bea48e",
+        "target": "cc.internal.eventManager.dispatchEvent=empty Function"
+      },
+      {
+        "start": 29259,
+        "end": 29838,
+        "sha256": "db66f094531af9b4f38d40fe8d3bc73cd1a48bf34dbb5a21a140ba31f1480d90",
+        "target": "sp.Skeleton.prototype.markForRender -> cc.Sprite.prototype._validateRender=disableRender"
+      },
+      {
+        "start": 29860,
+        "end": 30090,
+        "sha256": "cacb75c4aec6f0168cd61a6f55ac50eb2a3235d46c50c28d1e7af185d1558b5a",
+        "target": "cc.director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 274416,
+        "end": 274792,
+        "sha256": "5eec0fa51cb9b3d5300b544da6cc20ec895fc99c01be98e43bdbb908f1dcb55d",
+        "target": "cc.Node.prototype.setScale -> this.destroy()"
+      },
+      {
+        "start": 274831,
+        "end": 275038,
+        "sha256": "d7ae02f53b26764be9bf78a499d8ab6ac72bfa03764338193d4ed73bf8363148",
+        "target": "cc.renderer.render=empty Function"
+      },
+      {
+        "start": 275077,
+        "end": 275380,
+        "sha256": "2851066fcac0c92cdd86d1e2f403e5da43ad59fa78ce2aaab02f47216001ba7c",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      },
+      {
+        "start": 298247,
+        "end": 298444,
+        "sha256": "7115c7948e0aba3b94979f30bf141af83d30fa28e3ff3be1206685720b840d2f",
+        "target": "cc.renderer.render returns 1"
+      }
+    ]
+  },
+  {
+    "path": "shared/8217bb8ac8/d937f741e4.741c2.js",
+    "sha256": "b51abdf0b03b48e993e0eb919e6c19344fd9195a0a5d9e8175663ca82249f812",
+    "wrapper": "m",
+    "decoder": "I",
+    "family": "legacy",
+    "fixtureGame": "29",
+    "games": [
+      "94",
+      "29",
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 3940,
+        "end": 4196,
+        "sha256": "497802227ccf7fe61c0e33ce47009a2931b7a38eb2ca200c4554bd3cd86a65fb",
+        "target": "cc.ActionInterval.prototype.startWithTarget=undefined"
+      },
+      {
+        "start": 4216,
+        "end": 4532,
+        "sha256": "2f2815247b1fe270e4244e3bce62a7e8b011950fa48f0ef33bfef85f6c7a22dc",
+        "target": "cc.ParticleSystem.prototype.lateUpdate=Function(cc.director._invalid=true)"
+      },
+      {
+        "start": 4551,
+        "end": 4861,
+        "sha256": "b98658a55ffbf336be2ca88610c5e9faea7f470480cdb8d9dc422f93a264e61f",
+        "target": "cc.Director.prototype.calculateDeltaTime=Function(this._deltaTime=NaN)"
+      },
+      {
+        "start": 4880,
+        "end": 5177,
+        "sha256": "a128da5495a87d6a6781244cdb2f7cbe70cd345ee3196a2fa6e9488b31462dbd",
+        "target": "cc.director._compScheduler.updatePhase=Number"
+      },
+      {
+        "start": 5200,
+        "end": 5436,
+        "sha256": "6d767317d424b05874d24f893d174718c0357284c3818c14c1d743141eae4bf2",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      }
+    ]
+  },
+  {
+    "path": "shared/b4f8165174/448a622256.c03db.js",
+    "sha256": "83105c8ac5bb988c97cfd26054705e7666fa023545edb5de0950de2d6697fbc0",
+    "wrapper": null,
+    "decoder": "_0x3e5a",
+    "family": "legacy",
+    "fixtureGame": "34",
+    "games": [
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 215165,
+        "end": 215541,
+        "sha256": "137bbb28439181618b0790d52f9655667da3a15874db96f611f12da0dad01699",
+        "target": "cc.renderer.render = recursive Fibonacci(5) stub"
+      }
+    ]
+  },
+  {
+    "path": "shared/37fadb0591/5210d1d645.3863f.js",
+    "sha256": "27bdb0e24fff80a56ec9308222fbc23110db23afe3bb3142aeefdc8554871acf",
+    "wrapper": "_0x2de909",
+    "decoder": "_0x1a29",
+    "family": "legacy",
+    "fixtureGame": "34",
+    "games": [
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 219469,
+        "end": 219971,
+        "sha256": "cdce00a7f6219efb6caf5f72f0a760ec931ab7d21976b7e009d38ce245af70e9",
+        "target": "cc.Spawn._actionOneTwo and cc.Sequence._actionOneTwo=empty action"
+      },
+      {
+        "start": 219993,
+        "end": 220565,
+        "sha256": "db28137ee49a538ad3604fa966a48741c9bd7de959dd2d710ecf7ed038be389a",
+        "target": "shell.WebAudio.prototype.play -> cc.Animation.prototype.play=null"
+      },
+      {
+        "start": 220596,
+        "end": 221054,
+        "sha256": "7047e14849abce5829cd60133a688ca66e16dd101ade13ec06aaf3cc705aead6",
+        "target": "cc.Scheduler.prototype.update returns dt+1"
+      },
+      {
+        "start": 221085,
+        "end": 221398,
+        "sha256": "8611a823fc24ec4f43e5ced32f1ec4cbf719415a8a4336bb7299b88ab17dcf96",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      },
+      {
+        "start": 221429,
+        "end": 221753,
+        "sha256": "11e4f59f283bb5d67f8e7ba1b8d933ab38c8c34e8e4beea86ddbdd6223278860",
+        "target": "cc.view.setFrameSize(0,0)"
+      },
+      {
+        "start": 221798,
+        "end": 222041,
+        "sha256": "2a9ecf6f6e5149c8dcc805f93c9889340a68deb9f2cb44a3705f33d1ca28562e",
+        "target": "cc.renderer.render=empty Function"
+      }
+    ]
+  },
+  {
+    "path": "shared/d56091e6dc/61c832e874.587f6.js",
+    "sha256": "50b21d0459905035cbffc4b72f109c7572283e88f2ca4bbb485649ec82b6077b",
+    "wrapper": "_0x4ceab6",
+    "decoder": "_0x176b",
+    "family": "legacy",
+    "fixtureGame": "34",
+    "games": [
+      "34"
+    ],
+    "callbacks": [
+      {
+        "start": 25886,
+        "end": 26102,
+        "sha256": "a4e1dcdec34f40dec66615bc5316f5b2453a42d7b25991f164c77ddd2e718de9",
+        "target": "cc.renderer.render=empty Function"
+      },
+      {
+        "start": 26133,
+        "end": 26569,
+        "sha256": "3ad5be7378ca32e47eb171a335dac0f5f78067378528d08265cdc5e0263a9a0a",
+        "target": "cc.director._compScheduler.startInvoker=Object.create(null)"
+      },
+      {
+        "start": 26600,
+        "end": 26906,
+        "sha256": "22c18386fe34a2fa2e028d09ef6725e245361c7f6c68acf944dce899098f6ab6",
+        "target": "cc.internal.eventManager.dispatchEvent=empty Function"
+      },
+      {
+        "start": 26937,
+        "end": 27523,
+        "sha256": "3584d15d38ff11c31e5756331106ee2c8405862266fb76dc72a716d2618cedd1",
+        "target": "sp.Skeleton.prototype.markForRender -> cc.Sprite.prototype._validateRender=disableRender"
+      },
+      {
+        "start": 27554,
+        "end": 27780,
+        "sha256": "1fbe4723d9ab64a799298ed3501f7fbb7716d85230d9fa1e6b3cb4c40d715cf6",
+        "target": "cc.director.getActionManager=Function(return this._manager)"
+      },
+      {
+        "start": 274176,
+        "end": 274541,
+        "sha256": "cbb61b7e5f7d04f0868d8bfbbbfe7835b94e72c7df5da6771187dde742eabc5a",
+        "target": "cc.Node.prototype.setScale -> this.destroy()"
+      },
+      {
+        "start": 274582,
+        "end": 274795,
+        "sha256": "339902f8b6f9615916432678b6ec66813714a0023a55532cf868f865a0076a49",
+        "target": "cc.renderer.render=empty Function"
+      },
+      {
+        "start": 274834,
+        "end": 275147,
+        "sha256": "43aa1ac931d7b78b3e0d197c678002b65cf441df5960d7fc5b58ab9311676e23",
+        "target": "cc.Node.prototype.dispatchEvent returns false"
+      },
+      {
+        "start": 297686,
+        "end": 297909,
+        "sha256": "4bf045c972739af0010ddcd420841fa365cf98bf63c76064204f5c619a139a43",
+        "target": "cc.renderer.render returns 1"
+      }
+    ]
+  }
+]

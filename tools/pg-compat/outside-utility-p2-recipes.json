@@ -1,0 +1,111 @@
+[
+  {
+    "path": "6/shared/99212c6ec4/187a36578c.6c65d.js",
+    "ids": [
+      "6",
+      "60",
+      "63",
+      "118",
+      "128",
+      "1879752"
+    ],
+    "internal": "dG",
+    "clear": "di",
+    "state": "dX",
+    "sha256": "cdd778afdb1eabf273ddb90e314bdf6d969caaeb7278b9c83aeada4e27d58978",
+    "internalStart": 345029,
+    "internalSha256": "f95a39f9769b54ae323720c78df8011f38ed227872f84c08237e3b04a8450ee1",
+    "clearStart": 39907,
+    "clearSha256": "5a87bd6a350a6b98011c2ec9b318c8add3612d089b8e3689da24dbb14eae2bb4",
+    "patch": {
+      "start": 345297,
+      "end": 345301,
+      "original": "di()",
+      "replacement": "0   ",
+      "sha256": "22ce779790adb7e6c186209d5a53c3fc5d425aba0769437363577b45fa93782c"
+    },
+    "fixedSha256": "a244fbf119291865907e6d99b970eed9345a85b37d4e399d214a6f22072a3f1d",
+    "validated": {
+      "originalDelayedReset": true,
+      "fixedPreservesSequence": true,
+      "publicClearStillDestroys": true,
+      "byteLength": true,
+      "outsideRangeUnchanged": true,
+      "parse": true,
+      "realDecoder": true,
+      "originalTimerDelayZero": true
+    },
+    "limits": "已用实际解码器执行函数；计时器为本地替身，未执行浏览器完整加载或真实业务"
+  },
+  {
+    "path": "100/shared/705f29d781/2533a7053a.10de8.js",
+    "ids": [
+      "100",
+      "1368367"
+    ],
+    "internal": "Z4",
+    "clear": "n0",
+    "state": "n3b",
+    "index": 56,
+    "sha256": "75bc66168aed0c50a160e74b69de2fa08dd4d9645aa4e4ea1a48c7ce1e538f60",
+    "internalStart": 278331,
+    "internalSha256": "3c8e2e2e85fc9c256f6b45eca110c332093d72ef92270cad9eb95306456aef59",
+    "clearStart": 297383,
+    "clearSha256": "e1914374d544d4237fd32c2d000146514a0d9753d3fdc78bf233e61a23bbc2f9",
+    "patch": {
+      "start": 278391,
+      "end": 278395,
+      "original": "n0()",
+      "replacement": "0   ",
+      "sha256": "3bcd8a334674b344a53a07fc4453fdae555dfc84cb7a5a66a84c8c140a7052bc"
+    },
+    "fixedSha256": "77f085c5ff50a2c21410c3709f2214abe9c616d335dc51dfac73ccec70027b42",
+    "validated": {
+      "originalDelayedReset": true,
+      "fixedPreservesSequence": true,
+      "publicClearStillDestroys": true,
+      "byteLength": true,
+      "outsideRangeUnchanged": true,
+      "parse": true,
+      "realDecoder": true,
+      "originalTimerDelayZero": true
+    },
+    "limits": "已用实际解码器执行函数；计时器为本地替身，未执行浏览器完整加载或真实业务"
+  },
+  {
+    "path": "101/shared/705f29d781/2533a7053a.4a183.js",
+    "ids": [
+      "101",
+      "107",
+      "119"
+    ],
+    "internal": "A3",
+    "clear": "K8",
+    "state": "R2E",
+    "index": 13,
+    "sha256": "34791596fea6a0a9be16c3c5232bd02f71128ebda0a9f8f0db1b53109951c143",
+    "internalStart": 66835,
+    "internalSha256": "b2721ca807c50621e5cb7f84233f505050b9d397e4c6e91092d2f6967d93f629",
+    "clearStart": 117895,
+    "clearSha256": "d6df23ab9bdbec9a1a3288b752ccd935b016e0de1435995be8881bc76265f49b",
+    "patch": {
+      "start": 66912,
+      "end": 66916,
+      "original": "K8()",
+      "replacement": "0   ",
+      "sha256": "f093128b8ba5fb1781827454151eb17afae39d0397846c21e930976369f90bb9"
+    },
+    "fixedSha256": "a20ef794f165ff24eb4254673dc1c665e497ac086f711ea6c7a12a365fc1957f",
+    "validated": {
+      "originalDelayedReset": true,
+      "fixedPreservesSequence": true,
+      "publicClearStillDestroys": true,
+      "byteLength": true,
+      "outsideRangeUnchanged": true,
+      "parse": true,
+      "realDecoder": true,
+      "originalTimerDelayZero": true
+    },
+    "limits": "已用实际解码器执行函数；计时器为本地替身，未执行浏览器完整加载或真实业务"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "id": "1778752",
+      "name": "Futebol Fever",
+      "reported": [
+        "unknown-error"
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Bali Vacation",
+      "reported": [
+        "black-screen"
+      ],
+      "family": "legacy"
+    },
+    {
+      "id": "29",
+      "name": "Dragon Legend",
+      "reported": [
+        "black-screen"
+      ],
+      "family": "legacy"
+    },
+    {
+      "id": "110",
+      "name": "Jurassic Kingdom",
+      "reported": [
+        "black-screen"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Mr. Hallow-Win",
+      "reported": [
+        "black-screen"
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Jack Frost's Winter",
+      "reported": [
+        "black-screen"
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Circus Delight",
+      "reported": [
+        "idle-freeze"
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Genie's 3 Wishes",
+      "reported": [
+        "idle-freeze"
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Flirting Scholar",
+      "reported": [
+        "incomplete-ui"
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Legend of Hou Yi",
+      "reported": [
+        "loading-50"
+      ],
+      "family": "legacy"
+    },
+    {
+      "id": "1513328",
+      "name": "Super Golf Drive",
+      "reported": [
+        "loading-50"
+      ]
+    }
+  ]
+}

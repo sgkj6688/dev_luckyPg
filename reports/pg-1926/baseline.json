@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "id": "1778752",
+      "name": "Futebol Fever",
+      "reported": [
+        "unknown-error"
+      ],
+      "files": {
+        "html": {
+          "path": "1778752/index.html",
+          "sha256": "27385e606b74a0c9aedb73e6f47d79631c4e29d53c54ee40a2cc54caa7a1abd3"
+        },
+        "shell": {
+          "manifest": "1778752/shared/984721902a/index.json",
+          "manifestSha256": "dc0c5ab974414d21b7bfa597464cf009e27069138439727186c8114c5f0c392f",
+          "path": "1778752/shared/984721902a/996b5422dd.2536964e.js",
+          "sha256": "2536964e84372380894879caa16344222c76b1cd37c0fbfa590d04833351906a"
+        },
+        "engine": {
+          "manifest": "1778752/shared/c03a2652ad/index.js",
+          "manifestSha256": "da9e9f8fef5262fd9fd1e4f8598d2038eec20f667625783033c04c971f57e7e3",
+          "path": "1778752/shared/c03a2652ad/f5fe73e9f2.7bbd850b.js",
+          "sha256": "7bbd850bac3c185cd353bf1e2efbb17b5fac5658dbc21d98bc69626c67fc0331"
+        },
+        "utility": {
+          "manifest": "1778752/shared/705f29d781/index.js",
+          "manifestSha256": "84587ab35fb3378357629205c0950b16e747a57746658055fb00b27aaf3da598",
+          "path": "1778752/shared/705f29d781/2533a7053a.f28a8c54.js",
+          "sha256": "f28a8c549cab432a7cdae45a73f6722e00135bce19dbc528f45058d1a2300393"
+        }
+      }
+    },
+    {
+      "id": "94",
+      "name": "Bali Vacation",
+      "reported": [
+        "black-screen"
+      ],
+      "files": {
+        "html": {
+          "path": "94/index.html",
+          "sha256": "6c7ce9bffee1083eea93eceb76f675fd58dd46a5fdcdf6fa51bf513671d74bd5"
+        },
+        "shell": {
+          "manifest": "94/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "94/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "manifest": "94/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "94/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "94/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "94/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "29",
+      "name": "Dragon Legend",
+      "reported": [
+        "black-screen"
+      ],
+      "files": {
+        "html": {
+          "path": "29/index.html",
+          "sha256": "7f903c01a19003d5682d1ae4285df3ee484f225d01699d12764e3056c308f71e"
+        },
+        "shell": {
+          "manifest": "29/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "29/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "manifest": "29/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "29/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "29/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "29/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "110",
+      "name": "Jurassic Kingdom",
+      "reported": [
+        "black-screen"
+      ],
+      "files": {
+        "html": {
+          "path": "110/index.html",
+          "sha256": "e6121d6d4b4ce328811df06fec8bfcc47df621eea3bd36b84670c8c310a156f8"
+        },
+        "shell": {
+          "manifest": "110/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "110/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "manifest": "110/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "110/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "110/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "110/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "35",
+      "name": "Mr. Hallow-Win",
+      "reported": [
+        "black-screen"
+      ],
+      "files": {
+        "html": {
+          "path": "35/index.html",
+          "sha256": "7c742100355f30102effac5f2847b2bd877847ef4ab8bb311816218374da1c1c"
+        },
+        "shell": {
+          "manifest": "35/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "35/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "manifest": "35/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "35/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "35/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "35/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "97",
+      "name": "Jack Frost's Winter",
+      "reported": [
+        "black-screen"
+      ],
+      "files": {
+        "html": {
+          "path": "97/index.html",
+          "sha256": "ff9f61c1ea4b93181d173183630280a4366cadfb0810d0596172b0a4997ff239"
+        },
+        "shell": {
+          "manifest": "97/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "97/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "manifest": "97/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "97/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "97/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "97/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "80",
+      "name": "Circus Delight",
+      "reported": [
+        "idle-freeze"
+      ],
+      "files": {
+        "html": {
+          "path": "80/index.html",
+          "sha256": "0231f8b80994b4fc1f888b3b9c4d5e5b37f640181cb52fce90ee2c54836d9dbd"
+        },
+        "shell": {
+          "manifest": "80/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "80/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "manifest": "80/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "80/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "80/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "80/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "85",
+      "name": "Genie's 3 Wishes",
+      "reported": [
+        "idle-freeze"
+      ],
+      "files": {
+        "html": {
+          "path": "85/index.html",
+          "sha256": "6a3ec4866ee8318f19963cec7ed179963bf3bcec9f1a88d4fd1f236b8311fd55"
+        },
+        "shell": {
+          "manifest": "85/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "85/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6c98f4ff3d1f3745710eff55e947b038a0762f2faaaa6149b9c271630ee94594"
+        },
+        "engine": {
+          "manifest": "85/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "85/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "85/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "85/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "61",
+      "name": "Flirting Scholar",
+      "reported": [
+        "incomplete-ui"
+      ],
+      "files": {
+        "html": {
+          "path": "61/index.html",
+          "sha256": "72c8ea5041a122c810898c8cf757d8795d498d9b86115b5828d18db55b034f97"
+        },
+        "shell": {
+          "manifest": "61/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "61/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "manifest": "61/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "61/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "61/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "61/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "34",
+      "name": "Legend of Hou Yi",
+      "reported": [
+        "loading-50"
+      ],
+      "files": {
+        "html": {
+          "path": "34/index.html",
+          "sha256": "c4247eddfae1ef6f2720be4737bcead9eeaa14836e73c47fcede20214570e890"
+        },
+        "shell": {
+          "manifest": "34/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "34/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "manifest": "34/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "34/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "34/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "34/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    },
+    {
+      "id": "1513328",
+      "name": "Super Golf Drive",
+      "reported": [
+        "loading-50"
+      ],
+      "files": {
+        "html": {
+          "path": "1513328/index.html",
+          "sha256": "e102c02a3b5c711e29d2df7b40240f8dd1ea02be889886b4aa27b0167aa90fec"
+        },
+        "shell": {
+          "manifest": "1513328/shared/984721902a/index.json",
+          "manifestSha256": "d0291264fcae73741fc1796b39cac461d808ba4267c72745e07dfbb77d1ff35f",
+          "path": "1513328/shared/984721902a/996b5422dd.5a9bd.js",
+          "sha256": "6d89fe558bcdbd67f5af6e969242a0fece98c6cf05f6d5b6f7a9afcfc135235f"
+        },
+        "engine": {
+          "manifest": "1513328/shared/c03a2652ad/index.js",
+          "manifestSha256": "f7d487236b79ae802f185ca25427dd5f8e65cab47325c4e8f86226dc4b79341c",
+          "path": "1513328/shared/c03a2652ad/f5fe73e9f2.c58f4.js",
+          "sha256": "ac96abf3247f50538a2fdadebb3840f4ff3fbc7849c31cf41854cabe025c94c9"
+        },
+        "utility": {
+          "manifest": "1513328/shared/705f29d781/index.js",
+          "manifestSha256": "8a57ab3398d809091670543c845e90de12210778c6cff3c121fb893cebd5807d",
+          "path": "1513328/shared/705f29d781/2533a7053a.7778c.js",
+          "sha256": "ee48aa52876a3295120e5ecf218e8f70b013157475b6ffe9558e6980a2980a0f"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "id": "94",
+      "name": "Bali Vacation",
+      "reported": [
+        "black-screen"
+      ],
+      "family": "legacy",
+      "files": {
+        "html": {
+          "path": "94/index.html",
+          "sha256": "6c7ce9bffee1083eea93eceb76f675fd58dd46a5fdcdf6fa51bf513671d74bd5"
+        },
+        "shell": {
+          "manifest": "94/shared/3c4695a542/index.json",
+          "manifestSha256": "34a47ddd19b983484cc77b807aeaad4eb7ae22b03139141af7dcc91928de8cdf",
+          "path": "94/shared/3c4695a542/b526e03cc3.89a5b.js",
+          "sha256": "5df8687108778cf22351edd47a376f2e2056f8e7c8b352dc43d62861c8e1832e"
+        },
+        "engine": {
+          "manifest": "94/shared/0bc343f586/index.js",
+          "manifestSha256": "05a9710d47aff5d978480841f8a503179244cbf35611cd8a4850c33be3af1118",
+          "path": "94/shared/0bc343f586/dedee2c334.b58f3.js",
+          "sha256": "987256ff5caa463250587ed32c1b7a926e8b3d1307aad2226bb2b9d437c57c9b"
+        },
+        "utility": {
+          "manifest": "94/shared/99212c6ec4/index.js",
+          "manifestSha256": "0b3599ebda86ccffef13f91ffeabc6b33a58d61bb3f9beaf31bcf93c6aa197ca",
+          "path": "94/shared/99212c6ec4/187a36578c.6c65d.js",
+          "sha256": "abeb5dba8ece44530ba1d84ab2c52cb6276e192169c655f0a3965d2616cb9ba8"
+        }
+      }
+    },
+    {
+      "id": "29",
+      "name": "Dragon Legend",
+      "reported": [
+        "black-screen"
+      ],
+      "family": "legacy",
+      "files": {
+        "html": {
+          "path": "29/index.html",
+          "sha256": "7f903c01a19003d5682d1ae4285df3ee484f225d01699d12764e3056c308f71e"
+        },
+        "shell": {
+          "manifest": "29/shared/3c4695a542/index.json",
+          "manifestSha256": "34a47ddd19b983484cc77b807aeaad4eb7ae22b03139141af7dcc91928de8cdf",
+          "path": "29/shared/3c4695a542/b526e03cc3.89a5b.js",
+          "sha256": "5df8687108778cf22351edd47a376f2e2056f8e7c8b352dc43d62861c8e1832e"
+        },
+        "engine": {
+          "manifest": "29/shared/0bc343f586/index.js",
+          "manifestSha256": "05a9710d47aff5d978480841f8a503179244cbf35611cd8a4850c33be3af1118",
+          "path": "29/shared/0bc343f586/dedee2c334.b58f3.js",
+          "sha256": "987256ff5caa463250587ed32c1b7a926e8b3d1307aad2226bb2b9d437c57c9b"
+        },
+        "utility": {
+          "manifest": "29/shared/99212c6ec4/index.js",
+          "manifestSha256": "0b3599ebda86ccffef13f91ffeabc6b33a58d61bb3f9beaf31bcf93c6aa197ca",
+          "path": "29/shared/99212c6ec4/187a36578c.6c65d.js",
+          "sha256": "abeb5dba8ece44530ba1d84ab2c52cb6276e192169c655f0a3965d2616cb9ba8"
+        }
+      }
+    },
+    {
+      "id": "34",
+      "name": "Legend of Hou Yi",
+      "reported": [
+        "loading-50"
+      ],
+      "family": "legacy",
+      "files": {
+        "html": {
+          "path": "34/index.html",
+          "sha256": "c4247eddfae1ef6f2720be4737bcead9eeaa14836e73c47fcede20214570e890"
+        },
+        "shell": {
+          "manifest": "34/shared/3c4695a542/index.json",
+          "manifestSha256": "34a47ddd19b983484cc77b807aeaad4eb7ae22b03139141af7dcc91928de8cdf",
+          "path": "34/shared/3c4695a542/b526e03cc3.89a5b.js",
+          "sha256": "41213e827901d64aa5d1b721603c16139c711f7231b6cbff49f5c949f5b4ed53"
+        },
+        "engine": {
+          "manifest": "34/shared/0bc343f586/index.js",
+          "manifestSha256": "05a9710d47aff5d978480841f8a503179244cbf35611cd8a4850c33be3af1118",
+          "path": "34/shared/0bc343f586/dedee2c334.b58f3.js",
+          "sha256": "987256ff5caa463250587ed32c1b7a926e8b3d1307aad2226bb2b9d437c57c9b"
+        },
+        "utility": {
+          "manifest": "34/shared/99212c6ec4/index.js",
+          "manifestSha256": "0b3599ebda86ccffef13f91ffeabc6b33a58d61bb3f9beaf31bcf93c6aa197ca",
+          "path": "34/shared/99212c6ec4/187a36578c.6c65d.js",
+          "sha256": "abeb5dba8ece44530ba1d84ab2c52cb6276e192169c655f0a3965d2616cb9ba8"
+        }
+      }
+    }
+  ]
+}

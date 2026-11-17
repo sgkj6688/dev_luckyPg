@@ -1,0 +1,98 @@
+{
+ "schemaVersion": 1,
+ "note": "游戏主包内嵌客户端保护载荷的等长修复配方。包装器为主包内三参数函数、其回调以 W(function(){…},事件名)() 立即执行并注册到保护事件总线；范围按结构扫描且与运行时改写调用栈列号逐项核对。修复后主包以内容 SHA-256 前 8 位命名，经 mainRules 与入口 __PG_MAIN_SELECTION 选择。",
+ "games": {
+  "1738001": {
+   "path": "1738001/assets/main/index.91052.js",
+   "sha256": "425be6f9e3502301ed9f6993fd4f20dbf34f104230fbdb899c130be77148c75a",
+   "config": "f879c",
+   "from": "91052",
+   "wrapper": "S",
+   "callbacks": [
+    {
+     "start": 1776900,
+     "end": 1777894,
+     "mode": "callback",
+     "target": "S 包装回调 #1：Sequence/Spawn._actionOneTwo 改为返回 null（运行时调用栈确认）",
+     "sha256": "429f4950f17b416447d88cb20fb3033a9f2cfeee9c14e212ca7ad843c99327e7"
+    },
+    {
+     "start": 1777914,
+     "end": 1778298,
+     "mode": "callback",
+     "target": "S 包装回调 #2：对应 e02b 同序项 shell.WebAudio.prototype.play 改写（未运行时确认）",
+     "sha256": "24b5d1948c59466bae4ec9a9d4026e50db9ed74ccc9288b1cef3f8bb6fa1c31b"
+    },
+    {
+     "start": 1778318,
+     "end": 1778792,
+     "mode": "callback",
+     "target": "S 包装回调 #3：Scheduler.prototype.update 改写（运行时调用栈确认）",
+     "sha256": "9cdf660cda1a8616388bed405f35730b049571b2859d6c9c756ec0fceba1f610"
+    },
+    {
+     "start": 1778812,
+     "end": 1779035,
+     "mode": "callback",
+     "target": "S 包装回调 #4：Node.prototype.dispatchEvent 改为返回 false，导致无法点击（运行时调用栈确认）",
+     "sha256": "dc700fde8593549965f42ebb0f8e1ba91d2da0e07ac19d25153536b27a905d16"
+    },
+    {
+     "start": 1779054,
+     "end": 1779287,
+     "mode": "callback",
+     "target": "S 包装回调 #5：对应 e02b 同序项 view.setFrameSize 改写（强制触发后 frameSize 变化）",
+     "sha256": "35b68b2e83b32af99265aab12534f92597dde6ddda5bd7448e409ba2a2634194"
+    }
+   ],
+   "fixedSha256": "62f588837344f681fe081f4a7780c3122000fd093a73fec551d5d6a46e3dde6c",
+   "to": "62f58883"
+  },
+  "1971587": {
+   "path": "1971587/assets/main/index.4af59.js",
+   "sha256": "1ff2273f2baf6e700435e91b680d93f42e3ef57c81317d893c7c8a18323d34da",
+   "config": "8597a",
+   "from": "4af59",
+   "wrapper": "G",
+   "callbacks": [
+    {
+     "start": 2816043,
+     "end": 2816789,
+     "mode": "callback",
+     "target": "G 包装回调 #1：Sequence/Spawn._actionOneTwo 改为返回 null（运行时调用栈确认）",
+     "sha256": "c99627e5152edc100e773f9799a3754f6545c77f8d01db66c4169843fbeda12f"
+    },
+    {
+     "start": 2816809,
+     "end": 2817193,
+     "mode": "callback",
+     "target": "G 包装回调 #2：对应 e02b 同序项 shell.WebAudio.prototype.play 改写（未运行时确认）",
+     "sha256": "c6780603e08e50f712f934820366aacda4db237279a23678450a516d4f3b60b2"
+    },
+    {
+     "start": 2817213,
+     "end": 2818088,
+     "mode": "callback",
+     "target": "G 包装回调 #3：Scheduler.prototype.update 改写（运行时调用栈确认）",
+     "sha256": "5004f59f88620a1a62efef062393197227058865b04e2e45f5f142bf1e9e5aa0"
+    },
+    {
+     "start": 2818108,
+     "end": 2818494,
+     "mode": "callback",
+     "target": "G 包装回调 #4：Node.prototype.dispatchEvent 改为返回 false，导致无法点击（运行时调用栈确认）",
+     "sha256": "dfffaec332ee13d7a34facfeb795fe3522786bb205d8c8abc61c55b13ff4cc37"
+    },
+    {
+     "start": 2818513,
+     "end": 2819271,
+     "mode": "callback",
+     "target": "G 包装回调 #5：对应 e02b 同序项 view.setFrameSize 改写（强制触发后 frameSize 变化）",
+     "sha256": "368fea640510d6fc00240061bc3ea219d710b705f36cd3b595b16a3d6c75fbc1"
+    }
+   ],
+   "fixedSha256": "5a35882593169b73a04a1da3fb9ccd2b23fd74e18a093fc4d77d2d7e5fed4219",
+   "to": "5a358825"
+  }
+ }
+}
